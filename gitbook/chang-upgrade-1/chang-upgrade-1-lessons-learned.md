@@ -101,5 +101,10 @@ Ensuring everyone uses the same versions of tools and updates is crucial. Consis
 
 Chang upgrade #1 was a major success for the Cardano ecosystem, but there are key areas for improvement as we look toward Chang upgrade #2, where practically possible these lessons learned will be implemented. By strengthening communication, improving engagement with developers and DApps, and ensuring readiness across the network, Cardano can continue its journey toward a fully decentralized governance model.
 
+```term
+gitbook-plugin-terminull$ echo 'hello terminull' # This will print hello terminull
+hello terminull
+```
+
 \
 \
