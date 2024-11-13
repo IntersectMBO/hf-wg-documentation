@@ -74,6 +74,8 @@ Stake pool operators should upgrade to a supported mainnet node 10.x version in 
 
 As of November 13th 2024, 17% of blocks created on mainnet where created using node 10.x version. Live data can be seen via tooling such as [Pooltool.io ](https://pooltool.io/networkhealth)
 
+{iframe}(https://api.clio.one/istoria/block-versions/)
+
 ***
 
 ### Tooling&#x20;
