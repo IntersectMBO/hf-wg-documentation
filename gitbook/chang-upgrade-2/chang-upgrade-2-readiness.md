@@ -34,18 +34,18 @@ There are a number of breaking changes, including changes to era-agnostic comman
 * `governance` Governance commands
 * `text-view` Commands for dealing with Shelley TextView files. Transactions, addresses etc are stored on disk as TextView files.
 
-For example, the previous top level commands `query` and `stake-pool` are now available as `latest query` and `latest stake-pool.`&#x20;
+For example, the previous top level commands `query` and `stake-pool` are now available as `latest query` and `latest stake-pool.`
 
 Please read full release notes [here](https://github.com/IntersectMBO/cardano-node/releases/tag/10.1.1).
 {% endhint %}
 
-It is recommend testing and upgrades are carried out now in advance of pre-production and mainnet hard fork governance actions. Features are available for testing now on the above release and on the [SanchoNet ](https://sancho.network/)test environment.&#x20;
+It is recommend testing and upgrades are carried out now in advance of pre-production and mainnet hard fork governance actions. Features are available for testing now on the above release and on the [SanchoNet ](https://sancho.network/)test environment.
 
 ***
 
 ## Readiness
 
-Readiness is a self-attestation from the community and ecosystem, facilitated at Intersect, of being technically ready for the Chang upgrade #2. Signalling readiness is important, this allows the on-chain governance, SPOs and the ICC in the case of Chang upgrade #2, to make an informed decision voting for the governance action to enact the hard fork.&#x20;
+Readiness is a self-attestation from the community and ecosystem, facilitated at Intersect, of being technically ready for the Chang upgrade #2. Signalling readiness is important, this allows the on-chain governance, SPOs and the ICC in the case of Chang upgrade #2, to make an informed decision voting for the governance action to enact the hard fork.
 
 ***
 
@@ -53,16 +53,21 @@ Readiness is a self-attestation from the community and ecosystem, facilitated at
 
 Governance actions need to be enacted/voted on-chain for the hard fork to take place, you can keep track of the applicable governance actions for Chang upgrade #2 below.
 
-| Network                                           | Action                                            | Status                                      | View via                                                                                                                                   |
-| ------------------------------------------------- | ------------------------------------------------- | ------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
-| <mark style="color:green;">Preview</mark>         | <mark style="color:green;">PPU Cost Model</mark>  | <mark style="color:green;">Enacted</mark>   | [CardanoScan](https://preview.cardanoscan.io/govAction/gov\_action1rarl8newf7gsn03wl6gc9jhqsvr72autml4zz58xjq7y3mw2pw8sqsymael)            |
-| <mark style="color:green;">Preview</mark>         | <mark style="color:green;">Hard Fork</mark>       | <mark style="color:green;">Enacted</mark>   | [CardanoScan](https://preview.cardanoscan.io/govAction/gov\_action1qjdwt4sjktagy4j4szgn8vpr6cx8lr9vdq7z0r8ethskytj9jtesqvrtlga)            |
-| <mark style="color:green;">Pre-production</mark>  | <mark style="color:green;">PPU Cost Model</mark>  | <mark style="color:green;">Ratified</mark>  | [CardanoScan](https://preprod.cardanoscan.io/govAction/gov\_action1k5hsy2yw8n5v0et524fz7nkap8qj09m5nckmxgycajlfszmyt4zsqp0n7ft?tab=action) |
-| <mark style="color:orange;">Pre-production</mark> | <mark style="color:orange;">Hard Fork</mark>      | <mark style="color:orange;">On-Chain</mark> | [CardanoScan](https://preprod.cardanoscan.io/govAction/gov\_action1eje876cdtrp94celmqsmvtpc0afrpkhfxzhaqayflg7l26h9v53qqnjsjww?tab=action) |
-| <mark style="color:orange;">Mainnet</mark>        | <mark style="color:orange;">PPU Cost Model</mark> | <mark style="color:orange;">On-Chain</mark> | [CardanoScan](https://cardanoscan.io/govAction/gov\_action1k2jertppnnndejjcglszfqq4yzw8evzrd2nt66rr6rqlz54xp0zsq05ecsn)                    |
-| Mainnet                                           | Hard Fork                                         | Pending                                     |                                                                                                                                            |
+<table><thead><tr><th>Network</th><th>Action</th><th>Status</th><th width="195">Governance Actors</th><th>View via</th></tr></thead><tbody><tr><td><mark style="color:green;">Preview</mark></td><td><mark style="color:green;">PPU Cost Model</mark></td><td><mark style="color:green;">Enacted</mark></td><td></td><td><a href="https://preview.cardanoscan.io/govAction/gov_action1rarl8newf7gsn03wl6gc9jhqsvr72autml4zz58xjq7y3mw2pw8sqsymael">CardanoScan</a></td></tr><tr><td><mark style="color:green;">Preview</mark></td><td><mark style="color:green;">Hard Fork</mark></td><td><mark style="color:green;">Enacted</mark></td><td></td><td><a href="https://preview.cardanoscan.io/govAction/gov_action1qjdwt4sjktagy4j4szgn8vpr6cx8lr9vdq7z0r8ethskytj9jtesqvrtlga">CardanoScan</a></td></tr><tr><td><mark style="color:green;">Pre-production</mark></td><td><mark style="color:green;">PPU Cost Model</mark></td><td><mark style="color:green;">Ratified</mark></td><td></td><td><a href="https://preprod.cardanoscan.io/govAction/gov_action1k5hsy2yw8n5v0et524fz7nkap8qj09m5nckmxgycajlfszmyt4zsqp0n7ft?tab=action">CardanoScan</a></td></tr><tr><td><mark style="color:orange;">Pre-production</mark></td><td><mark style="color:orange;">Hard Fork</mark></td><td><mark style="color:orange;">On-Chain</mark></td><td></td><td><a href="https://preprod.cardanoscan.io/govAction/gov_action1eje876cdtrp94celmqsmvtpc0afrpkhfxzhaqayflg7l26h9v53qqnjsjww?tab=action">CardanoScan</a></td></tr><tr><td><mark style="color:orange;">Mainnet</mark></td><td><mark style="color:orange;">PPU Cost Model</mark></td><td><mark style="color:orange;">On-Chain</mark></td><td></td><td><a href="https://cardanoscan.io/govAction/gov_action1k2jertppnnndejjcglszfqq4yzw8evzrd2nt66rr6rqlz54xp0zsq05ecsn">CardanoScan</a></td></tr><tr><td>Mainnet</td><td>Hard Fork</td><td>Pending</td><td></td><td></td></tr></tbody></table>
 
-Metadata for all Intersect governance actions can be found here on the [Intersect Gitbook repository](https://github.com/IntersectMBO/governance-actions).&#x20;
+<details>
+
+<summary>Status key</summary>
+
+Enacted:
+
+Ratified:
+
+On Chan:
+
+</details>
+
+Metadata for all Intersect governance actions can be found here on the [Intersect Gitbook repository](https://github.com/IntersectMBO/governance-actions).
 
 ***
 
@@ -72,13 +77,13 @@ Stake pool operators should upgrade to a supported mainnet node 10.x version in 
 
 <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>Mainnet - Updated via <a href="https://pooltool.io/networkhealth">Pooltool.io</a> 13th November 2024</p></figcaption></figure>
 
-As of November 13th 2024, 17% of blocks created on mainnet where created using node 10.x version. Live data can be seen via tooling such as [Pooltool.io ](https://pooltool.io/networkhealth)
+As of November 13th 2024, 17% of blocks created on mainnet where created using node 10.x version. Live data can be seen via tooling such as [Pooltool.io](https://pooltool.io/networkhealth)
 
 {iframe}(https://api.clio.one/istoria/block-versions/)
 
 ***
 
-### Tooling&#x20;
+### Tooling
 
 Tooling readiness is supported from version Node 10.1.1 compatible releases.
 
@@ -88,7 +93,7 @@ Tooling readiness is supported from version Node 10.1.1 compatible releases.
 
 **Tools**
 
-<table><thead><tr><th width="274">Tools</th><th width="206">Status </th><th>Notes</th></tr></thead><tbody><tr><td>cardano-wallet</td><td></td><td></td></tr><tr><td>Rosetta</td><td></td><td></td></tr><tr><td>GraphQL</td><td></td><td></td></tr><tr><td>cntools (guild-operators)</td><td></td><td></td></tr><tr><td>SPO Scripts (@gitmachtl)</td><td></td><td></td></tr><tr><td>Ogmios</td><td></td><td></td></tr></tbody></table>
+<table><thead><tr><th width="274">Tools</th><th width="206">Status</th><th>Notes</th></tr></thead><tbody><tr><td>cardano-wallet</td><td></td><td></td></tr><tr><td>Rosetta</td><td></td><td></td></tr><tr><td>GraphQL</td><td></td><td></td></tr><tr><td>cntools (guild-operators)</td><td></td><td></td></tr><tr><td>SPO Scripts (@gitmachtl)</td><td></td><td></td></tr><tr><td>Ogmios</td><td></td><td></td></tr></tbody></table>
 
 **Indexers**
 
@@ -124,6 +129,6 @@ DApp readiness will be reported shortly, once tooling readiness is demonstrated 
 
 ***
 
-Further readiness information will be published as it becomes available. Readiness updates on Environments, SPOs and Exchanges will be available soon.&#x20;
+Further readiness information will be published as it becomes available. Readiness updates on Environments, SPOs and Exchanges will be available soon.
 
-If you find any information on this page incorrect or misleading please email hard-fork@intersectmbo.org and request a correction.&#x20;
+If you find any information on this page incorrect or misleading please email hard-fork@intersectmbo.org and request a correction.
