@@ -57,13 +57,17 @@ Governance actions need to be enacted/voted on-chain for the hard fork to take p
 
 <details>
 
-<summary>Status key</summary>
+<summary><strong>Status key</strong></summary>
 
-Enacted:
+**Enacted**: Governance action has been applied on chain&#x20;
 
-Ratified:
+**Ratified**: Governance action has reached required voting thresholds, and will normally be enacted next epoch&#x20;
 
-On Chan:
+**Expired** - Governance action has failed to reach the required thresholds&#x20;
+
+**On-Chain** - governance action has been submitted to the blockchain and is available for voting&#x20;
+
+**Pending** - Governance action has not yet been submitted to the blockchain
 
 </details>
 
