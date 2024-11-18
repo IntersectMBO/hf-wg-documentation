@@ -3,17 +3,18 @@
 
 Version: `0.1`
 
-This policy describes specific metrics which the hardfork working group considers before recommending submission of a hardfork initiation governance action to mainnet.
+This policy describes specific metrics which the hardfork working group (HFWG) considers before recommending submission of a hardfork initiation governance action to Cardano mainnet.
 
 This policy aims to apply to the most normal circumstances, special cases such as security upgrades may not necessarily apply.
 
 ### Context
 
-We are in the brave new world, it is not this group deciding if Cardano is ready to hardfork.
-This group can decide when we recommend submitting a hardfork initiation action - When do we think we are ready for SPOs and the ICC to consider a hardfork?
-This group can also recommend key indicators we would like to see met before a hardfork, it is up to the SPOs and the ICC to make the decision to hardfork (and DReps for future forks).
-We should consider that submitting a hardfork initiation action does not guarantee a hardfork
-
+- The hardfork working group **can not** decide if Cardano is ready to hardfork, this is up to the ICC, SPOs and DReps.
+  - Historically, the working group could decide this, but we are now in the *brave new world*.
+- The HFWG **can** decide when to recommend the submission of a hardfork initiation action - *When do we think we are ready for SPOs and the ICC to consider a hardfork?*
+- The HFWG **can** recommend key indicators we would like to see met before a hardfork is ratified, these indicators can be forwarded to the voters for consideration.
+- The decision to recommend the submission of a hardfork action must be ratified by the Technical Steering Committee.
+- Submitting a hardfork does not guarantee the ratification and enactment of a hardfork.
 
 ### Definitions
 
