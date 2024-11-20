@@ -97,11 +97,11 @@ Tooling readiness is supported from version Node 10.1.1 compatible releases.
 
 **Tools**
 
-<table><thead><tr><th width="274">Tools</th><th width="206">Status</th><th>Notes</th></tr></thead><tbody><tr><td>cardano-wallet</td><td></td><td></td></tr><tr><td>Rosetta</td><td></td><td></td></tr><tr><td>GraphQL</td><td></td><td></td></tr><tr><td>cntools (guild-operators)</td><td></td><td></td></tr><tr><td>SPO Scripts (@gitmachtl)</td><td></td><td></td></tr><tr><td>Ogmios</td><td></td><td></td></tr></tbody></table>
+<table><thead><tr><th width="274">Tools</th><th width="206">Status</th><th>Notes</th></tr></thead><tbody><tr><td>cardano-wallet</td><td><mark style="color:green;">Ready</mark></td><td><a href="https://github.com/cardano-foundation/cardano-wallet/releases/tag/v2024-11-18">Release v2024-11-18</a></td></tr><tr><td>Rosetta</td><td></td><td></td></tr><tr><td>GraphQL</td><td></td><td></td></tr><tr><td>cntools (guild-operators)</td><td></td><td></td></tr><tr><td>SPO Scripts (@gitmachtl)</td><td></td><td></td></tr><tr><td>Ogmios</td><td><mark style="color:green;">Ready</mark></td><td><a href="https://github.com/CardanoSolutions/ogmios/releases/tag/v6.9.0">Ogmios v6.9.0</a></td></tr></tbody></table>
 
 **Indexers**
 
-<table><thead><tr><th width="282">Indexers</th><th width="208">Status</th><th>Notes</th></tr></thead><tbody><tr><td>Kupo</td><td></td><td></td></tr><tr><td>Oura</td><td></td><td></td></tr><tr><td>Scrolls</td><td></td><td></td></tr><tr><td>DB-Sync</td><td></td><td></td></tr><tr><td>Carp</td><td></td><td></td></tr></tbody></table>
+<table><thead><tr><th width="282">Indexers</th><th width="208">Status</th><th>Notes</th></tr></thead><tbody><tr><td>Kupo</td><td></td><td></td></tr><tr><td>Oura</td><td></td><td></td></tr><tr><td>Scrolls</td><td></td><td></td></tr><tr><td>DB-Sync</td><td><mark style="color:green;">Ready</mark></td><td><a href="https://github.com/IntersectMBO/cardano-db-sync/releases/tag/13.6.0.1">DB Sync 13.6.0.1</a></td></tr><tr><td>Carp</td><td></td><td></td></tr></tbody></table>
 
 **Higher Level Tooling**
 
