@@ -125,12 +125,51 @@ Wallet readiness is tracked against their integration against Cardano Node versi
 
 ***
 
-### DApps
+### DApp Project Readiness
 
-DApp readiness will be reported shortly, once tooling readiness is demonstrated as underway. To help the ecosystem know your readiness and to participate in this attestation please head to the Intersect Discord wg-hard-fork channel.
+DApp and project readiness is tracked against self reported readiness. Although this hard fork will remain in the Conway era DApp developers should refer to the [release notes](https://github.com/IntersectMBO/cardano-node/releases) and confirm readiness for the intra-era hard fork.
+
+| Name          | Status |
+| ------------- | ------ |
+| Asda Finance  |        |
+| Astarter      |        |
+| Axo           |        |
+| Book.io       |        |
+| Cerra         |        |
+| Charli3       |        |
+| CherryLend    |        |
+| Clarity       |        |
+| Comment       |        |
+| Danogo        |        |
+| DexHunter     |        |
+| Encoins       |        |
+| Fluid Tokens  |        |
+| Genius Yield  |        |
+| Iagon         |        |
+| JPG.Store     |        |
+| Lending Pond  |        |
+| Lenfi         |        |
+| Levvy Finance |        |
+| Moneta        |        |
+| MuseliSwap    |        |
+| MyUSD         |        |
+| NEWM          |        |
+| NMKR          |        |
+| Optim         |        |
+| Orcfax        |        |
+| Revuto        |        |
+| Rosenbridge   |        |
+| Saturn Swap   |        |
+| Spectrum      |        |
+| Splash        |        |
+| Summon        |        |
+| TeddySwap     |        |
+| USDM          |        |
+| VyFinance     |        |
+| Wingriders    |        |
 
 ***
 
-Further readiness information will be published as it becomes available. Readiness updates on Environments, SPOs and Exchanges will be available soon.
+
 
 If you find any information on this page incorrect or misleading please email hard-fork@intersectmbo.org and request a correction.
