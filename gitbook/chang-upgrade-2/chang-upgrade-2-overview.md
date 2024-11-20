@@ -64,13 +64,13 @@ The governance actions should follow environment order, preview before pre-produ
 
 Indicatively this is illustrated below;
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Illustrative Chang upgrade #2 timeline</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>Illustrative Hard Fork Governance Action Timeline</p></figcaption></figure>
 
 {% hint style="info" %}
 Please note, some simplifications have been made to this illustration for brevity and simplicity
 {% endhint %}
 
-Illustration steps (with links to live governance actions where applicable):
+Illustration steps:
 
 1. Hard fork preview&#x20;
 2. Plutus update pre-production

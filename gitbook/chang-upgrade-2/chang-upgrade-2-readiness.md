@@ -89,7 +89,7 @@ Metadata for all Intersect governance actions can be found here on the [Intersec
 
 Stake pool operators should upgrade to a supported mainnet node 10.x version in readiness for the hard fork. Below we compare the prevalence of Cardano blocks created by Node versions.
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 As of November 20th 2024, 28% of blocks created on mainnet where created using node 10.x version. Live data can be seen via tooling such as [Pooltool.io](https://pooltool.io/networkhealth)
 
