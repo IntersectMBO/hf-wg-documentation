@@ -49,6 +49,16 @@ Readiness is a self-attestation from the community and ecosystem, facilitated at
 
 ***
 
+## Updating This Page
+
+The community is encouraged to participate in updating and maintaining the status’ and details contained within this ecosystem readiness page.
+
+You can do so by suggesting updates via this Intersect [GitHub documentation repository](https://github.com/IntersectMBO/hf-wg-documentation), a simple how to guide provided [here](../../).\
+\
+Alternatively, if you find any information on this page incorrect or misleading please email: hard-fork@intersectmbo.org and request an update or correction.
+
+***
+
 ### Governance Actions
 
 Governance actions need to be enacted/voted on-chain for the hard fork to take place, you can keep track of the applicable governance actions for Chang upgrade #2 below.
@@ -125,7 +135,7 @@ Wallet readiness is tracked against their integration against Cardano Node versi
 
 ***
 
-### DApp Project Readiness
+### DApps & Projects
 
 DApp and project readiness is tracked against self reported readiness. Although this hard fork will remain in the Conway era DApp developers should refer to the [release notes](https://github.com/IntersectMBO/cardano-node/releases) and confirm readiness for the intra-era hard fork.
 
@@ -170,6 +180,10 @@ DApp and project readiness is tracked against self reported readiness. Although 
 
 ***
 
+{% hint style="info" %}
+The community is encouraged to participate in updating and maintaining the status’ and details contained within this ecosystem readiness page.
 
-
-If you find any information on this page incorrect or misleading please email hard-fork@intersectmbo.org and request a correction.
+You can do so by suggesting updates via this Intersect [GitHub documentation repository](https://github.com/IntersectMBO/hf-wg-documentation), a simple how to guide provided [here](../../).\
+\
+Alternatively, if you find any information on this page incorrect or misleading please email hard-fork@intersectmbo.org and request an update or correction.
+{% endhint %}
