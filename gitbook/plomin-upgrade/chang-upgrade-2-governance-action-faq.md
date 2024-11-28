@@ -1,8 +1,8 @@
-# Chang Upgrade #2 governance action FAQ
+# Plomin upgrade governance action FAQ
 
-### Oops ! What's up with governance action [51f4…74#0](https://gov.tools/governance\_actions/51f495aa23f4b3b3aa90afde4a0e67823bb7ac4ac65f5ffbb138373b863f2f74#0)?
+### Oops ! What's up with governance action [51f4…74#0](https://gov.tools/governance_actions/51f495aa23f4b3b3aa90afde4a0e67823bb7ac4ac65f5ffbb138373b863f2f74#0)?
 
-This action was intended to update the Plutus V3 Cost Model by adding new costing variables for the upcoming Plutus Primitives enabled by the Chang #2 hard fork. However, upon review, we found that the action did not produce the intended on-chain effect because the new costing variables were unintentionally omitted. This was an error but an expected one at this stage. Once this was spotted, the decision was made to invalidate the action’s metadata to discourage voting (error message seen via [GovTool](https://gov.tools/governance\_actions/51f495aa23f4b3b3aa90afde4a0e67823bb7ac4ac65f5ffbb138373b863f2f74#0)).
+This action was intended to update the Plutus V3 Cost Model by adding new costing variables for the upcoming Plutus Primitives enabled by the Plomin hard fork. However, upon review, we found that the action did not produce the intended on-chain effect because the new costing variables were unintentionally omitted. This was an error but an expected one at this stage. Once this was spotted, the decision was made to invalidate the action’s metadata to discourage voting (error message seen via [GovTool](https://gov.tools/governance_actions/51f495aa23f4b3b3aa90afde4a0e67823bb7ac4ac65f5ffbb138373b863f2f74#0)).
 
 As the first mainnet action submitted by Intersect on behalf of a committee/working group, this experience highlights the natural growing pains of navigating a new governance landscape. These early mistakes are essential to learning, providing valuable insights that help us quickly refine and improve our approach.
 
@@ -34,7 +34,7 @@ The Plutus Cost Model in Cardano calculates the computational and storage costs 
 
 <summary>Why do we need these governance actions for Chang upgrade #2?</summary>
 
-The Chang #2 hardfork will add the ability to use new Plutus primitives within Plutus V3. By updating the Plutus V3 Cost model prior we ensure that developers are able to use the primitives as soon as the Chang #2 hardfork is enacted.
+The Chang #2 hard fork will add the ability to use new Plutus primitives within Plutus V3. By updating the Plutus V3 Cost model prior we ensure that developers are able to use the primitives as soon as the Plomin hard fork is enacted.
 
 </details>
 

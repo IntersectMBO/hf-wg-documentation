@@ -4,11 +4,11 @@
 
 * [Overview](README.md)
 
-## Chang Upgrade #2
+## Plomin Upgrade
 
-* [Plomin upgrade overview](chang-upgrade-2/chang-upgrade-2-overview.md)
-* [Plomin upgrade readiness](chang-upgrade-2/chang-upgrade-2-readiness.md)
-* [Chang Upgrade #2 governance action FAQ](chang-upgrade-2/chang-upgrade-2-governance-action-faq.md)
+* [Plomin upgrade overview](plomin-upgrade/chang-upgrade-2-overview.md)
+* [Plomin upgrade readiness](plomin-upgrade/chang-upgrade-2-readiness.md)
+* [Plomin upgrade governance action FAQ](plomin-upgrade/chang-upgrade-2-governance-action-faq.md)
 
 ## Chang Upgrade #1
 
