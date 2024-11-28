@@ -14,9 +14,9 @@ It is suggested that you bookmark this space and regularly refer back as new upg
 
 **Planned upgrades**
 
-| Name                                                           |
-| -------------------------------------------------------------- |
-| [Chang upgrade #2](plomin-upgrade/chang-upgrade-2-overview.md) |
+| Name                                                                                                    |
+| ------------------------------------------------------------------------------------------------------- |
+| [Plomin upgrade](https://cardanoupgrades.docs.intersectmbo.org/plomin-upgrade/chang-upgrade-2-overview) |
 
 **Completed upgrades**
 
