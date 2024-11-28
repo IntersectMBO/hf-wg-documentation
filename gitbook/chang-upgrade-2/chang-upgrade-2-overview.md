@@ -14,9 +14,7 @@ Commencing from October 28th onwards we'll be meeting twice a week and you can f
 
 \
 **Other ways to learn more and participate**\
-Throughout November and December we'll be hosting X Spaces and other Q\&A sessions via Discord.&#x20;
-
-\
+Throughout November and December we'll be hosting X Spaces and other Q\&A sessions via Discord. \
 For further details or inquiries, please do not hesitate to reach out to us at hard-fork@intersectmbo.org.&#x20;
 {% endhint %}
 
@@ -64,7 +62,7 @@ The governance actions should follow environment order, preview before pre-produ
 
 Indicatively this is illustrated below;
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>Illustrative Hard Fork Governance Action Timeline</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>Illustrative governance action and upgrade timeline</p></figcaption></figure>
 
 {% hint style="info" %}
 Please note, some simplifications have been made to this illustration for brevity and simplicity
@@ -79,7 +77,7 @@ Illustration steps:
 5. Hard fork mainnet &#x20;
 
 {% hint style="info" %}
-Governance actions can be seen via [GovTool](https://gov.tools/governance\_actions) or on tools such as [CardanoScan ](https://cardanoscan.io/govActions)
+Governance actions can be seen via [GovTool](https://gov.tools/governance_actions) or on tools such as [CardanoScan ](https://cardanoscan.io/govActions)
 {% endhint %}
 
 Should the governance actions not occur at the earliest anticipated epoch they roll into the next. The governance actions will remain for 6 epochs before expiry, after this time they will need to be re-submitted.
