@@ -1,8 +1,7 @@
-# Chang Upgrade #2 overview
+# Plomin upgrade overview
 
 {% hint style="info" %}
-**We're open! Join the next working group meeting**\
-
+**We're open! Join the next working group meeting**
 
 Commencing from October 28th onwards we'll be meeting twice a week and you can find the details below:
 
@@ -22,12 +21,12 @@ Intersect plays the role of coordinator, as a functional servant-leader on behal
 
 ***
 
-## Chang Upgrade Release
+## Chang and Plomin Upgrade Release
 
-The Chang upgrade will stagger the release of governance functionality, easing adoption and onboarding for those with new or additional roles in governance.
+The Chang and Plomin upgrades will stagger the release of governance functionality, easing adoption and onboarding for those with new or additional roles in governance.
 
-* Chang Upgrade #1 will deploy governance features to Cardano and enter the technical bootstrapping phase as described in CIP-1694 Bootstrapping Phase. Chang upgrade #1 was successfully completed on September 1st 2024.
-* Chang Upgrade #2 moves CIP-1694 out of technical bootstrapping phase and unlocks the final features of on-chain governance including DRep participation and all governance actions
+* Chang Upgrade will deploy governance features to Cardano and enter the technical bootstrapping phase as described in CIP-1694 Bootstrapping Phase. Chang upgrade #1 was successfully completed on September 1st 2024.
+* The Plomin upgrade moves CIP-1694 out of technical bootstrapping phase and unlocks the final features of on-chain governance including DRep participation and all governance actions. In November 2024, following the sudden passing of Matthew Plomin, the hard fork working group recommended to rename the second upgrade after him. This has been widely affirmed by the community in the following [governance info action](https://gov.tools/governance_actions/fff0df644d328a5367212f45bab59060bde3c4091dc96c723062896fd6197314#0).&#x20;
 
 Further information on [CIP-1694](https://www.1694.io/en) and the interim bootstrapping period is available.
 
@@ -35,7 +34,7 @@ Further information on [CIP-1694](https://www.1694.io/en) and the interim bootst
 
 ## Governance Phase
 
-Following Chang#1 the Cardano blockchain has entered into a bootstrapping phase of governance. Special provisions will apply in this initial bootstrap phase. Firstly, during the bootstrap phase, a vote from the constitutional committee is sufficient to change the protocol parameters. Secondly, during the bootstrap phase, a vote from the constitutional committee, together with a sufficient SPO vote, is sufficient to initiate a hard fork - in this case Chang upgrade #2.
+Following the Chang upgrade the Cardano blockchain has entered into a bootstrapping phase of governance. Special provisions will apply in this initial bootstrap phase. Firstly, during the bootstrap phase, a vote from the constitutional committee is sufficient to change the protocol parameters. Secondly, during the bootstrap phase, a vote from the constitutional committee, together with a sufficient SPO vote, is sufficient to initiate a hard fork - in this case the Plomin upgrade.
 
 This is different to all previous hard forks or upgrades, where founding entities ultimately made the final decisions.&#x20;
 
@@ -43,9 +42,9 @@ This is different to all previous hard forks or upgrades, where founding entitie
 
 ## Governance Actions
 
-The Chang upgrade #2 requires five (5) governance actions to be successfully enacted on chain. In this bootstrap phase of governance the ICC and SPOs will be required to vote on these accordingly.&#x20;
+The Plomin upgrade requires five (5) governance actions to be successfully enacted on chain. In this bootstrap phase of governance the ICC and SPOs will be required to vote on these accordingly.&#x20;
 
-Intersect will raise the required governance actions, as per the recommendations provided by parameters sub-committee for Plutus parameter updates and civics committee for Chang upgrade #2, ultimately moving Cardano out of bootstrap into full governance as defined by CIP-1694.
+Intersect will raise the required governance actions, as per the recommendations provided by parameters sub-committee for Plutus parameter updates and civics committee for Plomin upgrade, ultimately moving Cardano out of bootstrap into full governance as defined by CIP-1694.
 
 Plutus Parameter Updates:
 
@@ -86,6 +85,6 @@ Should the governance actions not occur at the earliest anticipated epoch they r
 
 A key part of the governance model is delegating. Delegating is the act of 'loaning' your Voting Power - which equals ADA the balance in your wallet - to someone else. The person or organisation that you delegate to are called DReps, which is short for "Delegate Representatives". DReps represent you in a similar way as a parliamentary or congressional representative does in an analog government. Simply put, they vote on your behalf.
 
-It is recommended you participate and delegate to a DRep ahead of the Chang upgrade #2 mainnet hard fork.
+It is recommended you participate and delegate to a DRep ahead of the Plomin upgrade mainnet hard fork.
 
 You can find more details on CIP-1694 governance and DReps here [https://www.1694.io/en/dreps](https://www.1694.io/en/dreps), and guides on 'how to' here [https://docs.sanchogov.tools/how-to-use-the-govtool/using-govtool](https://docs.sanchogov.tools/how-to-use-the-govtool/using-govtool).&#x20;
