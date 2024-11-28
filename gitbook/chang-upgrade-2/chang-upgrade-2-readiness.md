@@ -1,10 +1,10 @@
 ---
 description: >-
-  This page outlines the engineering and ecosystem readiness for the Chang
-  hardfork upgrade #2.
+  This page outlines the engineering and ecosystem readiness for the Plomin
+  hardfork upgrade
 ---
 
-# Chang Upgrade #2 readiness
+# Plomin upgrade readiness
 
 {% hint style="info" %}
 Intersect and the hard fork working group plays the role of coordinator, as a functional servant-leader on behalf of the community and delivery teams working on hard fork activity. The functional teams within Intersect will work with the various committees, working groups, and delivery teams, relaying information here on the knowledge base. Ultimately the date for the hard fork is directly influenced by the community, the relevant constitutional approval and required on-chain voting.
@@ -14,10 +14,10 @@ Intersect and the hard fork working group plays the role of coordinator, as a fu
 
 Core infrastructure encompasses all technologies included within the Cardano Node, as well as some key tools.
 
-<table><thead><tr><th width="197">Release</th><th></th></tr></thead><tbody><tr><td><a href="https://github.com/IntersectMBO/cardano-node/releases/tag/10.1.1">10.1.1</a></td><td>Node <code>10.1.1</code> is a mainnet release of the Cardano node that is capable of crossing the Chang#2 hard fork. It includes a number of improvements to the governance system, including support for SPO delegation to pre-defined voting options, and support for auto-abstain DRep votes supplanting abstaining via rewards address delegation. It also enables new Plutus primitives as defined in <a href="https://github.com/cardano-foundation/CIPs/tree/master/CIP-0122">CIP-0122</a>, <a href="https://github.com/cardano-foundation/CIPs/tree/master/CIP-0123">CIP-0123</a>, and <a href="https://github.com/cardano-foundation/CIPs/tree/master/CIP-0127">CIP-0127</a>.</td></tr></tbody></table>
+<table><thead><tr><th width="197">Release</th><th></th></tr></thead><tbody><tr><td><a href="https://github.com/IntersectMBO/cardano-node/releases/tag/10.1.1">10.1.1</a></td><td>Node <code>10.1.1</code> is a mainnet release of the Cardano node that is capable of crossing the <em>Plomin</em> hard fork. It includes a number of improvements to the governance system, including support for SPO delegation to pre-defined voting options, and support for auto-abstain DRep votes supplanting abstaining via rewards address delegation. It also enables new Plutus primitives as defined in <a href="https://github.com/cardano-foundation/CIPs/tree/master/CIP-0122">CIP-0122</a>, <a href="https://github.com/cardano-foundation/CIPs/tree/master/CIP-0123">CIP-0123</a>, and <a href="https://github.com/cardano-foundation/CIPs/tree/master/CIP-0127">CIP-0127</a>.</td></tr></tbody></table>
 
 {% hint style="warning" %}
-Note that, although staking rewards will continue to be earned as usual, in order to withdraw their rewards, following the Chang#2 hard fork, Ada holders will need to delegate to a DRep, which may be one of the pre-defined options, a single key or a Plutus v3 script. Until the hard fork, rewards may be withdrawn normally. Although following the hard fork, rewards may not be withdrawn unless a DRep is delegated to, rewards will continue to accrue to the Ada holder normally, regardless of whether or not a DRep is delegated to.
+Note that, although staking rewards will continue to be earned as usual, in order to withdraw their rewards, following the Plomin hard fork, Ada holders will need to delegate to a DRep, which may be one of the pre-defined options, a single key or a Plutus v3 script. Until the hard fork, rewards may be withdrawn normally. Although following the hard fork, rewards may not be withdrawn unless a DRep is delegated to, rewards will continue to accrue to the Ada holder normally, regardless of whether or not a DRep is delegated to.
 {% endhint %}
 
 {% hint style="warning" %}
@@ -45,7 +45,7 @@ It is recommend testing and upgrades are carried out now in advance of pre-produ
 
 ## Readiness
 
-Readiness is a self-attestation from the community and ecosystem, facilitated at Intersect, of being technically ready for the Chang upgrade #2. Signalling readiness is important, this allows the on-chain governance, SPOs and the ICC in the case of Chang upgrade #2, to make an informed decision voting for the governance action to enact the hard fork.
+Readiness is a self-attestation from the community and ecosystem, facilitated at Intersect, of being technically ready for the Plomin upgrade. Signalling readiness is important, this allows the on-chain governance, SPOs and the ICC in the case of Plomin upgrade, to make an informed decision voting for the governance action to enact the hard fork.
 
 ***
 
@@ -61,7 +61,7 @@ Alternatively, if you find any information on this page incorrect or misleading 
 
 ### Governance Actions
 
-Governance actions need to be enacted/voted on-chain for the hard fork to take place, you can keep track of the applicable governance actions for Chang upgrade #2 below.
+Governance actions need to be enacted/voted on-chain for the hard fork to take place, you can keep track of the applicable governance actions for Plomin upgrade below.
 
 <table><thead><tr><th>Network</th><th>Action</th><th>Status</th><th width="195">Governance Actors</th><th>View via</th></tr></thead><tbody><tr><td><mark style="color:green;">Preview</mark></td><td><mark style="color:green;">PPU Cost Model</mark></td><td><mark style="color:green;">Enacted</mark></td><td>CC</td><td><a href="https://preview.cardanoscan.io/govAction/gov_action1rarl8newf7gsn03wl6gc9jhqsvr72autml4zz58xjq7y3mw2pw8sqsymael">CardanoScan</a></td></tr><tr><td><mark style="color:green;">Preview</mark></td><td><mark style="color:green;">Hard Fork</mark></td><td><mark style="color:green;">Enacted</mark></td><td>SPO's, CC</td><td><a href="https://preview.cardanoscan.io/govAction/gov_action1qjdwt4sjktagy4j4szgn8vpr6cx8lr9vdq7z0r8ethskytj9jtesqvrtlga">CardanoScan</a></td></tr><tr><td><mark style="color:green;">Pre-production</mark></td><td><mark style="color:green;">PPU Cost Model</mark></td><td><mark style="color:green;">Enacted</mark></td><td>CC</td><td><a href="https://preprod.cardanoscan.io/govAction/gov_action1k5hsy2yw8n5v0et524fz7nkap8qj09m5nckmxgycajlfszmyt4zsqp0n7ft?tab=action">CardanoScan</a></td></tr><tr><td><mark style="color:green;">Pre-production</mark></td><td><mark style="color:green;">Hard Fork</mark></td><td><mark style="color:green;">Enacted</mark></td><td>SPO's, CC</td><td><a href="https://preprod.cardanoscan.io/govAction/gov_action1eje876cdtrp94celmqsmvtpc0afrpkhfxzhaqayflg7l26h9v53qqnjsjww?tab=action">CardanoScan</a></td></tr><tr><td><mark style="color:orange;">Mainnet</mark></td><td><mark style="color:orange;">PPU Cost Model</mark></td><td><mark style="color:orange;">On-Chain</mark></td><td>CC</td><td><a href="https://cardanoscan.io/govAction/gov_action1k2jertppnnndejjcglszfqq4yzw8evzrd2nt66rr6rqlz54xp0zsq05ecsn">CardanoScan</a></td></tr><tr><td>Mainnet</td><td>Hard Fork</td><td>Pending</td><td>SPO's, CC</td><td></td></tr></tbody></table>
 

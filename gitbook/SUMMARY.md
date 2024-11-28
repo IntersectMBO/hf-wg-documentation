@@ -7,7 +7,7 @@
 ## Chang Upgrade #2
 
 * [Plomin upgrade overview](chang-upgrade-2/chang-upgrade-2-overview.md)
-* [Chang Upgrade #2 readiness](chang-upgrade-2/chang-upgrade-2-readiness.md)
+* [Plomin upgrade readiness](chang-upgrade-2/chang-upgrade-2-readiness.md)
 * [Chang Upgrade #2 governance action FAQ](chang-upgrade-2/chang-upgrade-2-governance-action-faq.md)
 
 ## Chang Upgrade #1
