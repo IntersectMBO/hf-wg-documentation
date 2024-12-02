@@ -14,7 +14,7 @@ Intersect and the hard fork working group plays the role of coordinator, as a fu
 
 Core infrastructure encompasses all technologies included within the Cardano Node, as well as some key tools.
 
-<table><thead><tr><th width="197">Release</th><th></th></tr></thead><tbody><tr><td><a href="https://github.com/IntersectMBO/cardano-node/releases/tag/10.1.1">10.1.1</a></td><td>Node <code>10.1.1</code> is a mainnet release of the Cardano node that is capable of crossing the <em>Plomin</em> hard fork. It includes a number of improvements to the governance system, including support for SPO delegation to pre-defined voting options, and support for auto-abstain DRep votes supplanting abstaining via rewards address delegation. It also enables new Plutus primitives as defined in <a href="https://github.com/cardano-foundation/CIPs/tree/master/CIP-0122">CIP-0122</a>, <a href="https://github.com/cardano-foundation/CIPs/tree/master/CIP-0123">CIP-0123</a>, and <a href="https://github.com/cardano-foundation/CIPs/tree/master/CIP-0127">CIP-0127</a>.</td></tr></tbody></table>
+<table><thead><tr><th width="197">Release</th><th></th></tr></thead><tbody><tr><td><a href="https://github.com/IntersectMBO/cardano-node/releases">10.1.3</a></td><td><p><em><strong>It is required that users upgrade to this version of the node.</strong></em></p><p></p><p>Node <code>10.1.3</code> is a mainnet-ready release of the Cardano node that is capable of crossing the Chang#2 hard fork. This update addresses a ledger issue where DRep delegations could be removed under some conditions. This inadvertently affected the ability to withdraw rewards in Protocol Version 10, and changed the stake distribution for some DReps.</p><p></p><p><strong>For further details about <code>cardano-node 10.1.3</code> please see the</strong> <a href="https://github.com/IntersectMBO/cardano-node/releases/tag/10.1.1"><strong>release notes for <code>10.1.1</code></strong></a><strong>, since significant upgrades were performed compared to previous versions of the node.</strong></p></td></tr></tbody></table>
 
 {% hint style="warning" %}
 Note that, although staking rewards will continue to be earned as usual, in order to withdraw their rewards, following the Plomin hard fork, Ada holders will need to delegate to a DRep, which may be one of the pre-defined options, a single key or a Plutus v3 script. Until the hard fork, rewards may be withdrawn normally. Although following the hard fork, rewards may not be withdrawn unless a DRep is delegated to, rewards will continue to accrue to the Ada holder normally, regardless of whether or not a DRep is delegated to.
@@ -39,7 +39,7 @@ For example, the previous top level commands `query` and `stake-pool` are now av
 Please read full release notes [here](https://github.com/IntersectMBO/cardano-node/releases/tag/10.1.1).
 {% endhint %}
 
-It is recommend testing and upgrades are carried out now in advance of pre-production and mainnet hard fork governance actions. Features are available for testing now on the above release and on the [SanchoNet ](https://sancho.network/)test environment.
+All test nets now have the capability to test node 10.x releases.&#x20;
 
 ***
 
