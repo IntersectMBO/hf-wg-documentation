@@ -43,13 +43,11 @@ All test nets now have the capability to test node 10.x releases.&#x20;
 
 ***
 
-## Readiness
+## Readiness and Updating this Page
 
-Readiness is a self-attestation from the community and ecosystem, facilitated at Intersect, of being technically ready for the Plomin upgrade. Signalling readiness is important, this allows the on-chain governance, SPOs and the ICC in the case of Plomin upgrade, to make an informed decision voting for the governance action to enact the hard fork.
+Readiness is a self-attestation from the community and ecosystem, facilitated at Intersect, of being technically ready for the Plomin upgrade.&#x20;
 
-***
-
-## Updating This Page
+Signalling readiness is important, this allows the on-chain governance, SPOs and the ICC in the case of Plomin upgrade, to make an informed decision voting for the governance action to enact the hard fork.
 
 The community is encouraged to participate in updating and maintaining the status’ and details contained within this ecosystem readiness page.
 
