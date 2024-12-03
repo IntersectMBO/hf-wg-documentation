@@ -16,6 +16,30 @@ Core infrastructure encompasses all technologies included within the Cardano Nod
 
 <table><thead><tr><th width="197">Release</th><th></th></tr></thead><tbody><tr><td><a href="https://github.com/IntersectMBO/cardano-node/releases">10.1.3</a></td><td><p><em><strong>It is required that users upgrade to this version of the node.</strong></em></p><p></p><p>Node <code>10.1.3</code> is a mainnet-ready release of the Cardano node that is capable of crossing the Chang#2 hard fork. This update addresses a ledger issue where DRep delegations could be removed under some conditions. This inadvertently affected the ability to withdraw rewards in Protocol Version 10, and changed the stake distribution for some DReps.</p><p></p><p><strong>For further details about <code>cardano-node 10.1.3</code> please see the</strong> <a href="https://github.com/IntersectMBO/cardano-node/releases/tag/10.1.1"><strong>release notes for <code>10.1.1</code></strong></a><strong>, since significant upgrades were performed compared to previous versions of the node.</strong></p></td></tr></tbody></table>
 
+### 10.1.3 Ledger replay in Preview and Pre-production
+
+Due to the nature of [Issue #4772](https://github.com/IntersectMBO/cardano-ledger/issues/4772#issuecomment-2499160212) effect on hard forked networks running Protocol version 10.0, all nodes on testnets will require a re-synchronisation from genesis. This will not be required for mainnet, as it is yet to hard fork for Protocol version 10.0 (via Plomin).
+
+Once upgraded to 10.1.3 in any testnet, the ledger directory can be deleted to force the node to resync the network from genesis. This will ensure that the node’s ledger state will be reconstructed correctly, without the effect of Issue #4772.
+
+{% code overflow="wrap" %}
+```
+To perform ledger replay:
+1.	Ensure the node version is updated to 10.1.3,
+2.	Stop the node service (if running),
+3.	Delete ledger state (path may vary by installation type, e.g.: $ rm /var/lib/cardano-node/db-$NETWORK/ledger/*),
+4.	Restart the node service and the ledger replay from genesis will occur
+```
+{% endcode %}
+
+{% hint style="info" %}
+To reiterate this step is not required for mainnet.
+{% endhint %}
+
+For support with this upgrade on testnets feel free to ask questions via discord at [#hfwg-plomin](https://discord.gg/Hxtz9f38Ep) on the Intersect server or #spo-testnet via the [IOHK server](https://discord.gg/inputoutput).
+
+***
+
 {% hint style="warning" %}
 Note that, although staking rewards will continue to be earned as usual, in order to withdraw their rewards, following the Plomin hard fork, Ada holders will need to delegate to a DRep, which may be one of the pre-defined options, a single key or a Plutus v3 script. Until the hard fork, rewards may be withdrawn normally. Although following the hard fork, rewards may not be withdrawn unless a DRep is delegated to, rewards will continue to accrue to the Ada holder normally, regardless of whether or not a DRep is delegated to.
 {% endhint %}
