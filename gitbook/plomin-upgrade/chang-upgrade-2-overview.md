@@ -61,7 +61,7 @@ The governance actions should follow environment order, preview before pre-produ
 
 Indicatively this is illustrated below;
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>Illustrative governance action and upgrade timeline</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption><p>Illustrative governance action and upgrade timeline</p></figcaption></figure>
 
 {% hint style="info" %}
 Please note, some simplifications have been made to this illustration for brevity and simplicity
