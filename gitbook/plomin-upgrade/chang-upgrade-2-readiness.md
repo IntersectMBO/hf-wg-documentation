@@ -124,7 +124,7 @@ Tooling readiness is supported from version Node 10.1.1 compatible releases. Whe
 
 **Tools**
 
-<table><thead><tr><th width="274">Tools</th><th width="206">Status</th><th>Notes</th></tr></thead><tbody><tr><td>cardano-wallet</td><td></td><td>(<a href="https://github.com/cardano-foundation/cardano-wallet/releases">release repository</a>)</td></tr><tr><td>Rosetta</td><td><mark style="color:green;">Ready Cardano Rosetta 2.4.2</mark></td><td>(<a href="https://github.com/cardano-foundation/cardano-rosetta/releases">release repository</a>)</td></tr><tr><td>GraphQL</td><td><mark style="color:green;">Ready Cardano GraphQL 8.3.2</mark></td><td>(<a href="https://github.com/cardano-foundation/cardano-graphql/releases">release repository</a>)</td></tr><tr><td>cntools (guild-operators)</td><td></td><td>(<a href="https://github.com/cardano-community/guild-operators/blob/alpha/docs/Scripts/cntools-changelog.md">change log</a>)</td></tr><tr><td>SPO Scripts (@gitmachtl)</td><td></td><td>(<a href="https://github.com/gitmachtl/scripts/tags">release repository</a>)</td></tr><tr><td>Ogmios</td><td></td><td>(<a href="https://github.com/CardanoSolutions/ogmios/releases">release repository</a>)</td></tr></tbody></table>
+<table><thead><tr><th width="274">Tools</th><th width="206">Status</th><th>Notes</th></tr></thead><tbody><tr><td>cardano-wallet</td><td></td><td>(<a href="https://github.com/cardano-foundation/cardano-wallet/releases">release repository</a>)</td></tr><tr><td>Rosetta</td><td><mark style="color:green;">Ready Cardano Rosetta 2.4.2</mark></td><td>(<a href="https://github.com/cardano-foundation/cardano-rosetta/releases">release repository</a>)</td></tr><tr><td>GraphQL</td><td><mark style="color:green;">Ready Cardano GraphQL 8.3.2</mark></td><td>(<a href="https://github.com/cardano-foundation/cardano-graphql/releases">release repository</a>)</td></tr><tr><td>cntools (guild-operators)</td><td><mark style="color:green;">Ready CNTools 13.3.0</mark></td><td>(<a href="https://github.com/cardano-community/guild-operators/blob/alpha/docs/Scripts/cntools-changelog.md">change log</a>)</td></tr><tr><td>SPO Scripts (@gitmachtl)</td><td></td><td>(<a href="https://github.com/gitmachtl/scripts/tags">release repository</a>)</td></tr><tr><td>Ogmios</td><td></td><td>(<a href="https://github.com/CardanoSolutions/ogmios/releases">release repository</a>)</td></tr></tbody></table>
 
 **Libraries**
 
@@ -154,7 +154,7 @@ Wallet readiness is tracked against their integration against Cardano Node versi
 
 #### Full Node / CLI Wallets
 
-<table><thead><tr><th width="251">Wallet</th><th>Status</th><th>Notes</th></tr></thead><tbody><tr><td>Daedalus</td><td>Ready</td><td>(from <a href="https://github.com/input-output-hk/daedalus/releases">release 7.0.0</a>)</td></tr><tr><td>AdaLite</td><td></td><td></td></tr><tr><td>CNTools</td><td>Ready</td><td>(<a href="https://github.com/cardano-community/guild-operators/blob/alpha/docs/Scripts/cntools-changelog.md">from release 13.1.0</a>)</td></tr></tbody></table>
+<table><thead><tr><th width="251">Wallet</th><th>Status</th><th>Notes</th></tr></thead><tbody><tr><td>Daedalus</td><td>Ready</td><td>(from <a href="https://github.com/input-output-hk/daedalus/releases">release 7.0.0</a>)</td></tr><tr><td>AdaLite</td><td></td><td></td></tr><tr><td>CNTools</td><td>Ready</td><td>(<a href="https://github.com/cardano-community/guild-operators/blob/alpha/docs/Scripts/cntools-changelog.md">from release 13.3.0</a>)</td></tr></tbody></table>
 
 ***
 
