@@ -42,7 +42,7 @@ This is different to all previous hard forks or upgrades, where founding entitie
 
 ## Governance Actions
 
-The Plomin upgrade requires five (5) governance actions to be successfully enacted on chain. In this bootstrap phase of governance the ICC and SPOs will be required to vote on these accordingly.&#x20;
+The Plomin upgrade (formally Chang Upgrade #2) requires five (5) governance actions to be successfully enacted on chain. In this bootstrap phase of governance the ICC and SPOs will be required to vote on these accordingly.&#x20;
 
 Intersect will raise the required governance actions, as per the recommendations provided by parameters sub-committee for Plutus parameter updates and civics committee for Plomin upgrade, ultimately moving Cardano out of bootstrap into full governance as defined by CIP-1694.
 
@@ -51,7 +51,7 @@ Plutus Parameter Updates:
 * &#x20;The Governance Action for Mainnet parameter changes could earliest occur from epoch 517
 * &#x20;The Governance Action for Pre-Production parameter changes could earliest occur from epoch 173
 
-&#x20;Chang Upgrade #2:
+Plomin Upgrade:
 
 * &#x20;The governance action for Mainnet hard fork could earliest occur from epoch 520
 * &#x20;Governance action for Prep-production could earliest occur from epoch 177
@@ -61,7 +61,7 @@ The governance actions should follow environment order, preview before pre-produ
 
 Indicatively this is illustrated below;
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption><p>Illustrative governance action and upgrade timeline</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption><p>Illustrative governance action timeline</p></figcaption></figure>
 
 {% hint style="info" %}
 Please note, some simplifications have been made to this illustration for brevity and simplicity
