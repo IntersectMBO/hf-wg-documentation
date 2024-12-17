@@ -14,7 +14,7 @@ Intersect and the hard fork working group plays the role of coordinator, as a fu
 
 Core infrastructure encompasses all technologies included within the Cardano Node, as well as some key tools.
 
-<table><thead><tr><th width="197">Release</th><th></th></tr></thead><tbody><tr><td><a href="https://github.com/IntersectMBO/cardano-node/releases">10.1.3</a></td><td><p><em><strong>It is required that users upgrade to this version of the node.</strong></em></p><p></p><p>Node <code>10.1.3</code> is a mainnet-ready release of the Cardano node that is capable of crossing the Chang#2 hard fork. This update addresses a ledger issue where DRep delegations could be removed under some conditions. This inadvertently affected the ability to withdraw rewards in Protocol Version 10, and changed the stake distribution for some DReps.</p><p></p><p><strong>For further details about <code>cardano-node 10.1.3</code> please see the</strong> <a href="https://github.com/IntersectMBO/cardano-node/releases/tag/10.1.1"><strong>release notes for <code>10.1.1</code></strong></a><strong>, since significant upgrades were performed compared to previous versions of the node.</strong></p></td></tr></tbody></table>
+<table><thead><tr><th width="197">Release</th><th></th></tr></thead><tbody><tr><td><a href="https://github.com/IntersectMBO/cardano-node/releases">10.1.3</a></td><td><p><em><strong>It is required that users upgrade to this version of the node.</strong></em></p><p>Node <code>10.1.3</code> is a mainnet-ready release of the Cardano node that is capable of crossing the Chang#2 hard fork. This update addresses a ledger issue where DRep delegations could be removed under some conditions. This inadvertently affected the ability to withdraw rewards in Protocol Version 10, and changed the stake distribution for some DReps.</p><p><strong>For further details about <code>cardano-node 10.1.3</code> please see the</strong> <a href="https://github.com/IntersectMBO/cardano-node/releases/tag/10.1.1"><strong>release notes for <code>10.1.1</code></strong></a><strong>, since significant upgrades were performed compared to previous versions of the node.</strong></p></td></tr></tbody></table>
 
 ### 10.1.3 Ledger replay in Preview and Pre-production
 
@@ -63,13 +63,13 @@ For example, the previous top level commands `query` and `stake-pool` are now av
 Please read full release notes [here](https://github.com/IntersectMBO/cardano-node/releases/tag/10.1.1).
 {% endhint %}
 
-All test nets now have the capability to test node 10.x releases.&#x20;
+All test nets now have the capability to test node 10.x releases.
 
 ***
 
 ## Readiness and Updating this Page
 
-Readiness is a self-attestation from the community and ecosystem, facilitated at Intersect, of being technically ready for the Plomin upgrade.&#x20;
+Readiness is a self-attestation from the community and ecosystem, facilitated at Intersect, of being technically ready for the Plomin upgrade.
 
 Signalling readiness is important, this allows the on-chain governance, SPOs and the ICC in the case of Plomin upgrade, to make an informed decision voting for the governance action to enact the hard fork.
 
@@ -91,13 +91,13 @@ Governance actions need to be enacted/voted on-chain for the hard fork to take p
 
 <summary><strong>Status key</strong></summary>
 
-**Enacted**: Governance action has been applied on chain&#x20;
+**Enacted**: Governance action has been applied on chain
 
-**Ratified**: Governance action has reached required voting thresholds, and will normally be enacted next epoch&#x20;
+**Ratified**: Governance action has reached required voting thresholds, and will normally be enacted next epoch
 
-**Expired** - Governance action has failed to reach the required thresholds&#x20;
+**Expired** - Governance action has failed to reach the required thresholds
 
-**On-Chain** - governance action has been submitted to the blockchain and is available for voting&#x20;
+**On-Chain** - governance action has been submitted to the blockchain and is available for voting
 
 **Pending** - Governance action has not yet been submitted to the blockchain
 
@@ -111,16 +111,16 @@ Metadata for all Intersect governance actions can be found here on the [Intersec
 
 Stake pool operators should upgrade to a supported mainnet node 10.1 version in readiness for the hard fork. Below we compare the prevalence of Cardano blocks created by Node versions.
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption><p>Block producing node %, as per Pooltool.io</p></figcaption></figure>
 
-As of December 11th, 2024, 58% of blocks created on mainnet where created using node 10.1 version (updated to state the 10.1 version now required for mainnet hard fork).\
+As of December 17th, 2024, 65% of blocks created on mainnet where created using node 10.1 version (updated to state the 10.1 version now required for mainnet hard fork).\
 Live data can be seen via reputable [Cardano explorers](https://explorer.cardano.org/) such as [Pooltool.io](https://pooltool.io/networkhealth)
 
 ***
 
 ### Tooling
 
-Tooling readiness is supported from version Node 10.1.1 compatible releases. Where known release repositories have been added to the Notes section.&#x20;
+Tooling readiness is supported from version Node 10.1.1 compatible releases. Where known release repositories have been added to the Notes section.
 
 **Tools**
 
@@ -128,11 +128,11 @@ Tooling readiness is supported from version Node 10.1.1 compatible releases. Whe
 
 **Libraries**
 
-<table><thead><tr><th width="287">Library</th><th width="210">Status</th><th>Notes</th></tr></thead><tbody><tr><td>Cardano Serialization Library</td><td></td><td>(<a href="https://github.com/Emurgo/cardano-serialization-lib/releases">release repository</a>) </td></tr><tr><td>Cardano Multiplatform Library</td><td></td><td>(<a href="https://github.com/dcSpark/cardano-multiplatform-lib/releases">release repository</a>)</td></tr><tr><td>Cardano JavaScript SDK</td><td></td><td>(<a href="https://github.com/input-output-hk/cardano-js-sdk/releases">release repository</a>)</td></tr><tr><td>Pallas</td><td></td><td>(<a href="https://github.com/txpipe/pallas/releases">release repository</a>) </td></tr><tr><td>Cardano Transaction Library</td><td></td><td>(<a href="https://github.com/IntersectMBO/cardano-transactions/releases">release repository</a>)</td></tr><tr><td>MeshSDK</td><td><mark style="color:green;">Ready</mark></td><td>(<a href="https://github.com/MeshJS/mesh/releases">release repository</a>)</td></tr><tr><td>Aiken</td><td></td><td>(<a href="https://github.com/aiken-lang/aiken/releases">release repository</a>) </td></tr></tbody></table>
+<table><thead><tr><th width="287">Library</th><th width="210">Status</th><th>Notes</th></tr></thead><tbody><tr><td>Cardano Serialization Library</td><td></td><td>(<a href="https://github.com/Emurgo/cardano-serialization-lib/releases">release repository</a>)</td></tr><tr><td>Cardano Multiplatform Library</td><td></td><td>(<a href="https://github.com/dcSpark/cardano-multiplatform-lib/releases">release repository</a>)</td></tr><tr><td>Cardano JavaScript SDK</td><td></td><td>(<a href="https://github.com/input-output-hk/cardano-js-sdk/releases">release repository</a>)</td></tr><tr><td>Pallas</td><td></td><td>(<a href="https://github.com/txpipe/pallas/releases">release repository</a>)</td></tr><tr><td>Cardano Transaction Library</td><td></td><td>(<a href="https://github.com/IntersectMBO/cardano-transactions/releases">release repository</a>)</td></tr><tr><td>MeshSDK</td><td><mark style="color:green;">Ready</mark></td><td>(<a href="https://github.com/MeshJS/mesh/releases">release repository</a>)</td></tr><tr><td>Aiken</td><td></td><td>(<a href="https://github.com/aiken-lang/aiken/releases">release repository</a>)</td></tr></tbody></table>
 
 **Indexers**
 
-<table><thead><tr><th width="282">Indexers</th><th width="208">Status</th><th>Notes</th></tr></thead><tbody><tr><td>Kupo</td><td></td><td>(<a href="https://github.com/CardanoSolutions/kupo/releases">release repository</a>)</td></tr><tr><td>Oura</td><td></td><td>(<a href="https://github.com/txpipe/oura/releases">release repository</a>)</td></tr><tr><td>Scrolls</td><td></td><td>(<a href="https://github.com/txpipe/scrolls/releases">release repository</a>) </td></tr><tr><td>DB-Sync</td><td><mark style="color:green;">Ready DB Sync 13.6.0.4</mark></td><td>(<a href="https://github.com/IntersectMBO/cardano-db-sync/releases/tag/13.6.0.4">release repository</a>)</td></tr><tr><td>Carp</td><td></td><td>(<a href="https://github.com/dcSpark/carp/releases">release repository</a>)</td></tr></tbody></table>
+<table><thead><tr><th width="282">Indexers</th><th width="208">Status</th><th>Notes</th></tr></thead><tbody><tr><td>Kupo</td><td></td><td>(<a href="https://github.com/CardanoSolutions/kupo/releases">release repository</a>)</td></tr><tr><td>Oura</td><td></td><td>(<a href="https://github.com/txpipe/oura/releases">release repository</a>)</td></tr><tr><td>Scrolls</td><td></td><td>(<a href="https://github.com/txpipe/scrolls/releases">release repository</a>)</td></tr><tr><td>DB-Sync</td><td><mark style="color:green;">Ready DB Sync 13.6.0.4</mark></td><td>(<a href="https://github.com/IntersectMBO/cardano-db-sync/releases/tag/13.6.0.4">release repository</a>)</td></tr><tr><td>Carp</td><td></td><td>(<a href="https://github.com/dcSpark/carp/releases">release repository</a>)</td></tr></tbody></table>
 
 **Higher Level Tooling**
 
