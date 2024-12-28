@@ -95,9 +95,9 @@ Stake pool operators should upgrade to a supported mainnet node 10.1 version in 
 As of December 22nd, 2024, 74% of blocks created on mainnet where created using node 10.1+ version (updated to state the 10.1 version now required for mainnet hard fork).\
 Live data can be seen via reputable [Cardano explorers](https://explorer.cardano.org/) such as [Pooltool.io](https://pooltool.io/networkhealth)
 
-Graph Showing Node Version adoption, up to 2024-12-11. [Via Markus](https://x.com/C1cADA_Markus/status/1867100795709141113/photo/1) on X ([@C1cADA\_Markus](https://x.com/C1cADA_Markus)).
+Graph Showing Node Version adoption, up to 2024-12-26. [Via Markus](https://x.com/C1cADA_Markus/status/1867100795709141113/photo/1) on X ([@C1cADA\_Markus](https://x.com/C1cADA_Markus)).
 
-<figure><img src="../.gitbook/assets/GelDiFmXkAA8wZ8.jpeg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/node-versions_2024-12-26.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
