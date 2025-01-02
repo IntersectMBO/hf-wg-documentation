@@ -178,7 +178,7 @@ DApp and project readiness is tracked against self reported readiness. Although 
 | Saturn Swap   |        |
 | Spectrum      |        |
 | Splash        |        |
-| Summon        |        |
+| Summon        |  Ready |
 | TeddySwap     |        |
 | USDM          |        |
 | VyFinance     |        |
