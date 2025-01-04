@@ -10,6 +10,10 @@ description: >-
 Intersect and the hard fork working group plays the role of coordinator, as a functional servant-leader on behalf of the community and delivery teams working on hard fork activity. The functional teams within Intersect will work with the various committees, working groups, and delivery teams, relaying information here on the knowledge base. Ultimately the date for the hard fork is directly influenced by the community, the relevant constitutional approval and required on-chain voting.
 {% endhint %}
 
+{% hint style="info" %}
+See anything missing or incorrect on this page - please email **hard-fork@intersectmbo.org**  or raise an issue via [Github/HF-WG-Documentation](https://github.com/IntersectMBO/hf-wg-documentation/issues/new) (or pull request - [see how-to](https://github.com/IntersectMBO/hf-wg-documentation?tab=readme-ov-file#chang-2-updating-tooling-readiness))
+{% endhint %}
+
 ## Core Infrastructure Components <a href="#core-infrastructure-components" id="core-infrastructure-components"></a>
 
 Core infrastructure encompasses all technologies included within the Cardano Node, as well as some key tools.
@@ -90,8 +94,6 @@ Metadata for all Intersect governance actions can be found here on the [Intersec
 
 Stake pool operators should upgrade to a supported mainnet node 10.1 version in readiness for the hard fork. Below we compare the prevalence of Cardano blocks created by Node versions.
 
-
-
 <figure><img src="../.gitbook/assets/Screenshot 2025-01-03 at 15.20.56.png" alt=""><figcaption><p>Block production version metrics via <a href="https://pooltool.io/networkhealth">PoolTool.io</a></p></figcaption></figure>
 
 As of January 3rd, 2025, 79% of blocks created on mainnet where created using node 10.1+ version (updated to state the 10.1 version now required for mainnet hard fork).\
@@ -131,7 +133,7 @@ Wallet readiness is tracked against their integration against Cardano Node versi
 
 **Light Wallets**
 
-<table><thead><tr><th width="232">Wallet</th><th width="286">Highlevel Status</th><th>Notes</th></tr></thead><tbody><tr><td>Eternl</td><td><mark style="color:green;">Ready</mark></td><td>Web: >= 1.12.19<br>Extension: >= 1.12.19</td></tr><tr><td>Eternl (mobile)</td><td><mark style="color:green;">Ready</mark></td><td>Android (app): >= 1.12.19<br>Android (PWA): >= 1.12.19<br>iOS (app): >=1.12.19<br>iOS (PWA): >=1.12.19</td></tr><tr><td>Lace</td><td><mark style="color:green;">Ready</mark></td><td>(from <a href="https://x.com/lace_io/status/1861767276522774669">Lace 1.17.5</a>)</td></tr><tr><td>Nami</td><td><mark style="color:green;">Ready</mark></td><td>(from <a href="https://iohk.zendesk.com/hc/en-us/articles/37066413506969-Nami-3-8-0-Release-notes">Nami 3.8.0</a>)</td></tr><tr><td>Nufi</td><td><mark style="color:green;">Ready</mark></td><td></td></tr><tr><td>Vespr</td><td></td><td></td></tr><tr><td>Tokeo</td><td></td><td></td></tr><tr><td>Yoroi</td><td><mark style="color:green;">Ready</mark></td><td>(from <a href="https://x.com/YoroiWallet/status/1848411193196613681">Yoroi</a><a href="https://x.com/YoroiWallet/status/1848450503858110869"> 5.0</a>)</td></tr><tr><td>Gero</td><td><mark style="color:green;">Ready</mark></td><td>(<a href="https://chromewebstore.google.com/detail/gero-dashboard-beta/iifeegfcfhlhhnilhfoeihllenamcfgc">Release notes</a>)</td></tr><tr><td>Typhon</td><td><mark style="color:green;">Ready</mark></td><td>(from release v3.2)</td></tr><tr><td>Flint</td><td><mark style="color:orange;">Won't progress</mark> (<a href="https://x.com/FlintWallet/status/1828184961960308832?t=0eIBBMnAY5feMTOlojFlSg&#x26;s=19">X post</a>)</td><td><mark style="color:orange;">Won't progress</mark> (<a href="https://x.com/FlintWallet/status/1828184961960308832?t=0eIBBMnAY5feMTOlojFlSg&#x26;s=19">X post</a>)</td></tr></tbody></table>
+<table><thead><tr><th width="232">Wallet</th><th width="286">Highlevel Status</th><th>Notes</th></tr></thead><tbody><tr><td>Eternl</td><td></td><td></td></tr><tr><td>Eternl (mobile)</td><td></td><td></td></tr><tr><td>Lace</td><td><mark style="color:green;">Ready</mark></td><td>(from <a href="https://x.com/lace_io/status/1861767276522774669">Lace 1.17.5</a>)</td></tr><tr><td>Nami</td><td><mark style="color:green;">Ready</mark></td><td>(from <a href="https://iohk.zendesk.com/hc/en-us/articles/37066413506969-Nami-3-8-0-Release-notes">Nami 3.8.0</a>)</td></tr><tr><td>Nufi</td><td><mark style="color:green;">Ready</mark></td><td></td></tr><tr><td>Vespr</td><td></td><td></td></tr><tr><td>Tokeo</td><td></td><td></td></tr><tr><td>Yoroi</td><td><mark style="color:green;">Ready</mark></td><td>(from <a href="https://x.com/YoroiWallet/status/1848411193196613681">Yoroi</a><a href="https://x.com/YoroiWallet/status/1848450503858110869"> 5.0</a>)</td></tr><tr><td>Gero</td><td></td><td></td></tr><tr><td>Typhon</td><td></td><td></td></tr><tr><td>Flint</td><td><mark style="color:orange;">Won't progress</mark> (<a href="https://x.com/FlintWallet/status/1828184961960308832?t=0eIBBMnAY5feMTOlojFlSg&#x26;s=19">X post</a>)</td><td><mark style="color:orange;">Won't progress</mark> (<a href="https://x.com/FlintWallet/status/1828184961960308832?t=0eIBBMnAY5feMTOlojFlSg&#x26;s=19">X post</a>)</td></tr></tbody></table>
 
 **Hardware Wallets**
 
