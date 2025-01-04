@@ -158,11 +158,11 @@ DApp and project readiness is tracked against self reported readiness. Although 
 | CherryLend    |        |
 | Clarity       |        |
 | Comment       |        |
-| Danogo        |        |
+| Danogo        | Ready  |
 | DexHunter     |        |
 | Encoins       |        |
-| Fluid Tokens  |        |
-| Genius Yield  |        |
+| Fluid Tokens  | Ready  |
+| Genius Yield  | Ready  |
 | Iagon         |        |
 | JPG.Store     |        |
 | Lending Pond  |        |
@@ -178,9 +178,11 @@ DApp and project readiness is tracked against self reported readiness. Although 
 | Revuto        |        |
 | Rosenbridge   |        |
 | Saturn Swap   |        |
+| Snekdotfun    | Ready  |
 | Spectrum      |        |
-| Splash        |        |
+| Splash        | Ready  |
 | Summon        | Ready  |
+| Tempo         | Ready  |
 | TeddySwap     |        |
 | USDM          |        |
 | VyFinance     |        |
