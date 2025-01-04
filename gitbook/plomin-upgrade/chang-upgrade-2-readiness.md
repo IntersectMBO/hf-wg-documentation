@@ -11,7 +11,7 @@ Intersect and the hard fork working group plays the role of coordinator, as a fu
 {% endhint %}
 
 {% hint style="info" %}
-See anything missing or incorrect on this page - please email **hard-fork@intersectmbo.org**  or raise an issue via [Github/HF-WG-Documentation](https://github.com/IntersectMBO/hf-wg-documentation/issues/new) (or pull request - [see how-to](https://github.com/IntersectMBO/hf-wg-documentation?tab=readme-ov-file#chang-2-updating-tooling-readiness))
+See anything missing or incorrect on this page? - please email **hard-fork@intersectmbo.org**  or raise an issue via [Github/HF-WG-Documentation](https://github.com/IntersectMBO/hf-wg-documentation/issues/new) (or pull request - [see how-to](https://github.com/IntersectMBO/hf-wg-documentation?tab=readme-ov-file#chang-2-updating-tooling-readiness))
 {% endhint %}
 
 ## Core Infrastructure Components <a href="#core-infrastructure-components" id="core-infrastructure-components"></a>
@@ -133,7 +133,7 @@ Wallet readiness is tracked against their integration against Cardano Node versi
 
 **Light Wallets**
 
-<table><thead><tr><th width="232">Wallet</th><th width="286">Highlevel Status</th><th>Notes</th></tr></thead><tbody><tr><td>Eternl</td><td></td><td></td></tr><tr><td>Eternl (mobile)</td><td></td><td></td></tr><tr><td>Lace</td><td><mark style="color:green;">Ready</mark></td><td>(from <a href="https://x.com/lace_io/status/1861767276522774669">Lace 1.17.5</a>)</td></tr><tr><td>Nami</td><td><mark style="color:green;">Ready</mark></td><td>(from <a href="https://iohk.zendesk.com/hc/en-us/articles/37066413506969-Nami-3-8-0-Release-notes">Nami 3.8.0</a>)</td></tr><tr><td>Nufi</td><td><mark style="color:green;">Ready</mark></td><td></td></tr><tr><td>Vespr</td><td></td><td></td></tr><tr><td>Tokeo</td><td></td><td></td></tr><tr><td>Yoroi</td><td><mark style="color:green;">Ready</mark></td><td>(from <a href="https://x.com/YoroiWallet/status/1848411193196613681">Yoroi</a><a href="https://x.com/YoroiWallet/status/1848450503858110869"> 5.0</a>)</td></tr><tr><td>Gero</td><td></td><td></td></tr><tr><td>Typhon</td><td></td><td></td></tr><tr><td>Flint</td><td><mark style="color:orange;">Won't progress</mark> (<a href="https://x.com/FlintWallet/status/1828184961960308832?t=0eIBBMnAY5feMTOlojFlSg&#x26;s=19">X post</a>)</td><td><mark style="color:orange;">Won't progress</mark> (<a href="https://x.com/FlintWallet/status/1828184961960308832?t=0eIBBMnAY5feMTOlojFlSg&#x26;s=19">X post</a>)</td></tr></tbody></table>
+<table><thead><tr><th width="232">Wallet</th><th width="286">Highlevel Status</th><th>Notes</th></tr></thead><tbody><tr><td>Eternl</td><td></td><td></td></tr><tr><td>Eternl (mobile)</td><td></td><td></td></tr><tr><td>Lace</td><td><mark style="color:green;">Ready</mark></td><td>(from <a href="https://x.com/lace_io/status/1861767276522774669">Lace 1.17.5</a>)</td></tr><tr><td>Nami</td><td><mark style="color:green;">Ready</mark></td><td>(from <a href="https://iohk.zendesk.com/hc/en-us/articles/37066413506969-Nami-3-8-0-Release-notes">Nami 3.8.0</a>)</td></tr><tr><td>Nufi</td><td><mark style="color:green;">Ready</mark></td><td></td></tr><tr><td>Vespr</td><td></td><td></td></tr><tr><td>Tokeo</td><td></td><td></td></tr><tr><td>Yoroi</td><td><mark style="color:green;">Ready</mark></td><td>(from <a href="https://x.com/YoroiWallet/status/1848411193196613681">Yoroi</a><a href="https://x.com/YoroiWallet/status/1848450503858110869"> 5.0</a>)</td></tr><tr><td>Gero</td><td></td><td></td></tr><tr><td>Typhon</td><td><mark style="color:green;">Ready</mark></td><td></td></tr><tr><td>Flint</td><td><mark style="color:orange;">Won't progress</mark> (<a href="https://x.com/FlintWallet/status/1828184961960308832?t=0eIBBMnAY5feMTOlojFlSg&#x26;s=19">X post</a>)</td><td><mark style="color:orange;">Won't progress</mark> (<a href="https://x.com/FlintWallet/status/1828184961960308832?t=0eIBBMnAY5feMTOlojFlSg&#x26;s=19">X post</a>)</td></tr></tbody></table>
 
 **Hardware Wallets**
 
@@ -149,53 +149,45 @@ Wallet readiness is tracked against their integration against Cardano Node versi
 
 DApp and project readiness is tracked against self reported readiness. Although this hard fork will remain in the Conway era DApp developers should refer to the [release notes](https://github.com/IntersectMBO/cardano-node/releases) and confirm readiness for the intra-era hard fork.
 
-| Name          | Status |
-| ------------- | ------ |
-| Asda Finance  |        |
-| Astarter      |        |
-| Axo           |        |
-| Book.io       |        |
-| Cerra         |        |
-| Charli3       |        |
-| CherryLend    |        |
-| Clarity       |        |
-| Comment       |        |
-| Danogo        | Ready  |
-| DexHunter     |        |
-| Encoins       |        |
-| Fluid Tokens  | Ready  |
-| Genius Yield  | Ready  |
-| Iagon         |        |
-| JPG.Store     |        |
-| Lending Pond  |        |
-| Lenfi         |        |
-| Levvy Finance |        |
-| Moneta        |        |
-| MuseliSwap    |        |
-| MyUSD         |        |
-| NEWM          |        |
-| NMKR          |        |
-| Optim         |        |
-| Orcfax        |        |
-| Revuto        |        |
-| Rosenbridge   |        |
-| Saturn Swap   |        |
-| Snekdotfun    | Ready  |
-| Spectrum      |        |
-| Splash        | Ready  |
-| Summon        | Ready  |
-| Tempo         | Ready  |
-| TeddySwap     |        |
-| USDM          |        |
-| VyFinance     |        |
-| Wingriders    |        |
+| Name          | Status                                  |
+| ------------- | --------------------------------------- |
+| Asda Finance  |                                         |
+| Astarter      |                                         |
+| Axo           |                                         |
+| Book.io       |                                         |
+| Cerra         |                                         |
+| Charli3       |                                         |
+| CherryLend    |                                         |
+| Clarity       |                                         |
+| Comment       |                                         |
+| Danogo        | <mark style="color:green;">Ready</mark> |
+| DexHunter     |                                         |
+| Encoins       |                                         |
+| Fluid Tokens  | <mark style="color:green;">Ready</mark> |
+| Genius Yield  | <mark style="color:green;">Ready</mark> |
+| Iagon         |                                         |
+| JPG.Store     |                                         |
+| Lending Pond  |                                         |
+| Lenfi         |                                         |
+| Levvy Finance |                                         |
+| Moneta        |                                         |
+| MuseliSwap    |                                         |
+| MyUSD         |                                         |
+| NEWM          |                                         |
+| NMKR          |                                         |
+| Optim         |                                         |
+| Orcfax        |                                         |
+| Revuto        |                                         |
+| Rosenbridge   |                                         |
+| Saturn Swap   |                                         |
+| Snekdotfun    | <mark style="color:green;">Ready</mark> |
+| Spectrum      |                                         |
+| Splash        | <mark style="color:green;">Ready</mark> |
+| Summon        | <mark style="color:green;">Ready</mark> |
+| Tempo         | <mark style="color:green;">Ready</mark> |
+| TeddySwap     |                                         |
+| USDM          |                                         |
+| VyFinance     |                                         |
+| Wingriders    |                                         |
 
 ***
-
-{% hint style="info" %}
-The community is encouraged to participate in updating and maintaining the status’ and details contained within this ecosystem readiness page.
-
-You can do so by suggesting updates via this Intersect [GitHub documentation repository](https://github.com/IntersectMBO/hf-wg-documentation), a simple how to guide provided [here](../../).\
-\
-Alternatively, if you find any information on this page incorrect or misleading please email hard-fork@intersectmbo.org and request an update or correction.
-{% endhint %}
