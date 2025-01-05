@@ -11,7 +11,7 @@ Intersect and the hard fork working group plays the role of coordinator, as a fu
 {% endhint %}
 
 {% hint style="info" %}
-See anything missing or incorrect on this page? - please email **hard-fork@intersectmbo.org**  or raise an issue via [Github/HF-WG-Documentation](https://github.com/IntersectMBO/hf-wg-documentation/issues/new) (or pull request - [see how-to](https://github.com/IntersectMBO/hf-wg-documentation?tab=readme-ov-file#chang-2-updating-tooling-readiness))
+See anything missing or incorrect on this page? - please email **hard-fork@intersectmbo.org** or raise an issue via [Github/HF-WG-Documentation](https://github.com/IntersectMBO/hf-wg-documentation/issues/new) (or pull request - [see how-to](https://github.com/IntersectMBO/hf-wg-documentation?tab=readme-ov-file#chang-2-updating-tooling-readiness))
 {% endhint %}
 
 ## Core Infrastructure Components <a href="#core-infrastructure-components" id="core-infrastructure-components"></a>
@@ -123,7 +123,7 @@ Tooling readiness is supported from version Node 10.1.1 compatible releases. Whe
 
 **Higher Level Tooling**
 
-<table><thead><tr><th width="284">Tools</th><th width="214">Status</th><th>Notes</th></tr></thead><tbody><tr><td>Blockfrost</td><td><mark style="color:green;">Ready</mark></td><td>(<a href="https://github.com/blockfrost">repository</a>)</td></tr><tr><td>Koios</td><td><mark style="color:green;">Ready</mark></td><td>(<a href="https://github.com/cardano-community/koios-artifacts/releases">release repository</a>)</td></tr><tr><td>Maestro</td><td></td><td>(<a href="https://github.com/maestro-org">repository</a>)</td></tr></tbody></table>
+<table><thead><tr><th width="284">Tools</th><th width="214">Status</th><th>Notes</th></tr></thead><tbody><tr><td>Blockfrost</td><td><mark style="color:green;">Ready</mark></td><td>(<a href="https://github.com/blockfrost">repository</a>)</td></tr><tr><td>Koios</td><td><a href="https://cardanoscan.io/transactions?address=61ce86e21b7aec342cc3ee19dcf6538fbbabec4f1d07c0064a69df6c34"><mark style="color:green;">Ready</mark></a></td><td>(<a href="https://github.com/cardano-community/koios-artifacts/releases">release repository</a>)</td></tr><tr><td>Maestro</td><td><a href="https://cardanoscan.io/transactions?address=61ce86e21b7aec342cc3ee19dcf6538fbbabec4f1d07c0064a69df6c34"><mark style="color:green;">Ready</mark></a></td><td>(<a href="https://github.com/maestro-org">repository</a>)</td></tr></tbody></table>
 
 ***
 
