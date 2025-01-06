@@ -204,4 +204,8 @@ DApp and project readiness is tracked against self reported readiness. Although 
 | Wanchain      | <mark style="color:green;">Ready</mark> |
 | Wingriders    |                                         |
 
+{% hint style="info" %}
+Add more tooling and DApps to this page - please email **hard-fork@intersectmbo.org** or raise an issue via [Github/HF-WG-Documentation](https://github.com/IntersectMBO/hf-wg-documentation/issues/new) (or pull request - [see how-to](https://github.com/IntersectMBO/hf-wg-documentation?tab=readme-ov-file#chang-2-updating-tooling-readiness))
+{% endhint %}
+
 ***
