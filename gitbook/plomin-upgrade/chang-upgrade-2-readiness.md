@@ -189,6 +189,7 @@ DApp and project readiness is tracked against self reported readiness. Although 
 | TeddySwap     |                                         |
 | USDM          |                                         |
 | VyFinance     |                                         |
+| Wanchain      | <mark style="color:green;">Ready</mark> |
 | Wingriders    |                                         |
 
 ***
