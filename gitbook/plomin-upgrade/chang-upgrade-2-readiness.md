@@ -174,6 +174,7 @@ DApp and project readiness is tracked against self reported readiness. Although 
 | Comment       |                                         |
 | Danogo        | <mark style="color:green;">Ready</mark> |
 | DexHunter     |                                         |
+| DripDropz     | <mark style="color:green;">Ready</mark> |
 | Encoins       |                                         |
 | Fluid Tokens  | <mark style="color:green;">Ready</mark> |
 | Genius Yield  | <mark style="color:green;">Ready</mark> |
@@ -186,7 +187,7 @@ DApp and project readiness is tracked against self reported readiness. Although 
 | Moneta        |                                         |
 | MuesliSwap    |                                         |
 | MyUSD         |                                         |
-| NEWM          |                                         |
+| NEWM          | <mark style="color:green;">Ready</mark> |
 | NMKR          |                                         |
 | Optim         |                                         |
 | Orcfax        |                                         |
@@ -199,7 +200,7 @@ DApp and project readiness is tracked against self reported readiness. Although 
 | Summon        | <mark style="color:green;">Ready</mark> |
 | Tempo         | <mark style="color:green;">Ready</mark> |
 | TeddySwap     |                                         |
-| USDM          |                                         |
+| USDM          | <mark style="color:green;">Ready</mark> |
 | VyFinance     |                                         |
 | Wanchain      | <mark style="color:green;">Ready</mark> |
 | Wingriders    |                                         |
