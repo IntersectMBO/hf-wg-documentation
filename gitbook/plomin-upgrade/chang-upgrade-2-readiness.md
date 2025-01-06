@@ -105,6 +105,18 @@ Graph Showing Node Version adoption, up to 2025-01-03. [Via Markus](https://x.co
 
 ***
 
+### Exchanges
+
+Exchange readiness is tracked against the top exchanges by ADA liquidity (as reported by [Cexplorer/hfs](https://cexplorer.io/hfs)).
+
+For the latest info on _Exchanges by Liquidity_ please visit: [Cardanoscan](https://cardanoscan.io/changreadiness) (source) and [Cexplorer](https://cexplorer.io/hfs).
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+As of January 06th, 2025, 27% of exchange liquidity has been reported as Ready for Plomin hard fork.
+
+***
+
 ### Tooling
 
 Tooling readiness is supported from version Node 10.1.1 compatible releases. Where known release repositories have been added to the Notes section.
