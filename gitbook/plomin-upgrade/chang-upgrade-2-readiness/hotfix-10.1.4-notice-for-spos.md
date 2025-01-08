@@ -10,16 +10,16 @@ It is recommended that all node users, especially SPOs and relays upgrade to nod
 
 ***
 
-#### Actions for SPOs
+### Actions for SPOs
 
-1. Upgrade to Node 10.1.4\
-   We strongly recommend that all node users, especially SPOs and relays plan to update their environments to Node 10.1.4 , available now via the usual [cardano releases repository](https://github.com/IntersectMBO/cardano-node/releases/tag/10.1.4).&#x20;
-2. Verify system resources\
+1. **Upgrade to Node 10.1.4**\
+   We strongly recommend that all node users, especially SPOs and relays plan to update their environments to Node 10.1.4 , available now via the usual [Cardano releases repository. ](https://github.com/IntersectMBO/cardano-node/releases/tag/10.1.4)
+2. **Verify system resources**\
    Please ensure your node infrastructure, particularly CPU and memory resources, can handle both typical and peak activity levels. Adequate provisioning will help maintain uninterrupted block production if transaction volumes spike.
-3. No change to the HF timeline\
+3. **No change to the HF timeline**\
    This hotfix does not affect the governance schedule for the Plomin HF itself. Its goal is simply to reinforce stability following the planned hard fork.
 
-Next steps and getting help
+### **Next steps and getting help**
 
 Intersect’s Hard Fork Working Group continues to work closely with stakeholders to ensure a seamless transition. By upgrading to Node 10.1.4, SPOs play a crucial role in safeguarding the network and enabling a successful Plomin hard fork..
 
