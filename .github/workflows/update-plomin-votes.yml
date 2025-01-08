@@ -68,10 +68,12 @@ jobs:
         yes_stake_formatted=${{ env.yes_stake_formatted }}
         no_stake_formatted=${{ env.no_stake_formatted }}
         abstain_stake_formatted=${{ env.abstain_stake_formatted }}
+        current_datetime=$(date +"%Y-%m-%d %H:%M:%S")
 
         sed -i "s/| Yes     |.*|/| Yes     | $yes          | $yes_stake_formatted      |/" ./gitbook/plomin-upgrade/chang-upgrade-2-readiness/README.md
         sed -i "s/| No      |.*|/| No      | $no            | $no_stake_formatted       |/" ./gitbook/plomin-upgrade/chang-upgrade-2-readiness/README.md
         sed -i "s/| Abstain |.*|/| Abstain | $abstain       | $abstain_stake_formatted  |/" ./gitbook/plomin-upgrade/chang-upgrade-2-readiness/README.md
+        sed -i "s/SPO vote total last updated: .*/SPO vote total last updated: $current_datetime/" ./gitbook/plomin-upgrade/chang-upgrade-2-readiness/README.md
 
     - name: Commit and push changes
       run: |
