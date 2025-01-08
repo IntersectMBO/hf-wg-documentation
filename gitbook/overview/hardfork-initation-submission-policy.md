@@ -1,5 +1,7 @@
 ---
-description: This page shows the Hardfork working group's Hardfork Submission policy
+description: >-
+  This page shows the Hardfork Working Group's hardfork governance action
+  submission policy
 ---
 
 # Hardfork Initation Submission Policy
