@@ -2,6 +2,8 @@ name: Update SPO Vote Totals for Plomin Upgrade
 
 on:
   workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * *' 
 
 jobs:
   update-vote-totals:
