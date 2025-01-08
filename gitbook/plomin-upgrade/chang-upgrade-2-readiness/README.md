@@ -58,7 +58,7 @@ Signalling readiness is important, this allows the on-chain governance, SPOs and
 
 The community is encouraged to participate in updating and maintaining the status’ and details contained within this ecosystem readiness page.
 
-You can do so by suggesting updates via this Intersect [GitHub documentation repository](https://github.com/IntersectMBO/hf-wg-documentation), a simple how to guide provided [here](../../).\
+You can do so by suggesting updates via this Intersect [GitHub documentation repository](https://github.com/IntersectMBO/hf-wg-documentation), a simple how to guide provided [here](../../../).\
 \
 Alternatively, if you find any information on this page incorrect or misleading please email: hard-fork@intersectmbo.org and request an update or correction.
 
@@ -94,14 +94,14 @@ Metadata for all Intersect governance actions can be found here on the [Intersec
 
 Stake pool operators should upgrade to a supported mainnet node 10.1 version in readiness for the hard fork. Below we compare the prevalence of Cardano blocks created by Node versions.
 
-<figure><img src="../.gitbook/assets/Screenshot 2025-01-03 at 15.20.56.png" alt=""><figcaption><p>Block production version metrics via <a href="https://pooltool.io/networkhealth">PoolTool.io</a></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2025-01-03 at 15.20.56.png" alt=""><figcaption><p>Block production version metrics via <a href="https://pooltool.io/networkhealth">PoolTool.io</a></p></figcaption></figure>
 
 As of January 3rd, 2025, 79% of blocks created on mainnet where created using node 10.1+ version (updated to state the 10.1 version now required for mainnet hard fork).\
 Live data can be seen via [Cardano explorers](https://explorer.cardano.org/) such as [Pooltool.io](https://pooltool.io/networkhealth)
 
 Graph Showing Node Version adoption, up to 2025-01-07. [Via Markus](https://x.com/C1cADA_Markus/status/1867100795709141113/photo/1) on X ([@C1cADA\_Markus](https://x.com/C1cADA_Markus)).
 
-<figure><img src="../.gitbook/assets/node-versions_2025-01-07.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/node-versions_2025-01-07.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -111,7 +111,7 @@ Exchange readiness is tracked against the top exchanges by ADA liquidity (as rep
 
 For the latest info on _Exchanges by Liquidity_ please visit: [Cardanoscan](https://cardanoscan.io/changreadiness) (source) and [Cexplorer](https://cexplorer.io/hfs).
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 As of January 06th, 2025, 27% of exchange liquidity has been reported as Ready for Plomin hard fork.
 
@@ -215,10 +215,8 @@ SPO vote totals
 
 | Vote    | Total Number | Total Stake |
 | ------- | ------------ | ----------- |
-| Yes     | 289          | 4.68b      |
-| No      | 3            | 58.44m       |
-| Abstain | 1       | 39.00m  |
-
-
+| Yes     | 289          | 4.68b       |
+| No      | 3            | 58.44m      |
+| Abstain | 1            | 39.00m      |
 
 ***

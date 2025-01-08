@@ -7,7 +7,8 @@
 ## Plomin Upgrade
 
 * [Plomin upgrade overview](plomin-upgrade/chang-upgrade-2-overview.md)
-* [Plomin upgrade readiness](plomin-upgrade/chang-upgrade-2-readiness.md)
+* [Plomin upgrade readiness](plomin-upgrade/chang-upgrade-2-readiness/README.md)
+  * [Hotfix 10.1.4 - notice for SPOs](plomin-upgrade/chang-upgrade-2-readiness/hotfix-10.1.4-notice-for-spos.md)
 * [Plomin upgrade governance action FAQ](plomin-upgrade/chang-upgrade-2-governance-action-faq.md)
 
 ## Chang Upgrade #1
