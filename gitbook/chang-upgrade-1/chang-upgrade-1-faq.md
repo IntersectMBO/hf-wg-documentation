@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Chang Upgrade #1 FAQ
 
 {% hint style="info" %}

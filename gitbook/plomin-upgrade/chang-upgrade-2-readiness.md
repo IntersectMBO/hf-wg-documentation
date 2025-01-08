@@ -209,4 +209,16 @@ DApp and project readiness is tracked against self reported readiness. Although 
 Add more tooling and DApps to this page - please email **hard-fork@intersectmbo.org** or raise an issue via [Github/HF-WG-Documentation](https://github.com/IntersectMBO/hf-wg-documentation/issues/new) (or pull request - [see how-to](https://github.com/IntersectMBO/hf-wg-documentation?tab=readme-ov-file#chang-2-updating-tooling-readiness))
 {% endhint %}
 
+## Votes
+
+SPO vote totals
+
+| Vote    | Total Number | Total Stake |
+| ------- | ------------ | ----------- |
+| Yes     | 289          | ₳4.71b      |
+| No      | 2            | ₳57.78m     |
+| Abstain | 1            | ₳38.96m     |
+
+
+
 ***

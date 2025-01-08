@@ -20,6 +20,6 @@ It is suggested that you bookmark this space and regularly refer back as new upg
 
 **Completed upgrades**
 
-| Name                                                            |
-| --------------------------------------------------------------- |
-| [Chang upgrade #1](chang-upgrade-1/chang-upgrade-1-overview.md) |
+| Name             |
+| ---------------- |
+| Chang upgrade #1 |

@@ -2,6 +2,7 @@
 description: >-
   This page outlines the engineering and ecosystem readiness for the Chang
   hardfork.
+hidden: true
 ---
 
 # Chang Upgrade #1 readiness
@@ -158,7 +159,7 @@ Last updated; 2024-08-30
 
 DApp and project readiness is tracked against self reported readiness, dApp developers do need to prepare as Conway will change costing around the use of reference scripts.
 
-_Please see_ [_Ref Script Cost Calculator_](https://docs.google.com/spreadsheets/d/1KFJCCbkDE5GaghlD4rDXB12pqLKnDFUNOKi0WErp\_-Q/edit?gid=0#gid=0) _from IOG Core Team._
+_Please see_ [_Ref Script Cost Calculator_](https://docs.google.com/spreadsheets/d/1KFJCCbkDE5GaghlD4rDXB12pqLKnDFUNOKi0WErp_-Q/edit?gid=0#gid=0) _from IOG Core Team._
 
 {% hint style="info" %}
 High-level status: <mark style="color:orange;">**In Progress**</mark>

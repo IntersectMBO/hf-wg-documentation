@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Chang Upgrade #1 lessons learned
 
 The Chang upgrade #1 was a critical step in Cardano's journey toward decentralized governance. It laid the foundation for on-chain governance and launched the technical bootstrapping phase of CIP-1694. Coordinated by the hard fork working group, in collaboration with the community and ecosystem partners like CF and IOI the hard fork was executed smoothly. This lessons learned report reflects on the key successes and challenges during the Chang #1 upgrade and identifies areas for improvement as we look ahead.
@@ -74,8 +78,7 @@ Late changes to critical components, such as CDDL and governance tools, should b
 
 **Better alignment on tools and updates:**
 
-Ensuring everyone uses the same versions of tools and updates is crucial. Consistent communication about updates will help developers stay informed.\
-
+Ensuring everyone uses the same versions of tools and updates is crucial. Consistent communication about updates will help developers stay informed.\\
 
 ## Actions for moving forward
 
@@ -101,6 +104,5 @@ Ensuring everyone uses the same versions of tools and updates is crucial. Consis
 
 Chang upgrade #1 was a major success for the Cardano ecosystem, but there are key areas for improvement as we look toward Chang upgrade #2, where practically possible these lessons learned will be implemented. By strengthening communication, improving engagement with developers and DApps, and ensuring readiness across the network, Cardano can continue its journey toward a fully decentralized governance model.
 
-
 \
-\
+\\
