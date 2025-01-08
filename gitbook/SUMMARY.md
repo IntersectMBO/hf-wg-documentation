@@ -3,6 +3,7 @@
 ## Overview
 
 * [Overview](README.md)
+* [Hardfork Initation Submission Policy](overview/hardfork-initation-submission-policy.md)
 
 ## Plomin Upgrade
 
