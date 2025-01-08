@@ -10,6 +10,14 @@ The first iteration of this policy was developed and then followed by the workin
 
 The policy is maintained via the [hf-wg-documentation/policies](../../policies/hardfork-submission-criteria.md#mainnet-hardfork-initiation-governance-action-submission-criteria) repository. We copy-paste the policy here for convenience.
 
+{% hint style="warning" %}
+To provide feedback on the policy you can
+
+* Email **hard-fork@intersectmbo.org**
+* Raise an issue via [Github/HF-WG-Documentation](https://github.com/IntersectMBO/hf-wg-documentation/issues/new) (or pull request - [see how-to](https://github.com/IntersectMBO/hf-wg-documentation?tab=readme-ov-file#chang-2-updating-tooling-readiness))
+* Request to join the working group by emailing your interest **hard-fork@intersectmbo.org**.
+{% endhint %}
+
 ## Mainnet Hardfork Initiation Governance Action Submission Criteria
 
 Version: `0.1`
