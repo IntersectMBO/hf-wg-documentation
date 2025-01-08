@@ -215,9 +215,9 @@ SPO vote totals
 
 | Vote    | Total Number | Total Stake |
 | ------- | ------------ | ----------- |
-| Yes     | 289          | ₳4.71b      |
-| No      | 2            | ₳57.78m     |
-| Abstain | 1            | ₳38.96m     |
+| Yes     | 289          | 4.68b      |
+| No      | 3            | 58.44m       |
+| Abstain | 1       | 39.00m  |
 
 
 
