@@ -79,6 +79,18 @@ Graph Showing Node Version adoption, up to 2025-01-07. [Via Markus](https://x.co
 
 <figure><img src="../../.gitbook/assets/node-versions_2025-01-07.png" alt=""><figcaption></figcaption></figure>
 
+#### Vote Totals
+
+Below is SPO vote totals for the Plomin Hardfork Initiation governance action, data provided via [Koios](https://koios.rest/).
+
+|   Vote  | Total Number | Total Stake |
+| :-----: | :----------: | :---------: |
+|   Yes   |      289     |    4.68b    |
+|    No   |       3      |    58.44m   |
+| Abstain |       1      |    39.00m   |
+
+SPO vote total last updated: 2024-01-08 00 14:00:00
+
 ***
 
 ### Exchanges
@@ -184,15 +196,5 @@ DApp and project readiness is tracked against self reported readiness. Although 
 {% hint style="info" %}
 Add more tooling and DApps to this page - please email **hard-fork@intersectmbo.org** or raise an issue via [Github/HF-WG-Documentation](https://github.com/IntersectMBO/hf-wg-documentation/issues/new) (or pull request - [see how-to](https://github.com/IntersectMBO/hf-wg-documentation?tab=readme-ov-file#chang-2-updating-tooling-readiness))
 {% endhint %}
-
-## Votes
-
-SPO vote totals
-
-| Vote    | Total Number | Total Stake |
-| ------- | ------------ | ----------- |
-| Yes     | 289          | 4.68b       |
-| No      | 3            | 58.44m      |
-| Abstain | 1            | 39.00m      |
 
 ***
