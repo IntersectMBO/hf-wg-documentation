@@ -1,0 +1,83 @@
+name: Update SPO Vote Totals for Plomin Upgrade
+
+on:
+  workflow_dispatch:
+
+jobs:
+  update-vote-totals:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Query koios for vote totals
+      id: query_api
+      run: |
+        curl -s -o vote_totals.json "https://api.koios.rest/api/v1/proposal_voting_summary?_proposal_id=gov_action1pvv5wmjqhwa4u85vu9f4ydmzu2mgt8n7et967ph2urhx53r70xusqnmm525"
+
+    - name: Parse API response, format data
+      id: parse_response
+      run: |
+        response=$(cat vote_totals.json)
+        yes=$(echo "$response" | jq -r '.[0].pool_yes_votes_cast')
+        no=$(echo "$response" | jq -r '.[0].pool_no_votes_cast')
+        abstain=$(echo "$response" | jq -r '.[0].pool_abstain_votes_cast')
+
+        yes_stake=$(echo "$response" | jq -r '.[0].pool_active_yes_vote_power')
+        no_stake=$(echo "$response" | jq -r '.[0].pool_active_no_vote_power')
+        abstain_stake=$(echo "$response" | jq -r '.[0].pool_active_abstain_vote_power')
+
+        format_stake() {
+          num=$1
+          num=$(echo "$num" | sed 's/.\{6\}$//') # Remove the 6 rightmost digits
+          if [ "$num" -ge 1000000000 ]; then
+            echo "$(bc <<< "scale=2; $num/1000000000")b"
+          elif [ "$num" -ge 1000000 ]; then
+            echo "$(bc <<< "scale=2; $num/1000000")m"
+          else
+            echo "$num"
+          fi
+        }
+
+        yes_stake_formatted=$(format_stake $yes_stake)
+        no_stake_formatted=$(format_stake $no_stake)
+        abstain_stake_formatted=$(format_stake $abstain_stake)
+
+        echo "yes=$yes" >> $GITHUB_ENV
+        echo "no=$no" >> $GITHUB_ENV
+        echo "abstain=$abstain" >> $GITHUB_ENV
+        echo "yes_stake_formatted=$yes_stake_formatted" >> $GITHUB_ENV
+        echo "no_stake_formatted=$no_stake_formatted" >> $GITHUB_ENV
+        echo "abstain_stake_formatted=$abstain_stake_formatted" >> $GITHUB_ENV
+
+        echo "Yes votes: $yes"
+        echo "No votes: $no"
+        echo "Abstain votes: $abstain"
+        echo "Yes stake: $yes_stake_formatted"
+        echo "No stake: $no_stake_formatted"
+        echo "Abstain stake: $abstain_stake_formatted"
+
+    - name: Update page
+      run: |
+        yes=${{ env.yes }}
+        no=${{ env.no }}
+        abstain=${{ env.abstain }}
+        yes_stake_formatted=${{ env.yes_stake_formatted }}
+        no_stake_formatted=${{ env.no_stake_formatted }}
+        abstain_stake_formatted=${{ env.abstain_stake_formatted }}
+
+        sed -i "s/| Yes     |.*|/| Yes     | $yes          | $yes_stake_formatted      |/" ./gitbook/plomin-upgrade/chang-upgrade-2-readiness.md
+        sed -i "s/| No      |.*|/| No      | $no            | $no_stake_formatted       |/" ./gitbook/plomin-upgrade/chang-upgrade-2-readiness.md
+        sed -i "s/| Abstain |.*|/| Abstain | $abstain       | $abstain_stake_formatted  |/" ./gitbook/plomin-upgrade/chang-upgrade-2-readiness.md
+
+    - name: Commit and push changes
+      run: |
+        git config --global user.name 'github-actions[bot]'
+        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+        git stash
+        git pull --rebase origin main
+        git stash pop
+        git add ./gitbook/plomin-upgrade/chang-upgrade-2-readiness.md
+        git commit -m "Update vote totals"
+        git push origin HEAD:main
