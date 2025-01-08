@@ -69,9 +69,9 @@ jobs:
         no_stake_formatted=${{ env.no_stake_formatted }}
         abstain_stake_formatted=${{ env.abstain_stake_formatted }}
 
-        sed -i "s/| Yes     |.*|/| Yes     | $yes          | $yes_stake_formatted      |/" ./gitbook/plomin-upgrade/chang-upgrade-2-readiness.md
-        sed -i "s/| No      |.*|/| No      | $no            | $no_stake_formatted       |/" ./gitbook/plomin-upgrade/chang-upgrade-2-readiness.md
-        sed -i "s/| Abstain |.*|/| Abstain | $abstain       | $abstain_stake_formatted  |/" ./gitbook/plomin-upgrade/chang-upgrade-2-readiness.md
+        sed -i "s/| Yes     |.*|/| Yes     | $yes          | $yes_stake_formatted      |/" ./gitbook/plomin-upgrade/chang-upgrade-2-readiness/README.md
+        sed -i "s/| No      |.*|/| No      | $no            | $no_stake_formatted       |/" ./gitbook/plomin-upgrade/chang-upgrade-2-readiness/README.md
+        sed -i "s/| Abstain |.*|/| Abstain | $abstain       | $abstain_stake_formatted  |/" ./gitbook/plomin-upgrade/chang-upgrade-2-readiness/README.md
 
     - name: Commit and push changes
       run: |
@@ -80,6 +80,6 @@ jobs:
         git stash
         git pull --rebase origin main
         git stash pop
-        git add ./gitbook/plomin-upgrade/chang-upgrade-2-readiness.md
+        git add ./gitbook/plomin-upgrade/chang-upgrade-2-readiness/README.md
         git commit -m "Update vote totals"
         git push origin HEAD:main
