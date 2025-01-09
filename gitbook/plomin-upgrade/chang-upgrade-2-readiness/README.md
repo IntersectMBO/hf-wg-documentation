@@ -76,11 +76,15 @@ Below is SPO vote totals for the Plomin Hardfork Initiation governance action, d
 
 **Summary**
 
+The stake pool vote threshold to reach is 51% of total stake to vote yes.
+
 |                | Percentage of stake |
 | -------------- | ------------------- |
 | Yes            | 27.4%               |
 | No + Not Voted | 77.1%               |
 | Abstaining     | 0.18%               |
+
+SPO vote summary last updated: 2025-01-09 17:32:22
 
 **Details**
 
@@ -91,6 +95,8 @@ SPO vote total last updated: 2025-01-09 17:32:22
 #### Interim Constitutional Committee
 
 Below is ICC vote totals for the Plomin Hardfork Initiation governance action, data provided via [Koios](https://koios.rest/).
+
+The constitutional committee vote threshold to reach is 5 out of 7 constitutional votes (> 66.6%).
 
 |       Vote       | Total | Percentage |
 | :--------------: | :---: | :--------: |
