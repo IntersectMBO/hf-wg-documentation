@@ -78,9 +78,9 @@ Below is SPO vote totals for the Plomin Hardfork Initiation governance action, d
 | :-----: | :----------: | :---------------------: |
 |   Yes   |      289     |          4.68b          |
 |    No   |       3      |          58.44m         |
-| Abstain |       1      |          39.00m         |
+| Abstain | 1       | 39.00m  |
 
-SPO vote total last updated: 2025-01-09 16:56:10
+SPO vote total last updated: 2025-01-09 17:30:24
 
 #### Interim Constitutional Committee
 
@@ -89,11 +89,11 @@ Below is ICC vote totals for the Plomin Hardfork Initiation governance action, d
 |       Vote       | Total |
 | :--------------: | :---: |
 |  Constitutional  |   0   |
-| Unconstitutional |   0   |
+| Unconstitutional | 0 |
 |      Abstain     |   0   |
 |     Not voted    |   7   |
 
-ICC vote total last updated: 2025-01-09 16:56:10
+ICC vote total last updated: 2025-01-09 17:30:24
 
 ***
 
