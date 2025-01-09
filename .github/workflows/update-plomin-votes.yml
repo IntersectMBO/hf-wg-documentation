@@ -36,7 +36,7 @@ jobs:
         spo_yes=$(echo "$response" | jq -r '.[0].pool_yes_votes_cast')
         spo_no=$(echo "$response" | jq -r '.[0].pool_no_votes_cast')
         spo_abstain=$(echo "$response" | jq -r '.[0].pool_abstain_votes_cast')
-        spo_not_voted=$(2787 - $spo_yes - $spo_no - $spo_abstain)
+        spo_not_voted=$((2787 - spo_yes - spo_no - spo_abstain))
 
         spo_yes_stake=$(echo "$response" | jq -r '.[0].pool_active_yes_vote_power')
         spo_no_stake=$(echo "$response" | jq -r '.[0].pool_active_no_vote_power')
