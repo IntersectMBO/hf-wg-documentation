@@ -1,4 +1,4 @@
-name: Update SPO Vote Totals for Plomin Upgrade
+name: Update SPO and ICC Vote Totals for Plomin Upgrade
 
 on:
   workflow_dispatch:
@@ -26,6 +26,7 @@ jobs:
         cc_yes=$(echo "$response" | jq -r '.[0].committee_yes_votes_cast')
         cc_no=$(echo "$response" | jq -r '.[0].committee_no_votes_cast')
         cc_abstain=$(echo "$response" | jq -r '.[0].committee_abstain_votes_cast')
+        cc_not_voted=$((7 - cc_yes - cc_no - cc_abstain))
 
         spo_yes=$(echo "$response" | jq -r '.[0].pool_yes_votes_cast')
         spo_no=$(echo "$response" | jq -r '.[0].pool_no_votes_cast')
@@ -54,6 +55,7 @@ jobs:
         echo "cc_yes=$cc_yes" >> $GITHUB_ENV
         echo "cc_no=$cc_no" >> $GITHUB_ENV
         echo "cc_abstain=$cc_abstain" >> $GITHUB_ENV
+        echo "cc_not_voted=$cc_not_voted" >> $GITHUB_ENV
 
         echo "spo_yes=$spo_yes" >> $GITHUB_ENV
         echo "spo_no=$spo_no" >> $GITHUB_ENV
@@ -62,15 +64,12 @@ jobs:
         echo "spo_no_stake_formatted=$spo_no_stake_formatted" >> $GITHUB_ENV
         echo "spo_abstain_stake_formatted=$spo_abstain_stake_formatted" >> $GITHUB_ENV
 
-        echo "CC Yes votes: $cc_yes"
-        echo "CC No votes: $cc_no"
-        echo "CC Abstain votes: $cc_abstain"
-
     - name: Update page
       run: |
         cc_yes=${{ env.cc_yes }}
         cc_no=${{ env.cc_no }}
         cc_abstain=${{ env.cc_abstain }}
+        cc_not_voted=${{ env.cc_not_voted }}
 
         spo_yes=${{ env.spo_yes }}
         spo_no=${{ env.spo_no }}
@@ -78,11 +77,13 @@ jobs:
         spo_yes_stake_formatted=${{ env.spo_yes_stake_formatted }}
         spo_no_stake_formatted=${{ env.spo_no_stake_formatted }}
         spo_abstain_stake_formatted=${{ env.spo_abstain_stake_formatted }}
+
         current_datetime=$(date +"%Y-%m-%d %H:%M:%S")
 
         sed -i "s/| Constitutional  |.*|/| Constitutional  | $cc_yes |/" ./gitbook/plomin-upgrade/chang-upgrade-2-readiness/README.md
         sed -i "s/| Unconstitutional |.*|/| Unconstitutional | $cc_no |/" ./gitbook/plomin-upgrade/chang-upgrade-2-readiness/README.md
         sed -i "s/| Abstain     |.*|/| Abstain     | $cc_abstain |/" ./gitbook/plomin-upgrade/chang-upgrade-2-readiness/README.md
+        sed -i "s/| Not voted    |.*|/| Not voted    | $cc_not_voted |/" ./gitbook/plomin-upgrade/chang-upgrade-2-readiness/README.md
         sed -i "s/ICC vote total last updated: .*/ICC vote total last updated: $current_datetime/" ./gitbook/plomin-upgrade/chang-upgrade-2-readiness/README.md
 
         sed -i "s/| Yes     |.*|/| Yes     | $spo_yes          | $spo_yes_stake_formatted      |/" ./gitbook/plomin-upgrade/chang-upgrade-2-readiness/README.md
@@ -98,5 +99,5 @@ jobs:
         git pull --rebase origin main
         git stash pop
         git add ./gitbook/plomin-upgrade/chang-upgrade-2-readiness/README.md
-        git commit -m "Update vote totals"
+        git commit -m "Update Plomin readiness vote totals"
         git push origin HEAD:main
