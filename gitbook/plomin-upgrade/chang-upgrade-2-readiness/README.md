@@ -70,11 +70,21 @@ Metadata for all Intersect governance actions can be found here on the [Intersec
 
 ### Plomin Hardfork Action Vote Totals
 
-SPOs
+Stake Pool Operators
 
 Below is SPO vote totals for the Plomin Hardfork Initiation governance action, data provided via [Koios](https://koios.rest/).
 
-<table><thead><tr><th align="center">Vote</th><th width="143" align="center">Number</th><th align="center">Stake Represented</th><th align="center">Percentage</th></tr></thead><tbody><tr><td align="center">Yes</td><td align="center">289</td><td align="center">4.68b</td><td align="center">27.4%</td></tr><tr><td align="center">No</td><td align="center">3</td><td align="center">58.44m</td><td align="center">0%</td></tr><tr><td align="center">Abstain</td><td align="center">1</td><td align="center">39.00m</td><td align="center">0.1%</td></tr><tr><td align="center">Not voted</td><td align="center">2787</td><td align="center">21.8b</td><td align="center">0%</td></tr></tbody></table>
+**Summary**
+
+|                | Percentage of stake |
+| -------------- | ------------------- |
+| Yes            | 27.4%               |
+| No + Not Voted | 77.1%               |
+| Abstaining     | 0.18%               |
+
+**Details**
+
+<table><thead><tr><th align="center">Vote</th><th width="143" align="center">Number</th><th align="center">Stake Represented</th></tr></thead><tbody><tr><td align="center">Yes</td><td align="center">289</td><td align="center">4.68b</td></tr><tr><td align="center">No</td><td align="center">3</td><td align="center">58.44m</td></tr><tr><td align="center">Abstain</td><td align="center">1</td><td align="center">39.00m</td></tr><tr><td align="center">Not voted</td><td align="center">2787</td><td align="center">21.8b</td></tr></tbody></table>
 
 SPO vote total last updated: 2025-01-09 17:32:22
 
