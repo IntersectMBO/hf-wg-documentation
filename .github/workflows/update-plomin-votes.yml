@@ -95,8 +95,8 @@ jobs:
         git config --global user.name 'github-actions[bot]'
         git config --global user.email 'github-actions[bot]@users.noreply.github.com'
         git stash
-        git pull --rebase origin test-workflow-branch
+        git pull --rebase origin main
         git stash pop
         git add ./gitbook/plomin-upgrade/chang-upgrade-2-readiness/README.md
         git commit -m "Update vote totals"
-        git push origin HEAD:test-workflow-branch
+        git push origin HEAD:main
