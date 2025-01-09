@@ -155,7 +155,7 @@ DApp and project readiness is tracked against self reported readiness. Although 
 | ------------- | --------------------------------------- |
 | Asda Finance  |                                         |
 | Astarter      |                                         |
-| Axo           |                                         |
+| Axo           | <mark style="color:green;">Ready</mark> |
 | Book.io       |                                         |
 | Cerra         |                                         |
 | Charli3       |                                         |
