@@ -89,7 +89,7 @@ Below is SPO vote totals for the Plomin Hardfork Initiation governance action, d
 |    No   |       3      |    58.44m   |
 | Abstain | 1       | 39.00m  |
 
-SPO vote total last updated: 2025-01-08 14:22:02
+SPO vote total last updated: 2025-01-09 00:09:08
 
 ***
 
