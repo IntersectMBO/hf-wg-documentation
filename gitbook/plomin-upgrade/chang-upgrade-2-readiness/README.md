@@ -74,11 +74,7 @@ SPOs
 
 Below is SPO vote totals for the Plomin Hardfork Initiation governance action, data provided via [Koios](https://koios.rest/).
 
-|   Vote  | Total Number | Total Stake Represented |
-| :-----: | :----------: | :---------------------: |
-|   Yes   |      289     |          4.68b          |
-|    No   |       3      |          58.44m         |
-| Abstain | 1       | 39.00m  |
+<table><thead><tr><th align="center">Vote</th><th width="143" align="center">Number</th><th align="center">Stake Represented</th><th align="center">Percentage</th></tr></thead><tbody><tr><td align="center">Yes</td><td align="center">289</td><td align="center">4.68b</td><td align="center">27.4%</td></tr><tr><td align="center">No</td><td align="center">3</td><td align="center">58.44m</td><td align="center">0%</td></tr><tr><td align="center">Abstain</td><td align="center">1</td><td align="center">39.00m</td><td align="center">0.1%</td></tr><tr><td align="center">Not voted</td><td align="center">2787</td><td align="center">21.8b</td><td align="center">0%</td></tr></tbody></table>
 
 SPO vote total last updated: 2025-01-09 17:32:22
 
@@ -86,12 +82,12 @@ SPO vote total last updated: 2025-01-09 17:32:22
 
 Below is ICC vote totals for the Plomin Hardfork Initiation governance action, data provided via [Koios](https://koios.rest/).
 
-|       Vote       | Total |
-| :--------------: | :---: |
-|  Constitutional  |   0   |
-| Unconstitutional | 0 |
-|      Abstain     |   0   |
-|     Not voted    |   7   |
+|       Vote       | Total | Percentage |
+| :--------------: | :---: | :--------: |
+|  Constitutional  |   0   |     0%     |
+| Unconstitutional |   0   |     0%     |
+|      Abstain     |   0   |     0%     |
+|     Not voted    |   7   |    100%    |
 
 ICC vote total last updated: 2025-01-09 17:32:22
 
