@@ -28,13 +28,23 @@ jobs:
         cc_abstain=$(echo "$response" | jq -r '.[0].committee_abstain_votes_cast')
         cc_not_voted=$((7 - cc_yes - cc_no - cc_abstain))
 
+        cc_yes_pct=$(echo "$response" | jq -r '.[0].committee_yes_pct')
+        cc_no_pct=$(echo "$response" | jq -r '.[0].committee_no_pct')
+        cc_abstain_pct=$(100 / 7 * $cc_abstain)
+        cc_not_voted_pct=$((100 - cc_yes_pct - cc_no_pct - cc_abstain_pct))
+
         spo_yes=$(echo "$response" | jq -r '.[0].pool_yes_votes_cast')
         spo_no=$(echo "$response" | jq -r '.[0].pool_no_votes_cast')
         spo_abstain=$(echo "$response" | jq -r '.[0].pool_abstain_votes_cast')
+        spo_not_voted=$((2787 - spo_yes - spo_no - spo_abstain))
 
         spo_yes_stake=$(echo "$response" | jq -r '.[0].pool_active_yes_vote_power')
         spo_no_stake=$(echo "$response" | jq -r '.[0].pool_active_no_vote_power')
         spo_abstain_stake=$(echo "$response" | jq -r '.[0].pool_active_abstain_vote_power')
+        spo_not_voted_stake=21800000000000000
+
+        spo_yes_pct=$(echo "$response" | jq -r '.[0].pool_yes_pct')
+        spo_no_pct=$(echo "$response" | jq -r '.[0].pool_no_pct')
 
         format_stake() {
           num=$1
