@@ -103,7 +103,7 @@ For the latest info on _Exchanges by Liquidity_ please visit: [Cardanoscan](http
 
 <figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-As of January 06th, 2025, 27% of exchange liquidity has been reported as Ready for Plomin hard fork.
+As of January 09th, 2025, 32% of exchange liquidity has been reported as Ready for Plomin hard fork.
 
 ***
 
