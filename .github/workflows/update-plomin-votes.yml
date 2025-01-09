@@ -26,6 +26,7 @@ jobs:
         cc_yes=$(echo "$response" | jq -r '.[0].committee_yes_votes_cast')
         cc_no=$(echo "$response" | jq -r '.[0].committee_no_votes_cast')
         cc_abstain=$(echo "$response" | jq -r '.[0].committee_abstain_votes_cast')
+        cc_not_voted=7 - ($cc_yes+$cc_no+$cc_abstain)
 
         spo_yes=$(echo "$response" | jq -r '.[0].pool_yes_votes_cast')
         spo_no=$(echo "$response" | jq -r '.[0].pool_no_votes_cast')
@@ -83,6 +84,7 @@ jobs:
         sed -i "s/| Constitutional  |.*|/| Constitutional  | $cc_yes |/" ./gitbook/plomin-upgrade/chang-upgrade-2-readiness/README.md
         sed -i "s/| Unconstitutional |.*|/| Unconstitutional | $cc_no |/" ./gitbook/plomin-upgrade/chang-upgrade-2-readiness/README.md
         sed -i "s/| Abstain     |.*|/| Abstain     | $cc_abstain |/" ./gitbook/plomin-upgrade/chang-upgrade-2-readiness/README.md
+        
         sed -i "s/ICC vote total last updated: .*/ICC vote total last updated: $current_datetime/" ./gitbook/plomin-upgrade/chang-upgrade-2-readiness/README.md
 
         sed -i "s/| Yes     |.*|/| Yes     | $spo_yes          | $spo_yes_stake_formatted      |/" ./gitbook/plomin-upgrade/chang-upgrade-2-readiness/README.md
