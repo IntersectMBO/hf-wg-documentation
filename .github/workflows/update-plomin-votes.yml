@@ -86,6 +86,19 @@ jobs:
         echo "spo_yes_pct=$spo_yes_pct" >> $GITHUB_ENV
         echo "spo_no_not_pct=$spo_no_not_pct" >> $GITHUB_ENV
 
+        echo "spo_yes=$spo_yes"
+        echo "spo_no=$spo_no"
+        echo "spo_abstain=$spo_abstain"
+        echo "spo_not_voted=$spo_not_voted"
+
+        echo "spo_yes_stake_formatted=$spo_yes_stake_formatted"
+        echo "spo_no_stake_formatted=$spo_no_stake_formatted"
+        echo "spo_abstain_stake_formatted=$spo_abstain_stake_formatted"
+        echo "spo_not_voted_stake_formatted=$spo_not_voted_stake_formatted"
+
+        echo "spo_yes_pct=$spo_yes_pct"
+        echo "spo_no_not_pct=$spo_no_not_pct"
+
     - name: Update page
       run: |
         cc_yes=${{ env.cc_yes }}
@@ -116,7 +129,7 @@ jobs:
         sed -i "s/SPO vote summary last updated: .*/SPO vote summary last updated: $current_datetime/" ./gitbook/plomin-upgrade/chang-upgrade-2-readiness/README.md
 
         sed -i "s/| Yes     |.*|/| Yes     | $spo_yes          | $spo_yes_stake_formatted      |/" ./gitbook/plomin-upgrade/chang-upgrade-2-readiness/README.md
-        sed -i "s/| No      |.*|/| No      | $no            | $spo_no_stake_formatted       |/" ./gitbook/plomin-upgrade/chang-upgrade-2-readiness/README.md
+        sed -i "s/| No      |.*|/| No      | $spo_no            | $spo_no_stake_formatted       |/" ./gitbook/plomin-upgrade/chang-upgrade-2-readiness/README.md
         sed -i "s/| Abstain |.*|/| Abstain | $spo_abstain       | $spo_abstain_stake_formatted  |/" ./gitbook/plomin-upgrade/chang-upgrade-2-readiness/README.md
         sed -i "s/| Not Voted |.*|/| Not Voted | $spo_not_voted       | $spo_not_voted_stake_formatted  |/" ./gitbook/plomin-upgrade/chang-upgrade-2-readiness/README.md
         sed -i "s/SPO vote total last updated: .*/SPO vote total last updated: $current_datetime/" ./gitbook/plomin-upgrade/chang-upgrade-2-readiness/README.md
