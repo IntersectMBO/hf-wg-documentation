@@ -80,10 +80,10 @@ The stake pool vote threshold to reach is 51% of total stake to vote yes.
 
 |                | Percentage of stake |
 | -------------- | ------------------- |
-| Yes            | 25%                 |
-| No + Not Voted | 75%                 |
+| Yes            | %               |
+| No + Not Voted | %               |
 
-SPO vote summary last updated: 2025-01-09 20:42:56
+SPO vote summary last updated: 2025-01-09 20:51:15
 
 **Details**
 
@@ -92,9 +92,9 @@ SPO vote summary last updated: 2025-01-09 20:42:56
 |    Yes    |      289     |          4.68b          |
 |     No    |       3      |          58.44m         |
 |  Abstain  |       1      |          39.00m         |
-| Not Voted |      100     |          15.76b         |
+| Not Voted |        | 15.76b  |
 
-SPO vote total last updated: 2025-01-09 20:42:56
+SPO vote total last updated: 2025-01-09 20:51:15
 
 #### Interim Constitutional Committee
 
@@ -105,11 +105,11 @@ The constitutional committee vote threshold to reach is 5 out of 7 constitutiona
 |       Vote       | Total | Percentage |
 | :--------------: | :---: | :--------: |
 |  Constitutional  |   0   |     0%     |
-| Unconstitutional |   0   |    100%    |
+| Unconstitutional | 0 | 100% |
 |      Abstain     |   0   |     0%     |
 |     Not voted    |   7   |    100%    |
 
-ICC vote total last updated: 2025-01-09 20:42:56
+ICC vote total last updated: 2025-01-09 20:51:15
 
 ***
 
