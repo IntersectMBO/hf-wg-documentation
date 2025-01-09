@@ -76,6 +76,7 @@ jobs:
         echo "spo_yes=$spo_yes" >> $GITHUB_ENV
         echo "spo_no=$spo_no" >> $GITHUB_ENV
         echo "spo_abstain=$spo_abstain" >> $GITHUB_ENV
+        echo "spo_not_voted=$spo_not_voted" >> $GITHUB_ENV
 
         echo "spo_yes_stake_formatted=$spo_yes_stake_formatted" >> $GITHUB_ENV
         echo "spo_no_stake_formatted=$spo_no_stake_formatted" >> $GITHUB_ENV
@@ -96,20 +97,22 @@ jobs:
         cc_abstain_pct=${{ env.cc_abstain_pct }}
         cc_not_voted_pct=${{ env.cc_not_voted_pct }}
 
+        spo_yes_pct=${{ env.spo_yes_pct }}
+        spo_no_not_pct=${{ env.spo_no_not_pct }}
+
         spo_yes=${{ env.spo_yes }}
         spo_no=${{ env.spo_no }}
         spo_abstain=${{ env.spo_abstain }}
+        spo_not_voted=${{ env.spo_not_voted }}
         spo_yes_stake_formatted=${{ env.spo_yes_stake_formatted }}
         spo_no_stake_formatted=${{ env.spo_no_stake_formatted }}
         spo_abstain_stake_formatted=${{ env.spo_abstain_stake_formatted }}
         spo_not_voted_stake_formatted=${{ env.spo_not_voted_stake_formatted }}
-        spo_yes_pct=${{ env.spo_yes_pct }}
-        spo_no_not_pct=${{ env.spo_no_not_pct }}
 
         current_datetime=$(date +"%Y-%m-%d %H:%M:%S")
 
-        sed -i "s/| Yes            |.*|/| Yes            | $yes_percentage%               |/" ./gitbook/plomin-upgrade/chang-upgrade-2-readiness/README.md
-        sed -i "s/| No + Not Voted |.*|/| No + Not Voted | $no_not_voted_percentage%               |/" ./gitbook/plomin-upgrade/chang-upgrade-2-readiness/README.md
+        sed -i "s/| Yes            |.*|/| Yes            | $spo_yes_pct%               |/" ./gitbook/plomin-upgrade/chang-upgrade-2-readiness/README.md
+        sed -i "s/| No + Not Voted |.*|/| No + Not Voted | $spo_no_not_pct%               |/" ./gitbook/plomin-upgrade/chang-upgrade-2-readiness/README.md
         sed -i "s/SPO vote summary last updated: .*/SPO vote summary last updated: $current_datetime/" ./gitbook/plomin-upgrade/chang-upgrade-2-readiness/README.md
 
         sed -i "s/| Yes     |.*|/| Yes     | $spo_yes          | $spo_yes_stake_formatted      |/" ./gitbook/plomin-upgrade/chang-upgrade-2-readiness/README.md
