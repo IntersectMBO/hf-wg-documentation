@@ -13,7 +13,7 @@ Intersect and the hard fork working group plays the role of coordinator, as a fu
 {% hint style="warning" %}
 See anything missing or incorrect on this page? - please email **hard-fork@intersectmbo.org** or raise an issue via [Github/HF-WG-Documentation](https://github.com/IntersectMBO/hf-wg-documentation/issues/new) (or pull request - [see how-to](https://github.com/IntersectMBO/hf-wg-documentation?tab=readme-ov-file#chang-2-updating-tooling-readiness))
 
-**This page is frequently updated and was last updated 01/08/2025**
+**This page is frequently updated and was last updated 01/09/2025**
 {% endhint %}
 
 ## Core Infrastructure Components <a href="#core-infrastructure-components" id="core-infrastructure-components"></a>
@@ -165,54 +165,30 @@ Wallet readiness is tracked against their integration against Cardano Node versi
 
 ### DApps & Projects
 
-DApp and project readiness is tracked against self reported readiness. Although this hard fork will remain in the Conway era DApp developers should refer to the [release notes](https://github.com/IntersectMBO/cardano-node/releases) and confirm readiness for the intra-era hard fork.
+DApp and project readiness is tracked against self reported readiness. Although this hard fork will remain in the Conway era DApp developers should refer to the latest [release notes](https://github.com/IntersectMBO/cardano-node/releases) and confirm readiness for the intra-era hard fork.
 
-| Name          | Status                                  |
-| ------------- | --------------------------------------- |
-| Asda Finance  |                                         |
-| Astarter      |                                         |
-| Axo           | <mark style="color:green;">Ready</mark> |
-| Book.io       |                                         |
-| Cerra         |                                         |
-| Charli3       |                                         |
-| CherryLend    |                                         |
-| Clarity       |                                         |
-| Comment       |                                         |
-| Danogo        | <mark style="color:green;">Ready</mark> |
-| DexHunter     |                                         |
-| DripDropz     | <mark style="color:green;">Ready</mark> |
-| Encoins       |                                         |
-| Fluid Tokens  | <mark style="color:green;">Ready</mark> |
-| Genius Yield  | <mark style="color:green;">Ready</mark> |
-| Iagon         |                                         |
-| JPG.Store     |                                         |
-| Lending Pond  |                                         |
-| Lenfi         |                                         |
-| Levvy Finance |                                         |
-| Minswap       | <mark style="color:green;">Ready</mark> |
-| Moneta        |                                         |
-| MuesliSwap    |                                         |
-| MyUSD         |                                         |
-| NEWM          | <mark style="color:green;">Ready</mark> |
-| NMKR          |                                         |
-| Optim         |                                         |
-| Orcfax        |                                         |
-| Revuto        |                                         |
-| Rosenbridge   |                                         |
-| Saturn Swap   |                                         |
-| Snekdotfun    | <mark style="color:green;">Ready</mark> |
-| Spectrum      |                                         |
-| Splash        | <mark style="color:green;">Ready</mark> |
-| Summon        | <mark style="color:green;">Ready</mark> |
-| Tempo         | <mark style="color:green;">Ready</mark> |
-| TeddySwap     |                                         |
-| USDM          | <mark style="color:green;">Ready</mark> |
-| VyFinance     |                                         |
-| Wanchain      | <mark style="color:green;">Ready</mark> |
-| Wingriders    |                                         |
+{% hint style="warning" %}
+DApps listed on this page are self-attested by the community, to add your DApp please email **hard-fork@intersectmbo.org** or raise a pull request to this public repository via [Github/HF-WG-Documentation](https://github.com/IntersectMBO/hf-wg-documentation/issues/new) ([see how-to](https://github.com/IntersectMBO/hf-wg-documentation?tab=readme-ov-file#chang-2-updating-tooling-readiness))
+{% endhint %}
 
-{% hint style="info" %}
-Add more tooling and DApps to this page - please email **hard-fork@intersectmbo.org** or raise an issue via [Github/HF-WG-Documentation](https://github.com/IntersectMBO/hf-wg-documentation/issues/new) (or pull request - [see how-to](https://github.com/IntersectMBO/hf-wg-documentation?tab=readme-ov-file#chang-2-updating-tooling-readiness))
+| Name         | Status                                  |
+| ------------ | --------------------------------------- |
+| Axo          | <mark style="color:green;">Ready</mark> |
+| Danogo       | <mark style="color:green;">Ready</mark> |
+| DripDropz    | <mark style="color:green;">Ready</mark> |
+| Fluid Tokens | <mark style="color:green;">Ready</mark> |
+| Genius Yield | <mark style="color:green;">Ready</mark> |
+| Minswap      | <mark style="color:green;">Ready</mark> |
+| NEWM         | <mark style="color:green;">Ready</mark> |
+| Snekdotfun   | <mark style="color:green;">Ready</mark> |
+| Splash       | <mark style="color:green;">Ready</mark> |
+| Summon       | <mark style="color:green;">Ready</mark> |
+| Tempo        | <mark style="color:green;">Ready</mark> |
+| USDM         | <mark style="color:green;">Ready</mark> |
+| Wanchain     | <mark style="color:green;">Ready</mark> |
+
+{% hint style="warning" %}
+DApps listed on this page are self-attested by the community, to add your DApp please email **hard-fork@intersectmbo.org** or raise a pull request to this public repository via [Github/HF-WG-Documentation](https://github.com/IntersectMBO/hf-wg-documentation/issues/new) ([see how-to](https://github.com/IntersectMBO/hf-wg-documentation?tab=readme-ov-file#chang-2-updating-tooling-readiness))
 {% endhint %}
 
 ***
