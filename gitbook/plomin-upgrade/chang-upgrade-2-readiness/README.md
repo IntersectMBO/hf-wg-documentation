@@ -68,6 +68,34 @@ Metadata for all Intersect governance actions can be found here on the [Intersec
 
 ***
 
+### Plomin Hardfork Action Vote Totals
+
+SPOs
+
+Below is SPO vote totals for the Plomin Hardfork Initiation governance action, data provided via [Koios](https://koios.rest/).
+
+|   Vote  | Total Number | Total Stake Represented |
+| :-----: | :----------: | :---------------------: |
+|   Yes   |      289     |          4.68b          |
+|    No   |       3      |          58.44m         |
+| Abstain |       1      |          39.00m         |
+
+SPO vote total last updated: 2025-01-09 00:09:08
+
+#### Interim Constitutional Committee
+
+Below is ICC vote totals for the Plomin Hardfork Initiation governance action, data provided via [Koios](https://koios.rest/).
+
+|       Vote       | Total |
+| :--------------: | :---: |
+|  Constitutional  |   0   |
+| Unconstitutional |   0   |
+|      Abstain     |   0   |
+
+ICC vote total last updated: 2025-01-09 15:10:00
+
+***
+
 ### SPOs
 
 Stake pool operators should upgrade to a supported mainnet node 10.1.4 version in readiness for the hard fork. Below we compare the prevalence of Cardano blocks created by Node versions.
@@ -80,18 +108,6 @@ Live data can be seen via [Cardano explorers](https://explorer.cardano.org/) suc
 Graph Showing Node Version adoption, up to 2025-01-07. [Via Markus](https://x.com/C1cADA_Markus/status/1867100795709141113/photo/1) on X ([@C1cADA\_Markus](https://x.com/C1cADA_Markus)).
 
 <figure><img src="../../.gitbook/assets/node-versions_2025-01-07.png" alt=""><figcaption></figcaption></figure>
-
-#### Vote Totals
-
-Below is SPO vote totals for the Plomin Hardfork Initiation governance action, data provided via [Koios](https://koios.rest/).
-
-|   Vote  | Total Number | Total Stake |
-| :-----: | :----------: | :---------: |
-|   Yes   |      289     |    4.68b    |
-|    No   |       3      |    58.44m   |
-| Abstain |       1      |    39.00m   |
-
-SPO vote total last updated: 2025-01-09 00:09:08
 
 ***
 
