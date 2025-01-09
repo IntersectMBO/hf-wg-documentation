@@ -80,7 +80,7 @@ Below is SPO vote totals for the Plomin Hardfork Initiation governance action, d
 |    No   |       3      |          58.44m         |
 | Abstain | 1       | 39.00m  |
 
-SPO vote total last updated: 2025-01-09 17:30:24
+SPO vote total last updated: 2025-01-09 17:32:22
 
 #### Interim Constitutional Committee
 
@@ -93,7 +93,7 @@ Below is ICC vote totals for the Plomin Hardfork Initiation governance action, d
 |      Abstain     |   0   |
 |     Not voted    |   7   |
 
-ICC vote total last updated: 2025-01-09 17:30:24
+ICC vote total last updated: 2025-01-09 17:32:22
 
 ***
 
