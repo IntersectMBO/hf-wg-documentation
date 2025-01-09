@@ -78,7 +78,7 @@ Below is SPO vote totals for the Plomin Hardfork Initiation governance action, d
 | :-----: | :----------: | :---------------------: |
 |   Yes   |      289     |          4.68b          |
 |    No   |       3      |          58.44m         |
-| Abstain | 1       | 39.00m  |
+| Abstain |       1      |          39.00m         |
 
 SPO vote total last updated: 2025-01-09 16:56:10
 
@@ -89,8 +89,9 @@ Below is ICC vote totals for the Plomin Hardfork Initiation governance action, d
 |       Vote       | Total |
 | :--------------: | :---: |
 |  Constitutional  |   0   |
-| Unconstitutional | 0 |
+| Unconstitutional |   0   |
 |      Abstain     |   0   |
+|     Not voted    |   7   |
 
 ICC vote total last updated: 2025-01-09 16:56:10
 
@@ -102,7 +103,7 @@ Stake pool operators should upgrade to a supported mainnet node 10.1.4 version i
 
 <figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
 
-As of January 9rd, 2025: 79% of blocks created on mainnet where created using node 10.1.3 version, 3% using the hotfixed 10.1.4 version (which reports as 10.2) \
+As of January 9rd, 2025: 79% of blocks created on mainnet where created using node 10.1.3 version, 3% using the hotfixed 10.1.4 version (which reports as 10.2)\
 Live data can be seen via [Cardano explorers](https://explorer.cardano.org/) such as [Pooltool.io](https://pooltool.io/networkhealth)
 
 Graph Showing Node Version adoption, up to 2025-01-07. [Via Markus](https://x.com/C1cADA_Markus/status/1867100795709141113/photo/1) on X ([@C1cADA\_Markus](https://x.com/C1cADA_Markus)).
@@ -129,7 +130,7 @@ Tooling readiness is supported from version Node 10.1.1 compatible releases. Whe
 
 **Tools**
 
-<table><thead><tr><th width="274">Tools</th><th width="206">Status</th><th>Notes</th></tr></thead><tbody><tr><td>cardano-wallet</td><td><mark style="color:green;">Ready</mark></td><td>(<a href="https://github.com/cardano-foundation/cardano-wallet/releases">release repository</a>)</td></tr><tr><td>Rosetta</td><td><mark style="color:green;">Ready</mark></td><td>(<a href="https://github.com/cardano-foundation/cardano-rosetta/releases">release repository</a>)</td></tr><tr><td>Rosetta-Java</td><td><mark style="color:green;">Ready</mark> </td><td>(<a href="https://github.com/cardano-foundation/cardano-rosetta-java/releases/tag/1.1.5">release repository</a>)</td></tr><tr><td>GraphQL</td><td><mark style="color:green;">Ready</mark></td><td>(<a href="https://github.com/cardano-foundation/cardano-graphql/releases">release repository</a>)</td></tr><tr><td>cntools (guild-operators)</td><td><mark style="color:green;">Ready CNTools 13.3.0</mark></td><td>(<a href="https://github.com/cardano-community/guild-operators/blob/alpha/docs/Scripts/cntools-changelog.md">change log</a>)</td></tr><tr><td>SPO Scripts (@gitmachtl)</td><td><mark style="color:green;">Ready</mark> <a href="https://github.com/gitmachtl/scripts/releases/tag/9.1.0-mainnet">9.1.0-mainnet</a></td><td>(<a href="https://github.com/gitmachtl/scripts/tags">release repository</a>)</td></tr><tr><td>Ogmios</td><td><mark style="color:green;">Ready</mark> <a href="https://github.com/CardanoSolutions/ogmios/releases/tag/v6.10.0"><mark style="color:green;">v6.10.0</mark></a></td><td>(<a href="https://github.com/CardanoSolutions/ogmios/releases">release repository</a>)</td></tr></tbody></table>
+<table><thead><tr><th width="274">Tools</th><th width="206">Status</th><th>Notes</th></tr></thead><tbody><tr><td>cardano-wallet</td><td><mark style="color:green;">Ready</mark></td><td>(<a href="https://github.com/cardano-foundation/cardano-wallet/releases">release repository</a>)</td></tr><tr><td>Rosetta</td><td><mark style="color:green;">Ready</mark></td><td>(<a href="https://github.com/cardano-foundation/cardano-rosetta/releases">release repository</a>)</td></tr><tr><td>Rosetta-Java</td><td><mark style="color:green;">Ready</mark></td><td>(<a href="https://github.com/cardano-foundation/cardano-rosetta-java/releases/tag/1.1.5">release repository</a>)</td></tr><tr><td>GraphQL</td><td><mark style="color:green;">Ready</mark></td><td>(<a href="https://github.com/cardano-foundation/cardano-graphql/releases">release repository</a>)</td></tr><tr><td>cntools (guild-operators)</td><td><mark style="color:green;">Ready CNTools 13.3.0</mark></td><td>(<a href="https://github.com/cardano-community/guild-operators/blob/alpha/docs/Scripts/cntools-changelog.md">change log</a>)</td></tr><tr><td>SPO Scripts (@gitmachtl)</td><td><mark style="color:green;">Ready</mark> <a href="https://github.com/gitmachtl/scripts/releases/tag/9.1.0-mainnet">9.1.0-mainnet</a></td><td>(<a href="https://github.com/gitmachtl/scripts/tags">release repository</a>)</td></tr><tr><td>Ogmios</td><td><mark style="color:green;">Ready</mark> <a href="https://github.com/CardanoSolutions/ogmios/releases/tag/v6.10.0"><mark style="color:green;">v6.10.0</mark></a></td><td>(<a href="https://github.com/CardanoSolutions/ogmios/releases">release repository</a>)</td></tr></tbody></table>
 
 **Libraries**
 
