@@ -30,8 +30,8 @@ jobs:
 
         cc_yes_pct=$(echo "$response" | jq -r '.[0].committee_yes_pct')
         cc_no_pct=$(echo "$response" | jq -r '.[0].committee_no_pct')
-        cc_abstain_pct=$(100 / 7 * $cc_abstain)
-        cc_not_voted_pct=$((100 - cc_yes_pct - cc_no_pct - cc_abstain_pct))
+        cc_abstain_pct=$(echo "scale=2; 100 / 7 * $cc_abstain" | bc)
+        cc_not_voted_pct=$(echo "scale=2; 100 - $cc_yes_pct - $cc_no_pct - $cc_abstain_pct" | bc)
 
         spo_yes=$(echo "$response" | jq -r '.[0].pool_yes_votes_cast')
         spo_no=$(echo "$response" | jq -r '.[0].pool_no_votes_cast')
@@ -58,7 +58,6 @@ jobs:
             echo "$num"
           fi
         }
-
 
         echo "cc_yes=$cc_yes" >> $GITHUB_ENV
         echo "cc_no=$cc_no" >> $GITHUB_ENV
