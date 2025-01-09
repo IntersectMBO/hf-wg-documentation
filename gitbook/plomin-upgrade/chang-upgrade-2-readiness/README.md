@@ -87,7 +87,12 @@ SPO vote summary last updated: 2025-01-09 17:32:22
 
 **Details**
 
-<table><thead><tr><th align="center">Vote</th><th width="143" align="center">Number</th><th align="center">Stake Represented</th></tr></thead><tbody><tr><td align="center">Yes</td><td align="center">289</td><td align="center">4.68b</td></tr><tr><td align="center">No</td><td align="center">3</td><td align="center">58.44m</td></tr><tr><td align="center">Abstain</td><td align="center">1</td><td align="center">39.00m</td></tr><tr><td align="center">Not voted</td><td align="center">2787</td><td align="center">21.8b</td></tr></tbody></table>
+|    Vote   | Total Number | Total Stake Represented |
+| :-------: | :----------: | :---------------------: |
+|   Yes     |      289     |          4.68b          |
+|    No     |       3      |          58.44m         |
+| Abstain   |       1      |          39.00m         |
+| Not Voted |       1      |          39.00m         |
 
 SPO vote total last updated: 2025-01-09 20:17:17
 

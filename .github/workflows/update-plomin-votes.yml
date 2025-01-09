@@ -28,13 +28,24 @@ jobs:
         cc_abstain=$(echo "$response" | jq -r '.[0].committee_abstain_votes_cast')
         cc_not_voted=$((7 - cc_yes - cc_no - cc_abstain))
 
+        cc_yes_pct=$(echo "$response" | jq -r '.[0].committee_yes_pct')
+        cc_no_pct=$(echo "$response" | jq -r '.[0].committee_no_pct')
+        cc_abstain_pct=$(echo "scale=2; 100 / 7 * $cc_abstain" | bc)
+        cc_not_voted_pct=$(echo "scale=2; 100 - $cc_yes_pct - $cc_no_pct - $cc_abstain_pct" | bc)
+
         spo_yes=$(echo "$response" | jq -r '.[0].pool_yes_votes_cast')
         spo_no=$(echo "$response" | jq -r '.[0].pool_no_votes_cast')
         spo_abstain=$(echo "$response" | jq -r '.[0].pool_abstain_votes_cast')
+        spo_not_voted=$((2787 - spo_yes - spo_no - spo_abstain))
 
         spo_yes_stake=$(echo "$response" | jq -r '.[0].pool_active_yes_vote_power')
         spo_no_stake=$(echo "$response" | jq -r '.[0].pool_active_no_vote_power')
         spo_abstain_stake=$(echo "$response" | jq -r '.[0].pool_active_abstain_vote_power')
+        spo_total_stake=21800000000000000
+        spo_not_voted_stake=$((spo_total_stake - spo_yes_stake - spo_no_stake - spo_abstain_stake))
+
+        spo_yes_pct=$(echo "$response" | jq -r '.[0].pool_yes_pct')
+        spo_no_not_pct=$(echo "$response" | jq -r '.[0].pool_no_pct')
 
         format_stake() {
           num=$1
@@ -48,21 +59,31 @@ jobs:
           fi
         }
 
-        spo_yes_stake_formatted=$(format_stake $spo_yes_stake)
-        spo_no_stake_formatted=$(format_stake $spo_no_stake)
-        spo_abstain_stake_formatted=$(format_stake $spo_abstain_stake)
-
         echo "cc_yes=$cc_yes" >> $GITHUB_ENV
         echo "cc_no=$cc_no" >> $GITHUB_ENV
         echo "cc_abstain=$cc_abstain" >> $GITHUB_ENV
         echo "cc_not_voted=$cc_not_voted" >> $GITHUB_ENV
+        echo "cc_yes_pct=$cc_yes_pct" >> $GITHUB_ENV
+        echo "cc_no_pct=$cc_no_pct" >> $GITHUB_ENV
+        echo "cc_abstain_pct=$cc_abstain_pct" >> $GITHUB_ENV
+        echo "cc_not_voted_pct=$cc_not_voted_pct" >> $GITHUB_ENV
+
+        spo_yes_stake_formatted=$(format_stake $spo_yes_stake)
+        spo_no_stake_formatted=$(format_stake $spo_no_stake)
+        spo_abstain_stake_formatted=$(format_stake $spo_abstain_stake)
+        spo_not_voted_stake_formatted=$(format_stake $spo_not_voted_stake)
 
         echo "spo_yes=$spo_yes" >> $GITHUB_ENV
         echo "spo_no=$spo_no" >> $GITHUB_ENV
         echo "spo_abstain=$spo_abstain" >> $GITHUB_ENV
+
         echo "spo_yes_stake_formatted=$spo_yes_stake_formatted" >> $GITHUB_ENV
         echo "spo_no_stake_formatted=$spo_no_stake_formatted" >> $GITHUB_ENV
         echo "spo_abstain_stake_formatted=$spo_abstain_stake_formatted" >> $GITHUB_ENV
+        echo "spo_not_voted_stake_formatted=$spo_not_voted_stake_formatted" >> $GITHUB_ENV
+
+        echo "spo_yes_pct=$spo_yes_pct" >> $GITHUB_ENV
+        echo "spo_no_not_pct=$spo_no_not_pct" >> $GITHUB_ENV
 
     - name: Update page
       run: |
@@ -70,6 +91,10 @@ jobs:
         cc_no=${{ env.cc_no }}
         cc_abstain=${{ env.cc_abstain }}
         cc_not_voted=${{ env.cc_not_voted }}
+        cc_yes_pct=${{ env.cc_yes_pct }}
+        cc_no_pct=${{ env.cc_no_pct }}
+        cc_abstain_pct=${{ env.cc_abstain_pct }}
+        cc_not_voted_pct=${{ env.cc_not_voted_pct }}
 
         spo_yes=${{ env.spo_yes }}
         spo_no=${{ env.spo_no }}
@@ -77,19 +102,27 @@ jobs:
         spo_yes_stake_formatted=${{ env.spo_yes_stake_formatted }}
         spo_no_stake_formatted=${{ env.spo_no_stake_formatted }}
         spo_abstain_stake_formatted=${{ env.spo_abstain_stake_formatted }}
+        spo_not_voted_stake_formatted=${{ env.spo_not_voted_stake_formatted }}
+        spo_yes_pct=${{ env.spo_yes_pct }}
+        spo_no_not_pct=${{ env.spo_no_not_pct }}
 
         current_datetime=$(date +"%Y-%m-%d %H:%M:%S")
 
-        sed -i "s/| Constitutional  |.*|/| Constitutional  | $cc_yes |/" ./gitbook/plomin-upgrade/chang-upgrade-2-readiness/README.md
-        sed -i "s/| Unconstitutional |.*|/| Unconstitutional | $cc_no |/" ./gitbook/plomin-upgrade/chang-upgrade-2-readiness/README.md
-        sed -i "s/| Abstain     |.*|/| Abstain     | $cc_abstain |/" ./gitbook/plomin-upgrade/chang-upgrade-2-readiness/README.md
-        sed -i "s/| Not voted    |.*|/| Not voted    | $cc_not_voted |/" ./gitbook/plomin-upgrade/chang-upgrade-2-readiness/README.md
-        sed -i "s/ICC vote total last updated: .*/ICC vote total last updated: $current_datetime/" ./gitbook/plomin-upgrade/chang-upgrade-2-readiness/README.md
+        sed -i "s/| Yes            |.*|/| Yes            | $yes_percentage%               |/" ./gitbook/plomin-upgrade/chang-upgrade-2-readiness/README.md
+        sed -i "s/| No + Not Voted |.*|/| No + Not Voted | $no_not_voted_percentage%               |/" ./gitbook/plomin-upgrade/chang-upgrade-2-readiness/README.md
+        sed -i "s/SPO vote summary last updated: .*/SPO vote summary last updated: $current_datetime/" ./gitbook/plomin-upgrade/chang-upgrade-2-readiness/README.md
 
         sed -i "s/| Yes     |.*|/| Yes     | $spo_yes          | $spo_yes_stake_formatted      |/" ./gitbook/plomin-upgrade/chang-upgrade-2-readiness/README.md
         sed -i "s/| No      |.*|/| No      | $no            | $spo_no_stake_formatted       |/" ./gitbook/plomin-upgrade/chang-upgrade-2-readiness/README.md
         sed -i "s/| Abstain |.*|/| Abstain | $spo_abstain       | $spo_abstain_stake_formatted  |/" ./gitbook/plomin-upgrade/chang-upgrade-2-readiness/README.md
+        sed -i "s/| Not Voted |.*|/| Not Voted | $spo_not_voted       | $spo_not_voted_stake_formatted  |/" ./gitbook/plomin-upgrade/chang-upgrade-2-readiness/README.md
         sed -i "s/SPO vote total last updated: .*/SPO vote total last updated: $current_datetime/" ./gitbook/plomin-upgrade/chang-upgrade-2-readiness/README.md
+
+        sed -i "s/| Constitutional  |.*|/| Constitutional  | $cc_yes | $cc_yes_pct% |/" ./gitbook/plomin-upgrade/chang-upgrade-2-readiness/README.md
+        sed -i "s/| Unconstitutional |.*|/| Unconstitutional | $cc_no | $cc_no_pct% |/" ./gitbook/plomin-upgrade/chang-upgrade-2-readiness/README.md
+        sed -i "s/| Abstain     |.*|/| Abstain     | $cc_abstain | $cc_abstain_pct% |/" ./gitbook/plomin-upgrade/chang-upgrade-2-readiness/README.md
+        sed -i "s/| Not voted    |.*|/| Not voted    | $cc_not_voted | $cc_not_voted_pct% |/" ./gitbook/plomin-upgrade/chang-upgrade-2-readiness/README.md
+        sed -i "s/ICC vote total last updated: .*/ICC vote total last updated: $current_datetime/" ./gitbook/plomin-upgrade/chang-upgrade-2-readiness/README.md
 
     - name: Commit and push changes
       run: |
