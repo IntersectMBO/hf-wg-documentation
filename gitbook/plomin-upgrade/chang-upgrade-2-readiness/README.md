@@ -82,7 +82,6 @@ The stake pool vote threshold to reach is 51% of total stake to vote yes.
 | -------------- | ------------------- |
 | Yes            | 27.4%               |
 | No + Not Voted | 77.1%               |
-| Abstaining     | 0.18%               |
 
 SPO vote summary last updated: 2025-01-09 17:32:22
 
