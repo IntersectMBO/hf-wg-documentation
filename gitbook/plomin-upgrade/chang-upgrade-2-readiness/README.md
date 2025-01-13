@@ -80,8 +80,8 @@ The stake pool vote threshold to reach is 51% of total stake to vote yes.
 
 |                | Percentage of stake |
 | -------------- | ------------------- |
-| Yes            | 36.11%               |
-| No + Not Voted | 63.89%               |
+| Yes            | 36.11%              |
+| No + Not Voted | 63.89%              |
 
 SPO vote summary last updated: 2025-01-13 00:10:54
 
@@ -89,10 +89,10 @@ SPO vote summary last updated: 2025-01-13 00:10:54
 
 |    Vote   | Total Number | Total Stake Represented |
 | :-------: | :----------: | :---------------------: |
-| Yes       | 396          | 7.06b          |
-| No        | 4            | 60.79m            |
-| Abstain   | 2            | 38.98m            |
-| Not Voted | 2385       | 14.63b  |
+|    Yes    |      396     |          7.06b          |
+|     No    |       4      |          60.79m         |
+|  Abstain  |       2      |          38.98m         |
+| Not Voted |     2385     |          14.63b         |
 
 SPO vote total last updated: 2025-01-13 00:10:54
 
@@ -104,10 +104,10 @@ The constitutional committee vote threshold to reach is 5 out of 7 constitutiona
 
 |       Vote       | Total | Percentage |
 | :--------------: | :---: | :--------: |
-| Constitutional   | 0     | 0%     |
-| Unconstitutional | 0     | 0%     |
-| Abstain          | 0     | 0%     |
-| Not voted        | 7     | 100%     |
+|  Constitutional  |   0   |     0%     |
+| Unconstitutional |   0   |     0%     |
+|      Abstain     |   0   |     0%     |
+|     Not voted    |   7   |    100%    |
 
 ICC vote total last updated: 2025-01-13 00:10:54
 
@@ -188,21 +188,22 @@ DApp and project readiness is tracked against self reported readiness. Although 
 DApps listed on this page are self-attested by the community, to add your DApp please email **hard-fork@intersectmbo.org** or raise a pull request to this public repository via [Github/HF-WG-Documentation](https://github.com/IntersectMBO/hf-wg-documentation/issues/new) ([see how-to](https://github.com/IntersectMBO/hf-wg-documentation?tab=readme-ov-file#chang-2-updating-tooling-readiness))
 {% endhint %}
 
-| Name         | Status                                  |
-| ------------ | --------------------------------------- |
-| Axo          | <mark style="color:green;">Ready</mark> |
-| Danogo       | <mark style="color:green;">Ready</mark> |
-| DripDropz    | <mark style="color:green;">Ready</mark> |
-| Fluid Tokens | <mark style="color:green;">Ready</mark> |
-| Genius Yield | <mark style="color:green;">Ready</mark> |
-| Minswap      | <mark style="color:green;">Ready</mark> |
-| NEWM         | <mark style="color:green;">Ready</mark> |
-| Snekdotfun   | <mark style="color:green;">Ready</mark> |
-| Splash       | <mark style="color:green;">Ready</mark> |
-| Summon       | <mark style="color:green;">Ready</mark> |
-| Tempo        | <mark style="color:green;">Ready</mark> |
-| USDM         | <mark style="color:green;">Ready</mark> |
-| Wanchain     | <mark style="color:green;">Ready</mark> |
+| Name          | Status                                  |
+| ------------- | --------------------------------------- |
+| Axo           | <mark style="color:green;">Ready</mark> |
+| Danogo        | <mark style="color:green;">Ready</mark> |
+| DripDropz     | <mark style="color:green;">Ready</mark> |
+| Fluid Tokens  | <mark style="color:green;">Ready</mark> |
+| Genius Yield  | <mark style="color:green;">Ready</mark> |
+| Levvy Finance | <mark style="color:green;">Ready</mark> |
+| Minswap       | <mark style="color:green;">Ready</mark> |
+| NEWM          | <mark style="color:green;">Ready</mark> |
+| Snekdotfun    | <mark style="color:green;">Ready</mark> |
+| Splash        | <mark style="color:green;">Ready</mark> |
+| Summon        | <mark style="color:green;">Ready</mark> |
+| Tempo         | <mark style="color:green;">Ready</mark> |
+| USDM          | <mark style="color:green;">Ready</mark> |
+| Wanchain      | <mark style="color:green;">Ready</mark> |
 
 {% hint style="warning" %}
 DApps listed on this page are self-attested by the community, to add your DApp please email **hard-fork@intersectmbo.org** or raise a pull request to this public repository via [Github/HF-WG-Documentation](https://github.com/IntersectMBO/hf-wg-documentation/issues/new) ([see how-to](https://github.com/IntersectMBO/hf-wg-documentation?tab=readme-ov-file#chang-2-updating-tooling-readiness))
