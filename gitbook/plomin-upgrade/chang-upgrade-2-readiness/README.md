@@ -134,9 +134,9 @@ Exchange readiness is tracked against the top exchanges by ADA liquidity (as rep
 
 For the latest info on _Exchanges by Liquidity_ please visit: [Cardanoscan](https://cardanoscan.io/changreadiness) (source) and [Cexplorer](https://cexplorer.io/hfs).
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
 
-As of January 09th, 2025, 32% of exchange liquidity has been reported as Ready for Plomin hard fork.
+As of January 15th, 2025, 37.39% of exchange liquidity has been reported as Ready for Plomin hard fork.
 
 ***
 
