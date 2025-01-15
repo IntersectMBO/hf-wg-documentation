@@ -188,22 +188,23 @@ DApp and project readiness is tracked against self reported readiness. Although 
 DApps listed on this page are self-attested by the community, to add your DApp please email **hard-fork@intersectmbo.org** or raise a pull request to this public repository via [Github/HF-WG-Documentation](https://github.com/IntersectMBO/hf-wg-documentation/issues/new) ([see how-to](https://github.com/IntersectMBO/hf-wg-documentation?tab=readme-ov-file#chang-2-updating-tooling-readiness))
 {% endhint %}
 
-| Name          | Status                                  |
-| ------------- | --------------------------------------- |
-| Axo           | <mark style="color:green;">Ready</mark> |
-| Danogo        | <mark style="color:green;">Ready</mark> |
-| DripDropz     | <mark style="color:green;">Ready</mark> |
-| Fluid Tokens  | <mark style="color:green;">Ready</mark> |
-| Genius Yield  | <mark style="color:green;">Ready</mark> |
-| Levvy Finance | <mark style="color:green;">Ready</mark> |
-| Minswap       | <mark style="color:green;">Ready</mark> |
-| NEWM          | <mark style="color:green;">Ready</mark> |
-| Snekdotfun    | <mark style="color:green;">Ready</mark> |
-| Splash        | <mark style="color:green;">Ready</mark> |
-| Summon        | <mark style="color:green;">Ready</mark> |
-| Tempo         | <mark style="color:green;">Ready</mark> |
-| USDM          | <mark style="color:green;">Ready</mark> |
-| Wanchain      | <mark style="color:green;">Ready</mark> |
+| Name             | Status                                  |
+| ---------------- | --------------------------------------- |
+| Axo              | <mark style="color:green;">Ready</mark> |
+| Book.io/Stuff.io | <mark style="color:green;">Ready</mark> |
+| Danogo           | <mark style="color:green;">Ready</mark> |
+| DripDropz        | <mark style="color:green;">Ready</mark> |
+| Fluid Tokens     | <mark style="color:green;">Ready</mark> |
+| Genius Yield     | <mark style="color:green;">Ready</mark> |
+| Levvy Finance    | <mark style="color:green;">Ready</mark> |
+| Minswap          | <mark style="color:green;">Ready</mark> |
+| NEWM             | <mark style="color:green;">Ready</mark> |
+| Snekdotfun       | <mark style="color:green;">Ready</mark> |
+| Splash           | <mark style="color:green;">Ready</mark> |
+| Summon           | <mark style="color:green;">Ready</mark> |
+| Tempo            | <mark style="color:green;">Ready</mark> |
+| USDM             | <mark style="color:green;">Ready</mark> |
+| Wanchain         | <mark style="color:green;">Ready</mark> |
 
 {% hint style="warning" %}
 DApps listed on this page are self-attested by the community, to add your DApp please email **hard-fork@intersectmbo.org** or raise a pull request to this public repository via [Github/HF-WG-Documentation](https://github.com/IntersectMBO/hf-wg-documentation/issues/new) ([see how-to](https://github.com/IntersectMBO/hf-wg-documentation?tab=readme-ov-file#chang-2-updating-tooling-readiness))
