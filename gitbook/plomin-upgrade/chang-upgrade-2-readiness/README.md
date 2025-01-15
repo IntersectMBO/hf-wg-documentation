@@ -13,7 +13,7 @@ Intersect and the hard fork working group plays the role of coordinator, as a fu
 {% hint style="warning" %}
 See anything missing or incorrect on this page? - please email **hard-fork@intersectmbo.org** or raise an issue via [Github/HF-WG-Documentation](https://github.com/IntersectMBO/hf-wg-documentation/issues/new) (or pull request - [see how-to](https://github.com/IntersectMBO/hf-wg-documentation?tab=readme-ov-file#chang-2-updating-tooling-readiness))
 
-**This page is frequently updated and was last updated 01/09/2025**
+**This page is frequently updated and was last updated 01/15/2025**
 {% endhint %}
 
 ## Core Infrastructure Components <a href="#core-infrastructure-components" id="core-infrastructure-components"></a>
@@ -80,8 +80,8 @@ The stake pool vote threshold to reach is 51% of total stake to vote yes.
 
 |                | Percentage of stake |
 | -------------- | ------------------- |
-| Yes            | 39.63%               |
-| No + Not Voted | 60.37%               |
+| Yes            | 39.63%              |
+| No + Not Voted | 60.37%              |
 
 SPO vote summary last updated: 2025-01-15 00:08:36
 
@@ -92,7 +92,7 @@ SPO vote summary last updated: 2025-01-15 00:08:36
 |    Yes    |      396     |          7.06b          |
 |     No    |       4      |          60.79m         |
 |  Abstain  |       2      |          38.98m         |
-| Not Voted | 2359       | 13.96b  |
+| Not Voted |     2359     |          13.96b         |
 
 SPO vote total last updated: 2025-01-15 00:08:36
 
@@ -105,7 +105,7 @@ The constitutional committee vote threshold to reach is 5 out of 7 constitutiona
 |       Vote       | Total | Percentage |
 | :--------------: | :---: | :--------: |
 |  Constitutional  |   0   |     0%     |
-| Unconstitutional | 0     | 0%     |
+| Unconstitutional |   0   |     0%     |
 |      Abstain     |   0   |     0%     |
 |     Not voted    |   7   |    100%    |
 
@@ -117,9 +117,9 @@ ICC vote total last updated: 2025-01-15 00:08:36
 
 Stake pool operators should upgrade to a supported mainnet node 10.1.4 version in readiness for the hard fork. Below we compare the prevalence of Cardano blocks created by Node versions.
 
-<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
-As of January 9rd, 2025: 79% of blocks created on mainnet where created using node 10.1.3 version, 3% using the hotfixed 10.1.4 version (which reports as 10.2)\
+As of January 15th, 2025: 73% of blocks created on mainnet, within the current epoch, where created using the hotfixed 10.1.4 version (which reports as 10.2)\
 Live data can be seen via [Cardano explorers](https://explorer.cardano.org/) such as [Pooltool.io](https://pooltool.io/networkhealth)
 
 Graph Showing Node Version adoption, up to 2025-01-07. [Via Markus](https://x.com/C1cADA_Markus/status/1867100795709141113/photo/1) on X ([@C1cADA\_Markus](https://x.com/C1cADA_Markus)).
@@ -134,7 +134,7 @@ Exchange readiness is tracked against the top exchanges by ADA liquidity (as rep
 
 For the latest info on _Exchanges by Liquidity_ please visit: [Cardanoscan](https://cardanoscan.io/changreadiness) (source) and [Cexplorer](https://cexplorer.io/hfs).
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 As of January 09th, 2025, 32% of exchange liquidity has been reported as Ready for Plomin hard fork.
 
@@ -150,7 +150,7 @@ Tooling readiness is supported from version Node 10.1.1 compatible releases. Whe
 
 **Libraries**
 
-<table><thead><tr><th width="287">Library</th><th width="210">Status</th><th>Notes</th></tr></thead><tbody><tr><td>Blaze Cardano</td><td><mark style="color:green;">Ready</mark></td><td>(<a href="https://github.com/butaneprotocol/blaze-cardano/releases">release repository</a>)</td></tr><tr><td>Cardano Serialization Library</td><td><mark style="color:green;">Ready</mark></td><td>(<a href="https://github.com/Emurgo/cardano-serialization-lib/releases">release repository</a>)</td></tr><tr><td>Cardano Multiplatform Library</td><td><mark style="color:green;">Ready</mark></td><td>(<a href="https://github.com/dcSpark/cardano-multiplatform-lib/releases">release repository</a>)</td></tr><tr><td>Cardano JavaScript SDK</td><td><mark style="color:green;">Ready</mark></td><td>(<a href="https://github.com/input-output-hk/cardano-js-sdk/releases">release repository</a>)</td></tr><tr><td>Pallas</td><td><mark style="color:green;">Ready</mark></td><td>(<a href="https://github.com/txpipe/pallas/releases">release repository</a>)</td></tr><tr><td>Cardano Transaction Library</td><td><mark style="color:green;">Ready</mark></td><td>(<a href="https://github.com/Plutonomicon/cardano-transaction-lib/">release repository</a>)</td></tr><tr><td>MeshSDK</td><td><mark style="color:green;">Ready</mark></td><td>(<a href="https://github.com/MeshJS/mesh/releases">release repository</a>)</td></tr><tr><td>Aiken</td><td></td><td>(<a href="https://github.com/aiken-lang/aiken/releases">release repository</a>)</td></tr><tr><td>Lucid Evolution</td><td><mark style="color:green;">Ready</mark></td><td>(<a href="https://github.com/Anastasia-Labs/lucid-evolution/releases">release repository</a>)</td></tr></tbody></table>
+<table><thead><tr><th width="287">Library</th><th width="210">Status</th><th>Notes</th></tr></thead><tbody><tr><td>Cardano Serialization Library</td><td><mark style="color:green;">Ready</mark></td><td>(<a href="https://github.com/Emurgo/cardano-serialization-lib/releases">release repository</a>)</td></tr><tr><td>Cardano Multiplatform Library</td><td><mark style="color:green;">Ready</mark></td><td>(<a href="https://github.com/dcSpark/cardano-multiplatform-lib/releases">release repository</a>)</td></tr><tr><td>Cardano JavaScript SDK</td><td><mark style="color:green;">Ready</mark></td><td>(<a href="https://github.com/input-output-hk/cardano-js-sdk/releases">release repository</a>)</td></tr><tr><td>Pallas</td><td><mark style="color:green;">Ready</mark></td><td>(<a href="https://github.com/txpipe/pallas/releases">release repository</a>)</td></tr><tr><td>Cardano Transaction Library</td><td><mark style="color:green;">Ready</mark></td><td>(<a href="https://github.com/Plutonomicon/cardano-transaction-lib/">release repository</a>)</td></tr><tr><td>MeshSDK</td><td><mark style="color:green;">Ready</mark></td><td>(<a href="https://github.com/MeshJS/mesh/releases">release repository</a>)</td></tr><tr><td>Aiken</td><td></td><td>(<a href="https://github.com/aiken-lang/aiken/releases">release repository</a>)</td></tr><tr><td>Lucid Evolution</td><td><mark style="color:green;">Ready</mark></td><td>(<a href="https://github.com/Anastasia-Labs/lucid-evolution/releases">release repository</a>)</td></tr></tbody></table>
 
 **Indexers**
 
@@ -201,7 +201,6 @@ DApps listed on this page are self-attested by the community, to add your DApp p
 | Snekdotfun    | <mark style="color:green;">Ready</mark> |
 | Splash        | <mark style="color:green;">Ready</mark> |
 | Summon        | <mark style="color:green;">Ready</mark> |
-| SundaeSwap    | <mark style="color:green;">Ready</mark> |
 | Tempo         | <mark style="color:green;">Ready</mark> |
 | USDM          | <mark style="color:green;">Ready</mark> |
 | Wanchain      | <mark style="color:green;">Ready</mark> |
