@@ -13,7 +13,7 @@ Intersect and the hard fork working group plays the role of coordinator, as a fu
 {% hint style="warning" %}
 See anything missing or incorrect on this page? - please email **hard-fork@intersectmbo.org** or raise an issue via [Github/HF-WG-Documentation](https://github.com/IntersectMBO/hf-wg-documentation/issues/new) (or pull request - [see how-to](https://github.com/IntersectMBO/hf-wg-documentation?tab=readme-ov-file#chang-2-updating-tooling-readiness))
 
-**This page is frequently updated and was last updated 01/15/2025**
+**This page is frequently updated and was last updated 01/20/2025**
 {% endhint %}
 
 ## Core Infrastructure Components <a href="#core-infrastructure-components" id="core-infrastructure-components"></a>
@@ -80,8 +80,8 @@ The stake pool vote threshold to reach is 51% of total stake to vote yes.
 
 |                | Percentage of stake |
 | -------------- | ------------------- |
-| Yes            | 59.10%               |
-| No + Not Voted | 40.90%               |
+| Yes            | 59.10%              |
+| No + Not Voted | 40.90%              |
 
 SPO vote summary last updated: 2025-01-20 00:09:39
 
@@ -92,7 +92,7 @@ SPO vote summary last updated: 2025-01-20 00:09:39
 |    Yes    |      396     |          7.06b          |
 |     No    |       4      |          60.79m         |
 |  Abstain  |       2      |          38.98m         |
-| Not Voted | 2173       | 8.74b  |
+| Not Voted |     2173     |          8.74b          |
 
 SPO vote total last updated: 2025-01-20 00:09:39
 
@@ -105,7 +105,7 @@ The constitutional committee vote threshold to reach is 5 out of 7 constitutiona
 |       Vote       | Total | Percentage |
 | :--------------: | :---: | :--------: |
 |  Constitutional  |   0   |     0%     |
-| Unconstitutional | 0     | 0%     |
+| Unconstitutional |   0   |     0%     |
 |      Abstain     |   0   |     0%     |
 |     Not voted    |   7   |    100%    |
 
@@ -117,9 +117,9 @@ ICC vote total last updated: 2025-01-20 00:09:39
 
 Stake pool operators should upgrade to a supported mainnet node 10.1.4 version in readiness for the hard fork. Below we compare the prevalence of Cardano blocks created by Node versions.
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>Block producing node versions, as reported by PoolTool.io</p></figcaption></figure>
 
-As of January 15th, 2025: 73% of blocks created on mainnet, within the current epoch, where created using the hotfixed 10.1.4 version (which reports as 10.2)\
+As of January 20th, 2025: 86% of blocks created on mainnet, within the current epoch, where created using the hotfixed 10.1.4 version (which reports as 10.2)\
 Live data can be seen via [Cardano explorers](https://explorer.cardano.org/) such as [Pooltool.io](https://pooltool.io/networkhealth)
 
 Graph Showing Node Version adoption, up to 2025-01-07. [Via Markus](https://x.com/C1cADA_Markus/status/1867100795709141113/photo/1) on X ([@C1cADA\_Markus](https://x.com/C1cADA_Markus)).
