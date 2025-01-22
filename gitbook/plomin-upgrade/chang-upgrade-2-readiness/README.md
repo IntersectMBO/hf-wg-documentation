@@ -80,8 +80,8 @@ The stake pool vote threshold to reach is 51% of total stake to vote yes.
 
 |                | Percentage of stake |
 | -------------- | ------------------- |
-| Yes            | 63.82%               |
-| No + Not Voted | 36.18%               |
+| Yes            | 63.82%              |
+| No + Not Voted | 36.18%              |
 
 SPO vote summary last updated: 2025-01-22 00:08:55
 
@@ -92,7 +92,7 @@ SPO vote summary last updated: 2025-01-22 00:08:55
 |    Yes    |      396     |          7.06b          |
 |     No    |       4      |          60.79m         |
 |  Abstain  |       2      |          38.98m         |
-| Not Voted | 2130       | 7.77b  |
+| Not Voted |     2130     |          7.77b          |
 
 SPO vote total last updated: 2025-01-22 00:08:55
 
@@ -105,7 +105,7 @@ The constitutional committee vote threshold to reach is 5 out of 7 constitutiona
 |       Vote       | Total | Percentage |
 | :--------------: | :---: | :--------: |
 |  Constitutional  |   0   |     0%     |
-| Unconstitutional | 0     | 0%     |
+| Unconstitutional |   0   |     0%     |
 |      Abstain     |   0   |     0%     |
 |     Not voted    |   7   |    100%    |
 
@@ -134,9 +134,9 @@ Exchange readiness is tracked against the top exchanges by ADA liquidity (as rep
 
 For the latest info on _Exchanges by Liquidity_ please visit: [Cardanoscan](https://cardanoscan.io/changreadiness) (source) and [Cexplorer](https://cexplorer.io/hfs).
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
 
-As of January 20th, 2025, 61.26 % of exchange liquidity has been reported as Ready for Plomin hard fork.
+As of January 22nd, 2025, 84.5 % of exchange liquidity has been reported as Ready for Plomin hard fork.
 
 ***
 
