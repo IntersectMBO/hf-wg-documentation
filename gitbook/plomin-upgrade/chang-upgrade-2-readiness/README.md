@@ -13,7 +13,7 @@ Intersect and the hard fork working group plays the role of coordinator, as a fu
 {% hint style="warning" %}
 See anything missing or incorrect on this page? - please email **hard-fork@intersectmbo.org** or raise an issue via [Github/HF-WG-Documentation](https://github.com/IntersectMBO/hf-wg-documentation/issues/new) (or pull request - [see how-to](https://github.com/IntersectMBO/hf-wg-documentation?tab=readme-ov-file#chang-2-updating-tooling-readiness))
 
-**This page is frequently updated and was last updated 01/20/2025**
+**This page is frequently updated and was last updated 01/22/2025**
 {% endhint %}
 
 ## Core Infrastructure Components <a href="#core-infrastructure-components" id="core-infrastructure-components"></a>
