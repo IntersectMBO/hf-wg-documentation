@@ -204,6 +204,7 @@ DApps listed on this page are self-attested by the community, to add your DApp p
 | Summon           | <mark style="color:green;">Ready</mark> |
 | SundeaSwap       | <mark style="color:green;">Ready</mark> |
 | Tempo            | <mark style="color:green;">Ready</mark> |
+| UnFrack.it       | <mark style="color:green;">Ready</mark> |
 | USDM             | <mark style="color:green;">Ready</mark> |
 | Wanchain         | <mark style="color:green;">Ready</mark> |
 
