@@ -1,20 +1,11 @@
 # Plomin upgrade overview
 
 {% hint style="info" %}
-**We're open! Join the next working group meeting**
+On January 29, 2025, Cardano achieved the transition to full community governance with the **enactment** of the Plomin hard fork
 
-Commencing from October 28th onwards we'll be meeting twice a week and you can find the details below:
+The upgrade was enacted on-chain after the hard fork was approved by stake pool operators (SPOs) and the interim constitutional committee. This is a truly momentous achievement, not only for Cardano but for the entire blockchain industry.
 
-* Twice weekly: Tuesdays and Thursdays: https://lu.ma/calendar/cal-mUnW4X66H0JRPQh (please RSVP from here)
-* Time: 4:00 PM UTC
-* Location: Virtual meeting (invitations will be sent via email)
-* Recordings of most sessions will be available on Intersect YouTube the day after each meeting
-* [https://www.youtube.com/@Intersectmbo](https://www.youtube.com/@Intersectmbo)
-
-\
-**Other ways to learn more and participate**\
-Throughout November and December we'll be hosting X Spaces and other Q\&A sessions via Discord. \
-For further details or inquiries, please do not hesitate to reach out to us at hard-fork@intersectmbo.org.&#x20;
+This is Cardano’s first community-enacted upgrade, with all future protocol changes now fully in the hands of the community. The decision began with [CIP-1694](https://cips.cardano.org/cip/CIP-1694?utm_source=hs_email\&utm_medium=email&_hsenc=p2ANqtz-8zxUPhuLU_W5AUDlSnTVgjAw861oVYXodULuqZU7-nxWnctc_QRuDHabDYutuIgMzDzBIO), which was developed over two years and included community workshops. It is the only hard fork to make such an epochal change to blockchain governance
 {% endhint %}
 
 Intersect plays the role of coordinator, as a functional servant-leader on behalf of the community and delivery teams working on hard fork activity. The functional teams within Intersect will work with the various committees, working groups, and delivery teams, relaying information here on the knowledge base. Ultimately the date for the hard fork is directly influenced by the community, the relevant constitutional approval and required on-chain voting.
@@ -59,9 +50,9 @@ Plomin Upgrade:
 
 The governance actions should follow environment order, preview before pre-production and pre-production before Mainnet. Governance actions could overlap and be raised in parallel, this is to ensure smooth transition between upgrades in environments, particularly between pre-production and Mainnet.
 
-Indicatively this is illustrated below;
+Indicatively the sequence of events for the hard fork is shown below
 
-<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption><p>Illustrative governance action timeline</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (16).png" alt=""><figcaption><p>Indicative sequence of events for Plomin Hard Fork </p></figcaption></figure>
 
 {% hint style="info" %}
 Please note, some simplifications have been made to this illustration for brevity and simplicity

@@ -7,13 +7,15 @@ description: >-
 # Plomin upgrade readiness
 
 {% hint style="info" %}
-Intersect and the hard fork working group plays the role of coordinator, as a functional servant-leader on behalf of the community and delivery teams working on hard fork activity. The functional teams within Intersect will work with the various committees, working groups, and delivery teams, relaying information here on the knowledge base. Ultimately the date for the hard fork is directly influenced by the community, the relevant constitutional approval and required on-chain voting.
+On January 29, 2025, Cardano achieved the transition to full community governance with the **enactment** of the Plomin hard fork
+
+The upgrade was enacted on-chain after the hard fork was approved by stake pool operators (SPOs) and the interim constitutional committee. This is a truly momentous achievement, not only for Cardano but for the entire blockchain industry.
+
+This is Cardano’s first community-enacted upgrade, with all future protocol changes now fully in the hands of the community. The decision began with [CIP-1694](https://cips.cardano.org/cip/CIP-1694?utm_source=hs_email\&utm_medium=email&_hsenc=p2ANqtz-8zxUPhuLU_W5AUDlSnTVgjAw861oVYXodULuqZU7-nxWnctc_QRuDHabDYutuIgMzDzBIO), which was developed over two years and included community workshops. It is the only hard fork to make such an epochal change to blockchain governance
 {% endhint %}
 
 {% hint style="warning" %}
-See anything missing or incorrect on this page? - please email **hard-fork@intersectmbo.org** or raise an issue via [Github/HF-WG-Documentation](https://github.com/IntersectMBO/hf-wg-documentation/issues/new) (or pull request - [see how-to](https://github.com/IntersectMBO/hf-wg-documentation?tab=readme-ov-file#chang-2-updating-tooling-readiness))
-
-**This page is frequently updated and was last updated 01/22/2025**
+**This page represents the readiness and status of the Plomin hard fork as of the January 29, 2025. Now that the Plomin hard fork is enacted this page will not be updated**
 {% endhint %}
 
 ## Core Infrastructure Components <a href="#core-infrastructure-components" id="core-infrastructure-components"></a>
@@ -46,7 +48,7 @@ Alternatively, if you find any information on this page incorrect or misleading 
 
 Governance actions need to be enacted/voted on-chain for the hard fork to take place, you can keep track of the applicable governance actions for Plomin upgrade below.
 
-<table><thead><tr><th width="167">Network</th><th width="130">Action</th><th width="104">Status</th><th width="195">Governance Actors</th><th>View via</th></tr></thead><tbody><tr><td><mark style="color:green;">Preview</mark></td><td><mark style="color:green;">PPU Cost Model</mark></td><td><mark style="color:green;">Enacted</mark></td><td>CC</td><td><a href="https://preview.cardanoscan.io/govAction/gov_action1rarl8newf7gsn03wl6gc9jhqsvr72autml4zz58xjq7y3mw2pw8sqsymael">CardanoScan</a></td></tr><tr><td><mark style="color:green;">Preview</mark></td><td><mark style="color:green;">Hard Fork</mark></td><td><mark style="color:green;">Enacted</mark></td><td>SPO's, CC</td><td><a href="https://preview.cardanoscan.io/govAction/gov_action1qjdwt4sjktagy4j4szgn8vpr6cx8lr9vdq7z0r8ethskytj9jtesqvrtlga">CardanoScan</a></td></tr><tr><td><mark style="color:green;">Pre-production</mark></td><td><mark style="color:green;">PPU Cost Model</mark></td><td><mark style="color:green;">Enacted</mark></td><td>CC</td><td><a href="https://preprod.cardanoscan.io/govAction/gov_action1k5hsy2yw8n5v0et524fz7nkap8qj09m5nckmxgycajlfszmyt4zsqp0n7ft?tab=action">CardanoScan</a></td></tr><tr><td><mark style="color:green;">Pre-production</mark></td><td><mark style="color:green;">Hard Fork</mark></td><td><mark style="color:green;">Enacted</mark></td><td>SPO's, CC</td><td><a href="https://preprod.cardanoscan.io/govAction/gov_action1eje876cdtrp94celmqsmvtpc0afrpkhfxzhaqayflg7l26h9v53qqnjsjww?tab=action">CardanoScan</a></td></tr><tr><td><mark style="color:green;">Mainnet</mark></td><td><mark style="color:green;">PPU Cost Model</mark></td><td><mark style="color:green;">Enacted</mark></td><td>CC</td><td><a href="https://cardanoscan.io/govAction/gov_action1k2jertppnnndejjcglszfqq4yzw8evzrd2nt66rr6rqlz54xp0zsq05ecsn">CardanoScan</a></td></tr><tr><td>Mainnet</td><td>Hard Fork</td><td>On-chain</td><td>SPO's, CC</td><td><a href="https://cardanoscan.io/govAction/gov_action1pvv5wmjqhwa4u85vu9f4ydmzu2mgt8n7et967ph2urhx53r70xusqnmm525">CardanoScan</a></td></tr></tbody></table>
+<table><thead><tr><th width="167">Network</th><th width="130">Action</th><th width="104">Status</th><th width="195">Governance Actors</th><th>View via</th></tr></thead><tbody><tr><td><mark style="color:green;">Preview</mark></td><td><mark style="color:green;">PPU Cost Model</mark></td><td><mark style="color:green;">Enacted</mark></td><td>CC</td><td><a href="https://preview.cardanoscan.io/govAction/gov_action1rarl8newf7gsn03wl6gc9jhqsvr72autml4zz58xjq7y3mw2pw8sqsymael">CardanoScan</a></td></tr><tr><td><mark style="color:green;">Preview</mark></td><td><mark style="color:green;">Hard Fork</mark></td><td><mark style="color:green;">Enacted</mark></td><td>SPO's, CC</td><td><a href="https://preview.cardanoscan.io/govAction/gov_action1qjdwt4sjktagy4j4szgn8vpr6cx8lr9vdq7z0r8ethskytj9jtesqvrtlga">CardanoScan</a></td></tr><tr><td><mark style="color:green;">Pre-production</mark></td><td><mark style="color:green;">PPU Cost Model</mark></td><td><mark style="color:green;">Enacted</mark></td><td>CC</td><td><a href="https://preprod.cardanoscan.io/govAction/gov_action1k5hsy2yw8n5v0et524fz7nkap8qj09m5nckmxgycajlfszmyt4zsqp0n7ft?tab=action">CardanoScan</a></td></tr><tr><td><mark style="color:green;">Pre-production</mark></td><td><mark style="color:green;">Hard Fork</mark></td><td><mark style="color:green;">Enacted</mark></td><td>SPO's, CC</td><td><a href="https://preprod.cardanoscan.io/govAction/gov_action1eje876cdtrp94celmqsmvtpc0afrpkhfxzhaqayflg7l26h9v53qqnjsjww?tab=action">CardanoScan</a></td></tr><tr><td><mark style="color:green;">Mainnet</mark></td><td><mark style="color:green;">PPU Cost Model</mark></td><td><mark style="color:green;">Enacted</mark></td><td>CC</td><td><a href="https://cardanoscan.io/govAction/gov_action1k2jertppnnndejjcglszfqq4yzw8evzrd2nt66rr6rqlz54xp0zsq05ecsn">CardanoScan</a></td></tr><tr><td><mark style="color:green;">Mainnet</mark></td><td><mark style="color:green;">Hard Fork</mark></td><td><mark style="color:green;">Enacted</mark></td><td>SPO's, CC</td><td><a href="https://cardanoscan.io/govAction/gov_action1pvv5wmjqhwa4u85vu9f4ydmzu2mgt8n7et967ph2urhx53r70xusqnmm525">CardanoScan</a></td></tr></tbody></table>
 
 <details>
 
@@ -80,8 +82,8 @@ The stake pool vote threshold to reach is 51% of total stake to vote yes.
 
 |                | Percentage of stake |
 | -------------- | ------------------- |
-| Yes            | 67.88%               |
-| No + Not Voted | 32.12%               |
+| Yes            | 67.88%              |
+| No + Not Voted | 32.12%              |
 
 SPO vote summary last updated: 2025-02-03 00:09:04
 
@@ -92,7 +94,7 @@ SPO vote summary last updated: 2025-02-03 00:09:04
 |    Yes    |      396     |          7.06b          |
 |     No    |       4      |          60.79m         |
 |  Abstain  |       2      |          38.98m         |
-| Not Voted | 2082       | 7.32b  |
+| Not Voted |     2082     |          7.32b          |
 
 SPO vote total last updated: 2025-02-03 00:09:04
 
@@ -105,7 +107,7 @@ The constitutional committee vote threshold to reach is 5 out of 7 constitutiona
 |       Vote       | Total | Percentage |
 | :--------------: | :---: | :--------: |
 |  Constitutional  |   0   |     0%     |
-| Unconstitutional | 0     | 0%     |
+| Unconstitutional |   0   |     0%     |
 |      Abstain     |   0   |     0%     |
 |     Not voted    |   7   |    100%    |
 
