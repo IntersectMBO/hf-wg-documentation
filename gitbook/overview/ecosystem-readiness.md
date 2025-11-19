@@ -4,7 +4,7 @@ Readiness is a self-attestation from the community and ecosystem, facilitated at
 
 Signalling readiness is important, this allows the on-chain governance, SPOs and the CC in the case of a major upgrade, to make an informed decision voting for the governance action to enact a hard fork or other significant change.
 
-The community is encouraged to participate in updating and maintaining this key list of tooling, libraries, wallets and other key tools. Understandably, over time between major events, popularity and practices change. It is important the HFWG understands what dependencies and key tools are used by the community in order to ensure their participation readiness activities.&#x20;
+The community is encouraged to participate in updating and maintaining this key list of tooling, libraries, wallets and other key components. Understandably, over time between major events, popularity and practices change. It is important the HFWG understands what dependencies and key tools are used by the community in order to ensure their participation in any readiness activities.&#x20;
 
 {% hint style="warning" %}
 You can suggesting updates to any of the lists below via this Intersect [GitHub documentation repository](https://github.com/IntersectMBO/hf-wg-documentation), a simple how to guide provided [here](../../).&#x20;
