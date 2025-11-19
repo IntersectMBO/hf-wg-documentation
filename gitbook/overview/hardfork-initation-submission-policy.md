@@ -6,11 +6,9 @@ description: >-
 
 # Hardfork Initation Submission Policy
 
-The hardfork working group maintains an offical policy reflecting the ecosystem criteria that is required before they recommend submitting a hardfork initiation governance action.
+The hardfork working group maintains a policy reflecting the ecosystem criteria that is required before they recommend submitting a hardfork initiation governance action.
 
-The first iteration of this policy was developed and then followed by the working group for submission of the Plomin hardfork action.&#x20;
-
-The policy is maintained via the [hf-wg-documentation/policies](../../policies/hardfork-submission-criteria.md#mainnet-hardfork-initiation-governance-action-submission-criteria) repository. We copy-paste the policy here for convenience.
+The first iteration of this policy was developed and then followed by the working group for submission of the Plomin hardfork action. The policy is maintained via the [hf-wg-documentation/policies](../../policies/hardfork-submission-criteria.md#mainnet-hardfork-initiation-governance-action-submission-criteria) repository. We copy-paste the policy here for convenience.
 
 {% hint style="warning" %}
 To provide feedback on the policy you can
@@ -22,19 +20,18 @@ To provide feedback on the policy you can
 
 ## Mainnet Hardfork Initiation Governance Action Submission Criteria
 
-Version: `0.1`
+Version: `0.2`
 
-This policy describes specific metrics which the hardfork working group (HFWG) considers before recommending submission of a hardfork initiation governance action to Cardano mainnet.
+This policy describes metrics which the hardfork working group (HFWG) considers before recommending submission of a hardfork initiation governance action to Cardano mainnet.
 
 This policy aims to apply to the most normal circumstances, special cases such as security upgrades may not necessarily apply.
 
 #### Context
 
-* The hardfork working group **can not** decide if Cardano is ready to hardfork, this is up to the ICC, SPOs and DReps.
-  * Historically, the working group could decide this, but we are now in the _brave new world_.
-* The HFWG **can** decide when to recommend the submission of a hardfork initiation action - _When do we think we are ready for SPOs and the ICC to consider a hardfork?_
+* The hardfork working group **can not** decide if Cardano is ready to hardfork, this is up to the CC, SPOs and DReps.
+* The HFWG **can** decide when to recommend the submission of a hardfork initiation action - _When do we think we are ready for SPOs and the CC to consider a hardfork?_
 * The HFWG **can** recommend key indicators we would like to see met before a hardfork is ratified, these indicators can be forwarded to the voters for consideration.
-* The decision to recommend the submission of a hardfork action must be ratified by the Technical Steering Committee.
+* The decision to recommend the submission of a hardfork action must be ratified by the Technical Steering Committee. Who in turn pass this recommendation to the Intersect Board.
 * Submitting a hardfork does not guarantee the ratification and enactment of a hardfork.
 
 #### Definitions
@@ -70,15 +67,18 @@ This policy aims to apply to the most normal circumstances, special cases such a
 * DApp/Defi readiness - progress is shown.
 * SPO readiness - progress is shown.
 
-### Would like to see for ratification (WIP)
+### Would like to see for ratification&#x20;
 
-The idea for this section, is it matches the metrics tracked for Chang #1. These are in addition to the on-chain voting ratification requirements.
+Preferably by the time of ratification the following metrics have been met and are present across the ecosystem. These are in addition to any on-chain voting ratification requirements.
 
 * No major holidays or events - tech teams ready to respond and support to issues
 * Preview Testnet hardforked - 42 epochs (1 day epochs)
 * PreProd Testnet hardforked - 3 epochs
-* SPO readiness - 80% stake measure by pool tool.
-* Exchange readiness - 80% by liquidity.
-* DApp/Defi readiness - 80% of top 20 projects.
-* Tooling readiness - 80% of named tools.
+* SPO readiness - 80% stake measure&#x20;
+* Exchange readiness - 80% by liquidity
+* DApp/Defi readiness - 80% of top 20 projects\*
+* Tooling readiness - 80% of named tools
 * Wallet readiness - 80% of top 15
+
+\*Note DApp and Defi readiness is subjective. Different upgrades will affect the ecosystem in entirely different ways. The HFWG looks for evidence that trusted and mature ecosystem builders, where a level of expertise and experience are evidenced, have upgraded. This demonstrates 'the art of the possible’, which contributes to understanding ecosystem impact and timeline required, and also builds confidence a good level of testing has been undertaken.
+
