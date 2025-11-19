@@ -4,6 +4,7 @@
 
 * [Overview](README.md)
 * [Hardfork Initation Submission Policy](overview/hardfork-initation-submission-policy.md)
+* [Ecosystem Readiness](overview/ecosystem-readiness.md)
 
 ## Plomin Upgrade
 
