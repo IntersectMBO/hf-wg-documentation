@@ -14,12 +14,15 @@ It is suggested that you bookmark this space and regularly refer back as new upg
 
 **Planned upgrades**
 
-| Name                                                                                                    |
-| ------------------------------------------------------------------------------------------------------- |
-| [Plomin upgrade](https://cardanoupgrades.docs.intersectmbo.org/plomin-upgrade/chang-upgrade-2-overview) |
+| Name                |
+| ------------------- |
+| Infra-era hard fork |
 
 **Completed upgrades**
 
-| Name             |
-| ---------------- |
-| Chang upgrade #1 |
+| Name           |
+| -------------- |
+| Plomin upgrade |
+| Chang upgrade  |
+
+Note that information on previous upgrades may be temporarily hidden during any active upgrade. This is to ensure that only relevant information is available and aims avoid the propagation of potentially misleading or historical information.&#x20;
