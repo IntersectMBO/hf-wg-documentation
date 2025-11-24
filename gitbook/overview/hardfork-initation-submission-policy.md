@@ -4,7 +4,7 @@ description: >-
   submission policy
 ---
 
-# Hardfork Initation Submission Policy
+# Hardfork Initiation Submission Policy
 
 The hardfork working group maintains a policy reflecting the ecosystem criteria that is required before they recommend submitting a hardfork initiation governance action.
 
@@ -60,7 +60,7 @@ This policy aims to apply to the most normal circumstances, special cases such a
   * Tools - Rosetta, GraphQL, CNTools, SPO scripts
   * High level tooling - Blockfrost, Maestro, Kiois, Demeter
   * Indexers - Kupo, Oura, Scrolls, Carp
-  * Governance - GovTool, CC-Portal, DRep Campaign, tempo.vote
+  * Governance - GovTool, tempo.vote, DRep Campaign, Cardano Governance Voting Tool, SyncAI
 * Block explorers - in-progress - Cexplorer, AdaStat, Cardanoscan, CF explorer
 * Exchange readiness - progress is shown, confirmation of tooling upgrades for the first few.
 * Wallet readiness - progress is shown.
