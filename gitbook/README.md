@@ -16,7 +16,7 @@ It is suggested that you bookmark this space and regularly refer back as new upg
 
 | Name                |
 | ------------------- |
-| Infra-era hard fork |
+| Intra-era hard fork |
 
 **Completed upgrades**
 
