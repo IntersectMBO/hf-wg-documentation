@@ -44,8 +44,8 @@ special cases such as security upgrades may not necessarily apply.
   - Tools - Rosetta, GraphQL, CNTools, SPO scripts
   - High level tooling - Blockfrost, Maestro, Koios, Demeter
   - Indexers - Kupo, Oura, Scrolls, Carp
-  - Governance - GovTool, CC-Portal, DRep Campaign, tempo.vote
-- Block explorers - in-progress - Cexplorer, AdaStat, Cardanoscan, CF explorer
+  - Governance - GovTool, DRep Campaign, tempo.vote
+- Block explorers - in-progress - Cexplorer, AdaStat, Cardanoscan
 - Exchange readiness - progress is shown, confirmation of tooling upgrades for the first few.
 - Wallet readiness - progress is shown.
 - DApp/DeFi readiness - progress is shown.
