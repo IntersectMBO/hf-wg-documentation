@@ -7,11 +7,11 @@ This policy describes specific metrics which the hard fork working group (HFWG) 
 
 This policy aims to apply to the most normal circumstances, special cases such as security upgrades may not necessarily apply.
 
-### Context
+## Context
 
-- The hard fork working group **can not** decide if Cardano is ready to hard fork, this is up to the ICC, SPOs and DReps.
+- The hard fork working group **can not** decide if Cardano is ready to hard fork, this is up to the CC, SPOs and DReps.
   - Historically, the working group could decide this, but we are now in the *brave new world*.
-- The HFWG **can** decide when to recommend the submission of a hard fork initiation action - *When do we think we are ready for SPOs and the ICC to consider a hard fork?*
+- The HFWG **can** decide when to recommend the submission of a hard fork initiation action - *When do we think we are ready for SPOs and the CC to consider a hard fork?*
 - The HFWG **can** recommend key indicators we would like to see met before a hard fork is ratified, these indicators can be forwarded to the voters for consideration.
 - The decision to recommend the submission of a hard fork action must be ratified by the Technical Steering Committee.
 - Submitting a hard fork does not guarantee the ratification and enactment of a hard fork.
@@ -30,13 +30,13 @@ This policy aims to apply to the most normal circumstances, special cases such a
 - Preview Testnet hard forked - 2 epochs (1 day epochs)
 - PreProd Testnet hard forked - no strict time limit.
 - Tooling readiness (full releases) - [DB-Sync](https://github.com/IntersectMBO/cardano-db-sync), [cardano-wallet](https://github.com/cardano-foundation/cardano-wallet), [Ogmios](https://github.com/cardanosolutions/ogmios).
-- Engagement with all key stakeholders kicked-off - tooling, exchanges, wallets, dApps/Defi, ICC, DReps, SPOs.
+- Engagement with all key stakeholders kicked-off - tooling, exchanges, wallets, dApps/Defi, CC, DReps, SPOs.
 
 ### Would like to see for submission
 
 - Preview Testnet hard forked - 3 epochs (1 day epochs)
 - PreProd Testnet hard forked - 2 epochs
-- Regular engagement with all key stakeholders - tooling, exchanges, wallets, dApps/Defi, ICC, DReps, SPOs.
+- Regular engagement with all key stakeholders - tooling, exchanges, wallets, dApps/Defi, CC, DReps, SPOs.
 - Tooling Upgrades in-progress - all been reached out to and engaged:
   - Libraries - CSL, CML, JS-SDK, CTL, Mesh, lucid, Pallas, Aiken
   - Tools - Rosetta, GraphQL, CNTools, SPO scripts
