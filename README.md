@@ -1,14 +1,14 @@
-# Hardfork Working Group Documentation
+# Hard Fork Working Group Documentation
 
-Repository for hardfork working group documentation.
+Repository for hard fork working group documentation.
 
-This holds the source for the [cardanoupgrades.docs.intersectmbo](https://cardanoupgrades.docs.intersectmbo.org/) and polices/procedures the hardfork working group follow.
+This holds the source for the [cardanoupgrades.docs.intersectmbo](https://cardanoupgrades.docs.intersectmbo.org/) and polices/procedures the hard fork working group follow.
 
 ## Navigation
 
 - [Cardano Upgrades Gitbook space](./gitbook/)
-- [Hardfork working group policies](./policies/)
-  - [Hardfork submission criteria](./policies/hardfork-submission-criteria.md)
+- [Hard fork working group policies](./policies/)
+  - [Hard fork submission criteria](./policies/hardfork-submission-criteria.md)
 
 ## Contributing
 
