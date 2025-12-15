@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Ecosystem Readiness
 
 Readiness is a self-attestation from the community and ecosystem, facilitated at Intersect, of being technically ready for the next upgrade.
