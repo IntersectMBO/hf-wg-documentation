@@ -14,9 +14,9 @@ It is suggested that you bookmark this space and regularly refer back as new upg
 
 **Planned upgrades**
 
-| Name                |
-| ------------------- |
-| Intra-era hard fork |
+| Name                                                                            |
+| ------------------------------------------------------------------------------- |
+| [Intra-era hard fork](proposed-intra-era-scope/intra-era-hard-fork-overview.md) |
 
 **Completed upgrades**
 
