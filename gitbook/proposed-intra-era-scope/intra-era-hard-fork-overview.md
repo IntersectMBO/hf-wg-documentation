@@ -56,9 +56,3 @@ Improved protocol parameter hash mismatch reporting:
 To be determined
 
 ***
-
-## Delegating
-
-A key part of the governance model is delegating. Delegating is the act of 'loaning' your Voting Power - which equals ADA the balance in your wallet - to someone else. The person or organisation that you delegate to are called DReps, which is short for "Delegate Representatives". DReps represent you in a similar way as a parliamentary or congressional representative does in an analog government. Simply put, they vote on your behalf.
-
-It is recommended you participate and delegate to a DRep ahead of the intra-era upgrade mainnet hard fork.
