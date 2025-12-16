@@ -1,6 +1,6 @@
 # 16th December 2025
 
-## Agenda
+#### Agenda
 
 1. Proposed intra-era scope and community feedback
    1. [Draft: Update policy to include alternative node implementations and Midnight](https://github.com/IntersectMBO/hf-wg-documentation/pull/33)
@@ -8,4 +8,12 @@
 3. Readiness list and Submission criteria
 4. Timings on testnet forks
 5. Timing of Plutus cost model update after hard fork, considering other parameter changes around similar times
+6. Requests for next session agenda and the date of the next meeting
+
+#### Key materials
+
+* Recording (to be added)
+* Chat (to be added)
+* Transcript (to be added)
+* Rolling agenda (to be added)
 
