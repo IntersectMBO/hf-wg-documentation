@@ -3,7 +3,7 @@
 ## Overview
 
 * [Overview](README.md)
-* [Hardfork Initiation Submission Policy](overview/hardfork-initation-submission-policy.md)
+* [Hard Fork Initiation Submission Policy](overview/hardfork-initation-submission-policy.md)
 * [Ecosystem Readiness](overview/ecosystem-readiness.md)
 
 ## Proposed Intra-era Scope

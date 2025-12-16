@@ -1,14 +1,14 @@
 ---
 description: >-
-  This page shows the Hardfork Working Group's hardfork governance action
+  This page shows the Hard Fork Working Group's hard fork governance action
   submission policy
 ---
 
-# Hardfork Initiation Submission Policy
+# Hard Fork Initiation Submission Policy
 
-The hardfork working group maintains a policy reflecting the ecosystem criteria that is required before they recommend submitting a hardfork initiation governance action.
+The hardfork working group maintains a policy reflecting the ecosystem criteria that is required before they recommend submitting a hard fork initiation governance action.
 
-The first iteration of this policy was developed and then followed by the working group for submission of the Plomin hardfork action. The policy is maintained via the [hf-wg-documentation/policies](../../policies/hardfork-submission-criteria.md#mainnet-hardfork-initiation-governance-action-submission-criteria) repository. We copy-paste the policy here for convenience.
+The first iteration of this policy (`v0.1`) was developed and then followed by the working group for submission of the Plomin hardfork action. The policy is maintained via the [hf-wg-documentation/hardfork-initation-submission-policy.md](hardfork-initation-submission-policy.md).
 
 {% hint style="warning" %}
 To provide feedback on the policy you can
@@ -18,7 +18,7 @@ To provide feedback on the policy you can
 * Request to join the working group by emailing your interest **hard-fork@intersectmbo.org**.
 {% endhint %}
 
-## Mainnet Hardfork Initiation Governance Action Submission Criteria
+## Mainnet Hard Fork Initiation Governance Action Submission Criteria
 
 Version: `0.2`
 
