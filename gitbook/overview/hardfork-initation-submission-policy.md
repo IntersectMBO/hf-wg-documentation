@@ -20,7 +20,7 @@ To provide feedback on the policy you can
 
 ## Mainnet Hard Fork Initiation Governance Action Submission Criteria
 
-Version: `0.2`
+Version: `0.2`  -- Prepared for 2026 Intra-era Hard Fork
 
 This policy describes specific metrics which the hard fork working group (HFWG) considers before recommending submission of a Hard Fork Initiation governance action to Cardano mainnet.
 
@@ -48,19 +48,21 @@ This policy aims to apply to the most normal circumstances, special cases such a
 * Preview Testnet hard forked - 2 epochs (1 day epochs)
 * PreProd Testnet hard forked - no strict time limit.
 * Tooling readiness (full releases) - [DB-Sync](https://github.com/IntersectMBO/cardano-db-sync), [cardano-wallet](https://github.com/cardano-foundation/cardano-wallet), [Ogmios](https://github.com/cardanosolutions/ogmios).
-* Engagement with all key stakeholders kicked-off - tooling, exchanges, wallets, dApps/DeFi, CC, DReps, SPOs.
+* Engagement with all key stakeholders kicked-off - node implementors, tooling, exchanges, wallets, partner-chains, dApps/DeFi, CC, DReps, SPOs.
 
 #### Would like to see for submission
 
 * Preview Testnet hard forked - 3 epochs (1 day epochs)
 * PreProd Testnet hard forked - 2 epochs
-* Regular engagement with all key stakeholders - tooling, exchanges, wallets, dApps/DeFi, CC, DReps, SPOs.
+* Regular engagement with all key stakeholders - node implementors, tooling, exchanges, wallets, partner-chains, dApps/DeFi, CC, DReps, SPOs.
 * Tooling Upgrades in-progress - all been reached out to and engaged:
   * Libraries - CSL, CML, JS-SDK, CTL, Mesh, lucid, Pallas, Aiken
   * Tools - Rosetta, GraphQL, CNTools, SPO scripts
   * High level tooling - Blockfrost, Maestro, Koios, Demeter
   * Indexers - Kupo, Oura, Scrolls, Carp
   * Governance - GovTool, DRep Campaign, tempo.vote
+* Node implementors - Amaru, Gerolamo, Dingo
+* Partner-chains - Midnight
 * Block explorers - in-progress - Cexplorer, AdaStat, Cardanoscan
 * Exchange readiness - progress is shown, confirmation of tooling upgrades for the first few.
 * Wallet readiness - progress is shown.
