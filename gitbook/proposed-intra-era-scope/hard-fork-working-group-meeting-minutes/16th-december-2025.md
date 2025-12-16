@@ -9,6 +9,7 @@
 4. Timings on testnet forks
 5. Timing of Plutus cost model update after hard fork, considering other parameter changes around similar times
 6. Requests for next session agenda and the date of the next meeting
+7. Dijkstra Era scope collecting
 
 #### Key materials
 
