@@ -13,8 +13,7 @@
 
 #### Key materials
 
-* Recording (to be added)
-* Chat (to be added)
-* Transcript (to be added)
-* Rolling agenda (to be added)
+* [Recording](https://drive.google.com/file/d/1w1hDgIU8W2CJWq4_-m-N20dOIuVC8Jdu/view)
+* [Chat](https://drive.google.com/file/d/13bWId1x5RIxWBvG7UHIMEG3xjBUn79_c/view)
+* [Transcript](https://docs.google.com/document/d/1TpZCzN6dtF1cxYowuAH_bL0IZQdBQZZT-85VJLHPFRA/edit?usp=sharing)
 
