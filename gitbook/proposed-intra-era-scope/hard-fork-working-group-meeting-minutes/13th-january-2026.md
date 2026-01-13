@@ -6,7 +6,8 @@
 2. [Haskell node readiness](https://github.com/IntersectMBO/cardano-node/releases)
 3. Feedback on the [proposed hard fork changes](https://intersectmbo.org/news/proposed-intra-era-hard-fork-to-protocol-version-11)
    1. [Readiness list](../intra-era-hard-fork-readiness.md) and [Submission criteria](../../overview/hardfork-initation-submission-policy.md)
-4. Governance actions timeline
+4. Parameter Committee review
+5. Governance actions timeline
 
 #### Key materials
 
