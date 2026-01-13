@@ -14,7 +14,7 @@ The first iteration of this policy (`v0.1`) was developed and then followed by t
 To provide feedback on the policy you can
 
 * Email **hard-fork@intersectmbo.org**
-* Raise an issue via [Github/HF-WG-Documentation](https://github.com/IntersectMBO/hf-wg-documentation/issues/new) (or pull request - [see how-to](https://github.com/IntersectMBO/hf-wg-documentation?tab=readme-ov-file#chang-2-updating-tooling-readiness))
+* Raise an issue via [Github/HF-WG-Documentation](https://github.com/IntersectMBO/hf-wg-documentation/issues/new) (or pull request - [see how-to](https://github.com/IntersectMBO/hf-wg-documentation?tab=readme-ov-file#contributing))
 * Request to join the working group by emailing your interest **hard-fork@intersectmbo.org**.
 {% endhint %}
 
