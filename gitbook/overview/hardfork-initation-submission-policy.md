@@ -6,9 +6,9 @@ description: >-
 
 # Hard Fork Initiation Submission Policy
 
-The hardfork working group maintains a policy reflecting the ecosystem criteria that is required before they recommend submitting a hard fork initiation governance action.
+The hard fork working group maintains a policy reflecting the ecosystem criteria that is required before they recommend submitting a hard fork initiation governance action.
 
-The first iteration of this policy (`v0.1`) was developed and then followed by the working group for submission of the Plomin hardfork action. The policy is maintained via the [hf-wg-documentation/hardfork-initation-submission-policy.md](hardfork-initation-submission-policy.md).
+The first iteration of this policy (`v0.1`) was developed and then followed by the working group for submission of the Plomin hard fork action. The policy is maintained via the [hf-wg-documentation/hardfork-initation-submission-policy.md](hardfork-initation-submission-policy.md).
 
 {% hint style="warning" %}
 To provide feedback on the policy you can
@@ -63,6 +63,7 @@ This policy aims to apply to the most normal circumstances, special cases such a
   * Governance - GovTool, DRep Campaign, tempo.vote
 * Node implementors - Amaru, Gerolamo, Dingo
 * Partner-chains - Midnight
+* Layer 2s/Scaling - Mithril, Hydra, Midgard
 * Block explorers - in-progress - Cexplorer, AdaStat, Cardanoscan
 * Exchange readiness - progress is shown, confirmation of tooling upgrades for the first few.
 * Wallet readiness - progress is shown.
