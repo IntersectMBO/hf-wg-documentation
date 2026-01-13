@@ -61,7 +61,7 @@ This policy aims to apply to the most normal circumstances, special cases such a
   * High level tooling - Blockfrost, Maestro, Koios, Demeter
   * Indexers - Kupo, Oura, Scrolls, Carp
   * Governance - GovTool, DRep Campaign, tempo.vote
-* Node implementors - Amaru, Gerolamo, Dingo
+* Node implementors - Acropolis, Amaru, Dingo, Gerolamo
 * Partner-chains - Midnight
 * Layer 2s/Scaling - Mithril, Hydra, Midgard
 * Block explorers - in-progress - Cexplorer, AdaStat, Cardanoscan
