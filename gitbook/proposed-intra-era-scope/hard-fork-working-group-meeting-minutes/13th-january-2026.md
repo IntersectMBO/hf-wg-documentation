@@ -2,11 +2,10 @@
 
 #### Agenda
 
-1. Intra-era hard fork name
-2. Proposed intra-era scope and community feedback
-3. Readiness list and Submission criteria
-4. Requests for next session agenda and the date of the next meeting
-5. Dijkstra Era scope collecting
+1. Hard fork naming info action
+2. Haskell node readiness
+3. Feedback on the proposed hard fork changes
+4. Governance actions timeline
 
 #### Key materials
 
