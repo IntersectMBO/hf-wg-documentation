@@ -2,19 +2,19 @@
 
 Repository for hard fork working group documentation.
 
-This holds the source for the [cardanoupgrades.docs.intersectmbo](https://cardanoupgrades.docs.intersectmbo.org/) and polices/procedures the hard fork working group follow.
+This holds the source for the [cardanoupgrades.docs.intersectmbo](https://cardanoupgrades.docs.intersectmbo.org/) including polices/procedures the hard fork working group follows.
 
 ## Navigation
 
 - [Cardano Upgrades Gitbook space](./gitbook/)
-- [Hard fork working group policies](./policies/)
-  - [Hard fork submission criteria](./policies/hardfork-submission-criteria.md)
+- [Hard fork Initiation Submission Policy](./gitbook/overview/hardfork-initation-submission-policy.md)
+- [Past iterations of policies](./policies/past-iterations/)
 
 ## Contributing
 
-### Chang #2 Updating Tooling Readiness
+### Updating Hard Fork Readiness Tracker
 
-If you see that there is incorrect information on tooling readiness shown via [cardanoupgrades.chang-upgrade-2-readiness](https://cardanoupgrades.docs.intersectmbo.org/chang-upgrade-2/chang-upgrade-2-readiness#readiness).
+If you see that there is incorrect information on tooling readiness shown via [cardanoupgrades/intra-era-hard-fork-readiness](https://cardanoupgrades.docs.intersectmbo.org/proposed-intra-era-scope/intra-era-hard-fork-readiness).
 
 Please create a pull request to update it!
 
@@ -74,12 +74,12 @@ In your favorite text editor navigate to to the readiness page.
 This is how it can be done via VsCode.
 
 ```shell
-code ./chang-upgrade-2/chang-upgrade-2-readiness.md
+code ./gitbook/proposed-intra-era-scope/intra-era-hard-fork-readiness.md
 ```
 
 #### 7. Check changes
 
-Confirming that the changes made within `./chang-upgrade-2/chang-upgrade-2-readiness.md` are impacting `http://localhost:4000` as expected.
+Confirming that the changes made within `./gitbook/proposed-intra-era-scope/intra-era-hard-fork-readiness.md` are impacting `http://localhost:4000` as expected.
 
 #### 8. Add, Commit and Push changes to fork
 
@@ -94,7 +94,7 @@ git add .
 Commit changes to local.
 
 ```shell
-git commit -m "updated chang 2 readiness page"
+git commit -m "updated readiness page"
 ```
 
 Push the changes to your fork.
