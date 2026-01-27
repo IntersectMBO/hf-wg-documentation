@@ -25,7 +25,6 @@
 4. **Ryan W:** Finalize and share the Preliminary Hard Fork Timeline (Excalidraw/Sheet) with the group for further refinement once node readiness is confirmed.
 5. **Bosko:** Formally signal to the community that since no feedback has been received, the group is proceeding with the current proposed scope.
 6. **Kartik:** Post the anomalous ledger event logs in the Consensus Working Group Discord for deeper technical analysis by the node team.
-7. Update the Hard Fork Readiness List to explicitly include Parameter Committee approval as a checklist item.
-8. Assess the utility of Sanchonet for DApp and tooling integration testing to see if it remains a viable pre-release environment for future cycles
-9. **Bosko:** Coordinate with IOE to reschedule the Hard Fork Working Group meeting to Wednesdays or Thursdays. This ensures the group has the latest data from the Tuesday Release Management meetings.
+7. Assess the utility of Sanchonet for DApp and tooling integration testing to see if it remains a viable pre-release environment for future cycles
+8. **Bosko:** Coordinate with IOE to reschedule the Hard Fork Working Group meeting to Wednesdays or Thursdays. This ensures the group has the latest data from the Tuesday Release Management meetings.
 
