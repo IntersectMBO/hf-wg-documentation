@@ -32,7 +32,7 @@ Spokesperson: Ryan
 
 #### Testnets
 
-<table><thead><tr><th width="167">Network</th><th width="215">Status</th><th>View via</th></tr></thead><tbody><tr><td>SanchoNet</td><td><mark style="color:$danger;">Blocked — need a node</mark></td><td>waiting on a Pre-Release</td></tr><tr><td>Preview</td><td><mark style="color:$danger;">Blocked — need node</mark></td><td>waiting on a full Release</td></tr><tr><td>PreProd</td><td><mark style="color:$danger;">Blocked — need node</mark></td><td>waiting on a full Release</td></tr></tbody></table>
+<table><thead><tr><th width="167">Network</th><th width="215">Status</th><th>View via</th></tr></thead><tbody><tr><td>SanchoNet</td><td><mark style="color:$danger;">Blocked — need node</mark></td><td>waiting on a Pre-Release</td></tr><tr><td>Preview</td><td><mark style="color:$danger;">Blocked — need node</mark></td><td>waiting on a full Release</td></tr><tr><td>PreProd</td><td><mark style="color:$danger;">Blocked — need node</mark></td><td>waiting on a full Release</td></tr></tbody></table>
 
 #### Governance Actions
 
