@@ -149,6 +149,7 @@ DApps listed on this page are self-attested by the community, to add your DApp p
 | UnFrack.it       |        |
 | USDM             |        |
 | Wanchain         |        |
+| WingRiders       |        |
 
 {% hint style="warning" %}
 DApps listed on this page are self-attested by the community, to add your DApp please email **hard-fork@intersectmbo.org** or raise a pull request to this public repository via [Github/HF-WG-Documentation](https://github.com/IntersectMBO/hf-wg-documentation/issues/new) ([see how-to](https://github.com/IntersectMBO/hf-wg-documentation?tab=readme-ov-file#contributing))
