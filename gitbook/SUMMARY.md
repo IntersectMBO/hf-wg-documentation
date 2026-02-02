@@ -11,7 +11,7 @@
 * [Intra-era hard fork overview](proposed-intra-era-scope/intra-era-hard-fork-overview.md)
 * [Intra-era hard fork readiness](proposed-intra-era-scope/intra-era-hard-fork-readiness.md)
 * [Intra-era hard fork FAQ](proposed-intra-era-scope/intra-era-hard-fork-faq.md)
-* [Intra-era hard fork blogs](proposed-intra-era-scope/intra-era-hard-fork-blogs.md)
+* [Intra-era hard fork Communications](proposed-intra-era-scope/intra-era-hard-fork-blogs.md)
 * [Intra-era hard fork reference materials](proposed-intra-era-scope/intra-era-hard-fork-reference-materials.md)
 * [Hard fork working group meeting minutes](proposed-intra-era-scope/hard-fork-working-group-meeting-minutes/README.md)
   * [10th February 2026](proposed-intra-era-scope/hard-fork-working-group-meeting-minutes/10th-february-2026.md)
