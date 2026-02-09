@@ -8,7 +8,8 @@
 4. Hard Fork Working Group comms
    1. [Discord](https://discord.com/channels/1136727663583698984/1242097284619960411) — `#wg-hard-fork`
    2. [Weekly bulletins](https://x.com/IntersectMBO)
-5. Q\&A
+5. [Hard fork naming info action status](https://adastat.net/governances/8845bfc37bb2f69e8f200fe28148b3dea3c4399b0c49ee0ed2bb4e349cab9eb700) - Bosko
+6. Q\&A
 
 #### Key materials
 
