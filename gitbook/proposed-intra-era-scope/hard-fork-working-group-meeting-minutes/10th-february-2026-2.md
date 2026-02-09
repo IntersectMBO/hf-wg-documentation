@@ -1,8 +1,4 @@
----
-hidden: true
----
-
-# 24th February 2026
+# 10th February 2026
 
 #### Agenda
 
