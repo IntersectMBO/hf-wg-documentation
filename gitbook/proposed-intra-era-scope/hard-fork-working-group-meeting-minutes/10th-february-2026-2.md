@@ -9,7 +9,6 @@
    1. [Discord](https://discord.com/channels/1136727663583698984/1242097284619960411) — `#wg-hard-fork`
    2. [Weekly bulletins](https://x.com/IntersectMBO)
 5. Q\&A
-   1. [Discord question](https://discord.com/channels/1136727663583698984/1242097284619960411/1470360383884890197) - "hey, will upcoming hard fork remove legacy stake reg/dereg? as commented [here](https://github.com/IntersectMBO/cardano-ledger/blob/28604aba1240a006e5427f0c27030e74924eacda/eras/conway/impl/cddl/data/conway.cddl#L347)"
 
 #### Key materials
 
