@@ -50,6 +50,8 @@ todo
 
 ### Exchanges
 
+Spokesperson: Michiel Bellen
+
 todo
 
 * start tracking once Node available
@@ -58,7 +60,7 @@ todo
 
 ### Tooling
 
-Spokesperson: Todo
+Spokesperson: David Clark
 
 **Tools**
 
@@ -104,7 +106,7 @@ Spokesperson: Ryan
 
 ***
 
-### &#x20;Partner-chains + Scalability
+### Partner-chains + Scalability
 
 Spokesperson: todo
 
