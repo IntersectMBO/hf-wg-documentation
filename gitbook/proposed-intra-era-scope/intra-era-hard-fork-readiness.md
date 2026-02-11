@@ -98,7 +98,7 @@ Spokesperson: Ryan
 
 **Hardware Wallets**
 
-<table><thead><tr><th width="251">Wallet</th><th width="248">Status</th><th>Notes</th></tr></thead><tbody><tr><td>Trezor</td><td><mark style="color:$success;">N/A - no update required</mark></td><td></td></tr><tr><td>Ledger</td><td><mark style="color:$success;">N/A - no update required</mark></td><td></td></tr><tr><td>Keystone</td><td><mark style="color:$success;">N/A - no update required</mark></td><td></td></tr></tbody></table>
+<table><thead><tr><th width="251">Wallet</th><th width="248">Status</th><th>Notes</th></tr></thead><tbody><tr><td>Trezor</td><td><mark style="color:green;">N/A - no update required</mark></td><td></td></tr><tr><td>Ledger</td><td><mark style="color:green;">N/A - no update required</mark></td><td></td></tr><tr><td>Keystone</td><td><mark style="color:green;">N/A - no update required</mark></td><td></td></tr></tbody></table>
 
 #### Full Node / CLI Wallets
 
