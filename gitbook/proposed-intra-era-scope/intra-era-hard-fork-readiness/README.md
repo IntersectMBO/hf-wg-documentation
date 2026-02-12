@@ -42,6 +42,8 @@ Spokesperson: Ryan
 
 ### SPOs
 
+Spokesperson: Martin Lang / Andrew Westberg
+
 todo
 
 * feed in automated updates once Node available
@@ -50,7 +52,7 @@ todo
 
 ### Exchanges
 
-Spokesperson: Michiel Bellen
+Spokesperson: Kartik Iyer
 
 todo
 
@@ -68,19 +70,19 @@ Spokesperson: David Clark
 
 **Libraries**
 
-Spokesperson: Todo
+Spokesperson: Leonard Hegarty
 
 <table><thead><tr><th width="287">Library</th><th width="210">Status</th><th>Notes</th></tr></thead><tbody><tr><td>Blaze Cardano</td><td></td><td>(<a href="https://github.com/butaneprotocol/blaze-cardano/releases">release repository</a>)</td></tr><tr><td>Cardano Serialization Library</td><td></td><td>(<a href="https://github.com/Emurgo/cardano-serialization-lib/releases">release repository</a>)</td></tr><tr><td>Cardano Multiplatform Library</td><td></td><td>(<a href="https://github.com/dcSpark/cardano-multiplatform-lib/releases">release repository</a>)</td></tr><tr><td>Cardano JavaScript SDK</td><td></td><td>(<a href="https://github.com/input-output-hk/cardano-js-sdk/releases">release repository</a>)</td></tr><tr><td>Pallas</td><td></td><td>(<a href="https://github.com/txpipe/pallas/releases">release repository</a>)</td></tr><tr><td>Cardano Transaction Library</td><td></td><td>(<a href="https://github.com/Plutonomicon/cardano-transaction-lib/">release repository</a>)</td></tr><tr><td>MeshSDK</td><td></td><td>(<a href="https://github.com/MeshJS/mesh/releases">release repository</a>)</td></tr><tr><td>Aiken</td><td></td><td>(<a href="https://github.com/aiken-lang/aiken/releases">release repository</a>)</td></tr><tr><td>Lucid Evolution</td><td></td><td>(<a href="https://github.com/Anastasia-Labs/lucid-evolution/releases">release repository</a>)</td></tr><tr><td>Scalus</td><td><mark style="color:green;">Ready</mark></td><td>(<a href="https://discord.com/channels/1136727663583698984/1242097284619960411/1471270571911413884">release repository</a>)</td></tr></tbody></table>
 
 **Indexers**
 
-Spokesperson: Todo
+Spokesperson: Leonard Hegarty
 
 <table><thead><tr><th width="282">Indexers</th><th width="208">Status</th><th>Notes</th></tr></thead><tbody><tr><td>Kupo</td><td></td><td>(<a href="https://github.com/CardanoSolutions/kupo/releases">release repository</a>)</td></tr><tr><td>Oura</td><td></td><td>(<a href="https://github.com/txpipe/oura/releases">release repository</a>)</td></tr><tr><td>Scrolls</td><td></td><td>(<a href="https://github.com/txpipe/scrolls/releases">release repository</a>)</td></tr><tr><td>DB-Sync</td><td></td><td>(<a href="https://github.com/IntersectMBO/cardano-db-sync/releases/tag/13.6.0.4">release repository</a>)</td></tr><tr><td>Carp</td><td></td><td>(<a href="https://github.com/dcSpark/carp/releases">release repository</a>)</td></tr></tbody></table>
 
 **Higher Level Tooling**
 
-Spokesperson: Todo
+Spokesperson: Leonard Hegarty
 
 <table><thead><tr><th width="284">Tools</th><th width="214">Status</th><th>Notes</th></tr></thead><tbody><tr><td>Blockfrost</td><td></td><td>(<a href="https://github.com/blockfrost">repository</a>)</td></tr><tr><td>Koios</td><td></td><td>(<a href="https://github.com/cardano-community/koios-artifacts/releases">release repository</a>)</td></tr><tr><td>Maestro</td><td></td><td>(<a href="https://github.com/maestro-org">repository</a>)</td></tr></tbody></table>
 
@@ -108,7 +110,7 @@ Spokesperson: Ryan
 
 ### Partner-chains + Scalability
 
-Spokesperson: todo
+Spokesperson: Bosko
 
 <table><thead><tr><th width="251">Project</th><th>Status</th><th>Notes</th></tr></thead><tbody><tr><td>Partner-chains Toolkit</td><td></td><td></td></tr><tr><td>Midnight</td><td></td><td></td></tr><tr><td>Hydra</td><td></td><td></td></tr><tr><td>Hydroza</td><td></td><td></td></tr><tr><td>Sundail</td><td></td><td></td></tr><tr><td>Midgard</td><td></td><td></td></tr><tr><td>Gummi worm</td><td></td><td></td></tr><tr><td>Mithril</td><td></td><td></td></tr></tbody></table>
 
@@ -116,7 +118,7 @@ Spokesperson: todo
 
 ### Node Implementations
 
-Spokesperson: todo
+Spokesperson: Ryan
 
 <table><thead><tr><th width="251">Implementation</th><th width="248">Status</th><th>Notes</th></tr></thead><tbody><tr><td>Acropolis</td><td></td><td></td></tr><tr><td>Amaru</td><td></td><td></td></tr><tr><td>Dingo</td><td></td><td></td></tr><tr><td>Gerlamo</td><td></td><td></td></tr></tbody></table>
 
@@ -126,7 +128,7 @@ Spokesperson: todo
 
 DApp and project readiness is tracked against self reported readiness.
 
-Spokesperson: Todo
+Spokesperson: Bosko / Matt
 
 {% hint style="warning" %}
 DApps listed on this page are self-attested by the community, to add your DApp please email **hard-fork@intersectmbo.org** or raise a pull request to this public repository via [Github/HF-WG-Documentation](https://github.com/IntersectMBO/hf-wg-documentation/issues/new) ([see how-to](https://github.com/IntersectMBO/hf-wg-documentation?tab=readme-ov-file#contributing))

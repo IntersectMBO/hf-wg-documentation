@@ -11,6 +11,7 @@
 * [Intra-era hard fork overview](proposed-intra-era-scope/intra-era-hard-fork-overview.md)
 * [Intra-era hard fork readiness](proposed-intra-era-scope/intra-era-hard-fork-readiness/README.md)
   * [Road to van Rossem hard fork](proposed-intra-era-scope/intra-era-hard-fork-readiness/road-to-van-rossem-hard-fork.md)
+  * [RACI Matrix](proposed-intra-era-scope/intra-era-hard-fork-readiness/raci-matrix.md)
 * [Intra-era hard fork FAQ](proposed-intra-era-scope/intra-era-hard-fork-faq.md)
 * [Intra-era hard fork Communications](proposed-intra-era-scope/intra-era-hard-fork-blogs.md)
 * [Intra-era hard fork reference materials](proposed-intra-era-scope/intra-era-hard-fork-reference-materials.md)
@@ -22,7 +23,6 @@
   * [13th January 2026](proposed-intra-era-scope/hard-fork-working-group-meeting-minutes/13th-january-2026.md)
   * [16th December 2025](proposed-intra-era-scope/hard-fork-working-group-meeting-minutes/16th-december-2025.md)
   * [2nd December 2025](proposed-intra-era-scope/hard-fork-working-group-meeting-minutes/2nd-december-2025.md)
-* [RACI Matrix](proposed-intra-era-scope/raci-matrix.md)
 
 ## Plomin Upgrade
 
