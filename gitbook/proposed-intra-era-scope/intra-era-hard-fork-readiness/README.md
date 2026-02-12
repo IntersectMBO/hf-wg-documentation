@@ -12,7 +12,7 @@ Signalling readiness is important, this allows the on-chain governance, SPOs and
 
 The community is encouraged to participate in updating and maintaining the status’ and details contained within this ecosystem readiness page.
 
-You can do so by suggesting updates via this Intersect [GitHub documentation repository](https://github.com/IntersectMBO/hf-wg-documentation) see [how-to guide](../../#updating-hard-fork-readiness-tracker).\
+You can do so by suggesting updates via this Intersect [GitHub documentation repository](https://github.com/IntersectMBO/hf-wg-documentation) see [how-to guide](../../../#updating-hard-fork-readiness-tracker).\
 \
 Alternatively, if you find any information on this page incorrect or misleading please email: hard-fork@intersectmbo.org and request an update or correction.
 
