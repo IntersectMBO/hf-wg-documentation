@@ -4,6 +4,9 @@ hidden: true
 
 # Road to van Rossem hard fork
 
+* 10.7.0 also on Sancho
+* convert to table, RAG status, links, short description
+
 ## Milestones (convert to table, RAG status, links, short description)
 
 * #### 16th February ✅
