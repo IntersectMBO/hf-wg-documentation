@@ -4,7 +4,7 @@ hidden: true
 
 # Road to van Rossem hard fork
 
-## Milestones
+## Milestones (convert to table, RAG status, links, short description)
 
 * #### 16th February ✅
   * Pre-release node v10.6.2 for testing on Sancho released
