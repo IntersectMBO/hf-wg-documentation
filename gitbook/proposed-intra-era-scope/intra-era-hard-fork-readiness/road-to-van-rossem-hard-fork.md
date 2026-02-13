@@ -6,7 +6,7 @@ hidden: true
 
 ## Milestones
 
-* #### 16th February
+* #### 16th February ✅
   * Pre-release node v10.6.2 for testing on Sancho released
 * #### 27th February
   * Hard fork ready node v10.7.0 for Cardano testnets released
