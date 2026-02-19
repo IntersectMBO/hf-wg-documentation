@@ -48,6 +48,8 @@ todo
 
 * feed in automated updates once Node available
 
+<figure><img src="https://van-rossem-readiness.vercel.app/api/protocol.svg?network=mainnet&#x26;v=1" alt=""><figcaption></figcaption></figure>
+
 ***
 
 ### Exchanges
