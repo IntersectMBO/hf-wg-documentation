@@ -23,6 +23,8 @@
   * [13th January 2026](proposed-intra-era-scope/hard-fork-working-group-meeting-minutes/13th-january-2026.md)
   * [16th December 2025](proposed-intra-era-scope/hard-fork-working-group-meeting-minutes/16th-december-2025.md)
   * [2nd December 2025](proposed-intra-era-scope/hard-fork-working-group-meeting-minutes/2nd-december-2025.md)
+* [Intra-era test page](proposed-intra-era-scope/intra-era-test-page/README.md)
+  * [Intra-era test subpage](proposed-intra-era-scope/intra-era-test-page/intra-era-test-subpage.md)
 
 ## Plomin Upgrade
 
