@@ -1,2 +1,0 @@
-# Intra-era test page
-
