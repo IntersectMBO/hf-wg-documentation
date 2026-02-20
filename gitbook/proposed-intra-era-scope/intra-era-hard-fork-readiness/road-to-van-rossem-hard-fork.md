@@ -73,6 +73,8 @@ Sancho → Preview → PreProd → Mainnet
 
 #### Node Development & Release Readiness 🟡
 
+Failure here -> No HF possible
+
 | Evidence Milestone                    | Date   | Status |
 | ------------------------------------- | ------ | ------ |
 | Pre-release node v10.6.2 released     | 16 Feb | 🟢     |
@@ -82,6 +84,8 @@ Sancho → Preview → PreProd → Mainnet
 ***
 
 #### Technical Validation & Testing ⚪
+
+Failure here -> Unsafe HF
 
 | Evidence Milestone                   | Date     | Status |
 | ------------------------------------ | -------- | ------ |
@@ -93,6 +97,8 @@ Sancho → Preview → PreProd → Mainnet
 ***
 
 #### Governance Authorization ⚪
+
+Failure here -> HF cannot legally occur
 
 | Evidence Milestone                     | Date   | Status |
 | -------------------------------------- | ------ | ------ |
@@ -107,6 +113,8 @@ Sancho → Preview → PreProd → Mainnet
 
 #### Ecosystem Readiness ⚪
 
+Failure here -> Chain split risk
+
 | Evidence Milestone                   | Period      | Status |
 | ------------------------------------ | ----------- | ------ |
 | HF-ready node available to ecosystem | From 27 Feb | ⚪      |
@@ -117,6 +125,8 @@ Sancho → Preview → PreProd → Mainnet
 ***
 
 #### Operational Coordination & Release Management ⚪
+
+Failure here -> Operational instability
 
 | Evidence Milestone               | Period  | Status |
 | -------------------------------- | ------- | ------ |
