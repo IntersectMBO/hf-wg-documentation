@@ -24,13 +24,13 @@ Maintained by: Hard Fork Working Group
 
 | View                  | Status | Meaning                              |
 | --------------------- | ------ | ------------------------------------ |
-| Timeline Progress     | 🟢     | Milestones progressing as planned    |
+| Timeline Progress     | 🟡     | Milestones progressing as planned    |
 | Readiness Convergence | 🟡     | Streams advancing toward alignment   |
 | Operational Risk      | ⚪      | Ecosystem adoption still progressing |
 
 ***
 
-### Timeline View
+### Timeline View 🟡
 
 Tracks execution of planned milestones.\
 Status reflects **completion against plan**, not operational risk.
@@ -38,7 +38,7 @@ Status reflects **completion against plan**, not operational risk.
 | Date                          | Milestone                                                  | RAG Status | Link | Short Description                                                    |
 | ----------------------------- | ---------------------------------------------------------- | ---------- | ---- | -------------------------------------------------------------------- |
 | 16 Feb 2026                   | Pre-release node v10.6.2 released on Sancho                | 🟢         |      | Pre-release node published for early ecosystem testing on SanchoNet. |
-| 27 Feb 2026                   | Hard fork ready node v10.7.0 released for Cardano testnets | ⚪          |      | Hard fork candidate node released for broader testnet validation.    |
+| 27 Feb 2026                   | Hard fork ready node v10.7.0 released for Cardano testnets | 🟡         |      | Hard fork candidate node released for broader testnet validation.    |
 | 6 Mar 2026                    | Testing of pre-release node v10.6.2 completed on Sancho    | ⚪          |      | Completion of SanchoNet validation testing.                          |
 | 6 Mar 2026                    | Final benchmarking completed for v10.7.0                   | ⚪          |      | Performance benchmarking finalized prior to governance submission.   |
 | 6 Mar 2026                    | Hard fork governance action submitted on Cardano Preview   | ⚪          |      | Governance proposal submitted initiating Preview upgrade process.    |
@@ -60,7 +60,7 @@ Status reflects **completion against plan**, not operational risk.
 
 ***
 
-### Readiness Streams (Fishbone View)
+### Readiness Streams (Fishbone View) 🟡
 
 The hard fork occurs when independent readiness streams converge.\
 Each stream represents a required capability validated through evidence milestones.
@@ -71,7 +71,7 @@ Sancho → Preview → PreProd → Mainnet
 
 ***
 
-#### Node Development & Release Readiness
+#### Node Development & Release Readiness 🟡
 
 | Evidence Milestone                    | Date   | Status |
 | ------------------------------------- | ------ | ------ |
@@ -81,7 +81,7 @@ Sancho → Preview → PreProd → Mainnet
 
 ***
 
-#### Technical Validation & Testing
+#### Technical Validation & Testing ⚪
 
 | Evidence Milestone                   | Date     | Status |
 | ------------------------------------ | -------- | ------ |
@@ -92,7 +92,7 @@ Sancho → Preview → PreProd → Mainnet
 
 ***
 
-#### Governance Authorization
+#### Governance Authorization ⚪
 
 | Evidence Milestone                     | Date   | Status |
 | -------------------------------------- | ------ | ------ |
@@ -105,7 +105,7 @@ Sancho → Preview → PreProd → Mainnet
 
 ***
 
-#### Ecosystem Readiness
+#### Ecosystem Readiness ⚪
 
 | Evidence Milestone                   | Period      | Status |
 | ------------------------------------ | ----------- | ------ |
@@ -116,7 +116,7 @@ Sancho → Preview → PreProd → Mainnet
 
 ***
 
-#### Operational Coordination & Release Management
+#### Operational Coordination & Release Management ⚪
 
 | Evidence Milestone               | Period  | Status |
 | -------------------------------- | ------- | ------ |
@@ -144,10 +144,12 @@ Sancho → Preview → PreProd → Mainnet
 
 ***
 
-### Control Room View
+### Control Room View ⚪
 
 Monitors live readiness health across streams.\
-**Overall readiness equals the weakest panel.**
+**Overall readiness equals the weakest panel.**\
+Control Room status is based on observable ecosystem signals and trend assessment,\
+providing forward looking operational confidence rather than historical confirmation.
 
 | Panel        | RAG | Monitoring Focus                       |
 | ------------ | --- | -------------------------------------- |
@@ -157,10 +159,20 @@ Monitors live readiness health across streams.\
 | Ecosystem    | ⚪   | Upgrade adoption trend                 |
 | Operations   | ⚪   | Coordination readiness                 |
 
-**Predictive Signals**
-
-Hard fork readiness monitoring focuses on:
-
-* **Upgrade saturation trend** (adoption slope)
-* **Dependency readiness** (wallets, explorers, exchanges)
-* **Messaging coherence** across ecosystem participants
+* ⚪ **Not Yet Assessed**
+  * Operational health not yet evaluated or too early in lifecycle
+  * Insufficient live signals available
+  * Normal during early preparation phases
+* 🟡 **Watch / Emerging Risk**
+  * Readiness progressing but uncertainty remains
+  * Signals require monitoring
+  * Convergence depends on continued ecosystem alignment
+  * No immediate blocker, but attention required
+* 🟢 **Stable**
+  * Stream operating as expected
+  * No significant operational concerns observed
+  * Current signals support safe progression toward activation
+* 🔴 **Intervention Required**
+  * Active risk or instability detected
+  * Convergence toward hard fork may be threatened
+  * Coordination, communication, or mitigation action needed
