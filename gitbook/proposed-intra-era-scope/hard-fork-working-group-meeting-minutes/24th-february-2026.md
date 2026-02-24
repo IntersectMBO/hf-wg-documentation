@@ -9,6 +9,7 @@
    2. GitBook
    3. How do we make sure its widely communicated and is getting through to the community
 4. [Readiness list](../intra-era-hard-fork-readiness/) - Bosko
+5. Meeting cadence
 
 #### Key materials
 
