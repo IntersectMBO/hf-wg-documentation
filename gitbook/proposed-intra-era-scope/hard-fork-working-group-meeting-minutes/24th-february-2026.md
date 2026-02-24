@@ -3,13 +3,14 @@
 #### Agenda
 
 1. [Action items from the last call](https://cardanoupgrades.docs.intersectmbo.org/proposed-intra-era-scope/hard-fork-working-group-meeting-minutes/10th-february-2026-2#action-items-and-next-steps) - Bosko
-2. [Haskell node](https://github.com/IntersectMBO/cardano-node/releases) - Jess
-3. Hard Fork working group visibility
+2. SanchoNet update - Ryan Williams
+3. [Haskell node](https://github.com/IntersectMBO/cardano-node/releases) - Jess
+4. Hard Fork working group visibility
    1. Discord
    2. GitBook
    3. How do we make sure its widely communicated and is getting through to the community
-4. [Readiness list](../intra-era-hard-fork-readiness/) - Bosko
-5. Meeting cadence
+5. [Readiness list](../intra-era-hard-fork-readiness/) - Bosko
+6. Meeting cadence
 
 #### Key materials
 
