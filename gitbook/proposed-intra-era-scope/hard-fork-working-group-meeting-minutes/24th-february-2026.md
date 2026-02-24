@@ -11,7 +11,7 @@
    3. How do we make sure its widely communicated and is getting through to the community
 5. [Readiness list](../intra-era-hard-fork-readiness/) - Bosko
 6. Meeting cadence
-7. Future era hard scope
+7. Future era hard fork scope
 
 #### Key materials
 
