@@ -4,7 +4,7 @@
 
 1. [Action items from the last call](https://cardanoupgrades.docs.intersectmbo.org/proposed-intra-era-scope/hard-fork-working-group-meeting-minutes/13th-january-2026#action-items-and-next-steps) - Bosko
 2. [Haskell node readiness](https://github.com/IntersectMBO/cardano-node/releases) - Jess
-   1. [Readiness list](../van-rossem-upgrade-readiness/) - ownership approach - Bosko
+   1. [Readiness list](../van-rossem-hard-fork-readiness/) - ownership approach - Bosko
 3. Hard Fork Working Group comms - Ryan
    1. Discord — `#wg-hard-fork` (Intersect discord)
    2. Weekly bulletins

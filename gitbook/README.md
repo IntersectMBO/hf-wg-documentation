@@ -18,9 +18,9 @@ It is suggested that you bookmark this space and regularly refer back as new upg
 
 **Planned upgrades**
 
-| Name                                                                     |
-| ------------------------------------------------------------------------ |
-| [Intra-era hard fork](van-rossem-upgrade/van-rossem-upgrade-overview.md) |
+| Name                                                                            |
+| ------------------------------------------------------------------------------- |
+| [van Rossem upgrade](proposed-intra-era-scope/van-rossem-hard-fork-overview.md) |
 
 **Completed upgrades**
 

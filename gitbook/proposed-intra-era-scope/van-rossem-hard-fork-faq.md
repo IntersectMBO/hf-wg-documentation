@@ -1,4 +1,4 @@
-# Intra-era hard fork FAQ
+# van Rossem upgrade FAQ
 
 <details>
 

@@ -1,4 +1,4 @@
-# Intra-era hard fork readiness
+# van Rossem upgrade readiness
 
 {% hint style="warning" %}
 High level status — waiting on release of hard fork capable Cardano before readiness can be properly reviewed

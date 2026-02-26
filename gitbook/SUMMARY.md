@@ -8,21 +8,21 @@
 
 ## van Rossem Upgrade
 
-* [van Rossem upgrade overview](van-rossem-upgrade/van-rossem-upgrade-overview.md)
-* [van Rossem upgrade readiness](van-rossem-upgrade/van-rossem-upgrade-readiness/README.md)
-  * [Road to van Rossem hard fork](van-rossem-upgrade/van-rossem-upgrade-readiness/road-to-van-rossem-hard-fork.md)
-  * [RACI Matrix](van-rossem-upgrade/van-rossem-upgrade-readiness/raci-matrix.md)
-* [van Rossem upgrade FAQ](van-rossem-upgrade/van-rossem-upgrade-faq.md)
-* [van Rossem upgrade Communications](van-rossem-upgrade/van-rossem-upgrade-communications.md)
-* [van Rossem upgrade reference materials](van-rossem-upgrade/van-rossem-upgrade-reference-materials.md)
-* [Hard fork working group meeting minutes](van-rossem-upgrade/hard-fork-working-group-meeting-minutes/README.md)
-  * [3rd March 2026](van-rossem-upgrade/hard-fork-working-group-meeting-minutes/3rd-march-2026.md)
-  * [24th February 2026](van-rossem-upgrade/hard-fork-working-group-meeting-minutes/24th-february-2026.md)
-  * [10th February 2026](van-rossem-upgrade/hard-fork-working-group-meeting-minutes/10th-february-2026.md)
-  * [27th January 2026](van-rossem-upgrade/hard-fork-working-group-meeting-minutes/27th-january-2026.md)
-  * [13th January 2026](van-rossem-upgrade/hard-fork-working-group-meeting-minutes/13th-january-2026.md)
-  * [16th December 2025](van-rossem-upgrade/hard-fork-working-group-meeting-minutes/16th-december-2025.md)
-  * [2nd December 2025](van-rossem-upgrade/hard-fork-working-group-meeting-minutes/2nd-december-2025.md)
+* [van Rossem upgrade overview](proposed-intra-era-scope/van-rossem-hard-fork-overview.md)
+* [van Rossem upgrade readiness](proposed-intra-era-scope/van-rossem-hard-fork-readiness/README.md)
+  * [Road to van Rossem hard fork](proposed-intra-era-scope/van-rossem-hard-fork-readiness/road-to-van-rossem-hard-fork.md)
+  * [RACI Matrix](proposed-intra-era-scope/van-rossem-hard-fork-readiness/raci-matrix.md)
+* [van Rossem upgrade FAQ](proposed-intra-era-scope/van-rossem-hard-fork-faq.md)
+* [van Rossem upgrade Communications](proposed-intra-era-scope/van-rossem-hard-fork-blogs.md)
+* [van Rossem upgrade reference materials](proposed-intra-era-scope/van-rossem-hard-fork-reference-materials.md)
+* [Hard fork working group meeting minutes](proposed-intra-era-scope/hard-fork-working-group-meeting-minutes/README.md)
+  * [3rd March 2026](proposed-intra-era-scope/hard-fork-working-group-meeting-minutes/3rd-march-2026.md)
+  * [24th February 2026](proposed-intra-era-scope/hard-fork-working-group-meeting-minutes/24th-february-2026.md)
+  * [10th February 2026](proposed-intra-era-scope/hard-fork-working-group-meeting-minutes/10th-february-2026.md)
+  * [27th January 2026](proposed-intra-era-scope/hard-fork-working-group-meeting-minutes/27th-january-2026.md)
+  * [13th January 2026](proposed-intra-era-scope/hard-fork-working-group-meeting-minutes/13th-january-2026.md)
+  * [16th December 2025](proposed-intra-era-scope/hard-fork-working-group-meeting-minutes/16th-december-2025.md)
+  * [2nd December 2025](proposed-intra-era-scope/hard-fork-working-group-meeting-minutes/2nd-december-2025.md)
 
 ## Plomin Upgrade
 
