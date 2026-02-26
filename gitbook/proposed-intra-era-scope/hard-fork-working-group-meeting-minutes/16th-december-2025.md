@@ -4,7 +4,7 @@
 
 1. [Proposed intra-era scope](https://intersectmbo.org/news/proposed-intra-era-hard-fork-to-protocol-version-11) and community feedback
 2. Ratify proposed naming of the intra-era hard fork
-3. [Readiness list](../intra-era-hard-fork-readiness/) and [Submission criteria](../../overview/hardfork-initation-submission-policy.md)
+3. [Readiness list](../van-rossem-hard-fork-readiness/) and [Submission criteria](../../overview/hardfork-initation-submission-policy.md)
    1. [Draft: Update policy to include alternative node implementations and Midnight](https://github.com/IntersectMBO/hf-wg-documentation/pull/33)
 4. Timings on testnet forks
 5. Timing of Plutus cost model update after hard fork, considering other parameter changes around similar times

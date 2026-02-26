@@ -9,12 +9,12 @@
 ## Proposed Intra-era Scope
 
 * [van Rossem hard fork overview](proposed-intra-era-scope/van-rossem-hard-fork-overview.md)
-* [Intra-era hard fork readiness](proposed-intra-era-scope/intra-era-hard-fork-readiness/README.md)
-  * [Road to van Rossem hard fork](proposed-intra-era-scope/intra-era-hard-fork-readiness/road-to-van-rossem-hard-fork.md)
-  * [RACI Matrix](proposed-intra-era-scope/intra-era-hard-fork-readiness/raci-matrix.md)
-* [Intra-era hard fork FAQ](proposed-intra-era-scope/intra-era-hard-fork-faq.md)
-* [Intra-era hard fork Communications](proposed-intra-era-scope/intra-era-hard-fork-blogs.md)
-* [Intra-era hard fork reference materials](proposed-intra-era-scope/intra-era-hard-fork-reference-materials.md)
+* [van Rossem hard fork readiness](proposed-intra-era-scope/van-rossem-hard-fork-readiness/README.md)
+  * [Road to van Rossem hard fork](proposed-intra-era-scope/van-rossem-hard-fork-readiness/road-to-van-rossem-hard-fork.md)
+  * [RACI Matrix](proposed-intra-era-scope/van-rossem-hard-fork-readiness/raci-matrix.md)
+* [van Rossem hard fork FAQ](proposed-intra-era-scope/van-rossem-hard-fork-faq.md)
+* [van Rossem hard fork Communications](proposed-intra-era-scope/van-rossem-hard-fork-blogs.md)
+* [van Rossem hard fork reference materials](proposed-intra-era-scope/van-rossem-hard-fork-reference-materials.md)
 * [Hard fork working group meeting minutes](proposed-intra-era-scope/hard-fork-working-group-meeting-minutes/README.md)
   * [3rd March 2026](proposed-intra-era-scope/hard-fork-working-group-meeting-minutes/3rd-march-2026.md)
   * [24th February 2026](proposed-intra-era-scope/hard-fork-working-group-meeting-minutes/24th-february-2026.md)
