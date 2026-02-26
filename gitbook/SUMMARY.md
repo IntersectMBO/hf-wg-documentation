@@ -8,7 +8,7 @@
 
 ## Proposed Intra-era Scope
 
-* [Intra-era hard fork overview](proposed-intra-era-scope/intra-era-hard-fork-overview.md)
+* [van Rossem hard fork overview](proposed-intra-era-scope/intra-era-hard-fork-overview.md)
 * [Intra-era hard fork readiness](proposed-intra-era-scope/intra-era-hard-fork-readiness/README.md)
   * [Road to van Rossem hard fork](proposed-intra-era-scope/intra-era-hard-fork-readiness/road-to-van-rossem-hard-fork.md)
   * [RACI Matrix](proposed-intra-era-scope/intra-era-hard-fork-readiness/raci-matrix.md)
