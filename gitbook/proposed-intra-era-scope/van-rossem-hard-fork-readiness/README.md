@@ -19,7 +19,7 @@ Alternatively, if you find any information on this page incorrect or misleading 
 **Overall readiness status** 🔴\
 **Estimated hard fork enactment** <mark style="color:$danger;">mid May</mark>
 
-| Workstream                                                                                                                                                                                                    | RAG status | Note                                                                   |
+| Workstream                                                                                                                                                                                                    | RAG status | Last update                                                            |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | ---------------------------------------------------------------------- |
 | [Core Infrastructure Components](https://app.gitbook.com/o/Prbm1mtkwSsGWSvG1Bfd/s/fG95RnHsh9rCfE922MpZ/~/edit/~/changes/231/van-rossem-upgrade/van-rossem-upgrade-readiness#core-infrastructure-components)   | 🟠         | **24th Feb:** Hard fork ready release 10.7.0 expected within 1-2 weeks |
 | [Testnets and Governance Actions](https://app.gitbook.com/o/Prbm1mtkwSsGWSvG1Bfd/s/fG95RnHsh9rCfE922MpZ/~/edit/~/changes/231/van-rossem-upgrade/van-rossem-upgrade-readiness#testnets-and-governance-actions) | 🟠         | Available on SanchoNet                                                 |
