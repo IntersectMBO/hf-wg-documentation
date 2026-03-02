@@ -16,6 +16,26 @@ You can do so by suggesting updates via this Intersect [GitHub documentation rep
 \
 Alternatively, if you find any information on this page incorrect or misleading please email: hard-fork@intersectmbo.org and request an update or correction.
 
+**Overall readiness status** 🔴\
+**Estimated hard fork enactment** <mark style="color:$danger;">mid May</mark>
+
+| Workstream                      | RAG status | Note |
+| ------------------------------- | ---------- | ---- |
+| Core Infrastructure Components  | 🟠         |      |
+| Testnets and Governance Actions | 🟠         |      |
+| SPOs                            | ⚪          |      |
+| Exchanges                       | ⚪          |      |
+| Tooling                         | ⚪          |      |
+| Wallets                         | ⚪          |      |
+| Partner-chains + Scalability    | ⚪          |      |
+| Node Implementations            | ⚪          |      |
+| DApps & Projects                | ⚪          |      |
+
+⚪ Not started\
+🟠 Attention needed\
+🟢 Normal\
+🔴 Significantly affected
+
 ## Core Infrastructure Components <a href="#core-infrastructure-components" id="core-infrastructure-components"></a>
 
 Core infrastructure encompasses all technologies included within the Cardano Haskell Node, as well as some key tools.
