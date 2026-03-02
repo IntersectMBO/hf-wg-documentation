@@ -19,17 +19,17 @@ Alternatively, if you find any information on this page incorrect or misleading 
 **Overall readiness status** 🔴\
 **Estimated hard fork enactment** <mark style="color:$danger;">mid May</mark>
 
-| Workstream                      | RAG status | Note |
-| ------------------------------- | ---------- | ---- |
-| Core Infrastructure Components  | 🟠         |      |
-| Testnets and Governance Actions | 🟠         |      |
-| SPOs                            | ⚪          |      |
-| Exchanges                       | ⚪          |      |
-| Tooling                         | ⚪          |      |
-| Wallets                         | ⚪          |      |
-| Partner-chains + Scalability    | ⚪          |      |
-| Node Implementations            | ⚪          |      |
-| DApps & Projects                | ⚪          |      |
+| Workstream                                                                                                                                                                                                    | RAG status | Note                                                                   |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | ---------------------------------------------------------------------- |
+| [Core Infrastructure Components](https://app.gitbook.com/o/Prbm1mtkwSsGWSvG1Bfd/s/fG95RnHsh9rCfE922MpZ/~/edit/~/changes/231/van-rossem-upgrade/van-rossem-upgrade-readiness#core-infrastructure-components)   | 🟠         | **24th Feb:** Hard fork ready release 10.7.0 expected within 1-2 weeks |
+| [Testnets and Governance Actions](https://app.gitbook.com/o/Prbm1mtkwSsGWSvG1Bfd/s/fG95RnHsh9rCfE922MpZ/~/edit/~/changes/231/van-rossem-upgrade/van-rossem-upgrade-readiness#testnets-and-governance-actions) | 🟠         | Available on SanchoNet                                                 |
+| [SPOs](https://app.gitbook.com/o/Prbm1mtkwSsGWSvG1Bfd/s/fG95RnHsh9rCfE922MpZ/~/edit/~/changes/231/van-rossem-upgrade/van-rossem-upgrade-readiness#spos)                                                       | ⚪          |                                                                        |
+| [Exchanges](https://app.gitbook.com/o/Prbm1mtkwSsGWSvG1Bfd/s/fG95RnHsh9rCfE922MpZ/~/edit/~/changes/231/van-rossem-upgrade/van-rossem-upgrade-readiness#exchanges)                                             | ⚪          |                                                                        |
+| [Tooling](https://app.gitbook.com/o/Prbm1mtkwSsGWSvG1Bfd/s/fG95RnHsh9rCfE922MpZ/~/edit/~/changes/231/van-rossem-upgrade/van-rossem-upgrade-readiness#tooling)                                                 | ⚪          |                                                                        |
+| [Wallets](https://app.gitbook.com/o/Prbm1mtkwSsGWSvG1Bfd/s/fG95RnHsh9rCfE922MpZ/~/edit/~/changes/231/van-rossem-upgrade/van-rossem-upgrade-readiness#wallets)                                                 | ⚪          |                                                                        |
+| [Partner-chains + Scalability](https://app.gitbook.com/o/Prbm1mtkwSsGWSvG1Bfd/s/fG95RnHsh9rCfE922MpZ/~/edit/~/changes/231/van-rossem-upgrade/van-rossem-upgrade-readiness#partner-chains--scalability)        | ⚪          |                                                                        |
+| [Node Implementations](https://app.gitbook.com/o/Prbm1mtkwSsGWSvG1Bfd/s/fG95RnHsh9rCfE922MpZ/~/edit/~/changes/231/van-rossem-upgrade/van-rossem-upgrade-readiness#node-implementations)                       | ⚪          |                                                                        |
+| [DApps & Projects](https://app.gitbook.com/o/Prbm1mtkwSsGWSvG1Bfd/s/fG95RnHsh9rCfE922MpZ/~/edit/~/changes/231/van-rossem-upgrade/van-rossem-upgrade-readiness#dapps-and-projects)                             | ⚪          |                                                                        |
 
 ⚪ Not started\
 🟠 Attention needed\
