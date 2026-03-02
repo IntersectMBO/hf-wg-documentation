@@ -1,14 +1,14 @@
----
-hidden: true
----
-
 # 3rd March 2026
 
 #### Agenda
 
 1. [Action items from the last call](https://cardanoupgrades.docs.intersectmbo.org/proposed-intra-era-scope/hard-fork-working-group-meeting-minutes/24th-february-2026#action-items-and-next-steps) - Bosko
-2. [Haskell node](https://github.com/IntersectMBO/cardano-node/releases) - Jess
-3. AOB
+2. van Rossem upgrade readiness page updates - Bosko
+3. SanchoNet update - Ryan Williams
+   1. 10.6.2
+4. [Haskell node](https://github.com/IntersectMBO/cardano-node/releases) - Jeff
+   1. 10.7.0
+5. AOB
 
 #### Key materials
 
@@ -19,6 +19,7 @@ hidden: true
 * Hard Fork Working Group communication channels
   * [Discord](https://discord.com/channels/1136727663583698984/1242097284619960411) — `#wg-hard-fork`
   * [Weekly bulletins](https://x.com/IntersectMBO)
+* [Tentative timeline](https://app.excalidraw.com/s/6GdMPTId7vW/1xnslUPryZP)
 
 #### Action items and next steps
 
