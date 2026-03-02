@@ -11,7 +11,6 @@
 * [van Rossem upgrade overview](proposed-intra-era-scope/van-rossem-hard-fork-overview.md)
 * [van Rossem upgrade readiness](proposed-intra-era-scope/van-rossem-hard-fork-readiness/README.md)
   * [Road to van Rossem hard fork](proposed-intra-era-scope/van-rossem-hard-fork-readiness/road-to-van-rossem-hard-fork.md)
-  * [RACI Matrix](proposed-intra-era-scope/van-rossem-hard-fork-readiness/raci-matrix.md)
 * [van Rossem upgrade FAQ](proposed-intra-era-scope/van-rossem-hard-fork-faq.md)
 * [van Rossem upgrade Communications](proposed-intra-era-scope/van-rossem-hard-fork-blogs.md)
 * [van Rossem upgrade reference materials](proposed-intra-era-scope/van-rossem-hard-fork-reference-materials.md)
