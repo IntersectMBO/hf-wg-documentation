@@ -12,7 +12,8 @@
 5. Weekly X spaces - Inside the van Rossem Upgrade: Weekly Community Q\&A
    1. [Luma calendar](https://luma.com/calendar/cal-TMjYNpSY4huYYif)
    2. [This weeks X space](https://x.com/i/spaces/1dKrPErbgbOJX?s=20)
-6. AOB
+6. Future hard fork scope collecting - On-chaineys and polls - Ryan Wiley
+7. AOB
 
 #### Key materials
 
