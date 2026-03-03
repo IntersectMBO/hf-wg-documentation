@@ -6,8 +6,9 @@
 2. van Rossem upgrade readiness page updates - Bosko
 3. SanchoNet update - Ryan Williams
    1. 10.6.2
-4. [Haskell node](https://github.com/IntersectMBO/cardano-node/releases) - Jeff
+4. [Haskell node](https://github.com/IntersectMBO/cardano-node/releases) - Jeff/Ramsay
    1. 10.7.0
+   2. Payload of Features in the hard fork build
 5. Weekly X spaces - Inside the van Rossem Upgrade: Weekly Community Q\&A
    1. [Luma calendar](https://luma.com/calendar/cal-TMjYNpSY4huYYif)
    2. [This weeks X space](https://x.com/i/spaces/1dKrPErbgbOJX?s=20)
