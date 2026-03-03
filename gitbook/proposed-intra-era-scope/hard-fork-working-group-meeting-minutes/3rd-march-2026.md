@@ -8,7 +8,10 @@
    1. 10.6.2
 4. [Haskell node](https://github.com/IntersectMBO/cardano-node/releases) - Jeff
    1. 10.7.0
-5. AOB
+5. Weekly X spaces - Inside the van Rossem Upgrade: Weekly Community Q\&A
+   1. [Luma calendar](https://luma.com/calendar/cal-TMjYNpSY4huYYif)
+   2. [This weeks X space](https://x.com/i/spaces/1dKrPErbgbOJX?s=20)
+6. AOB
 
 #### Key materials
 
