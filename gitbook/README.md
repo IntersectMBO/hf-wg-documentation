@@ -7,7 +7,11 @@ Each major update or change will have its own sub-section including, where appli
 The information in this space is overseen by Intersects [Technical Steering Committee](https://app.gitbook.com/o/Prbm1mtkwSsGWSvG1Bfd/s/Yzy77cQuAEYNjeNy3YrN/) and its relevant working groups, such as the hard fork working group and deployment working group.
 
 {% hint style="info" %}
-Currently the hard fork working group meets every other week, Tuesdays at 3pm UTC, using Luma events from the following calendar: [https://luma.com/calendar/cal-TMjYNpSY4huYYif](https://luma.com/calendar/cal-TMjYNpSY4huYYif)
+Currently the hard fork working group meets every week, Tuesdays at 3pm UTC, using Luma events from the following calendar: [https://luma.com/calendar/cal-TMjYNpSY4huYYif](https://luma.com/calendar/cal-TMjYNpSY4huYYif)
+{% endhint %}
+
+{% hint style="info" %}
+There is also an X space every week, Inside the van Rossem Upgrade: Weekly Community Q\&A, Thursdays at 3:30pm UTC, using Luma events from the following calendar: [https://luma.com/calendar/cal-TMjYNpSY4huYYif](https://luma.com/calendar/cal-TMjYNpSY4huYYif)
 {% endhint %}
 
 {% hint style="info" %}
