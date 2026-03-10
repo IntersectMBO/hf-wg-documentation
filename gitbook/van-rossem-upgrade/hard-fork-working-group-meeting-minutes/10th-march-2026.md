@@ -9,6 +9,7 @@
    1. [Luma calendar](https://luma.com/calendar/cal-TMjYNpSY4huYYif)
    2. [This weeks X space](https://x.com/i/spaces/1dKrPErbgbOJX?s=20)
 4. Future hard fork scope (Dijkstra)
+   1. Current work that needs to be confirmed by the community - [https://github.com/IntersectMBO/cardano-ledger/issues/5604](https://github.com/IntersectMBO/cardano-ledger/issues/5604)
 5. AOB
 
 #### Key materials
