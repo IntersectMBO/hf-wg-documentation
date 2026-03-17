@@ -4,7 +4,7 @@
 
 1. [Action items from the last call](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/hard-fork-working-group-meeting-minutes/3rd-march-2026#action-items-and-next-steps) - Bosko
 2. [Risk log](https://docs.google.com/spreadsheets/d/1DSAiayrPOhhzSKKKljbd2WxHQPFmzKsvoyyA-BJUDg8/edit?gid=1105903724#gid=1105903724)
-3. [Haskell node](https://github.com/IntersectMBO/cardano-node/releases) - Jeff
+3. [Haskell node](https://github.com/IntersectMBO/cardano-node/releases) - Jeff and/or Ramsay
    1. 10.7.x
    2. [Payload](https://docs.google.com/spreadsheets/d/1fraBQa1B01aCfZ0-b9myhcTH2VBceCDvV88JW954uDw/edit?gid=2094512402#gid=2094512402)
 4. [Hard Fork Tentative Timeline](https://app.excalidraw.com/l/6GdMPTId7vW/1xnslUPryZP?__r=1773152516515)
