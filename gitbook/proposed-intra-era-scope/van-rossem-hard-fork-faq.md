@@ -24,22 +24,6 @@ For token holders, whether on-chain or staked, there is no specific action requi
 
 <details>
 
-<summary>The Hard Fork Working Group's role in Cardano Upgrades </summary>
-
-The hard fork working group is spun up to help coordinate Cardano's upgrades, with oversight from Intersect's Technical Steering Committee.
-
-The working group aims to be a transparent place to
-
-* discuss upgrades
-* track ecosystem readiness
-* make decisions on the submission on hard fork initation governance actions<br>
-
-Intersect staff help this effort by organising the meetings, writing up meeting minutes, publishing communications and reaching out to stakeholders.
-
-</details>
-
-<details>
-
 <summary>Cardano Testnet Definitions</summary>
 
 Cardano Test Network Definitions
@@ -107,6 +91,48 @@ All governance actions raised by Intersect, on behalf of the community, will be 
 Cardano mainnet is currency within governance bootstrapping, this means the governance model is not fully activated.&#x20;
 
 In this bootstrapping phase only the CC and the SPOs can vote on governance actions accordingly. This is detailed in CIP-1694 bootstrap phase and interim consitution.
+
+</details>
+
+***
+
+## Questions on the Hard Fork working group
+
+<details>
+
+<summary>The Hard Fork Working Group's role in Cardano Upgrades</summary>
+
+The hard fork working group is spun up to help coordinate Cardano's upgrades, with oversight from Intersect's Technical Steering Committee.
+
+The working group aims to be a transparent place to
+
+* discuss upgrades
+* track ecosystem readiness
+* make decisions on the submission on hard fork initation governance actions
+
+Intersect staff help this effort by organising the meetings, writing up meeting minutes, publishing communications and reaching out to stakeholders.
+
+</details>
+
+<details>
+
+<summary>How often does the hard fork working group meet?</summary>
+
+The group meets weekly in the lead-up to a hard fork.
+
+</details>
+
+<details>
+
+<summary>How can the community get involved in the hard fork working group?</summary>
+
+Join the dedicated Upgrade Discord channel at [#wg-hard-fork](https://discord.com/channels/1136727663583698984/1242097284619960411) (on the Intersect Discord server). This channel is monitored by the working group, with updates being shared and questions answered. Alternatively, you can reach out to [hard-fork@intersectmbo.org](mailto:hard-fork@intersectmbo.org)&#x20;
+
+The hard fork working group meetings are in the shared [Luma Calendar](https://luma.com/calendar/cal-TMjYNpSY4huYYif) along with the newly started X spaces for the next several weeks. The [Cardano Upgrades GitBook](https://cardanoupgrades.docs.intersectmbo.org/) contains important hard fork context, working group policies, readiness tracking, and working group meeting minutes.
+
+To further increase reach, the group began to hold regular X spaces each Thursday.
+
+<br>
 
 </details>
 
