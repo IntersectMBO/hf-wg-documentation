@@ -1,5 +1,27 @@
 # van Rossem upgrade FAQ
 
+## **Questions for ada holders**
+
+<details>
+
+<summary><strong>Will there be token migration required due to the hard fork?</strong></summary>
+
+No, there will be no token migration required as part of the van Rossem hard fork. The fork is a protocol update that will be implemented automatically across the network. All ADA tokens will remain fully accessible and functional before, during, and after the hard fork without any need for token migration. However, you should ensure that your wallet and any tools you are using are up-to-date with the latest version to support any new features or improvements introduced by the fork.
+
+</details>
+
+<details>
+
+<summary><strong>What should token holders on-chain and those with staked tokens do?</strong></summary>
+
+For token holders, whether on-chain or staked, there is no specific action required on your part. Your tokens will remain safe and fully functional. However, you should ensure that your wallet and any tools you are using are up-to-date with the latest version to support any new features or improvements introduced by the fork.
+
+</details>
+
+***
+
+## **Questions on the general van Rossem hard fork**
+
 <details>
 
 <summary>The Hard Fork Working Group's role in Cardano Upgrades </summary>
