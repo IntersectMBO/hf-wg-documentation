@@ -1,5 +1,7 @@
 # van Rossem upgrade FAQ
 
+The hard fork working group has collated key questions and formed the following frequently asked questions (FAQ) for the benefit of the community.
+
 ## **Questions for ada holders**
 
 <details>
