@@ -138,4 +138,68 @@ To further increase reach, the group began to hold regular X spaces each Thursda
 
 ***
 
+## **Questions on Testing and Development**
+
+<details>
+
+<summary>How will the Chang hard fork be previewed and tested before full deployment?</summary>
+
+Node with protocol version 11 will be previewed and tested on [preview and pre-production testnets](https://docs.cardano.org/cardano-testnets/environments/). This process is controlled by the community, ensuring thorough testing and validation before the full deployment.
+
+</details>
+
+<details>
+
+<summary>How does the community involvement in testing work?</summary>
+
+Community testing is conducted on test networks with the latest node versions, where various elements including plutus built-ins for example, can be tested. This stage allows for community feedback and is essential for ensuring the robustness of the hard fork.
+
+</details>
+
+<details>
+
+<summary>What is the role of stake pool operators upgrading to the latest node for the van Rossem hard fork?</summary>
+
+Stake Pool Operators play an important (the most important!) part in any hard fork. The community requires them to upgrade prior to a hard fork combinator event. The latest status of SPOs' readiness can be found on our [van Rossem Upgrade Readiness page](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness).
+
+</details>
+
+***
+
+## Questions on how to get involved and how to prepare
+
+<details>
+
+<summary>How will changes and updates be communicated to the community?</summary>
+
+Updates and significant changes will be communicated through various channels including [X](https://x.com/intersectmbo), [Discord](https://discord.com/channels/1136727663583698984/1262393547915657287), and the project’s [upgrade space](https://cardanoupgrades.docs.intersectmbo.org/). Important updates will also be discussed in follow-up meetings, ensuring all stakeholders have the latest information and can provide feedback.
+
+Meeting minutes and action items from all hard fork working group meeting can be found at this [link](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/hard-fork-working-group-meeting-minutes).
+
+</details>
+
+<details>
+
+<summary>What role does community governance play in the Cardano upgrade roadmap?</summary>
+
+Community governance is a central aspect of Cardano’s upgrade roadmap. Through different initiatives and delegated representatives (DReps) the community actively participates in decision-making processes, shaping the future direction of the network.
+
+</details>
+
+<details>
+
+<summary>What steps should users take to prepare for the hard fork?</summary>
+
+**Here’s what users can do to prepare:**&#x20;
+
+* **Join** the dedicated Upgrade Discord channel at [#wg-hard-fork](https://discord.com/channels/1136727663583698984/1242097284619960411) (on the Intersect Discord server). This channel is monitored by the working group, with updates being shared and questions answered. Alternatively, you can reach out to [hard-fork@intersectmbo.org](mailto:hard-fork@intersectmbo.org)
+  * The hard fork working group meetings are in the shared [Luma Calendar](https://luma.com/calendar/cal-TMjYNpSY4huYYif) along with the newly started X spaces for the next several weeks. The [Cardano Upgrades GitBook](https://cardanoupgrades.docs.intersectmbo.org/) contains important hard fork context, working group policies, readiness tracking, and working group meeting minutes.
+  * To further increase reach, the group began to hold regular X spaces each Thursday.
+* **Update wallets and applications** - Ensure you’re using the latest versions of [Cardano wallets](https://docs.cardano.org/new-to-cardano/types-of-wallets/) and applications to guarantee compatibility with the new protocol.&#x20;
+* **Take part in testing -**  This is especially true for Cardano Preview testnet where you can test the tools and improvements that are brought with van Rossem hard fork.
+
+</details>
+
+***
+
 If you find any information on this page incorrect or misleading please email hard-fork@intersectmbo.org and request a correction.&#x20;
