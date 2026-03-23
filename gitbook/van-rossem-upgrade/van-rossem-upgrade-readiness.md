@@ -17,7 +17,7 @@ You can do so by suggesting updates via this Intersect [GitHub documentation rep
 Alternatively, if you find any information on this page incorrect or misleading please email: hard-fork@intersectmbo.org and request an update or correction.
 
 **Overall readiness status** 🔴\
-**Estimated hard fork enactment** <mark style="color:$danger;">9th June</mark> ([tentative timeline](https://app.excalidraw.com/s/6GdMPTId7vW/1xnslUPryZP))
+**Estimated hard fork enactment** <mark style="color:$danger;">17th June</mark> ([tentative timeline](https://app.excalidraw.com/s/6GdMPTId7vW/1xnslUPryZP))
 
 | Workstream                                                                                                                                                       | RAG status | Last update                                                            |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | ---------------------------------------------------------------------- |
