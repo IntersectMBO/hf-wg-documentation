@@ -7,8 +7,9 @@
 3. Plutus cost model - Ryan
 4. [Hard Fork Tentative Timeline](https://app.excalidraw.com/l/6GdMPTId7vW/1xnslUPryZP?__r=1773152516515)
 5. [Risk log](https://docs.google.com/spreadsheets/d/1DSAiayrPOhhzSKKKljbd2WxHQPFmzKsvoyyA-BJUDg8/edit?gid=1105903724#gid=1105903724)
-6. Future hard fork scope (Dijkstra)
-7. AOB
+6. No X space this week
+7. Future hard fork scope (Dijkstra)
+8. AOB
 
 #### Key materials
 
