@@ -3,13 +3,14 @@
 #### Agenda
 
 1. [Action items from the last call](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/hard-fork-working-group-meeting-minutes/24th-march-2026#action-items-and-next-steps) - Bosko
-2. [Haskell node](https://github.com/IntersectMBO/cardano-node/releases) - Jeff and/or Ramsay
-3. Plutus cost model - Ryan
-4. [Hard Fork Tentative Timeline](https://app.excalidraw.com/l/6GdMPTId7vW/1xnslUPryZP?__r=1773152516515)
-5. [Risk log](https://docs.google.com/spreadsheets/d/1DSAiayrPOhhzSKKKljbd2WxHQPFmzKsvoyyA-BJUDg8/edit?gid=1105903724#gid=1105903724)
-6. No X space this week
-7. Future hard fork scope (Dijkstra)
-8. AOB
+2. HFWG meeting time
+3. [Haskell node](https://github.com/IntersectMBO/cardano-node/releases) - Jeff and/or Ramsay
+4. Plutus cost model - Ryan
+5. [Hard Fork Tentative Timeline](https://app.excalidraw.com/l/6GdMPTId7vW/1xnslUPryZP?__r=1773152516515)
+6. [Risk log](https://docs.google.com/spreadsheets/d/1DSAiayrPOhhzSKKKljbd2WxHQPFmzKsvoyyA-BJUDg8/edit?gid=1105903724#gid=1105903724)
+7. No X space this week
+8. Future hard fork scope (Dijkstra)
+9. AOB
 
 #### Key materials
 
