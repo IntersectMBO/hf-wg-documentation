@@ -144,7 +144,7 @@ To further increase reach, the group began to hold regular X spaces each Thursda
 
 <details>
 
-<summary>How will the Chang hard fork be previewed and tested before full deployment?</summary>
+<summary>How will the van Rossem hard fork be previewed and tested before full deployment?</summary>
 
 Node with protocol version 11 will be previewed and tested on [preview and pre-production testnets](https://docs.cardano.org/cardano-testnets/environments/). This process is controlled by the community, ensuring thorough testing and validation before the full deployment.
 
