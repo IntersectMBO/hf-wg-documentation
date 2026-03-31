@@ -132,7 +132,7 @@ Spokesperson: Ryan
 
 Spokesperson: Bosko
 
-<table><thead><tr><th width="251">Project</th><th>Status</th><th>Notes</th></tr></thead><tbody><tr><td>Partner-chains Toolkit</td><td></td><td></td></tr><tr><td>Midnight</td><td></td><td></td></tr><tr><td>Hydra</td><td></td><td></td></tr><tr><td>Hydroza</td><td></td><td></td></tr><tr><td>Sundail</td><td></td><td></td></tr><tr><td>Midgard</td><td></td><td></td></tr><tr><td>Gummi worm</td><td></td><td></td></tr><tr><td>Mithril</td><td></td><td></td></tr></tbody></table>
+<table><thead><tr><th width="251">Project</th><th>Status</th><th>Notes</th></tr></thead><tbody><tr><td>Partner-chains Toolkit</td><td></td><td></td></tr><tr><td>Midnight</td><td></td><td></td></tr><tr><td>Hydra</td><td></td><td></td></tr><tr><td>Hydroza</td><td></td><td></td></tr><tr><td>Sundial</td><td></td><td></td></tr><tr><td>Midgard</td><td></td><td></td></tr><tr><td>Gummiworm</td><td></td><td></td></tr><tr><td>Mithril</td><td></td><td></td></tr></tbody></table>
 
 ***
 
