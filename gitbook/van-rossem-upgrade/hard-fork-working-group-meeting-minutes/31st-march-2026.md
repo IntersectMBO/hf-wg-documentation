@@ -10,6 +10,7 @@
 6. [Risk log](https://docs.google.com/spreadsheets/d/1DSAiayrPOhhzSKKKljbd2WxHQPFmzKsvoyyA-BJUDg8/edit?gid=1105903724#gid=1105903724)
 7. No X space this week
 8. Future hard fork scope (Dijkstra)
+   1. Workshop in Porto early June - Amaru team, reach out to Damien (sp0ty) on Discord
 9. AOB
 
 #### Key materials
