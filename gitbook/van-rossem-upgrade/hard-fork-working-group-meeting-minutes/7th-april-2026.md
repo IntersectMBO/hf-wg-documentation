@@ -11,6 +11,7 @@
    1. Making it open for read to anybody
 7. Future hard fork scope (Dijkstra)
    1. Reminder - Workshop in Porto early June - Amaru team, reach out to Damien (sp0ty) on Discord
+   2. Shortlisting Technical Changes as presented by Ryan Williams at Buidler Fest in Argentina
 8. AOB
 
 #### Key materials
