@@ -4,15 +4,14 @@
 
 1. [Action items from the last call](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/hard-fork-working-group-meeting-minutes/31st-march-2026#action-items-and-next-steps) - Bosko
 2. [Haskell node](https://github.com/IntersectMBO/cardano-node/releases) - Jeff and/or Ramsay
-3. Plutus cost model - Ryan
-4. [Hard Fork Tentative Timeline](https://app.excalidraw.com/l/6GdMPTId7vW/1xnslUPryZP?__r=1773152516515)
-5. [Risk log](https://docs.google.com/spreadsheets/d/1DSAiayrPOhhzSKKKljbd2WxHQPFmzKsvoyyA-BJUDg8/edit?gid=1105903724#gid=1105903724)
-6. No X space this week
-7. Discord channel
+3. [Hard Fork Tentative Timeline](https://app.excalidraw.com/l/6GdMPTId7vW/1xnslUPryZP?__r=1773152516515)
+4. [Risk log](https://docs.google.com/spreadsheets/d/1DSAiayrPOhhzSKKKljbd2WxHQPFmzKsvoyyA-BJUDg8/edit?gid=1105903724#gid=1105903724)
+5. No X space this week
+6. Discord channel
    1. Making it open for read to anybody
-8. Future hard fork scope (Dijkstra)
+7. Future hard fork scope (Dijkstra)
    1. Reminder - Workshop in Porto early June - Amaru team, reach out to Damien (sp0ty) on Discord
-9. AOB
+8. AOB
 
 #### Key materials
 
