@@ -2,7 +2,7 @@
 
 #### Agenda
 
-1. [Action items from the last call](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/hard-fork-working-group-meeting-minutes/31st-march-2026#action-items-and-next-steps) - Bosko
+1. [Action items from the last call](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/hard-fork-working-group-meeting-minutes/7th-april-2026#action-items-and-next-steps) - Bosko
 2. [Haskell node](https://github.com/IntersectMBO/cardano-node/releases) - Jeff and/or Ramsay
 3. [Hard Fork Tentative Timeline](https://app.excalidraw.com/l/6GdMPTId7vW/1xnslUPryZP?__r=1773152516515)
 4. [Risk log](https://docs.google.com/spreadsheets/d/1DSAiayrPOhhzSKKKljbd2WxHQPFmzKsvoyyA-BJUDg8/edit?gid=1105903724#gid=1105903724)
