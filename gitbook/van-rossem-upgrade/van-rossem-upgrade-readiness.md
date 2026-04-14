@@ -40,7 +40,7 @@ Alternatively, if you find any information on this page incorrect or misleading 
 
 Core infrastructure encompasses all technologies included within the Cardano Haskell Node, as well as some key tools.
 
-Spokesperson: Geoff Watson / Brandon Wolf
+Spokesperson: Geoff Watson / Brandon Wolf / Samuel Leathers
 
 <table><thead><tr><th width="273">Name</th><th width="476">Status</th></tr></thead><tbody><tr><td>Ledger</td><td><mark style="color:green;">Code complete</mark></td></tr><tr><td>Consensus</td><td><mark style="color:green;">Code complete</mark></td></tr><tr><td>Network</td><td><mark style="color:green;">Code complete</mark></td></tr><tr><td>Plutus Core</td><td><mark style="color:green;">Code complete</mark></td></tr><tr><td>Performance and Tracing</td><td><mark style="color:green;">Code complete</mark></td></tr><tr><td>Pre-Release Node (SanchoNet)</td><td><mark style="color:green;">Complete -</mark> <a href="https://github.com/IntersectMBO/cardano-node/releases/tag/10.6.2">10.6.2</a></td></tr><tr><td>Cardano CLI, API &#x26; Node Integration</td><td><mark style="color:$warning;">In Progress - 80% Complete</mark></td></tr><tr><td>Full Mainnet Ready Release</td><td><mark style="color:$warning;">In Progress - Targeted 1-2 weeks</mark></td></tr><tr><td>DB-Sync</td><td><mark style="color:$warning;">Pre-Release available</mark> <a href="https://github.com/IntersectMBO/cardano-db-sync/releases/tag/13.7.0.2">13.7.0.2</a></td></tr></tbody></table>
 
