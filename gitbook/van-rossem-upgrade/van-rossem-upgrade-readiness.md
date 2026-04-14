@@ -21,15 +21,15 @@ Alternatively, if you find any information on this page incorrect or misleading 
 
 | Workstream                                                                                                                                                       | RAG status | Last update                                                       |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | ----------------------------------------------------------------- |
-| [Core Infrastructure Components](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#core-infrastructure-components)   | 🔴         | **30th Mar:** Benchmarking results assessed, performance degraded |
+| [Core Infrastructure Components](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#core-infrastructure-components)   | 🟠         | **30th Mar:** Benchmarking results assessed, performance degraded |
 | [Testnets and Governance Actions](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#testnets-and-governance-actions) | 🟠         | Available on SanchoNet                                            |
-| [SPOs](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#spos)                                                       | ⚪          |                                                                   |
-| [Exchanges](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#exchanges)                                             | ⚪          |                                                                   |
-| [Tooling](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#tooling)                                                 | ⚪          |                                                                   |
-| [Wallets](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#wallets)                                                 | ⚪          |                                                                   |
-| [Partner-chains + Scalability](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#partner-chains--scalability)        | ⚪          |                                                                   |
+| [SPOs](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#spos)                                                       | 🟠         |                                                                   |
+| [Exchanges](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#exchanges)                                             | 🟠         |                                                                   |
+| [Tooling](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#tooling)                                                 | 🔴         |                                                                   |
+| [Wallets](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#wallets)                                                 | 🔴         |                                                                   |
+| [Partner-chains + Scalability](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#partner-chains--scalability)        | 🔴         |                                                                   |
 | [Node Implementations](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#node-implementations)                       | ⚪          |                                                                   |
-| [DApps & Projects](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#dapps-and-projects)                             | ⚪          |                                                                   |
+| [DApps & Projects](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#dapps-and-projects)                             | 🔴         |                                                                   |
 
 ⚪ Not started\
 🟠 Attention needed\
@@ -40,7 +40,7 @@ Alternatively, if you find any information on this page incorrect or misleading 
 
 Core infrastructure encompasses all technologies included within the Cardano Haskell Node, as well as some key tools.
 
-Spokesperson: Jess
+Spokesperson: Geoff Watson / Brandon Wolf
 
 <table><thead><tr><th width="273">Name</th><th width="476">Status</th></tr></thead><tbody><tr><td>Ledger</td><td><mark style="color:green;">Code complete</mark></td></tr><tr><td>Consensus</td><td><mark style="color:green;">Code complete</mark></td></tr><tr><td>Network</td><td><mark style="color:green;">Code complete</mark></td></tr><tr><td>Plutus Core</td><td><mark style="color:green;">Code complete</mark></td></tr><tr><td>Performance and Tracing</td><td><mark style="color:green;">Code complete</mark></td></tr><tr><td>Pre-Release Node (SanchoNet)</td><td><mark style="color:green;">Complete -</mark> <a href="https://github.com/IntersectMBO/cardano-node/releases/tag/10.6.2">10.6.2</a></td></tr><tr><td>Cardano CLI, API &#x26; Node Integration</td><td><mark style="color:$warning;">In Progress - 80% Complete</mark></td></tr><tr><td>Full Mainnet Ready Release</td><td><mark style="color:$warning;">In Progress - Targeted 1-2 weeks</mark></td></tr><tr><td>DB-Sync</td><td><mark style="color:$warning;">Pre-Release available</mark> <a href="https://github.com/IntersectMBO/cardano-db-sync/releases/tag/13.7.0.2">13.7.0.2</a></td></tr></tbody></table>
 
@@ -62,7 +62,7 @@ Spokesperson: Ryan
 
 ### SPOs
 
-Spokesperson: Martin Lang / Andrew Westberg
+Spokesperson: Matthew Capps / Mike Hornan / Adam Dean
 
 todo
 
@@ -72,7 +72,7 @@ todo
 
 ### Exchanges
 
-Spokesperson: Kartik Iyer
+Spokesperson: Michiel Bellen / Kartik Iyer
 
 todo
 
@@ -82,7 +82,7 @@ todo
 
 ### Tooling
 
-Spokesperson: David Clark
+Spokesperson: Leonard Hegarty
 
 **Tools**
 
