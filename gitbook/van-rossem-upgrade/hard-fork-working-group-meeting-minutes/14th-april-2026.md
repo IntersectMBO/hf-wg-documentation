@@ -7,6 +7,7 @@
 3. [Hard Fork Tentative Timeline](https://app.excalidraw.com/l/6GdMPTId7vW/1xnslUPryZP?__r=1773152516515)
 4. [Risk log](https://docs.google.com/spreadsheets/d/1DSAiayrPOhhzSKKKljbd2WxHQPFmzKsvoyyA-BJUDg8/edit?gid=1105903724#gid=1105903724)
 5. Plutus Cost Model
+   1. [on preview testnet now](https://preview.cardanoscan.io/govAction/gov_action1q9xr9etnglg3gazzzrsexj3qsnzaqpf2yvfpwrvnwk9l64n089tqqqg02j9?tab=action)
 6. AOB
 
 #### Key materials
