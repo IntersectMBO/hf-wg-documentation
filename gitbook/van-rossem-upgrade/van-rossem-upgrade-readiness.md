@@ -62,7 +62,7 @@ Spokesperson: Ryan
 
 ### SPOs
 
-Spokesperson: Matthew Capps / Mike Hornan / Adam Dean
+Spokesperson: Matthew Capps / Mike Hornan / Ian Hartwell / Adam Dean
 
 todo
 
