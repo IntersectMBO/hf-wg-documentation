@@ -132,7 +132,7 @@ Spokesperson: Ryan
 
 Spokesperson: Bosko
 
-<table><thead><tr><th width="251">Project</th><th>Status</th><th>Notes</th></tr></thead><tbody><tr><td>Partner-chains Toolkit</td><td>I<mark style="color:$warning;">n Progress - Testing against 10.7.1 Pre-Release (same as Midnight atm)</mark></td><td></td></tr><tr><td>Midnight</td><td><mark style="color:$warning;">In Progress - Testing against 10.7.1 Pre-Release</mark></td><td></td></tr><tr><td>Hydra</td><td></td><td></td></tr><tr><td>Hydrozoa</td><td></td><td></td></tr><tr><td>Sundial</td><td></td><td></td></tr><tr><td>Midgard</td><td></td><td></td></tr><tr><td>Gummiworm</td><td></td><td></td></tr><tr><td>Mithril</td><td></td><td></td></tr></tbody></table>
+<table><thead><tr><th width="251">Project</th><th>Status</th><th>Notes</th></tr></thead><tbody><tr><td>Partner-chains Toolkit</td><td><mark style="color:$warning;">In Progress - Testing against 10.7.1 Pre-Release (same as Midnight atm)</mark></td><td></td></tr><tr><td>Midnight</td><td><mark style="color:$warning;">In Progress - Testing against 10.7.1 Pre-Release</mark></td><td></td></tr><tr><td>Hydra</td><td></td><td></td></tr><tr><td>Hydrozoa</td><td></td><td></td></tr><tr><td>Sundial</td><td></td><td></td></tr><tr><td>Midgard</td><td></td><td></td></tr><tr><td>Gummiworm</td><td></td><td></td></tr><tr><td>Mithril</td><td></td><td></td></tr></tbody></table>
 
 ***
 
