@@ -98,7 +98,7 @@ Spokesperson: Leonard Hegarty
 
 Spokesperson: Leonard Hegarty
 
-<table><thead><tr><th width="233">Indexers</th><th width="314">Status</th><th>Notes</th></tr></thead><tbody><tr><td>Kupo</td><td></td><td>(<a href="https://github.com/CardanoSolutions/kupo/releases">release repository</a>)</td></tr><tr><td>Oura</td><td></td><td>(<a href="https://github.com/txpipe/oura/releases">release repository</a>)</td></tr><tr><td>Scrolls</td><td></td><td>(<a href="https://github.com/txpipe/scrolls/releases">release repository</a>)</td></tr><tr><td>DB-Sync</td><td><mark style="color:$warning;">In Progress - Pre-Release available</mark> <a href="https://github.com/IntersectMBO/cardano-db-sync/releases/tag/13.7.0.1">13.7.0.1</a></td><td>(<a href="https://github.com/IntersectMBO/cardano-db-sync/releases/tag/13.6.0.4">release repository</a>)</td></tr><tr><td>Carp</td><td></td><td>(<a href="https://github.com/dcSpark/carp/releases">release repository</a>)</td></tr></tbody></table>
+<table><thead><tr><th width="233">Indexers</th><th width="314">Status</th><th>Notes</th></tr></thead><tbody><tr><td>Kupo</td><td></td><td>(<a href="https://github.com/CardanoSolutions/kupo/releases">release repository</a>)</td></tr><tr><td>Oura</td><td></td><td>(<a href="https://github.com/txpipe/oura/releases">release repository</a>)</td></tr><tr><td>Scrolls</td><td></td><td>(<a href="https://github.com/txpipe/scrolls/releases">release repository</a>)</td></tr><tr><td>DB-Sync</td><td><mark style="color:$warning;">In Progress - Pre-Release available</mark> <a href="https://github.com/IntersectMBO/cardano-db-sync/releases/tag/13.7.0.2">13.7.0.2</a></td><td>(<a href="https://github.com/IntersectMBO/cardano-db-sync/releases/tag/13.6.0.4">release repository</a>)</td></tr><tr><td>Carp</td><td></td><td>(<a href="https://github.com/dcSpark/carp/releases">release repository</a>)</td></tr></tbody></table>
 
 **Higher Level Tooling**
 
@@ -132,7 +132,7 @@ Spokesperson: Ryan
 
 Spokesperson: Bosko
 
-<table><thead><tr><th width="251">Project</th><th>Status</th><th>Notes</th></tr></thead><tbody><tr><td>Partner-chains Toolkit</td><td></td><td></td></tr><tr><td>Midnight</td><td></td><td></td></tr><tr><td>Hydra</td><td></td><td></td></tr><tr><td>Hydroza</td><td></td><td></td></tr><tr><td>Sundial</td><td></td><td></td></tr><tr><td>Midgard</td><td></td><td></td></tr><tr><td>Gummiworm</td><td></td><td></td></tr><tr><td>Mithril</td><td></td><td></td></tr></tbody></table>
+<table><thead><tr><th width="251">Project</th><th>Status</th><th>Notes</th></tr></thead><tbody><tr><td>Partner-chains Toolkit</td><td>I<mark style="color:$warning;">n Progress - Testing against 10.7.1 Pre-Release (same as Midnight atm)</mark></td><td></td></tr><tr><td>Midnight</td><td><mark style="color:$warning;">In Progress - Testing against 10.7.1 Pre-Release</mark></td><td></td></tr><tr><td>Hydra</td><td></td><td></td></tr><tr><td>Hydroza</td><td></td><td></td></tr><tr><td>Sundial</td><td></td><td></td></tr><tr><td>Midgard</td><td></td><td></td></tr><tr><td>Gummiworm</td><td></td><td></td></tr><tr><td>Mithril</td><td></td><td></td></tr></tbody></table>
 
 ***
 
