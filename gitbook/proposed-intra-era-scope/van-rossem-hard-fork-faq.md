@@ -227,6 +227,14 @@ Stake Pool Operators play an important (the most important!) part in any hard fo
 
 </details>
 
+<details>
+
+<summary>Is there a node version that can be used for testing?</summary>
+
+Yes. 10.7 is intended to be the last node release that won't cross the intra-era hard fork. We encourage all SPOs, dApps, wallets and builders to **integrate and deploy** [**10.7.1**](https://github.com/IntersectMBO/cardano-node/releases/tag/10.7.1) in preparation for the **11.0** release.
+
+</details>
+
 ***
 
 ## Questions on how to get involved and how to prepare
