@@ -25,11 +25,11 @@ Alternatively, if you find any information on this page incorrect or misleading 
 | [Testnets and Governance Actions](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#testnets-and-governance-actions) | 🟠         | **16th Apr**: Sancho running on 10.7.1 (forked before with 10.6.2) |
 | [SPOs](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#spos)                                                       | 🟠         |                                                                    |
 | [Exchanges](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#exchanges)                                             | 🟠         |                                                                    |
-| [Tooling](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#tooling)                                                 | 🔴         |                                                                    |
+| [Tooling](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#tooling)                                                 | 🟠         |                                                                    |
 | [Wallets](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#wallets)                                                 | 🔴         |                                                                    |
-| [Partner-chains + Scalability](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#partner-chains--scalability)        | 🔴         |                                                                    |
+| [Partner-chains + Scalability](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#partner-chains--scalability)        | 🟠         |                                                                    |
 | [Node Implementations](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#node-implementations)                       | ⚪          |                                                                    |
-| [DApps & Projects](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#dapps-and-projects)                             | 🔴         |                                                                    |
+| [DApps & Projects](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#dapps-and-projects)                             | 🟠         |                                                                    |
 
 ⚪ Not started\
 🟠 Attention needed\
@@ -86,6 +86,8 @@ Spokesperson: Leonard Hegarty
 
 **Tools**
 
+Spokesperson: Bosko Majdanac
+
 <table><thead><tr><th width="274">Tools</th><th width="206">Status</th><th>Notes</th></tr></thead><tbody><tr><td>cardano-wallet</td><td><mark style="color:$warning;">In Progress - expected soon</mark></td><td>(<a href="https://github.com/cardano-foundation/cardano-wallet/releases">release repository</a>)</td></tr><tr><td>Rosetta</td><td><mark style="color:$info;">Deprecated</mark></td><td>(<a href="https://github.com/cardano-foundation/cardano-rosetta/releases">release repository</a>)</td></tr><tr><td>Rosetta-Java</td><td><mark style="color:$warning;">In Progress</mark></td><td>(<a href="https://github.com/cardano-foundation/cardano-rosetta-java/releases/tag/1.1.5">release repository</a>)</td></tr><tr><td>GraphQL</td><td>Dependency on Rosseta</td><td>(<a href="https://github.com/cardano-foundation/cardano-graphql/releases">release repository</a>)</td></tr><tr><td>cntools (guild-operators)</td><td></td><td>(<a href="https://github.com/cardano-community/guild-operators/blob/alpha/docs/Scripts/cntools-changelog.md">change log</a>)</td></tr><tr><td>SPO Scripts (@gitmachtl)</td><td></td><td>(<a href="https://github.com/gitmachtl/scripts/releases">release repository</a>)</td></tr><tr><td>Ogmios</td><td></td><td>(<a href="https://github.com/CardanoSolutions/ogmios/releases">release repository</a>)</td></tr></tbody></table>
 
 **Libraries**
@@ -104,7 +106,7 @@ Spokesperson: Leonard Hegarty
 
 Spokesperson: Leonard Hegarty
 
-<table><thead><tr><th width="221">Tools</th><th width="214">Status</th><th>Notes</th></tr></thead><tbody><tr><td>Blockfrost</td><td></td><td>(<a href="https://github.com/blockfrost">repository</a>)</td></tr><tr><td>Koios</td><td></td><td>(<a href="https://github.com/cardano-community/koios-artifacts/releases">release repository</a>)</td></tr><tr><td>Maestro</td><td></td><td>(<a href="https://github.com/maestro-org">repository</a>)</td></tr></tbody></table>
+<table><thead><tr><th width="221">Tools</th><th width="214">Status</th><th>Notes</th></tr></thead><tbody><tr><td>Blockfrost</td><td></td><td>(<a href="https://github.com/blockfrost">repository</a>)</td></tr><tr><td>Koios</td><td></td><td>(<a href="https://github.com/cardano-community/koios-artifacts/releases">release repository</a>)</td></tr><tr><td>Maestro</td><td><mark style="color:$warning;">In Progress</mark></td><td>(<a href="https://github.com/maestro-org">repository</a>)</td></tr></tbody></table>
 
 ***
 
@@ -148,32 +150,32 @@ Spokesperson: Ryan
 
 DApp and project readiness is tracked against self reported readiness.
 
-Spokesperson: Bosko / Matt
+Spokesperson: Leonard Hegarty, Bosko Majdanac
 
 {% hint style="warning" %}
 DApps listed on this page are self-attested by the community, to add your DApp please email **hard-fork@intersectmbo.org** or raise a pull request to this public repository via [Github/HF-WG-Documentation](https://github.com/IntersectMBO/hf-wg-documentation/issues/new) ([see how-to](https://github.com/IntersectMBO/hf-wg-documentation?tab=readme-ov-file#contributing))
 {% endhint %}
 
-| Name             | Status |
-| ---------------- | ------ |
-| Axo              |        |
-| Book.io/Stuff.io |        |
-| Danogo           |        |
-| DripDropz        |        |
-| Fluid Tokens     |        |
-| Genius Yield     |        |
-| Levvy Finance    |        |
-| Minswap          |        |
-| NEWM             |        |
-| Snekdotfun       |        |
-| Splash           |        |
-| Summon           |        |
-| SundaeSwap       |        |
-| Tempo            |        |
-| UnFrack.it       |        |
-| USDM             |        |
-| Wanchain         |        |
-| WingRiders       |        |
+| Name             | Status                                  | Notes |
+| ---------------- | --------------------------------------- | ----- |
+| Axo              |                                         |       |
+| Book.io/Stuff.io |                                         |       |
+| Danogo           |                                         |       |
+| DripDropz        |                                         |       |
+| Fluid Tokens     | <mark style="color:green;">Ready</mark> |       |
+| Genius Yield     |                                         |       |
+| Levvy Finance    |                                         |       |
+| Minswap          |                                         |       |
+| NEWM             |                                         |       |
+| Snekdotfun       |                                         |       |
+| Splash           |                                         |       |
+| Summon           |                                         |       |
+| SundaeSwap       | <mark style="color:green;">Ready</mark> |       |
+| Tempo            |                                         |       |
+| UnFrack.it       |                                         |       |
+| USDM             |                                         |       |
+| Wanchain         |                                         |       |
+| WingRiders       |                                         |       |
 
 {% hint style="warning" %}
 DApps listed on this page are self-attested by the community, to add your DApp please email **hard-fork@intersectmbo.org** or raise a pull request to this public repository via [Github/HF-WG-Documentation](https://github.com/IntersectMBO/hf-wg-documentation/issues/new) ([see how-to](https://github.com/IntersectMBO/hf-wg-documentation?tab=readme-ov-file#contributing))
