@@ -119,7 +119,7 @@ Spokesperson: Ryan
 
 **Light Wallets**
 
-<table><thead><tr><th width="232">Wallet</th><th width="286">Highlevel Status</th><th>Notes</th></tr></thead><tbody><tr><td>Eternl</td><td></td><td></td></tr><tr><td>Eternl (mobile)</td><td></td><td></td></tr><tr><td>Lace</td><td></td><td></td></tr><tr><td>Nufi</td><td></td><td></td></tr><tr><td>Vespr</td><td></td><td></td></tr><tr><td>Tokeo</td><td></td><td></td></tr><tr><td>Yoroi</td><td></td><td></td></tr><tr><td>Typhon</td><td></td><td></td></tr><tr><td>Nami</td><td></td><td></td></tr><tr><td>Flint</td><td></td><td></td></tr></tbody></table>
+<table><thead><tr><th width="232">Wallet</th><th width="286">Highlevel Status</th><th>Notes</th></tr></thead><tbody><tr><td>Eternl</td><td>Reached out, no contact yet</td><td></td></tr><tr><td>Eternl (mobile)</td><td>Reached out, no contact yet</td><td></td></tr><tr><td>Lace</td><td>Reached out, no contact yet</td><td></td></tr><tr><td>Nufi</td><td>Reached out, no contact yet</td><td></td></tr><tr><td>Vespr</td><td></td><td></td></tr><tr><td>Tokeo</td><td></td><td></td></tr><tr><td>Yoroi</td><td></td><td></td></tr><tr><td>Typhon</td><td></td><td></td></tr><tr><td>Nami</td><td></td><td></td></tr><tr><td>Flint</td><td></td><td></td></tr></tbody></table>
 
 **Hardware Wallets**
 
@@ -127,7 +127,7 @@ Spokesperson: Ryan
 
 #### Full Node / CLI Wallets
 
-<table><thead><tr><th width="251">Wallet</th><th>Status</th><th>Notes</th></tr></thead><tbody><tr><td>Daedalus</td><td></td><td></td></tr><tr><td>AdaLite</td><td></td><td></td></tr><tr><td>CNTools</td><td></td><td></td></tr></tbody></table>
+<table><thead><tr><th width="251">Wallet</th><th>Status</th><th>Notes</th></tr></thead><tbody><tr><td>Daedalus</td><td></td><td></td></tr><tr><td>AdaLite</td><td>Reached out, no contact yet</td><td></td></tr><tr><td>CNTools</td><td></td><td></td></tr></tbody></table>
 
 ***
 
