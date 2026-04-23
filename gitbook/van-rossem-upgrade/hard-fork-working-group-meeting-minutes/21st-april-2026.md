@@ -12,7 +12,7 @@
 
 #### Key materials
 
-* Summary and action items
+* [Summary and action items](https://docs.google.com/document/d/1jGnwbpa-96sM7Bs5duBO-cMGbb7FlBLx9o79U4cx4xo/edit?usp=sharing)
 * Hard Fork Working Group communication channels
   * [Discord](https://discord.com/channels/1136727663583698984/1242097284619960411) — `#wg-hard-fork`
   * [Weekly bulletins](https://x.com/IntersectMBO)
