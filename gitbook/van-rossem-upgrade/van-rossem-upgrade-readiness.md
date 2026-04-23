@@ -119,15 +119,15 @@ Spokesperson: Ryan
 
 **Light Wallets**
 
-<table><thead><tr><th width="232">Wallet</th><th width="286">Highlevel Status</th><th>Notes</th></tr></thead><tbody><tr><td>Eternl</td><td>Reached out, no contact yet</td><td></td></tr><tr><td>Eternl (mobile)</td><td>Reached out, no contact yet</td><td></td></tr><tr><td>Lace</td><td>Reached out, no contact yet</td><td></td></tr><tr><td>Nufi</td><td>Reached out, no contact yet</td><td></td></tr><tr><td>Vespr</td><td></td><td></td></tr><tr><td>Tokeo</td><td></td><td></td></tr><tr><td>Yoroi</td><td></td><td></td></tr><tr><td>Typhon</td><td></td><td></td></tr><tr><td>Nami</td><td></td><td></td></tr><tr><td>Flint</td><td></td><td></td></tr></tbody></table>
+<table><thead><tr><th width="232">Wallet</th><th width="280.94921875">Highlevel Status</th><th>Notes</th></tr></thead><tbody><tr><td>Eternl</td><td>Reached out to, no contact yet</td><td></td></tr><tr><td>Eternl (mobile)</td><td>Reached out to, no contact yet</td><td></td></tr><tr><td>Lace</td><td>Reached out to, no contact yet</td><td></td></tr><tr><td>Nufi</td><td>Reached out to, no contact yet</td><td></td></tr><tr><td>Vespr</td><td></td><td></td></tr><tr><td>Tokeo</td><td></td><td></td></tr><tr><td>Yoroi</td><td></td><td></td></tr><tr><td>Typhon</td><td></td><td></td></tr><tr><td>Nami</td><td></td><td></td></tr><tr><td>Flint</td><td></td><td></td></tr></tbody></table>
 
 **Hardware Wallets**
 
-<table><thead><tr><th width="251">Wallet</th><th width="248">Status</th><th>Notes</th></tr></thead><tbody><tr><td>Trezor</td><td><mark style="color:green;">N/A - no update required</mark></td><td></td></tr><tr><td>Ledger</td><td><mark style="color:green;">N/A - no update required</mark></td><td></td></tr><tr><td>Keystone</td><td><mark style="color:green;">N/A - no update required</mark></td><td></td></tr></tbody></table>
+<table><thead><tr><th width="251">Wallet</th><th width="256.0859375">Status</th><th>Notes</th></tr></thead><tbody><tr><td>Trezor</td><td><mark style="color:green;">N/A - no update required</mark></td><td></td></tr><tr><td>Ledger</td><td><mark style="color:green;">N/A - no update required</mark></td><td></td></tr><tr><td>Keystone</td><td><mark style="color:green;">N/A - no update required</mark></td><td></td></tr></tbody></table>
 
 #### Full Node / CLI Wallets
 
-<table><thead><tr><th width="251">Wallet</th><th>Status</th><th>Notes</th></tr></thead><tbody><tr><td>Daedalus</td><td></td><td></td></tr><tr><td>AdaLite</td><td>Reached out, no contact yet</td><td></td></tr><tr><td>CNTools</td><td></td><td></td></tr></tbody></table>
+<table><thead><tr><th width="251">Wallet</th><th width="254.93359375">Status</th><th>Notes</th></tr></thead><tbody><tr><td>Daedalus</td><td></td><td></td></tr><tr><td>AdaLite</td><td>Reached out to, no contact yet</td><td></td></tr><tr><td>CNTools</td><td></td><td></td></tr></tbody></table>
 
 ***
 
