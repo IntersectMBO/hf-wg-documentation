@@ -22,5 +22,11 @@
 
 #### Action items and next steps
 
-*
+* **Bosko Majdanac & Ryan Williams:** Update the Master Timeline to reflect the May 28th submission date and the potential June enactment.
+* **Leonard Hegarty:** Lead the direct outreach to DApps to confirm Preview testing results and lack of hardcoding issues.
+* **Samuel Leathers & IO Team:** Provide the Node v11.0 Mainnet-ready release by next week and resolve the minor issue regarding creating new testnets when experimental flags are disabled.
+* **Bosko Majdanac:** Assign a single, specific owner to each item in the Risk Register to ensure clear accountability.
+* **Terence McCutcheon:** Distribute the link and instructions for the publicly accessible Discord channel.
+* **Bosko Majdanac & Leonard Hegarty:** Repurpose this Thursday’s X Space to be a technical session specifically for DApps and the Plutus Cost Model to address the hardcoding risks found on Preview.
+* **Kevin Hammond & Ryan Williams:** Finalize the metadata to chain the Committee Minimum Size reduction action onto the Plutus parameter update.
 
