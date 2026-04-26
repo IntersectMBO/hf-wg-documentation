@@ -127,7 +127,7 @@ Spokesperson: Ryan
 
 #### Full Node / CLI Wallets
 
-<table><thead><tr><th width="251">Wallet</th><th width="254.93359375">Status</th><th>Notes</th></tr></thead><tbody><tr><td>Daedalus</td><td></td><td></td></tr><tr><td>AdaLite</td><td>Reached out to, no contact yet</td><td></td></tr><tr><td>CNTools</td><td></td><td></td></tr></tbody></table>
+<table><thead><tr><th width="251">Wallet</th><th width="254.93359375">Status</th><th>Notes</th></tr></thead><tbody><tr><td>Daedalus</td><td></td><td></td></tr><tr><td>AdaLite</td><td>Reached out to</td><td></td></tr><tr><td>CNTools</td><td></td><td></td></tr></tbody></table>
 
 ***
 
