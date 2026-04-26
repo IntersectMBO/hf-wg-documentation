@@ -119,7 +119,7 @@ Spokesperson: Ryan
 
 **Light Wallets**
 
-<table><thead><tr><th width="232">Wallet</th><th width="280.94921875">Highlevel Status</th><th>Notes</th></tr></thead><tbody><tr><td>Eternl</td><td>Reached out to, no contact yet</td><td></td></tr><tr><td>Eternl (mobile)</td><td>Reached out to, no contact yet</td><td></td></tr><tr><td>Lace</td><td>Reached out to, no contact yet</td><td></td></tr><tr><td>Nufi</td><td>Reached out to, no contact yet</td><td></td></tr><tr><td>Vespr</td><td></td><td></td></tr><tr><td>Tokeo</td><td></td><td></td></tr><tr><td>Yoroi</td><td></td><td></td></tr><tr><td>Typhon</td><td></td><td></td></tr><tr><td>Nami</td><td></td><td></td></tr><tr><td>Flint</td><td></td><td></td></tr></tbody></table>
+<table><thead><tr><th width="232">Wallet</th><th width="280.94921875">Highlevel Status</th><th>Notes</th></tr></thead><tbody><tr><td>Eternl</td><td>Reached out to</td><td></td></tr><tr><td>Eternl (mobile)</td><td>Reached out to</td><td></td></tr><tr><td>Lace</td><td>Reached out to</td><td></td></tr><tr><td>Nufi</td><td>Reached out to</td><td></td></tr><tr><td>Vespr</td><td>Reached out to, no contact yet</td><td></td></tr><tr><td>Tokeo</td><td></td><td></td></tr><tr><td>Yoroi</td><td>Reached out to</td><td></td></tr><tr><td>Typhon</td><td>Reached out to</td><td></td></tr><tr><td>Nami</td><td>N/A - no longer maintained</td><td></td></tr><tr><td>Flint</td><td>N/A - no longer maintained</td><td></td></tr></tbody></table>
 
 **Hardware Wallets**
 
