@@ -141,7 +141,7 @@ Spokesperson: Bosko
 
 ### Node Implementations
 
-Spokesperson: Ryan
+Spokesperson: Bosko
 
 <table><thead><tr><th width="251">Implementation</th><th width="248">Status</th><th>Notes</th></tr></thead><tbody><tr><td>Acropolis</td><td></td><td></td></tr><tr><td>Amaru</td><td></td><td></td></tr><tr><td>Dingo</td><td></td><td></td></tr><tr><td>Gerolamo</td><td></td><td></td></tr></tbody></table>
 
