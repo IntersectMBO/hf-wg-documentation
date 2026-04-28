@@ -2,14 +2,15 @@
 
 #### Agenda
 
-1. Expectations alignment
-2. [Action items from the last call](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/hard-fork-working-group-meeting-minutes/21st-april-2026#action-items-and-next-steps) - Bosko
-3. [Haskell node](https://github.com/IntersectMBO/cardano-node/releases) - Sam/Ramsay/Jeff
-4. Readiness tracker
-5. [Hard Fork Timeline](https://app.excalidraw.com/l/6GdMPTId7vW/1xnslUPryZP?__r=1773152516515)
-6. [Risk log](https://docs.google.com/spreadsheets/d/1DSAiayrPOhhzSKKKljbd2WxHQPFmzKsvoyyA-BJUDg8/edit?gid=1105903724#gid=1105903724)
-7. Plutus Cost Model
-8. Meeting cadence
+1. Expectations alignment - Bosko
+2. Meeting cadence - Bosko
+3. [Action items from the last call](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/hard-fork-working-group-meeting-minutes/21st-april-2026#action-items-and-next-steps) - Bosko
+4. [Haskell node](https://github.com/IntersectMBO/cardano-node/releases) - Sam/Ramsay/Jeff
+5. [Van Rossem Upgrade Update](https://docs.google.com/presentation/d/1pEFh_GC3Nx2nTVPXj9bke9R7C9Bkr8Hk/edit?slide=id.p1\&pli=1#slide=id.p1) - Bosko, all
+   1. Readiness tracker
+6. [Hard Fork Detailed Timeline](https://app.excalidraw.com/l/6GdMPTId7vW/1xnslUPryZP?__r=1773152516515)
+7. [Risk log](https://docs.google.com/spreadsheets/d/1DSAiayrPOhhzSKKKljbd2WxHQPFmzKsvoyyA-BJUDg8/edit?gid=1105903724#gid=1105903724)
+8. Plutus Cost Model
 9. AOB
 
 #### Key materials
