@@ -15,7 +15,7 @@
 
 #### Key materials
 
-* Summary and action items
+* [Summary and action items](https://docs.google.com/document/d/1FZ0_6yvOzonlcWU2546G4OIT1pFvUUgDR1Mpi4cQbDA/edit?tab=t.k4fxadxr45wu)
 * Hard Fork Working Group communication channels
   * [Discord](https://discord.com/channels/1136727663583698984/1242097284619960411) — `#wg-hard-fork`
   * [Weekly bulletins](https://x.com/IntersectMBO)
@@ -23,7 +23,14 @@
   * [This weeks X space](https://x.com/i/spaces/1RKjpzdjXMeJw?s=20)
 * [Tentative timeline](https://app.excalidraw.com/s/6GdMPTId7vW/1xnslUPryZP)
 
-#### Action items and next steps
+#### **Action items and next steps**
 
-*
+* **Samuel Leathers / IO Team:** Tag and release DB-Sync 13.7.0.4 (expected today/tomorrow) and prepare to promote Node v11.0 to Mainnet-ready status next week.
+* **Bosko Majdanac:** Draft a formal Communications Plan by next meeting to address the rollout of protocol parameters and stakeholder engagement.
+* **Bosko Majdanac / Leonard Hegarty / Samuel Leathers:** Schedule a "Show and Tell" technical session (via Google Meet/Discord) to demonstrate to DApp developers how to properly upgrade smart contracts for the new cost models.
+* **Bosko Majdanac:** Update the Master Timeline with explicit epoch boundaries to reflect the May 28th submission target and June enactment.
+* **Leonard Hegarty:** Continue outreach to DApp developers (specifically those using Aiken) to ensure they are testing against the v10.7.1/v11.0 builds.
+* **Terence McCutcheon:** Circulate the finalized instructions and link for the publicly accessible Discord channel.
+* **Bosko Majdanac:** Prepare the Readiness Tracker in a centralized Sheets file to granularly track the "percentage of completion" for each ecosystem tool and library.
+* **Kevin Hammond / Ryan Williams:** Finalize metadata to ensure the Committee Minimum Size reduction is chained correctly to the Plutus parameter update on Mainnet.
 
