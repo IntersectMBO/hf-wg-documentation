@@ -31,8 +31,8 @@ Alternatively, if you find any information on this page incorrect or misleading 
 | [Partner-chains + Scalability](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#partner-chains--scalability)        | 🟠         |                                                                    |
 | [Node Implementations](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#node-implementations)                       | ⚪          |                                                                    |
 | [DApps & Projects](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#dapps-and-projects)                             | 🟠         |                                                                    |
-| Block Explorers                                                                                                                                                  | 🔴         |                                                                    |
-| Guidelines                                                                                                                                                       | 🔴         |                                                                    |
+| [Block Explorers](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#block-explorers)                                 | 🔴         |                                                                    |
+| [Guidelines](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#guidelines)                                           | 🔴         |                                                                    |
 
 ⚪ Not started\
 🟠 Attention needed\
