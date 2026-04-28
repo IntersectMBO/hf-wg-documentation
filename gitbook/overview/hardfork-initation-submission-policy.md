@@ -20,7 +20,7 @@ To provide feedback on the policy you can
 
 ## Mainnet Hard Fork Initiation Governance Action Submission Criteria
 
-Version: `0.2`  -- Prepared for 2026 Intra-era Hard Fork
+Version: `0.2` -- Prepared for 2026 van Rossem Hard Fork
 
 This policy describes specific metrics which the hard fork working group (HFWG) considers before recommending submission of a Hard Fork Initiation governance action to Cardano mainnet.
 
@@ -86,4 +86,3 @@ The idea for this section, is it matches the metrics tracked for Chang #1. These
 ***
 
 * Note: DApp and Defi readiness is subjective. Different upgrades will affect the ecosystem in entirely different ways. The HFWG looks for evidence that trusted and mature ecosystem builders, where a level of expertise and experience are evidenced, have upgraded. This demonstrates 'the art of the possible’, which contributes to understanding ecosystem impact and timeline required, and also builds confidence a good level of testing has been undertaken.
-
