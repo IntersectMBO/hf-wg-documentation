@@ -31,6 +31,8 @@ Alternatively, if you find any information on this page incorrect or misleading 
 | [Partner-chains + Scalability](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#partner-chains--scalability)        | 🟠         |                                                                    |
 | [Node Implementations](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#node-implementations)                       | ⚪          |                                                                    |
 | [DApps & Projects](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#dapps-and-projects)                             | 🟠         |                                                                    |
+| Block Explorers                                                                                                                                                  | 🔴         |                                                                    |
+| Guidelines                                                                                                                                                       | 🔴         |                                                                    |
 
 ⚪ Not started\
 🟠 Attention needed\
@@ -64,6 +66,8 @@ Spokesperson: Ryan
 ### SPOs
 
 Spokesperson: Matthew Capps / Mike Hornan / Ian Hartwell / Adam Dean
+
+<table><thead><tr><th width="251">Pool Management Suite</th><th width="254.93359375">Status</th><th>Notes</th></tr></thead><tbody><tr><td>JorManager</td><td></td><td></td></tr><tr><td>CFD</td><td></td><td></td></tr></tbody></table>
 
 todo
 
@@ -178,8 +182,14 @@ DApps listed on this page are self-attested by the community, to add your DApp p
 | Wanchain         |                                         |       |
 | WingRiders       |                                         |       |
 
-{% hint style="warning" %}
-DApps listed on this page are self-attested by the community, to add your DApp please email **hard-fork@intersectmbo.org** or raise a pull request to this public repository via [Github/HF-WG-Documentation](https://github.com/IntersectMBO/hf-wg-documentation/issues/new) ([see how-to](https://github.com/IntersectMBO/hf-wg-documentation?tab=readme-ov-file#contributing))
-{% endhint %}
+***
+
+### Block Explorers
+
+<table><thead><tr><th width="251">Name</th><th width="248">Status</th><th>Notes</th></tr></thead><tbody><tr><td>Cexplorer</td><td></td><td></td></tr><tr><td>Adastat</td><td></td><td></td></tr><tr><td>Cardanoscan</td><td></td><td></td></tr></tbody></table>
 
 ***
+
+### Guidelines
+
+<table><thead><tr><th width="251">Name</th><th width="248">Status</th><th>Notes</th></tr></thead><tbody><tr><td><a href="https://www.coincashew.com/coins/overview-ada/guide-how-to-build-a-haskell-stakepool-node#change-log">CoinCashew</a></td><td></td><td></td></tr><tr><td><a href="https://docs.spojapanguild.net/cardano/setup/node-setup/">A Japanese Guideline</a></td><td></td><td></td></tr><tr><td><a href="https://es-kb.topopool.com/primeros-pasos/preparacion">Spanish Guideline</a></td><td></td><td></td></tr></tbody></table>
