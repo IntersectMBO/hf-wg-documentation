@@ -7,6 +7,7 @@
 3. [Van Rossem Upgrade Update](https://docs.google.com/presentation/d/1pEFh_GC3Nx2nTVPXj9bke9R7C9Bkr8Hk/edit?slide=id.p1\&pli=1#slide=id.p1) - Bosko, all
    1. [Readiness tracker](https://docs.google.com/spreadsheets/d/1ECoYFCtrRtFX3BvqfhaZi6FxlXQMoTGP/edit?usp=sharing\&ouid=106134819668558877362\&rtpof=true\&sd=true)
 4. van Rossem comms plan - Bosko / Ian / Larisa
+   1. [Key dates and events for van Rossem upgrade - April, May, June 2026](https://docs.google.com/document/d/1teReTBNeM-t5-LryJJUeLHTHy9B4RDD6AWHwmWJC8f8/edit?usp=sharing)
 5. [Hard Fork Detailed Timeline](https://app.excalidraw.com/l/6GdMPTId7vW/1xnslUPryZP?__r=1773152516515)
 6. [Risk log](https://docs.google.com/spreadsheets/d/1DSAiayrPOhhzSKKKljbd2WxHQPFmzKsvoyyA-BJUDg8/edit?gid=1105903724#gid=1105903724)
 7. Incident RACI (van Rossem)
