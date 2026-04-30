@@ -20,6 +20,8 @@ Alternatively, if you find any information on this page incorrect or misleading 
 **Estimated hard fork enactment** <mark style="color:$warning;">**29th June**</mark> ([timeline](https://app.excalidraw.com/s/6GdMPTId7vW/1xnslUPryZP))\
 [Hard Fork Initiation Submission policy](https://cardanoupgrades.docs.intersectmbo.org/overview/hardfork-initation-submission-policy)
 
+[Live readiness tracker](https://docs.google.com/spreadsheets/d/1ECoYFCtrRtFX3BvqfhaZi6FxlXQMoTGP/edit?gid=960883614#gid=960883614)
+
 | Workstream                                                                                                                                                       | RAG status | Last update                                                        |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | ------------------------------------------------------------------ |
 | [Core Infrastructure Components](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#core-infrastructure-components)   | 🟠         | **20th Apr:** 10.7.1 full release                                  |
