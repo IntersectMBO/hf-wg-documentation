@@ -9,8 +9,9 @@
 4. van Rossem comms plan - Bosko / Ian / Larisa
 5. [Hard Fork Detailed Timeline](https://app.excalidraw.com/l/6GdMPTId7vW/1xnslUPryZP?__r=1773152516515)
 6. [Risk log](https://docs.google.com/spreadsheets/d/1DSAiayrPOhhzSKKKljbd2WxHQPFmzKsvoyyA-BJUDg8/edit?gid=1105903724#gid=1105903724)
-7. Plutus Cost Model
-8. AOB
+7. Incident RACI (van Rossem)
+8. Plutus Cost Model
+9. AOB
 
 #### Key materials
 
