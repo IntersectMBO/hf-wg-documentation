@@ -35,6 +35,8 @@
   * [Weekly bulletins](https://x.com/IntersectMBO)
   * [Luma calendar](https://luma.com/calendar/cal-TMjYNpSY4huYYif)
   * [This weeks X space](https://x.com/i/spaces/1RKjpzdjXMeJw?s=20)
+* [van Rossem Upgrade Update](https://docs.google.com/presentation/d/1pEFh_GC3Nx2nTVPXj9bke9R7C9Bkr8Hk/edit?slide=id.p1\&pli=1#slide=id.p1)
+* [van Rossem readiness tracker](https://docs.google.com/spreadsheets/d/1ECoYFCtrRtFX3BvqfhaZi6FxlXQMoTGP/edit?usp=sharing\&ouid=106134819668558877362\&rtpof=true\&sd=true)
 * [Tentative timeline](https://app.excalidraw.com/s/6GdMPTId7vW/1xnslUPryZP)
 
 #### **Action items and next steps**
