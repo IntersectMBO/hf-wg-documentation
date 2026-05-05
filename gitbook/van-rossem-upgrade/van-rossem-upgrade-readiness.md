@@ -1,8 +1,6 @@
 # van Rossem upgrade readiness
 
-{% hint style="warning" %}
-High level status — waiting on release of hard fork capable Cardano before readiness can be properly reviewed
-{% endhint %}
+#### <mark style="color:red;">Last updated on: \~5th May 8:58pm UTC</mark>
 
 ## Readiness and Updating this Page
 
