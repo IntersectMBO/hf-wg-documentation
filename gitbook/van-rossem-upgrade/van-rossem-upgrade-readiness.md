@@ -15,24 +15,25 @@ You can do so by suggesting updates via this Intersect [GitHub documentation rep
 Alternatively, if you find any information on this page incorrect or misleading please email: hard-fork@intersectmbo.org and request an update or correction.
 
 **Overall readiness status** 🟠\
-**Estimated hard fork enactment** <mark style="color:$warning;">**29th June**</mark> ([timeline](https://app.excalidraw.com/s/6GdMPTId7vW/1xnslUPryZP))\
+**Estimated hard fork initiation governance action submission on mainnet** <mark style="color:$warning;">**29th May**</mark>\
+**Estimated hard fork enactment on mainnet** <mark style="color:$warning;">**29th June**</mark> ([timeline](https://app.excalidraw.com/s/6GdMPTId7vW/1xnslUPryZP))\
 [Hard Fork Initiation Submission policy](https://cardanoupgrades.docs.intersectmbo.org/overview/hardfork-initation-submission-policy)
 
 [Live readiness tracker](https://docs.google.com/spreadsheets/d/1ECoYFCtrRtFX3BvqfhaZi6FxlXQMoTGP/edit?gid=960883614#gid=960883614)
 
-| Workstream                                                                                                                                                       | RAG status | Last update                                                        |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | ------------------------------------------------------------------ |
-| [Core Infrastructure Components](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#core-infrastructure-components)   | 🟠         | **20th Apr:** 10.7.1 full release                                  |
-| [Testnets and Governance Actions](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#testnets-and-governance-actions) | 🟠         | **16th Apr**: Sancho running on 10.7.1 (forked before with 10.6.2) |
-| [SPOs](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#spos)                                                       | 🟠         |                                                                    |
-| [Exchanges](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#exchanges)                                             | 🟠         |                                                                    |
-| [Tooling](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#tooling)                                                 | 🟠         |                                                                    |
-| [Wallets](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#wallets)                                                 | 🟠         |                                                                    |
-| [Partner-chains + Scalability](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#partner-chains--scalability)        | 🟠         |                                                                    |
-| [Node Implementations](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#node-implementations)                       | ⚪          |                                                                    |
-| [DApps & Projects](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#dapps-and-projects)                             | 🟠         |                                                                    |
-| [Block Explorers](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#block-explorers)                                 | 🔴         |                                                                    |
-| [Guidelines](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#guidelines)                                           | 🔴         |                                                                    |
+| Workstream                                                                                                                                                       | RAG status | Last update                                                            |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | ---------------------------------------------------------------------- |
+| [Core Infrastructure Components](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#core-infrastructure-components)   | 🟢         | **7th May:** Node 11.0.1 full release and DBSync 13.7.0.5 full release |
+| [Testnets and Governance Actions](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#testnets-and-governance-actions) | 🟠         | **16th Apr**: Sancho running on 10.7.1 (forked before with 10.6.2)     |
+| [SPOs](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#spos)                                                       | 🔴         |                                                                        |
+| [Exchanges](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#exchanges)                                             | 🔴         |                                                                        |
+| [Tooling](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#tooling)                                                 | 🟠         |                                                                        |
+| [Wallets](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#wallets)                                                 | 🟠         |                                                                        |
+| [Partner-chains + Scalability](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#partner-chains--scalability)        | 🟠         |                                                                        |
+| [Node Implementations](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#node-implementations)                       | 🟠         |                                                                        |
+| [DApps & Projects](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#dapps-and-projects)                             | 🔴         |                                                                        |
+| [Block Explorers](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#block-explorers)                                 | 🔴         |                                                                        |
+| [Guidelines](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#guidelines)                                           | 🔴         |                                                                        |
 
 ⚪ Not started\
 🟠 Attention needed\
