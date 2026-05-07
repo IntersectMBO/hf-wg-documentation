@@ -1,6 +1,6 @@
 # van Rossem upgrade readiness
 
-#### <mark style="color:red;">Last updated on: \~5th May 8:58pm UTC</mark>
+#### <mark style="color:red;">Last updated on: \~7th May 1:58pm UTC</mark>
 
 ## Readiness and Updating this Page
 
@@ -45,7 +45,9 @@ Core infrastructure encompasses all technologies included within the Cardano Has
 
 Spokesperson: Geoff Watson / Brandon Wolf / Samuel Leathers
 
-<table><thead><tr><th width="273">Name</th><th width="476">Status</th></tr></thead><tbody><tr><td>Ledger</td><td><mark style="color:green;">Code complete</mark></td></tr><tr><td>Consensus</td><td><mark style="color:green;">Code complete</mark></td></tr><tr><td>Network</td><td><mark style="color:green;">Code complete</mark></td></tr><tr><td>Plutus Core</td><td><mark style="color:green;">Code complete</mark></td></tr><tr><td>Performance and Tracing</td><td><mark style="color:green;">Code complete</mark></td></tr><tr><td>Pre-Release Node</td><td><mark style="color:green;">Complete</mark></td></tr><tr><td>Cardano CLI, API &#x26; Node Integration</td><td><mark style="color:green;">Complete</mark></td></tr><tr><td>Full Mainnet Ready Release</td><td><mark style="color:green;">Complete -</mark> <a href="https://github.com/IntersectMBO/cardano-node/releases/tag/10.7.1">10.7.1</a></td></tr><tr><td>DB-Sync</td><td><mark style="color:$warning;">v10.7.1 compatible release available</mark> <a href="https://github.com/IntersectMBO/cardano-db-sync/releases/tag/13.7.0.4">13.7.0.4</a><br><mark style="color:$warning;">v11 compatible release expected soon</mark></td></tr></tbody></table>
+<table><thead><tr><th width="273">Name</th><th width="476">Status</th></tr></thead><tbody><tr><td>Ledger</td><td><mark style="color:green;">Code complete</mark></td></tr><tr><td>Consensus</td><td><mark style="color:green;">Code complete</mark></td></tr><tr><td>Network</td><td><mark style="color:green;">Code complete</mark></td></tr><tr><td>Plutus Core</td><td><mark style="color:green;">Code complete</mark></td></tr><tr><td>Performance and Tracing</td><td><mark style="color:green;">Code complete</mark></td></tr><tr><td>Pre-Release Node</td><td><mark style="color:green;">Complete</mark></td></tr><tr><td>Cardano CLI, API &#x26; Node Integration</td><td><mark style="color:green;">Complete</mark></td></tr><tr><td>Full Mainnet Ready Release</td><td><mark style="color:green;">Complete -</mark> <a href="https://github.com/IntersectMBO/cardano-node/releases/tag/11.0.1">11.0.1</a></td></tr><tr><td>DB-Sync</td><td><mark style="color:$warning;">v11 compatible full release expected soon</mark> <a href="https://github.com/IntersectMBO/cardano-db-sync/releases/tag/13.7.0.5">13.7.0.5</a></td></tr></tbody></table>
+
+
 
 ***
 
@@ -55,7 +57,7 @@ Spokesperson: Ryan
 
 #### Testnets
 
-<table><thead><tr><th width="355">Network</th><th width="583">Status</th></tr></thead><tbody><tr><td>SanchoNet</td><td><mark style="color:green;">Forked, enacted with 10.6.2, running on 10.7.1</mark></td></tr><tr><td>Preview</td><td><mark style="color:$warning;">Expected on 7th May</mark></td></tr><tr><td>PreProd</td><td><mark style="color:$danger;">Blocked — need full release node</mark></td></tr></tbody></table>
+<table><thead><tr><th width="355">Network</th><th width="583">Status</th></tr></thead><tbody><tr><td>SanchoNet</td><td><mark style="color:green;">Forked, enacted with 10.6.2, running on 10.7.1</mark></td></tr><tr><td>Preview</td><td><mark style="color:$warning;">Expected on 8th May</mark></td></tr><tr><td>PreProd</td><td><mark style="color:$warning;">In Progress</mark></td></tr></tbody></table>
 
 #### Governance Actions
 
@@ -111,7 +113,7 @@ Spokesperson: Leonard Hegarty
 
 Spokesperson: Leonard Hegarty
 
-<table><thead><tr><th width="221">Tools</th><th width="214">Status</th><th>Notes</th></tr></thead><tbody><tr><td>Blockfrost</td><td>Reached out to</td><td>(<a href="https://github.com/blockfrost">repository</a>)</td></tr><tr><td>Koios</td><td></td><td>(<a href="https://github.com/cardano-community/koios-artifacts/releases">release repository</a>)</td></tr><tr><td>Maestro</td><td><mark style="color:$warning;">In Progress</mark></td><td>(<a href="https://github.com/maestro-org">repository</a>)</td></tr></tbody></table>
+<table><thead><tr><th width="221">Tools</th><th width="214">Status</th><th>Notes</th></tr></thead><tbody><tr><td>Blockfrost</td><td><mark style="color:$warning;">In Progress</mark></td><td>(<a href="https://github.com/blockfrost">repository</a>)</td></tr><tr><td>Koios</td><td></td><td>(<a href="https://github.com/cardano-community/koios-artifacts/releases">release repository</a>)</td></tr><tr><td>Maestro</td><td><mark style="color:$warning;">In Progress</mark></td><td>(<a href="https://github.com/maestro-org">repository</a>)</td></tr></tbody></table>
 
 ***
 
