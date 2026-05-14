@@ -1,6 +1,6 @@
 # van Rossem upgrade readiness
 
-#### <mark style="color:red;">Last updated on: \~14th May 1:15pm UTC</mark>
+#### <mark style="color:red;">Last updated on: \~14th May 1:36pm UTC</mark>
 
 ## Readiness and Updating this Page
 
@@ -100,7 +100,7 @@ Spokesperson: Bosko Majdanac
 
 Spokesperson: Leonard Hegarty
 
-<table><thead><tr><th width="287">Library</th><th width="210">Status</th><th>Notes</th></tr></thead><tbody><tr><td>Aiken</td><td><mark style="color:$warning;">In Progress</mark></td><td>(<a href="https://github.com/aiken-lang/aiken/releases">release repository</a>)</td></tr><tr><td>Blaze Cardano</td><td></td><td>(<a href="https://github.com/butaneprotocol/blaze-cardano/releases">release repository</a>)</td></tr><tr><td>Cardano Serialization Library</td><td><mark style="color:green;">Ready</mark></td><td>(<a href="https://github.com/Emurgo/cardano-serialization-lib/releases">release repository</a>)</td></tr><tr><td>Cardano Multiplatform Library</td><td>Reached out to</td><td>(<a href="https://github.com/dcSpark/cardano-multiplatform-lib/releases">release repository</a>)</td></tr><tr><td>Cardano JavaScript SDK</td><td><mark style="color:$warning;">In Progress</mark></td><td>(<a href="https://github.com/input-output-hk/cardano-js-sdk/releases">release repository</a>)</td></tr><tr><td>Pallas</td><td><mark style="color:green;">Ready</mark></td><td>(<a href="https://github.com/txpipe/pallas/releases">release repository</a>)</td></tr><tr><td>Cardano Transaction Library</td><td><mark style="color:$warning;">In Progress</mark></td><td>(<a href="https://github.com/Plutonomicon/cardano-transaction-lib/">release repository</a>)</td></tr><tr><td>MeshSDK</td><td>Reached out to</td><td>(<a href="https://github.com/MeshJS/mesh/releases">release repository</a>)</td></tr><tr><td>Lucid Evolution</td><td></td><td>(<a href="https://github.com/Anastasia-Labs/lucid-evolution/releases">release repository</a>)</td></tr><tr><td>Scalus</td><td><mark style="color:green;">Ready</mark></td><td>(<a href="https://github.com/scalus3/scalus/releases">release repository</a>)</td></tr></tbody></table>
+<table><thead><tr><th width="287">Library</th><th width="210">Status</th><th>Notes</th></tr></thead><tbody><tr><td>Aiken</td><td><mark style="color:$warning;">In Progress</mark></td><td>(<a href="https://github.com/aiken-lang/aiken/releases">release repository</a>)</td></tr><tr><td>Blaze Cardano</td><td></td><td>(<a href="https://github.com/butaneprotocol/blaze-cardano/releases">release repository</a>)</td></tr><tr><td>Cardano Serialization Library</td><td><mark style="color:green;">Ready</mark></td><td>(<a href="https://github.com/Emurgo/cardano-serialization-lib/releases">release repository</a>)</td></tr><tr><td>Cardano Multiplatform Library</td><td>Reached out to</td><td>(<a href="https://github.com/dcSpark/cardano-multiplatform-lib/releases">release repository</a>)</td></tr><tr><td>Cardano JavaScript SDK</td><td><mark style="color:$warning;">In Progress</mark></td><td>(<a href="https://github.com/input-output-hk/cardano-js-sdk/releases">release repository</a>)</td></tr><tr><td>Pallas</td><td><mark style="color:green;">Ready</mark></td><td>(<a href="https://github.com/txpipe/pallas/releases">release repository</a>)</td></tr><tr><td>Cardano Transaction Library</td><td><mark style="color:$warning;">In Progress</mark></td><td>(<a href="https://github.com/Plutonomicon/cardano-transaction-lib/">release repository</a>)</td></tr><tr><td>MeshSDK</td><td>Reached out to</td><td>(<a href="https://github.com/MeshJS/mesh/releases">release repository</a>)</td></tr><tr><td>Lucid Evolution</td><td><mark style="color:$warning;">In Progress</mark></td><td>(<a href="https://github.com/Anastasia-Labs/lucid-evolution/releases">release repository</a>)</td></tr><tr><td>Scalus</td><td><mark style="color:green;">Ready</mark></td><td>(<a href="https://github.com/scalus3/scalus/releases">release repository</a>)</td></tr></tbody></table>
 
 **Indexers**
 
@@ -168,7 +168,7 @@ DApps listed on this page are self-attested by the community, to add your DApp p
 | Book.io/Stuff.io |                                                  |       |
 | Danogo           | <mark style="color:$warning;">In Progress</mark> |       |
 | DripDropz        | <mark style="color:green;">Ready</mark>          |       |
-| Fluid Tokens     | <mark style="color:green;">Ready</mark>          |       |
+| Fluid Tokens     | <mark style="color:$warning;">In Progress</mark> |       |
 | Genius Yield     | <mark style="color:$warning;">In Progress</mark> |       |
 | Levvy Finance    |                                                  |       |
 | Minswap          |                                                  |       |
@@ -181,6 +181,7 @@ DApps listed on this page are self-attested by the community, to add your DApp p
 | Wanchain         |                                                  |       |
 | WingRiders       |                                                  |       |
 | Strike Finance   |                                                  |       |
+| Liqwid           | <mark style="color:$warning;">In Progress</mark> |       |
 
 ***
 
