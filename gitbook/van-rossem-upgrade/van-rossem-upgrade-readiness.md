@@ -1,6 +1,6 @@
 # van Rossem upgrade readiness
 
-#### <mark style="color:red;">Last updated on: \~13th May 1:27pm UTC</mark>
+#### <mark style="color:red;">Last updated on: \~14th May 1:27pm UTC</mark>
 
 ## Readiness and Updating this Page
 
@@ -140,7 +140,7 @@ Spokesperson: Ryan
 
 Spokesperson: Bosko
 
-<table><thead><tr><th width="251">Project</th><th>Status</th><th>Notes</th></tr></thead><tbody><tr><td>Partner-chains Toolkit</td><td><mark style="color:green;">Ready</mark></td><td></td></tr><tr><td>Midnight</td><td><mark style="color:green;">Ready</mark></td><td></td></tr><tr><td>Hydra</td><td><mark style="color:green;">Ready</mark></td><td></td></tr><tr><td>Hydrozoa</td><td><mark style="color:$warning;">In Progress - No changes expected, to be confirmed after preview has forked</mark></td><td></td></tr><tr><td>Sundial</td><td><mark style="color:green;">Ready</mark></td><td></td></tr><tr><td>Midgard</td><td><mark style="color:$warning;">In Progress</mark></td><td></td></tr><tr><td>Gummiworm</td><td><mark style="color:$warning;">In Progress - No changes expected, to be confirmed after preview has forked</mark></td><td></td></tr><tr><td>Mithril</td><td><mark style="color:green;">Ready</mark></td><td></td></tr><tr><td>Apex Fusion</td><td><mark style="color:$warning;">In Progress</mark></td><td></td></tr></tbody></table>
+<table><thead><tr><th width="251">Project</th><th>Status</th><th>Notes</th></tr></thead><tbody><tr><td>Partner-chains Toolkit</td><td><mark style="color:green;">Ready</mark></td><td></td></tr><tr><td>Midnight</td><td><mark style="color:green;">Ready</mark></td><td></td></tr><tr><td>Hydra</td><td><mark style="color:green;">Ready</mark></td><td></td></tr><tr><td>Hydrozoa</td><td><mark style="color:$warning;">In Progress - No changes expected, to be confirmed after preview has forked</mark></td><td></td></tr><tr><td>Sundial</td><td><mark style="color:green;">Ready</mark></td><td></td></tr><tr><td>Midgard</td><td><mark style="color:$info;">N/A</mark></td><td><mark style="color:$info;">Not going to be ready for mainnet, but not a blocker for hard fork</mark></td></tr><tr><td>Gummiworm</td><td><mark style="color:$warning;">In Progress - No changes expected, to be confirmed after preview has forked</mark></td><td></td></tr><tr><td>Mithril</td><td><mark style="color:green;">Ready</mark></td><td></td></tr><tr><td>Apex Fusion</td><td><mark style="color:$warning;">In Progress</mark></td><td></td></tr></tbody></table>
 
 ***
 
