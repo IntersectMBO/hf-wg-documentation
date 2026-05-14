@@ -1,6 +1,6 @@
 # van Rossem upgrade readiness
 
-#### <mark style="color:red;">Last updated on: \~14th May 1:27pm UTC</mark>
+#### <mark style="color:red;">Last updated on: \~14th May 1:15pm UTC</mark>
 
 ## Readiness and Updating this Page
 
