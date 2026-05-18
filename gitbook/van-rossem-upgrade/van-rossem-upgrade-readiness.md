@@ -166,7 +166,7 @@ DApps listed on this page are self-attested by the community, to add your DApp p
 
 | Name             | Status                                           | Notes |
 | ---------------- | ------------------------------------------------ | ----- |
-| Axo              | <mark style="color:green;">Ready</mark>          |       |
+| TapTools         |                                                  |       |
 | Book.io/Stuff.io |                                                  |       |
 | Danogo           | <mark style="color:$warning;">In Progress</mark> |       |
 | DripDropz        | <mark style="color:green;">Ready</mark>          |       |
