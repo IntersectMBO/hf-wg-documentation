@@ -1,6 +1,6 @@
 # van Rossem upgrade readiness
 
-#### <mark style="color:red;">Last updated on: \~18th May 11:07am UTC</mark>
+#### <mark style="color:red;">Last updated on: \~18th May 11:30am UTC</mark>
 
 ## Readiness and Updating this Page
 
@@ -184,6 +184,8 @@ DApps listed on this page are self-attested by the community, to add your DApp p
 | WingRiders       |                                                  |       |
 | Strike Finance   |                                                  |       |
 | Liqwid           | <mark style="color:$warning;">In Progress</mark> |       |
+| Butan            | Reached out to                                   |       |
+| USDCx            | <mark style="color:green;">Ready</mark>          |       |
 
 ***
 
