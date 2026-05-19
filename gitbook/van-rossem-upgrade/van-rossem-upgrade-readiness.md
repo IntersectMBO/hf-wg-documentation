@@ -187,7 +187,7 @@ DApps listed on this page are self-attested by the community, to add your DApp p
 | Butan            | Reached out to                                   |       |
 | USDCx            | <mark style="color:green;">Ready</mark>          |       |
 | Dune             | Reached out to                                   |       |
-| Pyth             | Reached out to                                   |       |
+| Pyth             | <mark style="color:green;">Ready</mark>          |       |
 
 ***
 
