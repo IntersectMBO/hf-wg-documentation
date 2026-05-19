@@ -186,7 +186,7 @@ DApps listed on this page are self-attested by the community, to add your DApp p
 | Liqwid           | <mark style="color:$warning;">In Progress</mark> |       |
 | Butan            | Reached out to                                   |       |
 | USDCx            | <mark style="color:green;">Ready</mark>          |       |
-| Dune             |                                                  |       |
+| Dune             | Reached out to                                   |       |
 | Pyth             | Reached out to                                   |       |
 
 ***
