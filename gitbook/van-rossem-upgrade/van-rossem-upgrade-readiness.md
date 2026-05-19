@@ -126,7 +126,7 @@ Spokesperson: Ryan
 
 **Light Wallets**
 
-<table><thead><tr><th width="232">Wallet</th><th width="280.94921875">Highlevel Status</th><th>Notes</th></tr></thead><tbody><tr><td>Eternl</td><td><mark style="color:$warning;">In Progress</mark></td><td></td></tr><tr><td>Eternl (mobile)</td><td><mark style="color:$warning;">In Progress</mark></td><td></td></tr><tr><td>Lace</td><td><mark style="color:$warning;">In Progress</mark></td><td></td></tr><tr><td>Nufi</td><td><mark style="color:$warning;">In Progress</mark></td><td></td></tr><tr><td>Vespr</td><td><mark style="color:$warning;">In Progress</mark></td><td></td></tr><tr><td>Tokeo</td><td></td><td>No active development, handover expected</td></tr><tr><td>Yoroi</td><td><mark style="color:$warning;">In Progress</mark></td><td></td></tr><tr><td>Typhon</td><td><mark style="color:$warning;">In Progress</mark></td><td></td></tr><tr><td>Nami</td><td>N/A - no longer maintained</td><td></td></tr><tr><td>Flint</td><td>N/A - no longer maintained</td><td></td></tr><tr><td>Medusa</td><td><mark style="color:green;">Ready</mark></td><td></td></tr></tbody></table>
+<table><thead><tr><th width="232">Wallet</th><th width="280.94921875">Highlevel Status</th><th>Notes</th></tr></thead><tbody><tr><td>Eternl</td><td><mark style="color:$warning;">In Progress</mark></td><td></td></tr><tr><td>Eternl (mobile)</td><td><mark style="color:$warning;">In Progress</mark></td><td></td></tr><tr><td>Lace</td><td><mark style="color:$warning;">In Progress</mark></td><td></td></tr><tr><td>Nufi</td><td><mark style="color:green;">Ready</mark></td><td></td></tr><tr><td>Vespr</td><td><mark style="color:$warning;">In Progress</mark></td><td></td></tr><tr><td>Tokeo</td><td></td><td>No active development, handover expected</td></tr><tr><td>Yoroi</td><td><mark style="color:$warning;">In Progress</mark></td><td></td></tr><tr><td>Typhon</td><td><mark style="color:$warning;">In Progress</mark></td><td></td></tr><tr><td>Nami</td><td>N/A - no longer maintained</td><td></td></tr><tr><td>Flint</td><td>N/A - no longer maintained</td><td></td></tr><tr><td>Medusa</td><td><mark style="color:green;">Ready</mark></td><td></td></tr></tbody></table>
 
 **Hardware Wallets**
 
@@ -134,7 +134,7 @@ Spokesperson: Ryan
 
 #### Full Node / CLI Wallets
 
-<table><thead><tr><th width="251">Wallet</th><th width="254.93359375">Status</th><th>Notes</th></tr></thead><tbody><tr><td>Daedalus</td><td><mark style="color:green;">Ready</mark></td><td></td></tr><tr><td>AdaLite</td><td><mark style="color:$warning;">In Progress</mark></td><td></td></tr></tbody></table>
+<table><thead><tr><th width="251">Wallet</th><th width="254.93359375">Status</th><th>Notes</th></tr></thead><tbody><tr><td>Daedalus</td><td><mark style="color:green;">Ready</mark></td><td></td></tr><tr><td>AdaLite</td><td><mark style="color:green;">Ready</mark></td><td></td></tr></tbody></table>
 
 ***
 
