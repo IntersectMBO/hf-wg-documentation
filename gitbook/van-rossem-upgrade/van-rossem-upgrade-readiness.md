@@ -1,6 +1,6 @@
 # van Rossem upgrade readiness
 
-#### <mark style="color:red;">Last updated on: \~21st May 11:29am UTC</mark>
+#### <mark style="color:red;">Last updated on: \~21st May 11:32am UTC</mark>
 
 ## Readiness and Updating this Page
 
@@ -75,9 +75,8 @@ Spokesperson: Matthew Capps / Mike Hornan / Ian Hartwell / Adam Dean
 
 <table><thead><tr><th width="251">Pool Management Suite</th><th width="254.93359375">Status</th><th>Notes</th></tr></thead><tbody><tr><td>JorManager</td><td><mark style="color:green;">Ready</mark></td><td></td></tr><tr><td>CFD</td><td><mark style="color:green;">Ready</mark></td><td></td></tr><tr><td>SPOs adoption</td><td><mark style="color:$warning;">In Progress</mark></td><td>Currently 11.0.1 at ~36% according to pooltool.io</td></tr></tbody></table>
 
-todo
-
-* feed in automated updates
+* Nodes reporting version 11.0.1 (according to pooltool.io) - 36%
+* Blocks produced by 11.0.1 in the current epoch 632 - 48%
 
 ***
 
