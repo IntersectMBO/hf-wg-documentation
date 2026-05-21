@@ -1,6 +1,6 @@
 # van Rossem upgrade readiness
 
-#### <mark style="color:red;">Last updated on: \~21st May 11:32am UTC</mark>
+#### <mark style="color:red;">Last updated on: \~21st May 08:50pm UTC</mark>
 
 ## Readiness and Updating this Page
 
@@ -65,7 +65,7 @@ Spokesperson: Ryan
 
 #### Governance Actions
 
-<table><thead><tr><th width="167">Network</th><th width="161">Action</th><th width="215">Status</th><th>View via</th></tr></thead><tbody><tr><td>SanchoNet</td><td>Cost model update</td><td><mark style="color:green;">Enacted</mark></td><td>N/A</td></tr><tr><td>SanchoNet</td><td>Hard fork</td><td><mark style="color:green;">Enacted</mark></td><td>N/A</td></tr><tr><td>Preview</td><td>Cost model update</td><td><mark style="color:green;">Enacted</mark></td><td>N/A</td></tr><tr><td>Preview</td><td>Hard fork</td><td><mark style="color:green;">Enacted</mark></td><td>Forked on 8th May</td></tr><tr><td>PreProd</td><td>Cost model update</td><td><mark style="color:$warning;">In Progress</mark></td><td>Ratified, will be enacted on 16th May</td></tr><tr><td>PreProd</td><td>Hard fork</td><td><mark style="color:$warning;">In Progress</mark></td><td>Submitted on 8th May</td></tr><tr><td>Mainnet</td><td>Cost model update</td><td><mark style="color:$warning;">In Progress</mark></td><td>Expected to be submitted in the week of 11th May</td></tr><tr><td>Mainnet</td><td>Hard fork</td><td><mark style="color:$warning;">In Progress</mark></td><td>Expected to be submitted on 29th May</td></tr></tbody></table>
+<table><thead><tr><th width="167">Network</th><th width="161">Action</th><th width="215">Status</th><th>View via</th></tr></thead><tbody><tr><td>SanchoNet</td><td>Cost model update</td><td><mark style="color:green;">Enacted</mark></td><td>N/A</td></tr><tr><td>SanchoNet</td><td>Hard fork</td><td><mark style="color:green;">Enacted</mark></td><td>N/A</td></tr><tr><td>Preview</td><td>Cost model update</td><td><mark style="color:green;">Enacted</mark></td><td>N/A</td></tr><tr><td>Preview</td><td>Hard fork</td><td><mark style="color:green;">Enacted</mark></td><td>Forked on 8th May</td></tr><tr><td>PreProd</td><td>Cost model update</td><td><mark style="color:$warning;">In Progress</mark></td><td>Ratified, will be enacted on 16th May</td></tr><tr><td>PreProd</td><td>Hard fork</td><td><mark style="color:$warning;">In Progress</mark></td><td>Submitted on 8th May</td></tr><tr><td>Mainnet</td><td>Cost model update</td><td><mark style="color:$warning;">In Progress</mark></td><td>Expected to be submitted in the week of 11th May</td></tr><tr><td>Mainnet</td><td>Hard fork</td><td><mark style="color:$danger;">In Progress</mark></td><td>Expected to be delayed past 29th May</td></tr></tbody></table>
 
 ***
 
@@ -96,7 +96,7 @@ Spokesperson: Leonard Hegarty
 
 Spokesperson: Bosko Majdanac
 
-<table><thead><tr><th width="274">Tools</th><th width="206">Status</th><th>Notes</th></tr></thead><tbody><tr><td>cardano-wallet</td><td><mark style="color:green;">Ready</mark></td><td>(<a href="https://github.com/cardano-foundation/cardano-wallet/releases">release repository</a>)</td></tr><tr><td>Rosetta</td><td><mark style="color:$info;">Deprecated</mark></td><td>(<a href="https://github.com/cardano-foundation/cardano-rosetta/releases">release repository</a>)</td></tr><tr><td>Rosetta-Java</td><td><mark style="color:$warning;">In Progress</mark><br><mark style="color:$warning;">Solving few issues, will do release testing with v11</mark></td><td>(<a href="https://github.com/cardano-foundation/cardano-rosetta-java/releases/tag/1.1.5">release repository</a>)</td></tr><tr><td>GraphQL</td><td><mark style="color:green;">Ready</mark></td><td>(<a href="https://github.com/cardano-foundation/cardano-graphql/releases">release repository</a>)</td></tr><tr><td>cntools (guild-operators)</td><td><mark style="color:$warning;">In Progress</mark></td><td>(<a href="https://github.com/cardano-community/guild-operators/blob/alpha/docs/Scripts/cntools-changelog.md">change log</a>)</td></tr><tr><td>SPO Scripts (@gitmachtl)</td><td><mark style="color:green;">Ready</mark></td><td>(<a href="https://github.com/gitmachtl/scripts/releases">release repository</a>)</td></tr><tr><td>Ogmios</td><td><mark style="color:$warning;">In Progress</mark></td><td>(<a href="https://github.com/CardanoSolutions/ogmios/releases">release repository</a>)</td></tr></tbody></table>
+<table><thead><tr><th width="274">Tools</th><th width="206">Status</th><th>Notes</th></tr></thead><tbody><tr><td>cardano-wallet</td><td><mark style="color:green;">Ready</mark></td><td>(<a href="https://github.com/cardano-foundation/cardano-wallet/releases">release repository</a>)</td></tr><tr><td>Rosetta</td><td><mark style="color:$info;">Deprecated</mark></td><td>(<a href="https://github.com/cardano-foundation/cardano-rosetta/releases">release repository</a>)</td></tr><tr><td>Rosetta-Java</td><td><mark style="color:$warning;">In Progress</mark><br><mark style="color:$warning;">Solving few issues, will do release testing with v11</mark></td><td>(<a href="https://github.com/cardano-foundation/cardano-rosetta-java/releases/tag/1.1.5">release repository</a>)</td></tr><tr><td>GraphQL</td><td><mark style="color:green;">Ready</mark></td><td>(<a href="https://github.com/cardano-foundation/cardano-graphql/releases">release repository</a>)</td></tr><tr><td>cntools (guild-operators)</td><td><mark style="color:$warning;">In Progress</mark></td><td>(<a href="https://github.com/cardano-community/guild-operators/blob/alpha/docs/Scripts/cntools-changelog.md">change log</a>)</td></tr><tr><td>SPO Scripts (@gitmachtl)</td><td><mark style="color:green;">Ready</mark></td><td>(<a href="https://github.com/gitmachtl/scripts/releases">release repository</a>)</td></tr><tr><td>Ogmios</td><td><mark style="color:$warning;">In Progress</mark><br><mark style="color:$warning;">Ogmios PR is being worked on by Matthias and IO</mark></td><td>(<a href="https://github.com/CardanoSolutions/ogmios/releases">release repository</a>)</td></tr></tbody></table>
 
 **Libraries**
 
@@ -179,10 +179,10 @@ DApps listed on this page are self-attested by the community, to add your DApp p
 | SundaeSwap       | <mark style="color:green;">Ready</mark>          |       |
 | Tempo            |                                                  |       |
 | UnFrack.it       |                                                  |       |
-| USDM             |                                                  |       |
+| USDM             | Reached out to                                   |       |
 | Wanchain         | Reached out to                                   |       |
 | WingRiders       | Reached out to                                   |       |
-| Strike Finance   |                                                  |       |
+| Strike Finance   | <mark style="color:$warning;">In Progress</mark> |       |
 | Liqwid           | <mark style="color:$warning;">In Progress</mark> |       |
 | Butan            | Reached out to                                   |       |
 | USDCx            | <mark style="color:green;">Ready</mark>          |       |
