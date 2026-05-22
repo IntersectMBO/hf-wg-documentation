@@ -1,6 +1,6 @@
 # van Rossem upgrade readiness
 
-#### <mark style="color:red;">Last updated on: \~21st May 08:50pm UTC</mark>
+#### <mark style="color:red;">Last updated on: \~22nd May 10:30am UTC</mark>
 
 ## Readiness and Updating this Page
 
@@ -16,9 +16,9 @@ Alternatively, if you find any information on this page incorrect or misleading 
 
 Third, additional option, is to leave a comment in the respective tab of the [live readiness tracker](https://docs.google.com/spreadsheets/d/1ECoYFCtrRtFX3BvqfhaZi6FxlXQMoTGP/edit?gid=960883614#gid=960883614).
 
-**Overall readiness status** 🟠 <mark style="color:$warning;">**58%**</mark>\
-**Estimated hard fork initiation governance action submission on mainnet** <mark style="color:$danger;">**29th May**</mark>\
-**Estimated hard fork enactment on mainnet** <mark style="color:$danger;">**4th July**</mark> ([timeline](https://app.excalidraw.com/s/6GdMPTId7vW/1xnslUPryZP))\
+**Overall readiness status** 🟠 <mark style="color:$warning;">**59%**</mark>\
+**Estimated hard fork initiation governance action submission on mainnet** <mark style="color:$danger;">**delayed, tbd**</mark>\
+**Estimated hard fork enactment on mainnet** <mark style="color:$danger;">**delayed, tbd**</mark> ([timeline](https://app.excalidraw.com/s/6GdMPTId7vW/1xnslUPryZP))\
 <mark style="color:$danger;">**Ogmios and Kupo readiness continues to be the biggest challenge for the hard fork progress**</mark>\
 [Hard Fork Initiation Submission policy](https://cardanoupgrades.docs.intersectmbo.org/overview/hardfork-initation-submission-policy)
 
@@ -199,4 +199,4 @@ DApps listed on this page are self-attested by the community, to add your DApp p
 
 ### Guidelines
 
-<table><thead><tr><th width="251">Name</th><th width="248">Status</th><th>Notes</th></tr></thead><tbody><tr><td><a href="https://www.coincashew.com/coins/overview-ada/guide-how-to-build-a-haskell-stakepool-node#change-log">CoinCashew</a></td><td><mark style="color:$warning;">In Progress</mark></td><td></td></tr><tr><td><a href="https://docs.spojapanguild.net/cardano/setup/node-setup/">A Japanese Guideline</a></td><td><mark style="color:$warning;">In Progress</mark></td><td></td></tr><tr><td><a href="https://es-kb.topopool.com/primeros-pasos/preparacion">Spanish Guideline</a></td><td><mark style="color:$warning;">In Progress</mark></td><td></td></tr><tr><td><a href="https://developers.cardano.org/">developers.cardano.org</a></td><td><mark style="color:$warning;">In Progress</mark></td><td>SPO and operator docs</td></tr><tr><td><a href="https://docs.cardano.org/developer-resources/release-notes/comp-matrix">Compatibility matrix</a></td><td><mark style="color:$warning;">In Progress</mark></td><td></td></tr></tbody></table>
+<table><thead><tr><th width="251">Name</th><th width="248">Status</th><th>Notes</th></tr></thead><tbody><tr><td><a href="https://www.coincashew.com/coins/overview-ada/guide-how-to-build-a-haskell-stakepool-node#change-log">CoinCashew</a></td><td><mark style="color:$warning;">In Progress</mark></td><td></td></tr><tr><td><a href="https://docs.spojapanguild.net/cardano/setup/node-setup/">A Japanese Guideline</a></td><td><mark style="color:green;">Ready</mark></td><td></td></tr><tr><td><a href="https://es-kb.topopool.com/primeros-pasos/preparacion">Spanish Guideline</a></td><td><mark style="color:$warning;">In Progress</mark></td><td></td></tr><tr><td><a href="https://developers.cardano.org/">developers.cardano.org</a></td><td><mark style="color:$warning;">In Progress</mark></td><td>SPO and operator docs</td></tr><tr><td><a href="https://docs.cardano.org/developer-resources/release-notes/comp-matrix">Compatibility matrix</a></td><td><mark style="color:$warning;">In Progress</mark></td><td></td></tr></tbody></table>
