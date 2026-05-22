@@ -1,6 +1,6 @@
 # van Rossem upgrade readiness
 
-#### <mark style="color:red;">Last updated on: \~22nd May 10:30am UTC</mark>
+#### <mark style="color:red;">Last updated on: \~22nd May 09:37pm UTC</mark>
 
 ## Readiness and Updating this Page
 
@@ -199,4 +199,4 @@ DApps listed on this page are self-attested by the community, to add your DApp p
 
 ### Guidelines
 
-<table><thead><tr><th width="251">Name</th><th width="248">Status</th><th>Notes</th></tr></thead><tbody><tr><td><a href="https://www.coincashew.com/coins/overview-ada/guide-how-to-build-a-haskell-stakepool-node#change-log">CoinCashew</a></td><td><mark style="color:$warning;">In Progress</mark></td><td></td></tr><tr><td><a href="https://docs.spojapanguild.net/cardano/setup/node-setup/">A Japanese Guideline</a></td><td><mark style="color:green;">Ready</mark></td><td></td></tr><tr><td><a href="https://es-kb.topopool.com/primeros-pasos/preparacion">Spanish Guideline</a></td><td><mark style="color:$warning;">In Progress</mark></td><td></td></tr><tr><td><a href="https://developers.cardano.org/">developers.cardano.org</a></td><td><mark style="color:$warning;">In Progress</mark></td><td>SPO and operator docs</td></tr><tr><td><a href="https://docs.cardano.org/developer-resources/release-notes/comp-matrix">Compatibility matrix</a></td><td><mark style="color:$warning;">In Progress</mark></td><td></td></tr></tbody></table>
+<table><thead><tr><th width="251">Name</th><th width="248">Status</th><th>Notes</th></tr></thead><tbody><tr><td><a href="https://www.coincashew.com/coins/overview-ada/guide-how-to-build-a-haskell-stakepool-node#change-log">CoinCashew</a></td><td><mark style="color:$warning;">In Progress</mark></td><td></td></tr><tr><td><a href="https://docs.spojapanguild.net/cardano/setup/node-setup/">A Japanese Guideline</a></td><td><mark style="color:green;">Ready</mark></td><td></td></tr><tr><td><a href="https://es-kb.topopool.com/primeros-pasos/preparacion">Spanish Guideline</a></td><td><mark style="color:$warning;">In Progress</mark></td><td></td></tr><tr><td><a href="https://developers.cardano.org/">developers.cardano.org</a></td><td><mark style="color:green;">Ready</mark></td><td>SPO and operator docs</td></tr><tr><td><a href="https://docs.cardano.org/developer-resources/release-notes/comp-matrix">Compatibility matrix</a></td><td><mark style="color:$warning;">In Progress</mark></td><td></td></tr></tbody></table>
