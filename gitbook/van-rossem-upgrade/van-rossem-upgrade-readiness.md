@@ -1,6 +1,6 @@
 # van Rossem upgrade readiness
 
-#### <mark style="color:red;">Last updated on: \~26th May 11:35am UTC</mark>
+#### <mark style="color:red;">Last updated on: \~26th May 02:55pm UTC</mark>
 
 ## Readiness and Updating this Page
 
@@ -16,7 +16,7 @@ Alternatively, if you find any information on this page incorrect or misleading 
 
 Third, additional option, is to leave a comment in the respective tab of the [live readiness tracker](https://docs.google.com/spreadsheets/d/1ECoYFCtrRtFX3BvqfhaZi6FxlXQMoTGP/edit?gid=960883614#gid=960883614).
 
-**Overall readiness status** 🟠 <mark style="color:$warning;">**59%**</mark>\
+**Overall readiness status** 🟠 60<mark style="color:$warning;">**%**</mark>\
 **Estimated hard fork initiation governance action submission on mainnet** <mark style="color:$danger;">**delayed, tbd**</mark>\
 **Estimated hard fork enactment on mainnet** <mark style="color:$danger;">**delayed, tbd**</mark> ([timeline](https://app.excalidraw.com/s/6GdMPTId7vW/1xnslUPryZP))\
 <mark style="color:$danger;">**Ogmios and Kupo readiness continues to be the biggest challenge for the hard fork progress**</mark>\
@@ -193,7 +193,7 @@ DApps listed on this page are self-attested by the community, to add your DApp p
 
 ### Block Explorers
 
-<table><thead><tr><th width="251">Name</th><th width="248">Status</th><th>Notes</th></tr></thead><tbody><tr><td>Cexplorer</td><td><mark style="color:$warning;">In Progress</mark></td><td></td></tr><tr><td>Adastat</td><td><mark style="color:green;">Ready</mark></td><td></td></tr><tr><td>Cardanoscan</td><td><mark style="color:green;">Ready</mark></td><td></td></tr><tr><td>PoolTool</td><td><mark style="color:$warning;">In Progress</mark></td><td></td></tr><tr><td>CGov</td><td>Reached out to</td><td></td></tr><tr><td>GovTool</td><td><mark style="color:green;">Ready</mark></td><td></td></tr></tbody></table>
+<table><thead><tr><th width="251">Name</th><th width="248">Status</th><th>Notes</th></tr></thead><tbody><tr><td>Cexplorer</td><td><mark style="color:green;">Ready</mark></td><td></td></tr><tr><td>Adastat</td><td><mark style="color:green;">Ready</mark></td><td></td></tr><tr><td>Cardanoscan</td><td><mark style="color:green;">Ready</mark></td><td></td></tr><tr><td>PoolTool</td><td><mark style="color:$warning;">In Progress</mark></td><td></td></tr><tr><td>CGov</td><td>Reached out to</td><td></td></tr><tr><td>GovTool</td><td><mark style="color:green;">Ready</mark></td><td></td></tr></tbody></table>
 
 ***
 
