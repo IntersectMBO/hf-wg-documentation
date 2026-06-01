@@ -7,7 +7,7 @@
 3. [Van Rossem Upgrade Update](https://docs.google.com/presentation/d/1pEFh_GC3Nx2nTVPXj9bke9R7C9Bkr8Hk/edit?slide=id.p1\&pli=1#slide=id.p1) - Bosko, all
    1. Ogmios [v6.14.0.1](https://github.com/IntersectMBO/ogmios/releases/tag/v6.14.0.1) has been released
    2. Kupo [v2.11.0.1](https://github.com/IntersectMBO/kupo/releases/tag/v2.11.0.1) is released
-   3. PoolTool
+   3. [PoolTool](https://pooltool.io/networkhealth)
       1. Nodes reporting 11.0.1 - 45%
       2. Blocks Protocol Version current epoch - 66%
    4. [Cardanoscan HF readiness](https://cardanoscan.io/hfReadiness)
