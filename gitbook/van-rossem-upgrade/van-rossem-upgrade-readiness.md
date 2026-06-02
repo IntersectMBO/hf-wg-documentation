@@ -1,6 +1,6 @@
 # van Rossem upgrade readiness
 
-#### <mark style="color:red;">Last updated on: \~29th May 01:38pm UTC</mark>
+#### <mark style="color:red;">Last updated on: \~2nd June 10:35am UTC</mark>
 
 ## Readiness and Updating this Page
 
@@ -16,10 +16,10 @@ Alternatively, if you find any information on this page incorrect or misleading 
 
 Third, additional option, is to leave a comment in the respective tab of the [live readiness tracker](https://docs.google.com/spreadsheets/d/1ECoYFCtrRtFX3BvqfhaZi6FxlXQMoTGP/edit?gid=960883614#gid=960883614).
 
-**Overall readiness status** 🟠 <mark style="color:$warning;">62</mark><mark style="color:$warning;">**%**</mark>\
+**Overall readiness status** 🟠 <mark style="color:$warning;">63</mark><mark style="color:$warning;">**%**</mark>\
 **Estimated hard fork initiation governance action submission on mainnet** <mark style="color:$warning;">**delayed, tbd**</mark>\
 **Estimated hard fork enactment on mainnet** <mark style="color:$warning;">**delayed, tbd**</mark> ([timeline](https://app.excalidraw.com/s/6GdMPTId7vW/1xnslUPryZP))\
-<mark style="color:$warning;">**Ogmios and Kupo readiness continues to be the biggest challenge for the hard fork progress**</mark>\
+Ogmios and Kupo releases available\
 [Hard Fork Initiation Submission policy](https://cardanoupgrades.docs.intersectmbo.org/overview/hardfork-initation-submission-policy)
 
 [Live readiness tracker](https://docs.google.com/spreadsheets/d/1ECoYFCtrRtFX3BvqfhaZi6FxlXQMoTGP/edit?gid=960883614#gid=960883614)
@@ -73,10 +73,10 @@ Spokesperson: Ryan
 
 Spokesperson: Matthew Capps / Mike Hornan / Ian Hartwell / Adam Dean
 
-<table><thead><tr><th width="251">Pool Management Suite</th><th width="254.93359375">Status</th><th>Notes</th></tr></thead><tbody><tr><td>JorManager</td><td><mark style="color:green;">Ready</mark></td><td></td></tr><tr><td>CFD</td><td><mark style="color:green;">Ready</mark></td><td></td></tr><tr><td>SPOs adoption</td><td><mark style="color:$warning;">In Progress</mark></td><td>Currently 11.0.1 at ~43% according to pooltool.io</td></tr></tbody></table>
+<table><thead><tr><th width="251">Pool Management Suite</th><th width="254.93359375">Status</th><th>Notes</th></tr></thead><tbody><tr><td>JorManager</td><td><mark style="color:green;">Ready</mark></td><td></td></tr><tr><td>CFD</td><td><mark style="color:green;">Ready</mark></td><td></td></tr><tr><td>SPOs adoption</td><td><mark style="color:$warning;">In Progress</mark></td><td>Currently 11.0.1 at ~47% according to pooltool.io</td></tr></tbody></table>
 
-* Nodes reporting version 11.0.1 (according to pooltool.io) - 43%
-* Blocks produced by 11.0.1 in the current epoch 633 - 58%
+* Nodes reporting version 11.0.1 (according to pooltool.io) - 47%
+* Blocks produced by 11.0.1 in the current epoch 634 - 67%
 
 ***
 
@@ -96,7 +96,7 @@ Spokesperson: Leonard Hegarty
 
 Spokesperson: Bosko Majdanac
 
-<table><thead><tr><th width="274">Tools</th><th width="206">Status</th><th>Notes</th></tr></thead><tbody><tr><td>cardano-wallet</td><td><mark style="color:green;">Ready</mark></td><td>(<a href="https://github.com/cardano-foundation/cardano-wallet/releases">release repository</a>)</td></tr><tr><td>Rosetta</td><td><mark style="color:$info;">Deprecated</mark></td><td>(<a href="https://github.com/cardano-foundation/cardano-rosetta/releases">release repository</a>)</td></tr><tr><td>Rosetta-Java</td><td><mark style="color:$warning;">In Progress, pre-released</mark></td><td>(<a href="https://github.com/cardano-foundation/cardano-rosetta-java/releases/tag/1.1.5">release repository</a>)</td></tr><tr><td>GraphQL</td><td><mark style="color:green;">Ready</mark></td><td>(<a href="https://github.com/cardano-foundation/cardano-graphql/releases">release repository</a>)</td></tr><tr><td>cntools (guild-operators)</td><td><mark style="color:green;">Ready</mark></td><td>(<a href="https://github.com/cardano-community/guild-operators/blob/alpha/docs/Scripts/cntools-changelog.md">change log</a>)</td></tr><tr><td>SPO Scripts (@gitmachtl)</td><td><mark style="color:green;">Ready</mark></td><td>(<a href="https://github.com/gitmachtl/scripts/releases">release repository</a>)</td></tr><tr><td>Ogmios</td><td><mark style="color:$warning;">In Progress</mark></td><td>(<a href="https://github.com/CardanoSolutions/ogmios/releases">release repository</a>)</td></tr></tbody></table>
+<table><thead><tr><th width="274">Tools</th><th width="206">Status</th><th>Notes</th></tr></thead><tbody><tr><td>cardano-wallet</td><td><mark style="color:green;">Ready</mark></td><td>(<a href="https://github.com/cardano-foundation/cardano-wallet/releases">release repository</a>)</td></tr><tr><td>Rosetta</td><td><mark style="color:$info;">Deprecated</mark></td><td>(<a href="https://github.com/cardano-foundation/cardano-rosetta/releases">release repository</a>)</td></tr><tr><td>Rosetta-Java</td><td><mark style="color:$warning;">In Progress, pre-released</mark></td><td>(<a href="https://github.com/cardano-foundation/cardano-rosetta-java/releases/tag/1.1.5">release repository</a>)</td></tr><tr><td>GraphQL</td><td><mark style="color:green;">Ready</mark></td><td>(<a href="https://github.com/cardano-foundation/cardano-graphql/releases">release repository</a>)</td></tr><tr><td>cntools (guild-operators)</td><td><mark style="color:green;">Ready</mark></td><td>(<a href="https://github.com/cardano-community/guild-operators/blob/alpha/docs/Scripts/cntools-changelog.md">change log</a>)</td></tr><tr><td>SPO Scripts (@gitmachtl)</td><td><mark style="color:green;">Ready</mark></td><td>(<a href="https://github.com/gitmachtl/scripts/releases">release repository</a>)</td></tr><tr><td>Ogmios</td><td><mark style="color:green;">Ready</mark></td><td>(<a href="https://github.com/CardanoSolutions/ogmios/releases">release repository</a>)</td></tr></tbody></table>
 
 **Libraries**
 
@@ -108,7 +108,7 @@ Spokesperson: Leonard Hegarty
 
 Spokesperson: Leonard Hegarty
 
-<table><thead><tr><th width="233">Indexers</th><th width="314">Status</th><th>Notes</th></tr></thead><tbody><tr><td>Kupo</td><td><mark style="color:$warning;">In Progress</mark></td><td>(<a href="https://github.com/CardanoSolutions/kupo/releases">release repository</a>)</td></tr><tr><td>Oura</td><td><mark style="color:green;">Ready</mark></td><td>(<a href="https://github.com/txpipe/oura/releases">release repository</a>)</td></tr><tr><td>Scrolls</td><td><mark style="color:$warning;">In Progress</mark></td><td>(<a href="https://github.com/txpipe/scrolls/releases">release repository</a>)</td></tr><tr><td>DB-Sync</td><td><mark style="color:green;">Ready</mark></td><td>(<a href="https://github.com/IntersectMBO/cardano-db-sync/releases/tag/13.6.0.4">release repository</a>)</td></tr><tr><td>Carp</td><td><mark style="color:$info;">N/A</mark></td><td>(<a href="https://github.com/dcSpark/carp/releases">release repository</a>)</td></tr></tbody></table>
+<table><thead><tr><th width="233">Indexers</th><th width="314">Status</th><th>Notes</th></tr></thead><tbody><tr><td>Kupo</td><td><mark style="color:green;">Ready</mark></td><td>(<a href="https://github.com/CardanoSolutions/kupo/releases">release repository</a>)</td></tr><tr><td>Oura</td><td><mark style="color:green;">Ready</mark></td><td>(<a href="https://github.com/txpipe/oura/releases">release repository</a>)</td></tr><tr><td>Scrolls</td><td><mark style="color:$warning;">In Progress</mark></td><td>(<a href="https://github.com/txpipe/scrolls/releases">release repository</a>)</td></tr><tr><td>DB-Sync</td><td><mark style="color:green;">Ready</mark></td><td>(<a href="https://github.com/IntersectMBO/cardano-db-sync/releases/tag/13.6.0.4">release repository</a>)</td></tr><tr><td>Carp</td><td><mark style="color:$info;">N/A</mark></td><td>(<a href="https://github.com/dcSpark/carp/releases">release repository</a>)</td></tr></tbody></table>
 
 **Higher Level Tooling**
 
