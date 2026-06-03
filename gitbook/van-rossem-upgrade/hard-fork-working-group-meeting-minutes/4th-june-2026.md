@@ -14,8 +14,8 @@
       1. Nodes reporting 11.0.1 - 49% <mark style="color:green;">**↑**</mark>
       2. Blocks Protocol Version current epoch - 68% <mark style="color:green;">**↑**</mark>
    4. [Cardanoscan HF readiness](https://cardanoscan.io/hfReadiness)
-      1. Stake Pools ready - 21.95% <mark style="color:green;">**↑**</mark>
-      2. Stake ready - 39.38% <mark style="color:green;">**↑**</mark>
+      1. Stake Pools ready - 21.99% <mark style="color:green;">**↑**</mark>
+      2. Stake ready - 39.39% <mark style="color:green;">**↑**</mark>
       3. Exchange readiness - Ready (2%); In Progress (28%); Not started (71%)
    5. [Readiness tracker](https://docs.google.com/spreadsheets/d/1ECoYFCtrRtFX3BvqfhaZi6FxlXQMoTGP/edit?usp=sharing\&ouid=106134819668558877362\&rtpof=true\&sd=true)
 4. van Rossem hard fork progress - Bosko
