@@ -1,6 +1,6 @@
 # van Rossem upgrade readiness
 
-#### <mark style="color:red;">Last updated on: \~2nd June 10:35am UTC</mark>
+#### <mark style="color:red;">Last updated on: \~3rd June 01:31pm UTC</mark>
 
 ## Readiness and Updating this Page
 
@@ -16,10 +16,9 @@ Alternatively, if you find any information on this page incorrect or misleading 
 
 Third, additional option, is to leave a comment in the respective tab of the [live readiness tracker](https://docs.google.com/spreadsheets/d/1ECoYFCtrRtFX3BvqfhaZi6FxlXQMoTGP/edit?gid=960883614#gid=960883614).
 
-**Overall readiness status** 🟠 <mark style="color:$warning;">63</mark><mark style="color:$warning;">**%**</mark>\
-**Estimated hard fork initiation governance action submission on mainnet** <mark style="color:$warning;">**delayed, tbd**</mark>\
-**Estimated hard fork enactment on mainnet** <mark style="color:$warning;">**delayed, tbd**</mark> ([timeline](https://app.excalidraw.com/s/6GdMPTId7vW/1xnslUPryZP))\
-Ogmios and Kupo releases available\
+**Overall readiness status** 🟠 <mark style="color:$warning;">64</mark><mark style="color:$warning;">**%**</mark>\
+**Estimated hard fork initiation governance action submission on mainnet** <mark style="color:$warning;">**go/no-go scheduled for 15th June**</mark>\
+**Estimated hard fork enactment on mainnet** <mark style="color:$warning;">**delayed, can take up to 5 weeks from the submission date to be enacted**</mark>\
 [Hard Fork Initiation Submission policy](https://cardanoupgrades.docs.intersectmbo.org/overview/hardfork-initation-submission-policy)
 
 [Live readiness tracker](https://docs.google.com/spreadsheets/d/1ECoYFCtrRtFX3BvqfhaZi6FxlXQMoTGP/edit?gid=960883614#gid=960883614)
@@ -32,7 +31,7 @@ Ogmios and Kupo releases available\
 | [Exchanges](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#exchanges)                                             | 🟠         | Reached out to all listed exchanges                                    |
 | [Tooling](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#tooling)                                                 | 🟠         |                                                                        |
 | [Wallets](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#wallets)                                                 | 🟠         |                                                                        |
-| [Partner-chains + Scalability](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#partner-chains--scalability)        | 🟠         |                                                                        |
+| [Partner-chains + Scalability](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#partner-chains--scalability)        | 🟢         |                                                                        |
 | [Node Implementations](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#node-implementations)                       | 🟠         |                                                                        |
 | [DApps & Projects](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#dapps-and-projects)                             | 🟠         |                                                                        |
 | [Block Explorers](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#block-explorers)                                 | 🟠         |                                                                        |
@@ -65,7 +64,7 @@ Spokesperson: Ryan
 
 #### Governance Actions
 
-<table><thead><tr><th width="167">Network</th><th width="161">Action</th><th width="215">Status</th><th>View via</th></tr></thead><tbody><tr><td>SanchoNet</td><td>Cost model update</td><td><mark style="color:green;">Enacted</mark></td><td>N/A</td></tr><tr><td>SanchoNet</td><td>Hard fork</td><td><mark style="color:green;">Enacted</mark></td><td>N/A</td></tr><tr><td>Preview</td><td>Cost model update</td><td><mark style="color:green;">Enacted</mark></td><td>N/A</td></tr><tr><td>Preview</td><td>Hard fork</td><td><mark style="color:green;">Enacted</mark></td><td>Forked on 8th May</td></tr><tr><td>PreProd</td><td>Cost model update</td><td><mark style="color:green;">Enacted</mark></td><td>N/A</td></tr><tr><td>PreProd</td><td>Hard fork</td><td><mark style="color:$warning;">In Progress</mark></td><td>Submitted on 8th May</td></tr><tr><td>Mainnet</td><td>Cost model update</td><td><mark style="color:$warning;">In Progress</mark></td><td>Submitted on 26th May</td></tr><tr><td>Mainnet</td><td>Hard fork</td><td><mark style="color:$warning;">In Progress</mark></td><td>Go/No go decision scheduled for 8th June</td></tr></tbody></table>
+<table><thead><tr><th width="167">Network</th><th width="161">Action</th><th width="215">Status</th><th>View via</th></tr></thead><tbody><tr><td>SanchoNet</td><td>Cost model update</td><td><mark style="color:green;">Enacted</mark></td><td>N/A</td></tr><tr><td>SanchoNet</td><td>Hard fork</td><td><mark style="color:green;">Enacted</mark></td><td>N/A</td></tr><tr><td>Preview</td><td>Cost model update</td><td><mark style="color:green;">Enacted</mark></td><td>N/A</td></tr><tr><td>Preview</td><td>Hard fork</td><td><mark style="color:green;">Enacted</mark></td><td>Forked on 8th May</td></tr><tr><td>PreProd</td><td>Cost model update</td><td><mark style="color:green;">Enacted</mark></td><td>N/A</td></tr><tr><td>PreProd</td><td>Hard fork</td><td><mark style="color:$warning;">In Progress</mark></td><td>Submitted on 8th May</td></tr><tr><td>Mainnet</td><td>Cost model update</td><td><mark style="color:$warning;">In Progress</mark></td><td>Submitted on 26th May</td></tr><tr><td>Mainnet</td><td>Hard fork</td><td><mark style="color:$warning;">In Progress</mark></td><td>Go/No go decision scheduled for 15th June</td></tr></tbody></table>
 
 ***
 
@@ -73,10 +72,10 @@ Spokesperson: Ryan
 
 Spokesperson: Matthew Capps / Mike Hornan / Ian Hartwell / Adam Dean
 
-<table><thead><tr><th width="251">Pool Management Suite</th><th width="254.93359375">Status</th><th>Notes</th></tr></thead><tbody><tr><td>JorManager</td><td><mark style="color:green;">Ready</mark></td><td></td></tr><tr><td>CFD</td><td><mark style="color:green;">Ready</mark></td><td></td></tr><tr><td>SPOs adoption</td><td><mark style="color:$warning;">In Progress</mark></td><td>Currently 11.0.1 at ~47% according to pooltool.io</td></tr></tbody></table>
+<table><thead><tr><th width="251">Pool Management Suite</th><th width="254.93359375">Status</th><th>Notes</th></tr></thead><tbody><tr><td>JorManager</td><td><mark style="color:green;">Ready</mark></td><td></td></tr><tr><td>CFD</td><td><mark style="color:green;">Ready</mark></td><td></td></tr><tr><td>SPOs adoption</td><td><mark style="color:$warning;">In Progress</mark></td><td>Currently 11.0.1 at ~49% according to pooltool.io</td></tr></tbody></table>
 
-* Nodes reporting version 11.0.1 (according to pooltool.io) - 47%
-* Blocks produced by 11.0.1 in the current epoch 634 - 67%
+* Nodes reporting version 11.0.1 (according to pooltool.io) - 49%
+* Blocks produced by 11.0.1 in the current epoch 634 - 68%
 
 ***
 
@@ -96,7 +95,7 @@ Spokesperson: Leonard Hegarty
 
 Spokesperson: Bosko Majdanac
 
-<table><thead><tr><th width="274">Tools</th><th width="206">Status</th><th>Notes</th></tr></thead><tbody><tr><td>cardano-wallet</td><td><mark style="color:green;">Ready</mark></td><td>(<a href="https://github.com/cardano-foundation/cardano-wallet/releases">release repository</a>)</td></tr><tr><td>Rosetta</td><td><mark style="color:$info;">Deprecated</mark></td><td>(<a href="https://github.com/cardano-foundation/cardano-rosetta/releases">release repository</a>)</td></tr><tr><td>Rosetta-Java</td><td><mark style="color:$warning;">In Progress, pre-released</mark></td><td>(<a href="https://github.com/cardano-foundation/cardano-rosetta-java/releases/tag/1.1.5">release repository</a>)</td></tr><tr><td>GraphQL</td><td><mark style="color:green;">Ready</mark></td><td>(<a href="https://github.com/cardano-foundation/cardano-graphql/releases">release repository</a>)</td></tr><tr><td>cntools (guild-operators)</td><td><mark style="color:green;">Ready</mark></td><td>(<a href="https://github.com/cardano-community/guild-operators/blob/alpha/docs/Scripts/cntools-changelog.md">change log</a>)</td></tr><tr><td>SPO Scripts (@gitmachtl)</td><td><mark style="color:green;">Ready</mark></td><td>(<a href="https://github.com/gitmachtl/scripts/releases">release repository</a>)</td></tr><tr><td>Ogmios</td><td><mark style="color:green;">Ready</mark></td><td>(<a href="https://github.com/CardanoSolutions/ogmios/releases">release repository</a>)</td></tr></tbody></table>
+<table><thead><tr><th width="274">Tools</th><th width="206">Status</th><th>Notes</th></tr></thead><tbody><tr><td>cardano-wallet</td><td><mark style="color:green;">Ready</mark></td><td>(<a href="https://github.com/cardano-foundation/cardano-wallet/releases">release repository</a>)</td></tr><tr><td>Rosetta</td><td><mark style="color:$info;">Deprecated</mark></td><td>(<a href="https://github.com/cardano-foundation/cardano-rosetta/releases">release repository</a>)</td></tr><tr><td>Rosetta-Java</td><td><mark style="color:green;">Ready</mark></td><td>(<a href="https://github.com/cardano-foundation/cardano-rosetta-java/releases/tag/1.1.5">release repository</a>)</td></tr><tr><td>GraphQL</td><td><mark style="color:green;">Ready</mark></td><td>(<a href="https://github.com/cardano-foundation/cardano-graphql/releases">release repository</a>)</td></tr><tr><td>cntools (guild-operators)</td><td><mark style="color:green;">Ready</mark></td><td>(<a href="https://github.com/cardano-community/guild-operators/blob/alpha/docs/Scripts/cntools-changelog.md">change log</a>)</td></tr><tr><td>SPO Scripts (@gitmachtl)</td><td><mark style="color:green;">Ready</mark></td><td>(<a href="https://github.com/gitmachtl/scripts/releases">release repository</a>)</td></tr><tr><td>Ogmios</td><td><mark style="color:green;">Ready</mark></td><td>(<a href="https://github.com/CardanoSolutions/ogmios/releases">release repository</a>)</td></tr></tbody></table>
 
 **Libraries**
 
@@ -142,7 +141,7 @@ Spokesperson: Ryan
 
 Spokesperson: Bosko
 
-<table><thead><tr><th width="251">Project</th><th>Status</th><th>Notes</th></tr></thead><tbody><tr><td>Partner-chains Toolkit</td><td><mark style="color:green;">Ready</mark></td><td></td></tr><tr><td>Midnight</td><td><mark style="color:green;">Ready</mark></td><td></td></tr><tr><td>Hydra</td><td><mark style="color:green;">Ready</mark></td><td></td></tr><tr><td>Hydrozoa</td><td><mark style="color:green;">Ready</mark></td><td></td></tr><tr><td>Sundial</td><td><mark style="color:green;">Ready</mark></td><td></td></tr><tr><td>Midgard</td><td><mark style="color:$info;">N/A</mark></td><td><mark style="color:$info;">Not going to be ready for mainnet, but not a blocker for hard fork</mark></td></tr><tr><td>Gummiworm</td><td><mark style="color:green;">Ready</mark></td><td></td></tr><tr><td>Mithril</td><td><mark style="color:green;">Ready</mark></td><td></td></tr><tr><td>Apex Fusion</td><td><mark style="color:$warning;">In Progress</mark></td><td></td></tr></tbody></table>
+<table><thead><tr><th width="251">Project</th><th>Status</th><th>Notes</th></tr></thead><tbody><tr><td>Partner-chains Toolkit</td><td><mark style="color:green;">Ready</mark></td><td></td></tr><tr><td>Midnight</td><td><mark style="color:green;">Ready</mark></td><td></td></tr><tr><td>Hydra</td><td><mark style="color:green;">Ready</mark></td><td></td></tr><tr><td>Hydrozoa</td><td><mark style="color:green;">Ready</mark></td><td></td></tr><tr><td>Sundial</td><td><mark style="color:green;">Ready</mark></td><td></td></tr><tr><td>Midgard</td><td><mark style="color:$info;">N/A</mark></td><td><mark style="color:$info;">Not going to be ready for mainnet, but not a blocker for hard fork</mark></td></tr><tr><td>Gummiworm</td><td><mark style="color:green;">Ready</mark></td><td></td></tr><tr><td>Mithril</td><td><mark style="color:green;">Ready</mark></td><td></td></tr><tr><td>Apex Fusion</td><td><mark style="color:green;">Ready</mark></td><td></td></tr></tbody></table>
 
 ***
 
@@ -164,30 +163,30 @@ Spokesperson: Leonard Hegarty, Bosko Majdanac
 DApps listed on this page are self-attested by the community, to add your DApp please email **hard-fork@intersectmbo.org** or raise a pull request to this public repository via [Github/HF-WG-Documentation](https://github.com/IntersectMBO/hf-wg-documentation/issues/new) ([see how-to](https://github.com/IntersectMBO/hf-wg-documentation?tab=readme-ov-file#contributing))
 {% endhint %}
 
-| Name             | Status                                           | Notes |
-| ---------------- | ------------------------------------------------ | ----- |
-| TapTools         |                                                  |       |
-| Book.io/Stuff.io |                                                  |       |
-| Danogo           | <mark style="color:$warning;">In Progress</mark> |       |
-| DripDropz        | <mark style="color:green;">Ready</mark>          |       |
-| Fluid Tokens     | <mark style="color:green;">Ready</mark>          |       |
-| Genius Yield     | <mark style="color:$warning;">In Progress</mark> |       |
-| Levvy Finance    | <mark style="color:$warning;">In Progress</mark> |       |
-| Minswap          | Reached out to                                   |       |
-| Snekdotfun       |                                                  |       |
-| Splash           | <mark style="color:$warning;">In Progress</mark> |       |
-| SundaeSwap       | <mark style="color:green;">Ready</mark>          |       |
-| Tempo            |                                                  |       |
-| UnFrack.it       |                                                  |       |
-| USDM             | Reached out to                                   |       |
-| Wanchain         | Reached out to                                   |       |
-| WingRiders       | Reached out to                                   |       |
-| Strike Finance   | <mark style="color:$warning;">In Progress</mark> |       |
-| Liqwid           | <mark style="color:$warning;">In Progress</mark> |       |
-| Butan            | Reached out to                                   |       |
-| USDCx            | <mark style="color:green;">Ready</mark>          |       |
-| Dune             | <mark style="color:$warning;">In Progress</mark> |       |
-| Pyth             | <mark style="color:green;">Ready</mark>          |       |
+| Name             | Status                                           | Notes                   |
+| ---------------- | ------------------------------------------------ | ----------------------- |
+| TapTools         | <mark style="color:$info;">Sunsetting</mark>     | No readiness monitoring |
+| Book.io/Stuff.io |                                                  |                         |
+| Danogo           | <mark style="color:$warning;">In Progress</mark> |                         |
+| DripDropz        | <mark style="color:green;">Ready</mark>          |                         |
+| Fluid Tokens     | <mark style="color:green;">Ready</mark>          |                         |
+| Genius Yield     | <mark style="color:$warning;">In Progress</mark> |                         |
+| Levvy Finance    | <mark style="color:$warning;">In Progress</mark> |                         |
+| Minswap          | Reached out to                                   |                         |
+| Snekdotfun       |                                                  |                         |
+| Splash           | <mark style="color:$warning;">In Progress</mark> |                         |
+| SundaeSwap       | <mark style="color:green;">Ready</mark>          |                         |
+| Tempo            |                                                  |                         |
+| UnFrack.it       |                                                  |                         |
+| USDM             | Reached out to                                   |                         |
+| Wanchain         | Reached out to                                   |                         |
+| WingRiders       | Reached out to                                   |                         |
+| Strike Finance   | <mark style="color:$warning;">In Progress</mark> |                         |
+| Liqwid           | <mark style="color:$warning;">In Progress</mark> |                         |
+| Butan            | Reached out to                                   |                         |
+| USDCx            | <mark style="color:green;">Ready</mark>          |                         |
+| Dune             | <mark style="color:$warning;">In Progress</mark> |                         |
+| Pyth             | <mark style="color:green;">Ready</mark>          |                         |
 
 ***
 
@@ -199,4 +198,4 @@ DApps listed on this page are self-attested by the community, to add your DApp p
 
 ### Guidelines
 
-<table><thead><tr><th width="251">Name</th><th width="248">Status</th><th>Notes</th></tr></thead><tbody><tr><td><a href="https://docs.spojapanguild.net/cardano/setup/node-setup/">A Japanese Guideline</a></td><td><mark style="color:green;">Ready</mark></td><td></td></tr><tr><td><a href="https://es-kb.topopool.com/primeros-pasos/preparacion">Spanish Guideline</a></td><td><mark style="color:$warning;">In Progress</mark></td><td></td></tr><tr><td><a href="https://developers.cardano.org/">developers.cardano.org</a></td><td><mark style="color:green;">Ready</mark></td><td>SPO and operator docs</td></tr><tr><td><a href="https://docs.cardano.org/developer-resources/release-notes/comp-matrix">Compatibility matrix</a></td><td><mark style="color:$warning;">In Progress</mark></td><td></td></tr></tbody></table>
+<table><thead><tr><th width="251">Name</th><th width="248">Status</th><th>Notes</th></tr></thead><tbody><tr><td><a href="https://docs.spojapanguild.net/cardano/setup/node-setup/">A Japanese Guideline</a></td><td><mark style="color:green;">Ready</mark></td><td></td></tr><tr><td><a href="https://es-kb.topopool.com/primeros-pasos/preparacion">Spanish Guideline</a></td><td><mark style="color:$warning;">In Progress</mark></td><td></td></tr><tr><td><a href="https://developers.cardano.org/">developers.cardano.org</a></td><td><mark style="color:green;">Ready</mark></td><td>SPO and operator docs</td></tr><tr><td><a href="https://docs.cardano.org/developer-resources/release-notes/comp-matrix">Compatibility matrix</a></td><td><mark style="color:green;">Ready</mark></td><td></td></tr></tbody></table>
