@@ -5,8 +5,8 @@
 1. [Action items from the last call](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/hard-fork-working-group-meeting-minutes/28th-may-2026#action-items-and-next-steps) - Bosko
 2. [Node 11.0.1](https://github.com/IntersectMBO/cardano-node/releases/tag/11.0.1) & [DBSync 13.7.1.0](https://github.com/IntersectMBO/cardano-db-sync/releases/tag/13.7.1.0) - Sam
 3. [Van Rossem Upgrade Update](https://docs.google.com/presentation/d/1pEFh_GC3Nx2nTVPXj9bke9R7C9Bkr8Hk/edit?slide=id.p1\&pli=1#slide=id.p1) - Bosko, all
-   1. Ogmios [v6.14.0.1](https://github.com/IntersectMBO/ogmios/releases/tag/v6.14.0.1) has been released
-      1. Issue found by communicty member, fix [PR](https://github.com/IntersectMBO/ogmios/pull/5) raised by Jordan from IO in Intersect forked Ogmios repo
+   1. Ogmios [v6.14.0.2](https://github.com/IntersectMBO/ogmios/releases/tag/v6.14.0.2) has been released
+      1. Issue found by community member on [v6.14.0.1](https://github.com/IntersectMBO/ogmios/releases/tag/v6.14.0.1), fix [PR](https://github.com/IntersectMBO/ogmios/pull/5) raised by Jordan from IO in Intersect forked Ogmios repo
       2. Can it be reviewed and merged back into the original codebase by the time of the mainnet hf action submission?
    2. Kupo [v2.11.0.1](https://github.com/IntersectMBO/kupo/releases/tag/v2.11.0.1) is released
       1. Can it be reviewed and merged back into the original codebase by the time of the mainnet hf action submission?
@@ -34,7 +34,8 @@
    2. Comms in the last week - anything we missed
    3. Comms in the week ahead
 7. [Risk log](https://docs.google.com/spreadsheets/d/1DSAiayrPOhhzSKKKljbd2WxHQPFmzKsvoyyA-BJUDg8/edit?gid=1105903724#gid=1105903724)
-8. AOB
+8. Technical support before and after hard fork enactment
+9. AOB
 
 #### Key materials
 
