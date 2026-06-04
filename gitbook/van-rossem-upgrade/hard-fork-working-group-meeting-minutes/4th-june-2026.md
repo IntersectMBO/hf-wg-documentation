@@ -17,7 +17,10 @@
       1. Stake Pools ready - 21.99% <mark style="color:green;">**↑**</mark>
       2. Stake ready - 39.39% <mark style="color:green;">**↑**</mark>
       3. Exchange readiness - Ready (2%); In Progress (28%); Not started (71%)
-   5. [Readiness tracker](https://docs.google.com/spreadsheets/d/1ECoYFCtrRtFX3BvqfhaZi6FxlXQMoTGP/edit?usp=sharing\&ouid=106134819668558877362\&rtpof=true\&sd=true)
+   5. [Cexplorer HF readiness](https://cexplorer.io/hardfork?block=5_days)
+      1. Block production v11 - 81.47%
+      2. Exchange readiness by liquidity - Ready (0.91%); In Progress (53.42%); Not started (45.67%)
+   6. [Readiness tracker](https://docs.google.com/spreadsheets/d/1ECoYFCtrRtFX3BvqfhaZi6FxlXQMoTGP/edit?usp=sharing\&ouid=106134819668558877362\&rtpof=true\&sd=true)
 4. van Rossem hard fork progress - Bosko
    1. PreProd
       1. [Cardanoscan](https://preprod.cardanoscan.io/govAction/gov_action108a5htqnmlp89ffn2ucf7u9u33s0r9gpx7eytpdc2q28y50ly42qqf9jcen)
