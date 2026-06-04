@@ -2,7 +2,7 @@
 
 #### Agenda
 
-1. [Action items from the last call](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/hard-fork-working-group-meeting-minutes/28th-may-2026#action-items-and-next-steps) - Bosko
+1. [Action items from the last call](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/hard-fork-working-group-meeting-minutes/2nd-june-2026#action-items-and-next-steps) - Bosko
 2. [Node 11.0.1](https://github.com/IntersectMBO/cardano-node/releases/tag/11.0.1) & [DBSync 13.7.1.0](https://github.com/IntersectMBO/cardano-db-sync/releases/tag/13.7.1.0) - Sam
 3. [Van Rossem Upgrade Update](https://docs.google.com/presentation/d/1pEFh_GC3Nx2nTVPXj9bke9R7C9Bkr8Hk/edit?slide=id.p1\&pli=1#slide=id.p1) - Bosko, all
    1. Ogmios [v6.14.0.2](https://github.com/IntersectMBO/ogmios/releases/tag/v6.14.0.2) has been released
