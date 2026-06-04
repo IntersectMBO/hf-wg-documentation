@@ -44,6 +44,29 @@
 
 * Summary
   *
+  * Latest version of DBSync is [13.7.1.0](https://github.com/IntersectMBO/cardano-db-sync/releases/tag/13.7.1.0) and its recommended to upgrade to that version
+    * If you are running DBSync version 13.7.0.5, it is also van Rossem compatible, and it just needs migration script executed as described in the release notes
+  * Ogmios [v6.14.0.2](https://github.com/IntersectMBO/ogmios/releases/tag/v6.14.0.2) and Kupo [v2.11.0.1](https://github.com/IntersectMBO/kupo/releases/tag/v2.11.0.1) have been released in Intersect forked repos
+    * Both will be added to the checklist that would hrd fork working group make the right decision on submission of the hard fork initiation governance action on mainnet
+  * PreProd hard fork initiation governance action is expected to be ratified on **5th June** (the numbers are far above the needed threshold, highly unlikely that the support would drop), and subsequently it would be enacted on **10th June**
+    * The cause of hard fork action not being ratified on the previous epoch boundary
+      * 25M delegation that became active on 291->292 epoch boundary, and thats what pushed it from 52.1% to 50.68% and this is why it failed
+      * that late delegation exposed the discrepancies in calculations
+        * Tools are wrong on excluding auto abstain for SPOs for hard fork initiation governance actions
+        * Tools are likely not wrong on excluding auto abstain for any other type of gov actions like protocol parameter update
+        * What could change it would be:
+          * explicit votes
+            * yes and abstain -> pushing the percentage higher
+            * no -> pushing percentage lower
+            * late delegation -> pushing percentage lower
+    * Comms team is in the loop of all the important changes and will communicate accordingly
+  * Go/no-go decision call for mainnet hard fork initiation governance action submission which was originally planned still holds for **15th June**
+    * It will have a checklist, criteria that would help make confident decision
+    * Dapps should be invited to report based on the readiness checklist
+    * If there is a positive, go decision, it is expected the the action would be submitted on mainnet on **15th or 16th June**
+      * Since mainnet epoch boundary is on 18th June, it would take up to 6 epochs for voting and 1 more epoch for enactment (5 weeks)
+  * Plutus cost model parameter update governance action on mainnet is continuing to have traction
+  * Risk log is adjusted to reflect latest updates (few of them have their likelihood and impact reduced)
 * Hard Fork Working Group communication channels
   * [Discord](https://discord.com/channels/1136727663583698984/1242097284619960411) — `#wg-hard-fork`
   * [Weekly bulletins](https://x.com/IntersectMBO)
@@ -53,5 +76,9 @@
 
 #### **Action items and next steps**
 
-*
+* **Jeff:** Reach out to Ogmios and Kupo author and assess whether he can review the changes introduced in forked Ogmios and Kupo repos and merge them back in the original code base before hf governance action is potentially submitted on mainnet on 15th June
+* **Leonard:** Invite dapps to test against PreProd once it forks
+* **Bosko:** Re-schedule the hard fork tech support call for the decision on submission
+* **Leonard/Bosko:** Sync and asses guardrails status for hard fork initiation governance action
+* **Bosko:** [The readiness tracker](https://docs.google.com/spreadsheets/d/1ECoYFCtrRtFX3BvqfhaZi6FxlXQMoTGP/edit?usp=sharing\&ouid=106134819668558877362\&rtpof=true\&sd=true) should be updated with the certain thresholds for nodes running latest stable version 11.0.1 (50%), top 20 dapps, top 20 exchanges by liquidity, etc. That would also bring additional confidence layer for a decision to submit hard fork initiation governance action on mainnet
 
