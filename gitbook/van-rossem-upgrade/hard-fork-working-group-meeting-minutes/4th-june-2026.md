@@ -43,7 +43,6 @@
 #### Key materials
 
 * Summary
-  *
   * Latest version of DBSync is [13.7.1.0](https://github.com/IntersectMBO/cardano-db-sync/releases/tag/13.7.1.0) and its recommended to upgrade to that version
     * If you are running DBSync version 13.7.0.5, it is also van Rossem compatible, and it just needs migration script executed as described in the release notes
   * Ogmios [v6.14.0.2](https://github.com/IntersectMBO/ogmios/releases/tag/v6.14.0.2) and Kupo [v2.11.0.1](https://github.com/IntersectMBO/kupo/releases/tag/v2.11.0.1) have been released in Intersect forked repos
