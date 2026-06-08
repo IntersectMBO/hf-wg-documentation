@@ -15,6 +15,7 @@
   * [Comms weeklies](van-rossem-upgrade/van-rossem-upgrade-communications/comms-weeklies.md)
 * [van Rossem upgrade reference materials](proposed-intra-era-scope/van-rossem-hard-fork-reference-materials.md)
 * [Hard fork working group meeting minutes](proposed-intra-era-scope/hard-fork-working-group-meeting-minutes/README.md)
+  * [9th June 2026](van-rossem-upgrade/hard-fork-working-group-meeting-minutes/9th-june-2026.md)
   * [4th June 2026](van-rossem-upgrade/hard-fork-working-group-meeting-minutes/4th-june-2026.md)
   * [2nd June 2026](van-rossem-upgrade/hard-fork-working-group-meeting-minutes/2nd-june-2026.md)
   * [28th May 2026](van-rossem-upgrade/hard-fork-working-group-meeting-minutes/28th-may-2026.md)
