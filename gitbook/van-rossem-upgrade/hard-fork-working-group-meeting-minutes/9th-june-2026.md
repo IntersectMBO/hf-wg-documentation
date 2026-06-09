@@ -18,6 +18,8 @@
       1. Ratified on **5th June**, will be enacted on **10th June**
    2. Mainnet
       1. Go/No-go Mainnet hard fork initiation governance action submission date - **15th June**
+      2. Guardrails status
+      3. Readiness checklist
 5. Plutus Cost Model - Kevin, Ryan, Bosko
    1. Mainnet - submitted on 26th May, continuing to gain traction (currently at 47% with 19 days to go)
 6. van Rossem comms - Ian / Larisa
