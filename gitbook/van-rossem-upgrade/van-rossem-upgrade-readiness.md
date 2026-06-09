@@ -1,6 +1,6 @@
 # van Rossem upgrade readiness
 
-#### <mark style="color:red;">Last updated on: \~3rd June 01:31pm UTC</mark>
+#### <mark style="color:red;">Last updated on: \~9th June 08:31am UTC</mark>
 
 ## Readiness and Updating this Page
 
@@ -16,26 +16,26 @@ Alternatively, if you find any information on this page incorrect or misleading 
 
 Third, additional option, is to leave a comment in the respective tab of the [live readiness tracker](https://docs.google.com/spreadsheets/d/1ECoYFCtrRtFX3BvqfhaZi6FxlXQMoTGP/edit?gid=960883614#gid=960883614).
 
-**Overall readiness status** 🟠 <mark style="color:$warning;">64</mark><mark style="color:$warning;">**%**</mark>\
+**Overall readiness status** 🟠 <mark style="color:$warning;">69</mark><mark style="color:$warning;">**%**</mark>\
 **Estimated hard fork initiation governance action submission on mainnet** <mark style="color:$warning;">**go/no-go scheduled for 15th June**</mark>\
-**Estimated hard fork enactment on mainnet** <mark style="color:$warning;">**delayed, can take up to 5 weeks from the submission date to be enacted**</mark>\
+**Estimated hard fork enactment on mainnet** <mark style="color:$warning;">**can take up to 5 weeks from the submission date to be enacted**</mark>\
 [Hard Fork Initiation Submission policy](https://cardanoupgrades.docs.intersectmbo.org/overview/hardfork-initation-submission-policy)
 
 [Live readiness tracker](https://docs.google.com/spreadsheets/d/1ECoYFCtrRtFX3BvqfhaZi6FxlXQMoTGP/edit?gid=960883614#gid=960883614)
 
-| Workstream                                                                                                                                                       | RAG status | Last update                                                            |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | ---------------------------------------------------------------------- |
-| [Core Infrastructure Components](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#core-infrastructure-components)   | 🟢         | **7th May:** Node 11.0.1 full release and DBSync 13.7.1.0 full release |
-| [Testnets and Governance Actions](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#testnets-and-governance-actions) | 🟠         | **8th May:** Enacted on Preview and submitted on PreProd               |
-| [SPOs](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#spos)                                                       | 🟠         |                                                                        |
-| [Exchanges](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#exchanges)                                             | 🟠         | Reached out to all listed exchanges                                    |
-| [Tooling](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#tooling)                                                 | 🟠         |                                                                        |
-| [Wallets](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#wallets)                                                 | 🟠         |                                                                        |
-| [Partner-chains + Scalability](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#partner-chains--scalability)        | 🟢         |                                                                        |
-| [Node Implementations](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#node-implementations)                       | 🟠         |                                                                        |
-| [DApps & Projects](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#dapps-and-projects)                             | 🟠         |                                                                        |
-| [Block Explorers](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#block-explorers)                                 | 🟠         |                                                                        |
-| [Guidelines](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#guidelines)                                           | 🟠         |                                                                        |
+| Workstream                                                                                                                                                       | RAG status | Last update                                                                                                                              |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
+| [Core Infrastructure Components](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#core-infrastructure-components)   | 🟢         | **7th May:** Node 11.0.1 full release and DBSync 13.7.1.0 full release                                                                   |
+| [Testnets and Governance Actions](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#testnets-and-governance-actions) | 🟢         | <p><strong>8th May:</strong> Enacted on Preview and submitted on PreProd<br>Will be enacted on PreProd on <strong>10th June</strong></p> |
+| [SPOs](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#spos)                                                       | 🟠         | Block produced with protocol v11 in epoch 636 is at 76%                                                                                  |
+| [Exchanges](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#exchanges)                                             | 🟠         | Reached out to all listed exchanges                                                                                                      |
+| [Tooling](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#tooling)                                                 | 🟢         |                                                                                                                                          |
+| [Wallets](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#wallets)                                                 | 🟢         |                                                                                                                                          |
+| [Partner-chains + Scalability](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#partner-chains--scalability)        | 🟢         |                                                                                                                                          |
+| [Node Implementations](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#node-implementations)                       | 🟢         |                                                                                                                                          |
+| [DApps & Projects](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#dapps-and-projects)                             | 🟠         |                                                                                                                                          |
+| [Block Explorers](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#block-explorers)                                 | 🟢         |                                                                                                                                          |
+| [Guidelines](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#guidelines)                                           | 🟢         |                                                                                                                                          |
 
 ⚪ Not started\
 🟠 Attention needed\
@@ -60,11 +60,11 @@ Spokesperson: Ryan
 
 #### Testnets
 
-<table><thead><tr><th width="355">Network</th><th width="583">Status</th></tr></thead><tbody><tr><td>SanchoNet</td><td><mark style="color:green;">Forked, enacted with 10.6.2, running on 10.7.1</mark></td></tr><tr><td>Preview</td><td><mark style="color:green;">Forked on 8th May</mark></td></tr><tr><td>PreProd</td><td><mark style="color:$warning;">In Progress</mark></td></tr></tbody></table>
+<table><thead><tr><th width="355">Network</th><th width="583">Status</th></tr></thead><tbody><tr><td>SanchoNet</td><td><mark style="color:green;">Forked, enacted with 10.6.2, running on 10.7.1</mark></td></tr><tr><td>Preview</td><td><mark style="color:green;">Forked on 8th May</mark></td></tr><tr><td>PreProd</td><td><mark style="color:$warning;">In Progress, ratified, will fork on 10th June</mark></td></tr></tbody></table>
 
 #### Governance Actions
 
-<table><thead><tr><th width="167">Network</th><th width="161">Action</th><th width="215">Status</th><th>View via</th></tr></thead><tbody><tr><td>SanchoNet</td><td>Cost model update</td><td><mark style="color:green;">Enacted</mark></td><td>N/A</td></tr><tr><td>SanchoNet</td><td>Hard fork</td><td><mark style="color:green;">Enacted</mark></td><td>N/A</td></tr><tr><td>Preview</td><td>Cost model update</td><td><mark style="color:green;">Enacted</mark></td><td>N/A</td></tr><tr><td>Preview</td><td>Hard fork</td><td><mark style="color:green;">Enacted</mark></td><td>Forked on 8th May</td></tr><tr><td>PreProd</td><td>Cost model update</td><td><mark style="color:green;">Enacted</mark></td><td>N/A</td></tr><tr><td>PreProd</td><td>Hard fork</td><td><mark style="color:$warning;">In Progress</mark></td><td>Submitted on 8th May</td></tr><tr><td>Mainnet</td><td>Cost model update</td><td><mark style="color:$warning;">In Progress</mark></td><td>Submitted on 26th May</td></tr><tr><td>Mainnet</td><td>Hard fork</td><td><mark style="color:$warning;">In Progress</mark></td><td>Go/No go decision scheduled for 15th June</td></tr></tbody></table>
+<table><thead><tr><th width="167">Network</th><th width="161">Action</th><th width="215">Status</th><th>View via</th></tr></thead><tbody><tr><td>SanchoNet</td><td>Cost model update</td><td><mark style="color:green;">Enacted</mark></td><td>N/A</td></tr><tr><td>SanchoNet</td><td>Hard fork</td><td><mark style="color:green;">Enacted</mark></td><td>N/A</td></tr><tr><td>Preview</td><td>Cost model update</td><td><mark style="color:green;">Enacted</mark></td><td>N/A</td></tr><tr><td>Preview</td><td>Hard fork</td><td><mark style="color:green;">Enacted</mark></td><td>Forked on 8th May</td></tr><tr><td>PreProd</td><td>Cost model update</td><td><mark style="color:green;">Enacted</mark></td><td>N/A</td></tr><tr><td>PreProd</td><td>Hard fork</td><td><mark style="color:$warning;">In Progress</mark></td><td>Will fork on 10th June</td></tr><tr><td>Mainnet</td><td>Cost model update</td><td><mark style="color:$warning;">In Progress</mark></td><td>Submitted on 26th May</td></tr><tr><td>Mainnet</td><td>Hard fork</td><td><mark style="color:$warning;">In Progress</mark></td><td>Go/No go decision scheduled for 15th June</td></tr></tbody></table>
 
 ***
 
@@ -72,10 +72,9 @@ Spokesperson: Ryan
 
 Spokesperson: Matthew Capps / Mike Hornan / Ian Hartwell / Adam Dean
 
-<table><thead><tr><th width="251">Pool Management Suite</th><th width="254.93359375">Status</th><th>Notes</th></tr></thead><tbody><tr><td>JorManager</td><td><mark style="color:green;">Ready</mark></td><td></td></tr><tr><td>CFD</td><td><mark style="color:green;">Ready</mark></td><td></td></tr><tr><td>SPOs adoption</td><td><mark style="color:$warning;">In Progress</mark></td><td>Currently 11.0.1 at ~49% according to pooltool.io</td></tr></tbody></table>
+<table><thead><tr><th width="251">Pool Management Suite</th><th width="254.93359375">Status</th><th>Notes</th></tr></thead><tbody><tr><td>JorManager</td><td><mark style="color:green;">Ready</mark></td><td></td></tr><tr><td>CFD</td><td><mark style="color:green;">Ready</mark></td><td></td></tr><tr><td>SPOs adoption</td><td><mark style="color:$warning;">In Progress</mark></td><td>Blocks produced by 11.0.1 in the current epoch 636 - 76%</td></tr></tbody></table>
 
-* Nodes reporting version 11.0.1 (according to pooltool.io) - 49%
-* Blocks produced by 11.0.1 in the current epoch 634 - 68%
+* Nodes reporting version 11.0.1 (according to pooltool.io) - 50%
 
 ***
 
@@ -83,7 +82,11 @@ Spokesperson: Matthew Capps / Mike Hornan / Ian Hartwell / Adam Dean
 
 Spokesperson: Michiel Bellen / Kartik Iyer
 
-All exchanges notified and engaged (57 of them)
+All exchanges notified and engaged (58 of them)
+
+[Cexplorer hard fork readiness](https://cexplorer.io/hardfork?block=5_days)
+
+<mark style="color:$warning;">**40%**</mark> (based on statuses - N/A, reached out, in progress, ready)
 
 ***
 
@@ -101,7 +104,7 @@ Spokesperson: Bosko Majdanac
 
 Spokesperson: Leonard Hegarty
 
-<table><thead><tr><th width="287">Library</th><th width="210">Status</th><th>Notes</th></tr></thead><tbody><tr><td>Aiken</td><td><mark style="color:green;">Ready</mark></td><td>(<a href="https://github.com/aiken-lang/aiken/releases">release repository</a>)</td></tr><tr><td>Blaze Cardano</td><td><mark style="color:$warning;">In Progress</mark></td><td>(<a href="https://github.com/butaneprotocol/blaze-cardano/releases">release repository</a>)</td></tr><tr><td>Cardano Serialization Library</td><td><mark style="color:green;">Ready</mark></td><td>(<a href="https://github.com/Emurgo/cardano-serialization-lib/releases">release repository</a>)</td></tr><tr><td>Cardano Multiplatform Library</td><td><mark style="color:$warning;">In Progress</mark></td><td>(<a href="https://github.com/dcSpark/cardano-multiplatform-lib/releases">release repository</a>)</td></tr><tr><td>Cardano JavaScript SDK</td><td><mark style="color:$warning;">In Progress</mark></td><td>(<a href="https://github.com/input-output-hk/cardano-js-sdk/releases">release repository</a>)</td></tr><tr><td>Pallas</td><td><mark style="color:green;">Ready</mark></td><td>(<a href="https://github.com/txpipe/pallas/releases">release repository</a>)</td></tr><tr><td>Cardano Transaction Library</td><td><mark style="color:$warning;">In Progress</mark></td><td>(<a href="https://github.com/Plutonomicon/cardano-transaction-lib/">release repository</a>)</td></tr><tr><td>MeshSDK</td><td><mark style="color:green;">Ready</mark></td><td>(<a href="https://github.com/MeshJS/mesh/releases">release repository</a>)</td></tr><tr><td>Lucid Evolution</td><td><mark style="color:$warning;">In Progress</mark></td><td>(<a href="https://github.com/Anastasia-Labs/lucid-evolution/releases">release repository</a>)</td></tr><tr><td>Scalus</td><td><mark style="color:green;">Ready</mark></td><td>(<a href="https://github.com/scalus3/scalus/releases">release repository</a>)</td></tr><tr><td>UTxO RPC</td><td><mark style="color:$warning;">In Progress</mark></td><td></td></tr></tbody></table>
+<table><thead><tr><th width="287">Library</th><th width="210">Status</th><th>Notes</th></tr></thead><tbody><tr><td>Aiken</td><td><mark style="color:green;">Ready</mark></td><td>(<a href="https://github.com/aiken-lang/aiken/releases">release repository</a>)</td></tr><tr><td>Blaze Cardano</td><td><mark style="color:$warning;">In Progress</mark></td><td>(<a href="https://github.com/butaneprotocol/blaze-cardano/releases">release repository</a>)</td></tr><tr><td>Cardano Serialization Library</td><td><mark style="color:green;">Ready</mark></td><td>(<a href="https://github.com/Emurgo/cardano-serialization-lib/releases">release repository</a>)</td></tr><tr><td>Cardano Multiplatform Library</td><td><mark style="color:$warning;">In Progress</mark></td><td>(<a href="https://github.com/dcSpark/cardano-multiplatform-lib/releases">release repository</a>)</td></tr><tr><td>Cardano JavaScript SDK</td><td><mark style="color:$warning;">In Progress</mark></td><td>(<a href="https://github.com/input-output-hk/cardano-js-sdk/releases">release repository</a>)</td></tr><tr><td>Pallas</td><td><mark style="color:green;">Ready</mark></td><td>(<a href="https://github.com/txpipe/pallas/releases">release repository</a>)</td></tr><tr><td>Cardano Transaction Library</td><td><mark style="color:green;">Ready</mark></td><td>(<a href="https://github.com/Plutonomicon/cardano-transaction-lib/">release repository</a>)</td></tr><tr><td>MeshSDK</td><td><mark style="color:green;">Ready</mark></td><td>(<a href="https://github.com/MeshJS/mesh/releases">release repository</a>)</td></tr><tr><td>Lucid Evolution</td><td><mark style="color:$warning;">In Progress</mark></td><td>(<a href="https://github.com/Anastasia-Labs/lucid-evolution/releases">release repository</a>)</td></tr><tr><td>Scalus</td><td><mark style="color:green;">Ready</mark></td><td>(<a href="https://github.com/scalus3/scalus/releases">release repository</a>)</td></tr><tr><td>UTxO RPC</td><td><mark style="color:green;">Ready</mark></td><td></td></tr></tbody></table>
 
 **Indexers**
 
@@ -125,7 +128,7 @@ Spokesperson: Ryan
 
 **Light Wallets**
 
-<table><thead><tr><th width="232">Wallet</th><th width="280.94921875">Highlevel Status</th><th>Notes</th></tr></thead><tbody><tr><td>Eternl</td><td><mark style="color:$warning;">In Progress</mark></td><td></td></tr><tr><td>Eternl (mobile)</td><td><mark style="color:$warning;">In Progress</mark></td><td></td></tr><tr><td>Lace</td><td><mark style="color:$warning;">In Progress</mark></td><td></td></tr><tr><td>Nufi</td><td><mark style="color:green;">Ready</mark></td><td></td></tr><tr><td>Vespr</td><td><mark style="color:$warning;">In Progress</mark></td><td></td></tr><tr><td>Tokeo</td><td></td><td>No active development, handover expected</td></tr><tr><td>Yoroi</td><td><mark style="color:$warning;">In Progress</mark></td><td></td></tr><tr><td>Typhon</td><td><mark style="color:$warning;">In Progress</mark></td><td></td></tr><tr><td>Nami</td><td>N/A - no longer maintained</td><td></td></tr><tr><td>Flint</td><td>N/A - no longer maintained</td><td></td></tr><tr><td>Medusa</td><td><mark style="color:green;">Ready</mark></td><td></td></tr></tbody></table>
+<table><thead><tr><th width="232">Wallet</th><th width="280.94921875">Highlevel Status</th><th>Notes</th></tr></thead><tbody><tr><td>Eternl</td><td><mark style="color:$warning;">In Progress</mark></td><td></td></tr><tr><td>Eternl (mobile)</td><td><mark style="color:$warning;">In Progress</mark></td><td></td></tr><tr><td>Lace</td><td><mark style="color:$warning;">In Progress</mark></td><td></td></tr><tr><td>Nufi</td><td><mark style="color:green;">Ready</mark></td><td></td></tr><tr><td>Vespr</td><td><mark style="color:$warning;">In Progress</mark></td><td></td></tr><tr><td>Tokeo</td><td></td><td>No active development, handover expected</td></tr><tr><td>Yoroi</td><td><mark style="color:green;">Ready</mark></td><td></td></tr><tr><td>Typhon</td><td><mark style="color:$warning;">In Progress</mark></td><td></td></tr><tr><td>Nami</td><td>N/A - no longer maintained</td><td></td></tr><tr><td>Flint</td><td>N/A - no longer maintained</td><td></td></tr><tr><td>Medusa</td><td><mark style="color:green;">Ready</mark></td><td></td></tr></tbody></table>
 
 **Hardware Wallets**
 
