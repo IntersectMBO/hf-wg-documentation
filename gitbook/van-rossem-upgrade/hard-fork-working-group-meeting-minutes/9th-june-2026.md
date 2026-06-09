@@ -63,7 +63,7 @@
 
 #### **Action items and next steps**
 
-* **Jeff/Sam:** Confirm Ogmios/Kup path ahead, whether it will be using original codebases or forked ones
+* **Jeff/Sam:** Confirm Ogmios/Kupo path ahead, whether it will be using original codebases or forked ones
 * **Bosko:** Update hard fork working group on Technical Steering Committee and Civics Committee assessment of the van Rossem hard fork initiation governance action metadata, particularly on the affirmation that there are no observed nor expected guardrails changes
 * **Bosko:** Update mainnet submission readiness checklist in readiness tracker so exchanges readiness level represents their liquidity percentages properly
 * **Bosko:** Update hard fork working group on technical support documents status (process and resources tracker)
