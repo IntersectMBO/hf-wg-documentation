@@ -1,6 +1,6 @@
 # van Rossem upgrade readiness
 
-#### <mark style="color:red;">Last updated on: \~9th June 12:37pm UTC</mark>
+#### <mark style="color:red;">Last updated on: \~9th June 9:27pm UTC</mark>
 
 ## Readiness and Updating this Page
 
@@ -16,7 +16,7 @@ Alternatively, if you find any information on this page incorrect or misleading 
 
 Third, additional option, is to leave a comment in the respective tab of the [live readiness tracker](https://docs.google.com/spreadsheets/d/1ECoYFCtrRtFX3BvqfhaZi6FxlXQMoTGP/edit?gid=960883614#gid=960883614).
 
-**Overall readiness status** 🟠 <mark style="color:$warning;">68</mark><mark style="color:$warning;">**%**</mark>\
+**Overall readiness status** 🟠 <mark style="color:$warning;">69</mark><mark style="color:$warning;">**%**</mark>\
 **Estimated hard fork initiation governance action submission on mainnet** <mark style="color:$warning;">**go/no-go scheduled for 15th June**</mark>\
 **Estimated hard fork enactment on mainnet** <mark style="color:$warning;">**can take up to 5 weeks from the submission date to be enacted**</mark>\
 [Hard Fork Initiation Submission policy](https://cardanoupgrades.docs.intersectmbo.org/overview/hardfork-initation-submission-policy)
@@ -128,7 +128,7 @@ Spokesperson: Ryan
 
 **Light Wallets**
 
-<table><thead><tr><th width="232">Wallet</th><th width="280.94921875">Highlevel Status</th><th>Notes</th></tr></thead><tbody><tr><td>Eternl</td><td><mark style="color:$warning;">In Progress</mark></td><td></td></tr><tr><td>Eternl (mobile)</td><td><mark style="color:$warning;">In Progress</mark></td><td></td></tr><tr><td>Lace</td><td><mark style="color:green;">Ready</mark></td><td></td></tr><tr><td>Nufi</td><td><mark style="color:green;">Ready</mark></td><td></td></tr><tr><td>Vespr</td><td><mark style="color:$warning;">In Progress</mark></td><td></td></tr><tr><td>Tokeo</td><td></td><td>No active development, handover expected</td></tr><tr><td>Yoroi</td><td><mark style="color:green;">Ready</mark></td><td></td></tr><tr><td>Typhon</td><td><mark style="color:green;">Ready</mark></td><td></td></tr><tr><td>Nami</td><td>N/A - no longer maintained</td><td></td></tr><tr><td>Flint</td><td>N/A - no longer maintained</td><td></td></tr><tr><td>Medusa</td><td><mark style="color:green;">Ready</mark></td><td></td></tr></tbody></table>
+<table><thead><tr><th width="232">Wallet</th><th width="280.94921875">Highlevel Status</th><th>Notes</th></tr></thead><tbody><tr><td>Eternl</td><td><mark style="color:$warning;">In Progress</mark></td><td></td></tr><tr><td>Eternl (mobile)</td><td><mark style="color:$warning;">In Progress</mark></td><td></td></tr><tr><td>Lace</td><td><mark style="color:green;">Ready</mark></td><td></td></tr><tr><td>Nufi</td><td><mark style="color:green;">Ready</mark></td><td></td></tr><tr><td>Vespr</td><td><mark style="color:$warning;">In Progress</mark></td><td></td></tr><tr><td>Tokeo</td><td></td><td>No active development, handover expected</td></tr><tr><td>Yoroi</td><td><mark style="color:green;">Ready</mark></td><td></td></tr><tr><td>Typhon</td><td><mark style="color:green;">Ready</mark></td><td></td></tr><tr><td>Nami</td><td>N/A - no longer maintained</td><td></td></tr><tr><td>Flint</td><td>N/A - no longer maintained</td><td></td></tr><tr><td>Medusa</td><td><mark style="color:green;">Ready</mark></td><td></td></tr><tr><td>GameChanger</td><td><mark style="color:green;">Ready</mark></td><td></td></tr></tbody></table>
 
 **Hardware Wallets**
 
