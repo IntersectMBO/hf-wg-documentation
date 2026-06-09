@@ -19,6 +19,7 @@
    2. Mainnet
       1. Go/No-go Mainnet hard fork initiation governance action submission date - **15th June**
       2. Guardrails status
+         1. Asked Civics Committee on [Discord](https://discord.com/channels/1136727663583698984/1295329867285663826/1513851728703918113)
       3. Readiness checklist
 5. Plutus Cost Model - Kevin, Ryan, Bosko
    1. Mainnet - submitted on 26th May, continuing to gain traction (currently at 47% with 19 days to go)
