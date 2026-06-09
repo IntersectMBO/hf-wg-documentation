@@ -1,6 +1,6 @@
 # van Rossem upgrade readiness
 
-#### <mark style="color:red;">Last updated on: \~9th June 08:31am UTC</mark>
+#### <mark style="color:red;">Last updated on: \~9th June 08:34am UTC</mark>
 
 ## Readiness and Updating this Page
 
@@ -175,7 +175,7 @@ DApps listed on this page are self-attested by the community, to add your DApp p
 | Fluid Tokens     | <mark style="color:green;">Ready</mark>          |                         |
 | Genius Yield     | <mark style="color:$warning;">In Progress</mark> |                         |
 | Levvy Finance    | <mark style="color:$warning;">In Progress</mark> |                         |
-| Minswap          | Reached out to                                   |                         |
+| Minswap          | <mark style="color:$warning;">In Progress</mark> |                         |
 | Snekdotfun       |                                                  |                         |
 | Splash           | <mark style="color:$warning;">In Progress</mark> |                         |
 | SundaeSwap       | <mark style="color:green;">Ready</mark>          |                         |
@@ -183,7 +183,7 @@ DApps listed on this page are self-attested by the community, to add your DApp p
 | UnFrack.it       |                                                  |                         |
 | USDM             | Reached out to                                   |                         |
 | Wanchain         | Reached out to                                   |                         |
-| WingRiders       | Reached out to                                   |                         |
+| WingRiders       | <mark style="color:$warning;">In Progress</mark> |                         |
 | Strike Finance   | <mark style="color:$warning;">In Progress</mark> |                         |
 | Liqwid           | <mark style="color:$warning;">In Progress</mark> |                         |
 | Butan            | Reached out to                                   |                         |
