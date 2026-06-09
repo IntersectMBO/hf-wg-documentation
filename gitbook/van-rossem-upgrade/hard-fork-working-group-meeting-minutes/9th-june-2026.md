@@ -35,7 +35,12 @@
 #### Key materials
 
 * Summary
-  *
+  * Ogmios and Kupo have two paths forward (both providing sufficient support to the community to progress with van Rossem hard fork readiness
+    * Tools author is expected to review, adjust and make van Rossem compatible versions based on the original codebase in the week of 22nd June
+    * Until that happens, forked versions of those tools (Ogmios [v6.14.0.2](https://github.com/IntersectMBO/ogmios/releases/tag/v6.14.0.2) and Kupo [v2.11.0.1](https://github.com/IntersectMBO/kupo/releases/tag/v2.11.0.1)) can be used to test for van Rossem compatibility&#x20;
+  * Adoption of Node 11.0.1 and DBSync 13.7.1.0 continues to increasy steadily
+    * According to [PoolTool](https://pooltool.io/networkhealth), nodes self reporting v11 are at 52% and blocks protocol version 11 in the current epoch is at 76%
+    * According to [Cexplorer](https://cexplorer.io/hardfork?block=5_days), block production v11 in the last 5 days is at more than 84%
 * Hard Fork Working Group communication channels
   * [Discord](https://discord.com/channels/1136727663583698984/1242097284619960411) — `#wg-hard-fork`
   * [Weekly bulletins](https://x.com/IntersectMBO)
