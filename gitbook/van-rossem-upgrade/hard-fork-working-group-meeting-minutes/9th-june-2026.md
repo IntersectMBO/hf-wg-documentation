@@ -41,6 +41,19 @@
   * Adoption of Node 11.0.1 and DBSync 13.7.1.0 continues to increasy steadily
     * According to [PoolTool](https://pooltool.io/networkhealth), nodes self reporting v11 are at 52% and blocks protocol version 11 in the current epoch is at 76%
     * According to [Cexplorer](https://cexplorer.io/hardfork?block=5_days), block production v11 in the last 5 days is at more than 84%
+  * [Readiness tracker](https://docs.google.com/spreadsheets/d/1ECoYFCtrRtFX3BvqfhaZi6FxlXQMoTGP/edit?gid=960883614#gid=960883614) has been updated in several aspects:
+    * There is now the Mainnet submission readiness checklist in the summary tab and its readiness numbers are based on items considered to be on the critical path
+    * Few light wallets and few tools have become ready
+    * Exchanges readiness is progressing fast
+      * Point made by Kartik from CF will be actioned upon as it suggest better math being applied to calculate exchanges readiness based on each exchange liquidity percentage
+    * Dapps continued and focused on adjustments and testing aginst Preview ahead of the PreProd fork where they will continue their testing efforts
+  * PreProd was ratified on **5th June**, will be enacted on **10th June**
+  * van Rossem mainnet hard fork initiation governance actions metadata will be assessed by Technical Steering Committee and Civics Committee especially on affirmation that no guardrails changes have been observed nor expected
+    * It is to be done ahead of the mainnet hf governance action submission go/no-go decision scheduled for Monday, 15th June
+  * Plutus Cost Model parameter update governance action has been submitted on mainnet on 26th of May and its at \~48% approval with the reasonable expectation that it will end up being ratified and subsequently enacted in the next \~3 weeks
+  * Comms team meetings are happening weekly and async communication continuously. The team that includes representatives from five big Cardano entities, is having a strong grip on a timely, precise, transparent and consistent messaging being made public
+  * Risk log has been slightly adjusted and few risks having their likelihood reduced with further assessment and adjustments expected during the second hard fork working group meeting this week, on Thursday, 11th June
+  * Tech support team updated the hard fork working group on the status and set the expectations to have process and resources tracker drafted this week so it can be aligned on ahead of the expected mainnet hf governance action submission
 * Hard Fork Working Group communication channels
   * [Discord](https://discord.com/channels/1136727663583698984/1242097284619960411) — `#wg-hard-fork`
   * [Weekly bulletins](https://x.com/IntersectMBO)
@@ -50,5 +63,8 @@
 
 #### **Action items and next steps**
 
-*
+* **Jeff/Sam:** Confirm Ogmios/Kup path ahead, whether it will be using original codebases or forked ones
+* **Bosko:** Update hard fork working group on Technical Steering Committee and Civics Committee assessment of the van Rossem hard fork initiation governance action metadata, particularly on the affirmation that there are no observed nor expected guardrails changes
+* **Bosko:** Update mainnet submission readiness checklist in readiness tracker so exchanges readiness level represents their liquidity percentages properly
+* **Bosko:** Update hard fork working group on technical support documents status (process and resources tracker)
 
