@@ -1,6 +1,6 @@
 # van Rossem upgrade readiness
 
-#### <mark style="color:red;">Last updated on: \~9th June 08:34am UTC</mark>
+#### <mark style="color:red;">Last updated on: \~9th June 09:17am UTC</mark>
 
 ## Readiness and Updating this Page
 
@@ -16,7 +16,7 @@ Alternatively, if you find any information on this page incorrect or misleading 
 
 Third, additional option, is to leave a comment in the respective tab of the [live readiness tracker](https://docs.google.com/spreadsheets/d/1ECoYFCtrRtFX3BvqfhaZi6FxlXQMoTGP/edit?gid=960883614#gid=960883614).
 
-**Overall readiness status** 🟠 <mark style="color:$warning;">69</mark><mark style="color:$warning;">**%**</mark>\
+**Overall readiness status** 🟠 <mark style="color:$warning;">68</mark><mark style="color:$warning;">**%**</mark>\
 **Estimated hard fork initiation governance action submission on mainnet** <mark style="color:$warning;">**go/no-go scheduled for 15th June**</mark>\
 **Estimated hard fork enactment on mainnet** <mark style="color:$warning;">**can take up to 5 weeks from the submission date to be enacted**</mark>\
 [Hard Fork Initiation Submission policy](https://cardanoupgrades.docs.intersectmbo.org/overview/hardfork-initation-submission-policy)
@@ -166,30 +166,35 @@ Spokesperson: Leonard Hegarty, Bosko Majdanac
 DApps listed on this page are self-attested by the community, to add your DApp please email **hard-fork@intersectmbo.org** or raise a pull request to this public repository via [Github/HF-WG-Documentation](https://github.com/IntersectMBO/hf-wg-documentation/issues/new) ([see how-to](https://github.com/IntersectMBO/hf-wg-documentation?tab=readme-ov-file#contributing))
 {% endhint %}
 
-| Name             | Status                                           | Notes                   |
-| ---------------- | ------------------------------------------------ | ----------------------- |
-| TapTools         | <mark style="color:$info;">Sunsetting</mark>     | No readiness monitoring |
-| Book.io/Stuff.io |                                                  |                         |
-| Danogo           | <mark style="color:$warning;">In Progress</mark> |                         |
-| DripDropz        | <mark style="color:green;">Ready</mark>          |                         |
-| Fluid Tokens     | <mark style="color:green;">Ready</mark>          |                         |
-| Genius Yield     | <mark style="color:$warning;">In Progress</mark> |                         |
-| Levvy Finance    | <mark style="color:$warning;">In Progress</mark> |                         |
-| Minswap          | <mark style="color:$warning;">In Progress</mark> |                         |
-| Snekdotfun       |                                                  |                         |
-| Splash           | <mark style="color:$warning;">In Progress</mark> |                         |
-| SundaeSwap       | <mark style="color:green;">Ready</mark>          |                         |
-| Tempo            |                                                  |                         |
-| UnFrack.it       |                                                  |                         |
-| USDM             | Reached out to                                   |                         |
-| Wanchain         | Reached out to                                   |                         |
-| WingRiders       | <mark style="color:$warning;">In Progress</mark> |                         |
-| Strike Finance   | <mark style="color:$warning;">In Progress</mark> |                         |
-| Liqwid           | <mark style="color:$warning;">In Progress</mark> |                         |
-| Butan            | Reached out to                                   |                         |
-| USDCx            | <mark style="color:green;">Ready</mark>          |                         |
-| Dune             | <mark style="color:$warning;">In Progress</mark> |                         |
-| Pyth             | <mark style="color:green;">Ready</mark>          |                         |
+| Name             | Status                                           | Notes |
+| ---------------- | ------------------------------------------------ | ----- |
+| Book.io/Stuff.io |                                                  |       |
+| Danogo           | <mark style="color:$warning;">In Progress</mark> |       |
+| DripDropz        | <mark style="color:green;">Ready</mark>          |       |
+| Fluid Tokens     | <mark style="color:green;">Ready</mark>          |       |
+| Genius Yield     | <mark style="color:$warning;">In Progress</mark> |       |
+| Levvy Finance    | <mark style="color:$warning;">In Progress</mark> |       |
+| Minswap          | <mark style="color:$warning;">In Progress</mark> |       |
+| Snekdotfun       |                                                  |       |
+| Splash           | <mark style="color:$warning;">In Progress</mark> |       |
+| SundaeSwap       | <mark style="color:green;">Ready</mark>          |       |
+| Tempo            |                                                  |       |
+| UnFrack.it       |                                                  |       |
+| USDM             | Reached out to                                   |       |
+| Wanchain         | Reached out to                                   |       |
+| WingRiders       | <mark style="color:$warning;">In Progress</mark> |       |
+| Strike Finance   | <mark style="color:$warning;">In Progress</mark> |       |
+| Liqwid           | <mark style="color:$warning;">In Progress</mark> |       |
+| Butan            | Reached out to                                   |       |
+| USDCx            | <mark style="color:green;">Ready</mark>          |       |
+| Dune             | <mark style="color:$warning;">In Progress</mark> |       |
+| Pyth             | <mark style="color:green;">Ready</mark>          |       |
+| CSwap            | Reached out to                                   |       |
+| Indigo           | Reached out to                                   |       |
+| Vyfinance        | Reached out to                                   |       |
+| Wayup            | Reached out to                                   |       |
+| DexHunter        | Reached out to                                   |       |
+| MuesliSwap       | Reached out to                                   |       |
 
 ***
 
