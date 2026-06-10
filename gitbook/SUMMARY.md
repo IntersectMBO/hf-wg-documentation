@@ -15,6 +15,7 @@
   * [Comms weeklies](van-rossem-upgrade/van-rossem-upgrade-communications/comms-weeklies.md)
 * [van Rossem upgrade reference materials](proposed-intra-era-scope/van-rossem-hard-fork-reference-materials.md)
 * [Hard fork working group meeting minutes](proposed-intra-era-scope/hard-fork-working-group-meeting-minutes/README.md)
+  * [15th June 2026 - Mainnet hf ga submission - go/no-go decision call](van-rossem-upgrade/hard-fork-working-group-meeting-minutes/15th-june-2026-mainnet-hf-ga-submission-go-no-go-decision-call.md)
   * [11th June 2026](van-rossem-upgrade/hard-fork-working-group-meeting-minutes/11th-june-2026.md)
   * [9th June 2026](van-rossem-upgrade/hard-fork-working-group-meeting-minutes/9th-june-2026.md)
   * [4th June 2026](van-rossem-upgrade/hard-fork-working-group-meeting-minutes/4th-june-2026.md)
