@@ -47,6 +47,7 @@
     * Exchanges readiness is progressing fast
       * Point made by Kartik from CF will be actioned upon as it suggest better math being applied to calculate exchanges readiness based on each exchange liquidity percentage
     * Dapps continued and focused on adjustments and testing aginst Preview ahead of the PreProd fork where they will continue their testing efforts
+      * Dapps critical path readiness assessment is based on the top entries by transaction count over the last 30 days as shown on [Transaction Leaderboard](https://cardano.org/apps/leaderboard/)
   * PreProd was ratified on **5th June**, will be enacted on **10th June**
   * van Rossem mainnet hard fork initiation governance actions metadata will be assessed by Technical Steering Committee and Civics Committee especially on affirmation that no guardrails changes have been observed nor expected
     * It is to be done ahead of the mainnet hf governance action submission go/no-go decision scheduled for Monday, 15th June
