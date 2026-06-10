@@ -11,7 +11,7 @@
 * [van Rossem upgrade overview](proposed-intra-era-scope/van-rossem-hard-fork-overview.md)
 * [van Rossem upgrade readiness](van-rossem-upgrade/van-rossem-upgrade-readiness.md)
 * [van Rossem upgrade FAQ](proposed-intra-era-scope/van-rossem-hard-fork-faq.md)
-* [van Rossem upgrade Communications](van-rossem-upgrade/van-rossem-upgrade-communications/README.md)
+* [van Rossem upgrade bulletins](van-rossem-upgrade/van-rossem-upgrade-communications/README.md)
   * [Comms weeklies](van-rossem-upgrade/van-rossem-upgrade-communications/comms-weeklies.md)
 * [van Rossem upgrade reference materials](proposed-intra-era-scope/van-rossem-hard-fork-reference-materials.md)
 * [Hard fork working group meeting minutes](proposed-intra-era-scope/hard-fork-working-group-meeting-minutes/README.md)
