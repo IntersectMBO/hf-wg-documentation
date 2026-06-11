@@ -1,6 +1,6 @@
 # van Rossem upgrade readiness
 
-#### <mark style="color:red;">Last updated on: \~11th June 11:24am UTC</mark>
+#### <mark style="color:red;">Last updated on: \~11th June 4:49pm UTC</mark>
 
 ## Readiness and Updating this Page
 
@@ -16,7 +16,7 @@ Alternatively, if you find any information on this page incorrect or misleading 
 
 Third, additional option, is to leave a comment in the respective tab of the [live readiness tracker](https://docs.google.com/spreadsheets/d/1ECoYFCtrRtFX3BvqfhaZi6FxlXQMoTGP/edit?gid=960883614#gid=960883614).
 
-**Overall readiness status** 🟠 <mark style="color:$warning;">69</mark><mark style="color:$warning;">**%**</mark>\
+**Overall readiness status** 🟠 <mark style="color:$warning;">72</mark><mark style="color:$warning;">**%**</mark>\
 **Estimated hard fork initiation governance action submission on mainnet** <mark style="color:$warning;">**go/no-go scheduled for 15th June**</mark>\
 **Estimated hard fork enactment on mainnet** <mark style="color:$warning;">**can take up to 5 weeks from the submission date to be enacted**</mark>\
 [Hard Fork Initiation Submission policy](https://cardanoupgrades.docs.intersectmbo.org/overview/hardfork-initation-submission-policy)
@@ -86,7 +86,9 @@ All exchanges notified and engaged (58 of them)
 
 [Cexplorer hard fork readiness](https://cexplorer.io/hardfork?block=5_days)
 
-<mark style="color:$warning;">**51%**</mark> (based on statuses - N/A, reached out, in progress, ready, with liquidity more than 1%)
+### <mark style="color:$danger;">**13.2%**</mark>
+
+(based on liquidity stake)
 
 ***
 
@@ -116,7 +118,7 @@ Spokesperson: Leonard Hegarty
 
 Spokesperson: Leonard Hegarty
 
-<table><thead><tr><th width="221">Tools</th><th width="214">Status</th><th>Notes</th></tr></thead><tbody><tr><td>Blockfrost</td><td><mark style="color:$warning;">In Progress</mark></td><td>(<a href="https://github.com/blockfrost">repository</a>)</td></tr><tr><td>Koios</td><td><mark style="color:green;">Ready</mark></td><td>(<a href="https://github.com/cardano-community/koios-artifacts/releases">release repository</a>)</td></tr><tr><td>Maestro</td><td><mark style="color:$warning;">In Progress</mark></td><td>(<a href="https://github.com/maestro-org">repository</a>)</td></tr></tbody></table>
+<table><thead><tr><th width="221">Tools</th><th width="214">Status</th><th>Notes</th></tr></thead><tbody><tr><td>Blockfrost</td><td><mark style="color:$warning;">In Progress</mark></td><td>(<a href="https://github.com/blockfrost">repository</a>)</td></tr><tr><td>Koios</td><td><mark style="color:green;">Ready</mark></td><td>(<a href="https://github.com/cardano-community/koios-artifacts/releases">release repository</a>)</td></tr><tr><td>Maestro</td><td><mark style="color:green;">Ready</mark></td><td>(<a href="https://github.com/maestro-org">repository</a>)</td></tr></tbody></table>
 
 ***
 
@@ -176,14 +178,14 @@ DApps listed on this page are self-attested by the community, to add your DApp p
 | Levvy Finance    | <mark style="color:$warning;">In Progress</mark> |       |
 | Minswap          | <mark style="color:green;">Ready</mark>          |       |
 | Snekdotfun       |                                                  |       |
-| Splash           | <mark style="color:$warning;">In Progress</mark> |       |
+| Splash           | <mark style="color:green;">Ready</mark>          |       |
 | SundaeSwap       | <mark style="color:green;">Ready</mark>          |       |
 | Tempo            |                                                  |       |
 | UnFrack.it       |                                                  |       |
 | USDM             | Reached out to                                   |       |
 | Wanchain         | Reached out to                                   |       |
 | WingRiders       | <mark style="color:$warning;">In Progress</mark> |       |
-| Strike Finance   | <mark style="color:$warning;">In Progress</mark> |       |
+| Strike Finance   | <mark style="color:green;">Ready</mark>          |       |
 | Liqwid           | <mark style="color:$warning;">In Progress</mark> |       |
 | Butan            | Reached out to                                   |       |
 | USDCx            | <mark style="color:green;">Ready</mark>          |       |
@@ -206,4 +208,4 @@ DApps listed on this page are self-attested by the community, to add your DApp p
 
 ### Guidelines
 
-<table><thead><tr><th width="251">Name</th><th width="248">Status</th><th>Notes</th></tr></thead><tbody><tr><td><a href="https://docs.spojapanguild.net/cardano/setup/node-setup/">A Japanese Guideline</a></td><td><mark style="color:green;">Ready</mark></td><td></td></tr><tr><td><a href="https://es-kb.topopool.com/primeros-pasos/preparacion">Spanish Guideline</a></td><td><mark style="color:$warning;">In Progress</mark></td><td></td></tr><tr><td><a href="https://developers.cardano.org/">developers.cardano.org</a></td><td><mark style="color:green;">Ready</mark></td><td>SPO and operator docs</td></tr><tr><td><a href="https://docs.cardano.org/developer-resources/release-notes/comp-matrix">Compatibility matrix</a></td><td><mark style="color:green;">Ready</mark></td><td></td></tr></tbody></table>
+<table><thead><tr><th width="251">Name</th><th width="248">Status</th><th>Notes</th></tr></thead><tbody><tr><td><a href="https://docs.spojapanguild.net/cardano/setup/node-setup/">A Japanese Guideline</a></td><td><mark style="color:green;">Ready</mark></td><td></td></tr><tr><td><a href="https://developers.cardano.org/">developers.cardano.org</a></td><td><mark style="color:green;">Ready</mark></td><td>SPO and operator docs</td></tr><tr><td><a href="https://docs.cardano.org/developer-resources/release-notes/comp-matrix">Compatibility matrix</a></td><td><mark style="color:green;">Ready</mark></td><td></td></tr></tbody></table>
