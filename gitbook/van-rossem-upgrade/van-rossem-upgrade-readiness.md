@@ -1,6 +1,6 @@
 # van Rossem upgrade readiness
 
-#### <mark style="color:red;">Last updated on: \~10th June 12:17pm UTC</mark>
+#### <mark style="color:red;">Last updated on: \~11th June 11:24am UTC</mark>
 
 ## Readiness and Updating this Page
 
@@ -60,11 +60,11 @@ Spokesperson: Ryan
 
 #### Testnets
 
-<table><thead><tr><th width="355">Network</th><th width="583">Status</th></tr></thead><tbody><tr><td>SanchoNet</td><td><mark style="color:green;">Forked, enacted with 10.6.2, running on 10.7.1</mark></td></tr><tr><td>Preview</td><td><mark style="color:green;">Forked on 8th May</mark></td></tr><tr><td>PreProd</td><td><mark style="color:$warning;">In Progress, ratified, will fork on 10th June</mark></td></tr></tbody></table>
+<table><thead><tr><th width="355">Network</th><th width="583">Status</th></tr></thead><tbody><tr><td>SanchoNet</td><td><mark style="color:green;">Forked, enacted with 10.6.2, running on 10.7.1</mark></td></tr><tr><td>Preview</td><td><mark style="color:green;">Forked on 8th May</mark></td></tr><tr><td>PreProd</td><td><mark style="color:green;">Forked on 10th June</mark></td></tr></tbody></table>
 
 #### Governance Actions
 
-<table><thead><tr><th width="167">Network</th><th width="161">Action</th><th width="215">Status</th><th>View via</th></tr></thead><tbody><tr><td>SanchoNet</td><td>Cost model update</td><td><mark style="color:green;">Enacted</mark></td><td>N/A</td></tr><tr><td>SanchoNet</td><td>Hard fork</td><td><mark style="color:green;">Enacted</mark></td><td>N/A</td></tr><tr><td>Preview</td><td>Cost model update</td><td><mark style="color:green;">Enacted</mark></td><td>N/A</td></tr><tr><td>Preview</td><td>Hard fork</td><td><mark style="color:green;">Enacted</mark></td><td>Forked on 8th May</td></tr><tr><td>PreProd</td><td>Cost model update</td><td><mark style="color:green;">Enacted</mark></td><td>N/A</td></tr><tr><td>PreProd</td><td>Hard fork</td><td><mark style="color:$warning;">In Progress</mark></td><td>Will fork on 10th June</td></tr><tr><td>Mainnet</td><td>Cost model update</td><td><mark style="color:$warning;">In Progress</mark></td><td>Submitted on 26th May</td></tr><tr><td>Mainnet</td><td>Hard fork</td><td><mark style="color:$warning;">In Progress</mark></td><td>Go/No go decision scheduled for 15th June</td></tr></tbody></table>
+<table><thead><tr><th width="167">Network</th><th width="161">Action</th><th width="215">Status</th><th>View via</th></tr></thead><tbody><tr><td>SanchoNet</td><td>Cost model update</td><td><mark style="color:green;">Enacted</mark></td><td>N/A</td></tr><tr><td>SanchoNet</td><td>Hard fork</td><td><mark style="color:green;">Enacted</mark></td><td>N/A</td></tr><tr><td>Preview</td><td>Cost model update</td><td><mark style="color:green;">Enacted</mark></td><td>N/A</td></tr><tr><td>Preview</td><td>Hard fork</td><td><mark style="color:green;">Enacted</mark></td><td>Forked on 8th May</td></tr><tr><td>PreProd</td><td>Cost model update</td><td><mark style="color:green;">Enacted</mark></td><td>N/A</td></tr><tr><td>PreProd</td><td>Hard fork</td><td><mark style="color:green;">Enacted</mark></td><td>Forked on 10th June</td></tr><tr><td>Mainnet</td><td>Cost model update</td><td><mark style="color:$warning;">In Progress</mark></td><td>Submitted on 26th May</td></tr><tr><td>Mainnet</td><td>Hard fork</td><td><mark style="color:$warning;">In Progress</mark></td><td>Go/No go decision scheduled for 15th June</td></tr></tbody></table>
 
 ***
 
@@ -86,7 +86,7 @@ All exchanges notified and engaged (58 of them)
 
 [Cexplorer hard fork readiness](https://cexplorer.io/hardfork?block=5_days)
 
-<mark style="color:$warning;">**40%**</mark> (based on statuses - N/A, reached out, in progress, ready)
+<mark style="color:$warning;">**51%**</mark> (based on statuses - N/A, reached out, in progress, ready, with liquidity more than 1%)
 
 ***
 
@@ -128,7 +128,7 @@ Spokesperson: Ryan
 
 **Light Wallets**
 
-<table><thead><tr><th width="232">Wallet</th><th width="280.94921875">Highlevel Status</th><th>Notes</th></tr></thead><tbody><tr><td>Eternl</td><td><mark style="color:$warning;">In Progress</mark></td><td></td></tr><tr><td>Eternl (mobile)</td><td><mark style="color:$warning;">In Progress</mark></td><td></td></tr><tr><td>Lace</td><td><mark style="color:green;">Ready</mark></td><td></td></tr><tr><td>Nufi</td><td><mark style="color:green;">Ready</mark></td><td></td></tr><tr><td>Vespr</td><td><mark style="color:$warning;">In Progress</mark></td><td></td></tr><tr><td>Tokeo</td><td></td><td>No active development, handover expected</td></tr><tr><td>Yoroi</td><td><mark style="color:green;">Ready</mark></td><td></td></tr><tr><td>Typhon</td><td><mark style="color:green;">Ready</mark></td><td></td></tr><tr><td>Nami</td><td>N/A - no longer maintained</td><td></td></tr><tr><td>Flint</td><td>N/A - no longer maintained</td><td></td></tr><tr><td>Medusa</td><td><mark style="color:green;">Ready</mark></td><td></td></tr><tr><td>GameChanger</td><td><mark style="color:green;">Ready</mark></td><td></td></tr></tbody></table>
+<table><thead><tr><th width="232">Wallet</th><th width="280.94921875">Highlevel Status</th><th>Notes</th></tr></thead><tbody><tr><td>Eternl</td><td><mark style="color:$warning;">In Progress</mark></td><td></td></tr><tr><td>Eternl (mobile)</td><td><mark style="color:$warning;">In Progress</mark></td><td></td></tr><tr><td>Lace</td><td><mark style="color:green;">Ready</mark></td><td></td></tr><tr><td>Nufi</td><td><mark style="color:green;">Ready</mark></td><td></td></tr><tr><td>Vespr</td><td><mark style="color:$warning;">In Progress</mark></td><td></td></tr><tr><td>Tokeo</td><td>N/A</td><td>No active development, handover expected</td></tr><tr><td>Yoroi</td><td><mark style="color:green;">Ready</mark></td><td></td></tr><tr><td>Typhon</td><td><mark style="color:green;">Ready</mark></td><td></td></tr><tr><td>Nami</td><td>N/A - no longer maintained</td><td></td></tr><tr><td>Flint</td><td>N/A - no longer maintained</td><td></td></tr><tr><td>Medusa</td><td><mark style="color:green;">Ready</mark></td><td></td></tr><tr><td>GameChanger</td><td><mark style="color:green;">Ready</mark></td><td></td></tr></tbody></table>
 
 **Hardware Wallets**
 
@@ -174,7 +174,7 @@ DApps listed on this page are self-attested by the community, to add your DApp p
 | Fluid Tokens     | <mark style="color:green;">Ready</mark>          |       |
 | Genius Yield     | <mark style="color:$warning;">In Progress</mark> |       |
 | Levvy Finance    | <mark style="color:$warning;">In Progress</mark> |       |
-| Minswap          | <mark style="color:$warning;">In Progress</mark> |       |
+| Minswap          | <mark style="color:green;">Ready</mark>          |       |
 | Snekdotfun       |                                                  |       |
 | Splash           | <mark style="color:$warning;">In Progress</mark> |       |
 | SundaeSwap       | <mark style="color:green;">Ready</mark>          |       |
@@ -194,7 +194,7 @@ DApps listed on this page are self-attested by the community, to add your DApp p
 | Vyfinance        | Reached out to                                   |       |
 | Wayup            | Reached out to                                   |       |
 | DexHunter        | Reached out to                                   |       |
-| MuesliSwap       | Reached out to                                   |       |
+| MuesliSwap       | <mark style="color:green;">Ready</mark>          |       |
 
 ***
 
