@@ -21,12 +21,26 @@
 #### Key materials
 
 * Summary
-  *
+  * Hard fork working group acknowledges the fact that against the Hard Fork Initiation Submission Policy (v0.2, van Rossem):
+    * All [_must see_](https://docs.google.com/spreadsheets/d/1ECoYFCtrRtFX3BvqfhaZi6FxlXQMoTGP/edit?gid=1419501400#gid=1419501400) _for submission_ criteria are fulfilled
+    * All [_would like to see_](https://docs.google.com/spreadsheets/d/1ECoYFCtrRtFX3BvqfhaZi6FxlXQMoTGP/edit?gid=1419501400#gid=1419501400) _for submission_ criteria are fulfilled except one - PreProd has been hard forked for 1 epoch against a preferred 2
+    * Most of the items from [_would like to see_](https://docs.google.com/spreadsheets/d/1ECoYFCtrRtFX3BvqfhaZi6FxlXQMoTGP/edit?gid=17673737#gid=17673737) for **ratification** is either already completed or on a steady, provable path to success
+  * On that basis, the Hard Fork Working Group's position is to recommend submission of the Hard Fork Initiation governance action to mainnet in the current epoch 637, pending Technical Steering Committee ratification
+    * The outcome of the vote was (based on the [poll](https://docs.google.com/spreadsheets/d/1on8e9d8c7lksYXAJsVhM7xrOJQA7rhxntp81nSv1hGc/edit?usp=sharing) and explicit messages in the call [chat](https://docs.google.com/document/d/16hKDXdtnsthOoQppeKUUnMl3kHCGP9G6qFQdgy_sSZU/edit?usp=sharing)):
+      * 25 in favour
+      * 1 against
+      * 8 abstain/non-votes
+  * If the hard fork governance action is submitted on mainnet before the current epoch 637 ends on 18th June, earliest possible ratification date for it would be 23rd June and earliest possible enactment date would be 28th June
+    * It looks like its more likely that it will be in the second half of the governance action duration
+  * Plutus Cost Models protocol parameter update governance action has been ratified and will be enacted on 18th June
+  * The expectation is that hard fork governance action and treasury withdrawal actions should be socially separated from the launch perspective
+  * [Recording](https://drive.google.com/file/d/1sYjtifaKEpVKm8JlxsAg8HR4Df_8Oq-q/view?usp=drive_link)
 
 #### **Decision(s)**
 
-*
+* The Hard Fork Working Group's position is to recommend submission of the Hard Fork Initiation governance action to mainnet in the current epoch 637, pending Technical Steering Committee ratification
 
 #### **Action items and next steps**
 
-*
+* **Bosko:** [van Rossem upgrade FAQ](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-faq) should be expanded to include precise information breakdown based on the prepared van Rossem hard fork metadata
+
