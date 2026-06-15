@@ -1,6 +1,6 @@
 # van Rossem upgrade readiness
 
-#### <mark style="color:red;">Last updated on: \~11th June 4:49pm UTC</mark>
+#### <mark style="color:red;">Last updated on: \~11th June 1:40pm UTC</mark>
 
 ## Readiness and Updating this Page
 
@@ -16,7 +16,7 @@ Alternatively, if you find any information on this page incorrect or misleading 
 
 Third, additional option, is to leave a comment in the respective tab of the [live readiness tracker](https://docs.google.com/spreadsheets/d/1ECoYFCtrRtFX3BvqfhaZi6FxlXQMoTGP/edit?gid=960883614#gid=960883614).
 
-**Overall readiness status** 🟠 <mark style="color:$warning;">72</mark><mark style="color:$warning;">**%**</mark>\
+**Overall readiness status** 🟠 <mark style="color:$warning;">73</mark><mark style="color:$warning;">**%**</mark>\
 **Estimated hard fork initiation governance action submission on mainnet** <mark style="color:$warning;">**go/no-go scheduled for 15th June**</mark>\
 **Estimated hard fork enactment on mainnet** <mark style="color:$warning;">**can take up to 5 weeks from the submission date to be enacted**</mark>\
 [Hard Fork Initiation Submission policy](https://cardanoupgrades.docs.intersectmbo.org/overview/hardfork-initation-submission-policy)
@@ -27,7 +27,7 @@ Third, additional option, is to leave a comment in the respective tab of the [li
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
 | [Core Infrastructure Components](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#core-infrastructure-components)   | 🟢         | **7th May:** Node 11.0.1 full release and DBSync 13.7.1.0 full release                                                                   |
 | [Testnets and Governance Actions](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#testnets-and-governance-actions) | 🟢         | <p><strong>8th May:</strong> Enacted on Preview and submitted on PreProd<br>Will be enacted on PreProd on <strong>10th June</strong></p> |
-| [SPOs](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#spos)                                                       | 🟠         | Block produced with protocol v11 in epoch 636 is at 76%                                                                                  |
+| [SPOs](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#spos)                                                       | 🟠         | Block produced with protocol v11 in epoch 636 is at 80%                                                                                  |
 | [Exchanges](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#exchanges)                                             | 🟠         | Reached out to all listed exchanges                                                                                                      |
 | [Tooling](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#tooling)                                                 | 🟢         |                                                                                                                                          |
 | [Wallets](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#wallets)                                                 | 🟢         |                                                                                                                                          |
@@ -64,7 +64,7 @@ Spokesperson: Ryan
 
 #### Governance Actions
 
-<table><thead><tr><th width="167">Network</th><th width="161">Action</th><th width="215">Status</th><th>View via</th></tr></thead><tbody><tr><td>SanchoNet</td><td>Cost model update</td><td><mark style="color:green;">Enacted</mark></td><td>N/A</td></tr><tr><td>SanchoNet</td><td>Hard fork</td><td><mark style="color:green;">Enacted</mark></td><td>N/A</td></tr><tr><td>Preview</td><td>Cost model update</td><td><mark style="color:green;">Enacted</mark></td><td>N/A</td></tr><tr><td>Preview</td><td>Hard fork</td><td><mark style="color:green;">Enacted</mark></td><td>Forked on 8th May</td></tr><tr><td>PreProd</td><td>Cost model update</td><td><mark style="color:green;">Enacted</mark></td><td>N/A</td></tr><tr><td>PreProd</td><td>Hard fork</td><td><mark style="color:green;">Enacted</mark></td><td>Forked on 10th June</td></tr><tr><td>Mainnet</td><td>Cost model update</td><td><mark style="color:$warning;">In Progress</mark></td><td>Submitted on 26th May</td></tr><tr><td>Mainnet</td><td>Hard fork</td><td><mark style="color:$warning;">In Progress</mark></td><td>Go/No go decision scheduled for 15th June</td></tr></tbody></table>
+<table><thead><tr><th width="167">Network</th><th width="161">Action</th><th width="215">Status</th><th>View via</th></tr></thead><tbody><tr><td>SanchoNet</td><td>Cost model update</td><td><mark style="color:green;">Enacted</mark></td><td>N/A</td></tr><tr><td>SanchoNet</td><td>Hard fork</td><td><mark style="color:green;">Enacted</mark></td><td>N/A</td></tr><tr><td>Preview</td><td>Cost model update</td><td><mark style="color:green;">Enacted</mark></td><td>N/A</td></tr><tr><td>Preview</td><td>Hard fork</td><td><mark style="color:green;">Enacted</mark></td><td>Forked on 8th May</td></tr><tr><td>PreProd</td><td>Cost model update</td><td><mark style="color:green;">Enacted</mark></td><td>N/A</td></tr><tr><td>PreProd</td><td>Hard fork</td><td><mark style="color:green;">Enacted</mark></td><td>Forked on 10th June</td></tr><tr><td>Mainnet</td><td>Cost model update</td><td><mark style="color:green;">Ratified</mark></td><td>Submitted on 26th May</td></tr><tr><td>Mainnet</td><td>Hard fork</td><td><mark style="color:$warning;">In Progress</mark></td><td>Go/No go decision scheduled for 15th June</td></tr></tbody></table>
 
 ***
 
@@ -72,9 +72,9 @@ Spokesperson: Ryan
 
 Spokesperson: Matthew Capps / Mike Hornan / Ian Hartwell / Adam Dean
 
-<table><thead><tr><th width="251">Pool Management Suite</th><th width="254.93359375">Status</th><th>Notes</th></tr></thead><tbody><tr><td>JorManager</td><td><mark style="color:green;">Ready</mark></td><td></td></tr><tr><td>CFD</td><td><mark style="color:green;">Ready</mark></td><td></td></tr><tr><td>SPOs adoption</td><td><mark style="color:$warning;">In Progress</mark></td><td>Blocks produced by 11.0.1 in the current epoch 636 - 76%</td></tr></tbody></table>
+<table><thead><tr><th width="251">Pool Management Suite</th><th width="254.93359375">Status</th><th>Notes</th></tr></thead><tbody><tr><td>JorManager</td><td><mark style="color:green;">Ready</mark></td><td></td></tr><tr><td>CFD</td><td><mark style="color:green;">Ready</mark></td><td></td></tr><tr><td>SPOs adoption</td><td><mark style="color:$warning;">In Progress</mark></td><td>Blocks produced by 11.0.1 in the current epoch 637 - 80%</td></tr></tbody></table>
 
-* Nodes reporting version 11.0.1 (according to pooltool.io) - 50%
+* Nodes reporting version 11.0.1 (according to pooltool.io) - 59%
 
 ***
 
@@ -86,7 +86,7 @@ All exchanges notified and engaged (58 of them)
 
 [Cexplorer hard fork readiness](https://cexplorer.io/hardfork?block=5_days)
 
-### <mark style="color:$danger;">**13.2%**</mark>
+### <mark style="color:$danger;">**22.5%**</mark>
 
 (based on liquidity stake)
 
