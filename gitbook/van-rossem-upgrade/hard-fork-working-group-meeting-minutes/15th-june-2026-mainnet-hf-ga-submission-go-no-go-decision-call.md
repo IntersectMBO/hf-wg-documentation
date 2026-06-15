@@ -32,6 +32,10 @@
       * 8 abstain/non-votes
   * If the hard fork governance action is submitted on mainnet before the current epoch 637 ends on 18th June, earliest possible ratification date for it would be 23rd June and earliest possible enactment date would be 28th June
     * It looks like its more likely that it will be in the second half of the governance action duration
+    * Possible Ratification Dates
+      * June 23rd, June 28th, July 3rd, July 8th, July 13th, July 18th
+    * Possible Enactment Dates
+      * June 28th, July 3rd, July 8th, July 13th, July 18th, July 23rd
   * Plutus Cost Models protocol parameter update governance action has been ratified and will be enacted on 18th June
   * The expectation is that hard fork governance action and treasury withdrawal actions should be socially separated from the launch perspective
   * [Recording](https://drive.google.com/file/d/1sYjtifaKEpVKm8JlxsAg8HR4Df_8Oq-q/view?usp=drive_link)
