@@ -1,6 +1,6 @@
 # van Rossem upgrade readiness
 
-#### <mark style="color:red;">Last updated on: \~11th June 1:40pm UTC</mark>
+#### <mark style="color:red;">Last updated on: \~11th June 5:36pm UTC</mark>
 
 ## Readiness and Updating this Page
 
@@ -86,7 +86,7 @@ All exchanges notified and engaged (58 of them)
 
 [Cexplorer hard fork readiness](https://cexplorer.io/hardfork?block=5_days)
 
-### <mark style="color:$danger;">**22.5%**</mark>
+### <mark style="color:$warning;">**25.03%**</mark>
 
 (based on liquidity stake)
 
@@ -106,7 +106,7 @@ Spokesperson: Bosko Majdanac
 
 Spokesperson: Leonard Hegarty
 
-<table><thead><tr><th width="287">Library</th><th width="210">Status</th><th>Notes</th></tr></thead><tbody><tr><td>Aiken</td><td><mark style="color:green;">Ready</mark></td><td>(<a href="https://github.com/aiken-lang/aiken/releases">release repository</a>)</td></tr><tr><td>Blaze Cardano</td><td><mark style="color:$warning;">In Progress</mark></td><td>(<a href="https://github.com/butaneprotocol/blaze-cardano/releases">release repository</a>)</td></tr><tr><td>Cardano Serialization Library</td><td><mark style="color:green;">Ready</mark></td><td>(<a href="https://github.com/Emurgo/cardano-serialization-lib/releases">release repository</a>)</td></tr><tr><td>Cardano Multiplatform Library</td><td><mark style="color:$info;">N/A</mark></td><td>(<a href="https://github.com/dcSpark/cardano-multiplatform-lib/releases">release repository</a>)</td></tr><tr><td>Cardano JavaScript SDK</td><td><mark style="color:$warning;">In Progress</mark></td><td>(<a href="https://github.com/input-output-hk/cardano-js-sdk/releases">release repository</a>)</td></tr><tr><td>Pallas</td><td><mark style="color:green;">Ready</mark></td><td>(<a href="https://github.com/txpipe/pallas/releases">release repository</a>)</td></tr><tr><td>Cardano Transaction Library</td><td><mark style="color:green;">Ready</mark></td><td>(<a href="https://github.com/Plutonomicon/cardano-transaction-lib/">release repository</a>)</td></tr><tr><td>MeshSDK</td><td><mark style="color:green;">Ready</mark></td><td>(<a href="https://github.com/MeshJS/mesh/releases">release repository</a>)</td></tr><tr><td>Lucid Evolution</td><td><mark style="color:$warning;">In Progress</mark></td><td>(<a href="https://github.com/Anastasia-Labs/lucid-evolution/releases">release repository</a>)</td></tr><tr><td>Scalus</td><td><mark style="color:green;">Ready</mark></td><td>(<a href="https://github.com/scalus3/scalus/releases">release repository</a>)</td></tr><tr><td>UTxO RPC</td><td><mark style="color:green;">Ready</mark></td><td></td></tr></tbody></table>
+<table><thead><tr><th width="287">Library</th><th width="210">Status</th><th>Notes</th></tr></thead><tbody><tr><td>Aiken</td><td><mark style="color:green;">Ready</mark></td><td>(<a href="https://github.com/aiken-lang/aiken/releases">release repository</a>)</td></tr><tr><td>Blaze Cardano</td><td><mark style="color:$warning;">In Progress</mark></td><td>(<a href="https://github.com/butaneprotocol/blaze-cardano/releases">release repository</a>)</td></tr><tr><td>Cardano Serialization Library</td><td><mark style="color:green;">Ready</mark></td><td>(<a href="https://github.com/Emurgo/cardano-serialization-lib/releases">release repository</a>)</td></tr><tr><td>Cardano Multiplatform Library</td><td><mark style="color:$info;">N/A</mark></td><td>(<a href="https://github.com/dcSpark/cardano-multiplatform-lib/releases">release repository</a>)</td></tr><tr><td>Cardano JavaScript SDK</td><td><mark style="color:$info;">N/A</mark></td><td>(<a href="https://github.com/input-output-hk/cardano-js-sdk/releases">release repository</a>)</td></tr><tr><td>Pallas</td><td><mark style="color:green;">Ready</mark></td><td>(<a href="https://github.com/txpipe/pallas/releases">release repository</a>)</td></tr><tr><td>Cardano Transaction Library</td><td><mark style="color:green;">Ready</mark></td><td>(<a href="https://github.com/Plutonomicon/cardano-transaction-lib/">release repository</a>)</td></tr><tr><td>MeshSDK</td><td><mark style="color:green;">Ready</mark></td><td>(<a href="https://github.com/MeshJS/mesh/releases">release repository</a>)</td></tr><tr><td>Lucid Evolution</td><td><mark style="color:$warning;">In Progress</mark></td><td>(<a href="https://github.com/Anastasia-Labs/lucid-evolution/releases">release repository</a>)</td></tr><tr><td>Scalus</td><td><mark style="color:green;">Ready</mark></td><td>(<a href="https://github.com/scalus3/scalus/releases">release repository</a>)</td></tr><tr><td>UTxO RPC</td><td><mark style="color:green;">Ready</mark></td><td></td></tr></tbody></table>
 
 **Indexers**
 
@@ -191,12 +191,13 @@ DApps listed on this page are self-attested by the community, to add your DApp p
 | USDCx            | <mark style="color:green;">Ready</mark>          |       |
 | Dune             | <mark style="color:$warning;">In Progress</mark> |       |
 | Pyth             | <mark style="color:green;">Ready</mark>          |       |
-| CSwap            | Reached out to                                   |       |
+| CSwap            | In progress                                      |       |
 | Indigo           | Reached out to                                   |       |
 | Vyfinance        | Reached out to                                   |       |
 | Wayup            | Reached out to                                   |       |
 | DexHunter        | Reached out to                                   |       |
 | MuesliSwap       | <mark style="color:green;">Ready</mark>          |       |
+| Ada anvil        | <mark style="color:green;">Ready</mark>          |       |
 
 ***
 
