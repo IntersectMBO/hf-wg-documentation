@@ -1,6 +1,6 @@
 # van Rossem upgrade readiness
 
-#### <mark style="color:red;">Last updated on: \~19th June 1:54pm UTC</mark>
+#### <mark style="color:red;">Last updated on: \~19th June 2:01pm UTC</mark>
 
 ## Readiness and Updating this Page
 
@@ -223,6 +223,9 @@ DApps listed on this page are self-attested by the community, to add your DApp p
 | DexHunter        | Reached out to                                   |       |
 | MuesliSwap       | <mark style="color:green;">Ready</mark>          |       |
 | Ada anvil        | <mark style="color:green;">Ready</mark>          |       |
+| Orcfax           | <mark style="color:$warning;">In Progress</mark> |       |
+| Reed Finance     | <mark style="color:green;">Ready</mark>          |       |
+| NOWNodes         | <mark style="color:green;">Ready</mark>          |       |
 
 ***
 
