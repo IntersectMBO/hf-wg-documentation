@@ -1,6 +1,6 @@
 # van Rossem upgrade readiness
 
-#### <mark style="color:red;">Last updated on: \~18th June 12:23pm UTC</mark>
+#### <mark style="color:red;">Last updated on: \~19th June 10:19am UTC</mark>
 
 ## Readiness and Updating this Page
 
@@ -18,7 +18,32 @@ Third, additional option, is to leave a comment in the respective tab of the [li
 
 **Overall readiness status** 🟠 <mark style="color:$warning;">75</mark><mark style="color:$warning;">**%**</mark>\
 **Hard fork initiation governance action submitted on mainnet** <mark style="color:green;">**16th June**</mark>\
-**Estimated hard fork enactment on mainnet** <mark style="color:$warning;">**can take up to 5 weeks from the submission date to be enacted**</mark>\
+**Estimated hard fork enactment on mainnet** <mark style="color:$warning;">**can take up to 5 weeks from the submission date to be enacted**</mark>
+
+### **Ratification Readiness**
+
+Taken from [here](https://docs.google.com/spreadsheets/d/1ECoYFCtrRtFX3BvqfhaZi6FxlXQMoTGP/edit?gid=17673737#gid=17673737)
+
+| Item                                                                            | Status | Notes                                                                                                                                                 |
+| ------------------------------------------------------------------------------- | ------ | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
+| No major holidays or events - tech teams ready to respond and support to issues | ✅      |                                                                                                                                                       |
+| Preview Testnet hard forked - 42 epochs                                         | ✅      | 18th June (42 epochs of 1 day after Preview has forked)                                                                                               |
+| PreProd Testnet hard forked - 3 epochs                                          | ❌      | 25th June (3 epochs of 5 days after PreProd has forked) - earliest possible ratification for mainnet hf ga is 23rd June if submitted before 18th June |
+| SPO readiness - 80% stake measure by pool tool                                  | ✅      | Currently at 85% according to pooltool; 90% according to cexplorer                                                                                    |
+| Exchange readiness - 80% by liquidity                                           | ❌      | Currently at 36.8% ready, \~47% in progress                                                                                                           |
+| DApp/Defi readiness - 80% of top 20 projects                                    | ❌      | Currently at 69.6%                                                                                                                                    |
+| Tooling readiness - 80% of named tools                                          | ✅      | Currently at 94% of those marked to be on a critical path (Blockfrost and Lucid Evolution still in progress)                                          |
+| Wallet readiness - 80% of top 15                                                | ❌      | Currently at 79%, Vespr and Eternl still in progress                                                                                                  |
+
+### **Possible Enactment Dates**
+
+* June 23rd, June 28th, July 3rd, July 8th, July 13th, July 18th
+
+### **Possible Ratification Dates**
+
+* June 28th, July 3rd, July 8th, July 13th, July 18th, July 23rd
+
+\
 [Hard Fork Initiation Submission policy](https://cardanoupgrades.docs.intersectmbo.org/overview/hardfork-initation-submission-policy)
 
 [Live readiness tracker](https://docs.google.com/spreadsheets/d/1ECoYFCtrRtFX3BvqfhaZi6FxlXQMoTGP/edit?gid=960883614#gid=960883614)
@@ -27,7 +52,7 @@ Third, additional option, is to leave a comment in the respective tab of the [li
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
 | [Core Infrastructure Components](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#core-infrastructure-components)   | 🟢         | **7th May:** Node 11.0.1 full release and DBSync 13.7.1.0 full release                                                                   |
 | [Testnets and Governance Actions](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#testnets-and-governance-actions) | 🟢         | <p><strong>8th May:</strong> Enacted on Preview and submitted on PreProd<br>Will be enacted on PreProd on <strong>10th June</strong></p> |
-| [SPOs](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#spos)                                                       | 🟠         | Block produced with protocol v11 in epoch 636 is at 80%                                                                                  |
+| [SPOs](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#spos)                                                       | 🟠         | Block produced with protocol v11 in epoch 638 is at 85%                                                                                  |
 | [Exchanges](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#exchanges)                                             | 🟠         | Reached out to all listed exchanges                                                                                                      |
 | [Tooling](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#tooling)                                                 | 🟢         |                                                                                                                                          |
 | [Wallets](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#wallets)                                                 | 🟢         |                                                                                                                                          |
@@ -72,9 +97,9 @@ Spokesperson: Ryan
 
 Spokesperson: Matthew Capps / Mike Hornan / Ian Hartwell / Adam Dean
 
-<table><thead><tr><th width="251">Pool Management Suite</th><th width="254.93359375">Status</th><th>Notes</th></tr></thead><tbody><tr><td>JorManager</td><td><mark style="color:green;">Ready</mark></td><td></td></tr><tr><td>CFD</td><td><mark style="color:green;">Ready</mark></td><td></td></tr><tr><td>SPOs adoption</td><td><mark style="color:$warning;">In Progress</mark></td><td>Blocks produced by 11.0.1 in the current epoch 637 - 81%</td></tr></tbody></table>
+<table><thead><tr><th width="251">Pool Management Suite</th><th width="254.93359375">Status</th><th>Notes</th></tr></thead><tbody><tr><td>JorManager</td><td><mark style="color:green;">Ready</mark></td><td></td></tr><tr><td>CFD</td><td><mark style="color:green;">Ready</mark></td><td></td></tr><tr><td>SPOs adoption</td><td><mark style="color:$warning;">In Progress</mark></td><td>Blocks produced by 11.0.1 in the current epoch 638 - 85%</td></tr></tbody></table>
 
-* Nodes reporting version 11.0.1 (according to pooltool.io) - 61%
+* Nodes reporting version 11.0.1 (according to pooltool.io) - 65%
 
 ***
 
@@ -171,10 +196,10 @@ DApps listed on this page are self-attested by the community, to add your DApp p
 | Name             | Status                                           | Notes |
 | ---------------- | ------------------------------------------------ | ----- |
 | Book.io/Stuff.io |                                                  |       |
-| Danogo           | <mark style="color:$warning;">In Progress</mark> |       |
+| Danogo           | <mark style="color:green;">Ready</mark>          |       |
 | DripDropz        | <mark style="color:green;">Ready</mark>          |       |
 | Fluid Tokens     | <mark style="color:green;">Ready</mark>          |       |
-| Genius Yield     | <mark style="color:$warning;">In Progress</mark> |       |
+| Genius Yield     | <mark style="color:green;">Ready</mark>          |       |
 | Levvy Finance    | <mark style="color:$warning;">In Progress</mark> |       |
 | Minswap          | <mark style="color:green;">Ready</mark>          |       |
 | Snekdotfun       |                                                  |       |
@@ -191,8 +216,8 @@ DApps listed on this page are self-attested by the community, to add your DApp p
 | USDCx            | <mark style="color:green;">Ready</mark>          |       |
 | Dune             | <mark style="color:$warning;">In Progress</mark> |       |
 | Pyth             | <mark style="color:green;">Ready</mark>          |       |
-| CSwap            | In progress                                      |       |
-| Indigo           | Reached out to                                   |       |
+| CSwap            | <mark style="color:$warning;">In Progress</mark> |       |
+| Indigo           | <mark style="color:$warning;">In Progress</mark> |       |
 | Vyfinance        | Reached out to                                   |       |
 | Wayup            | Reached out to                                   |       |
 | DexHunter        | Reached out to                                   |       |
