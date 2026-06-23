@@ -1,6 +1,6 @@
 # van Rossem upgrade readiness
 
-#### <mark style="color:red;">Last updated on: \~19th June 2:01pm UTC</mark>
+#### <mark style="color:red;">Last updated on: \~23rd June 2:34pm UTC</mark>
 
 ## Readiness and Updating this Page
 
@@ -29,7 +29,7 @@ Taken from [here](https://docs.google.com/spreadsheets/d/1ECoYFCtrRtFX3BvqfhaZi6
 | No major holidays or events - tech teams ready to respond and support to issues | ✅      |                                                                                                                                                       |
 | Preview Testnet hard forked - 42 epochs                                         | ✅      | 18th June (42 epochs of 1 day after Preview has forked)                                                                                               |
 | PreProd Testnet hard forked - 3 epochs                                          | ❌      | 25th June (3 epochs of 5 days after PreProd has forked) - earliest possible ratification for mainnet hf ga is 23rd June if submitted before 18th June |
-| SPO readiness - 80% stake measure by pool tool                                  | ✅      | Currently at 85% according to pooltool; 90% according to cexplorer                                                                                    |
+| SPO readiness - 80% stake measure by pool tool                                  | ✅      | Currently at 86% according to pooltool; 90% according to cexplorer                                                                                    |
 | Exchange readiness - 80% by liquidity                                           | ❌      | Currently at 36.8% ready, \~47% in progress                                                                                                           |
 | DApp/Defi readiness - 80% of top 20 projects                                    | ❌      | Currently at 69.6%                                                                                                                                    |
 | Tooling readiness - 80% of named tools                                          | ✅      | Currently at 94% of those marked to be on a critical path (Blockfrost and Lucid Evolution still in progress)                                          |
@@ -37,11 +37,11 @@ Taken from [here](https://docs.google.com/spreadsheets/d/1ECoYFCtrRtFX3BvqfhaZi6
 
 ### **Possible Enactment Dates**
 
-* June 23rd, June 28th, July 3rd, July 8th, July 13th, July 18th
+* ~~June 23rd~~, June 28th, July 3rd, July 8th, July 13th, July 18th
 
 ### **Possible Ratification Dates**
 
-* June 28th, July 3rd, July 8th, July 13th, July 18th, July 23rd
+* ~~June 28th~~, July 3rd, July 8th, July 13th, July 18th, July 23rd
 
 \
 [Hard Fork Initiation Submission policy](https://cardanoupgrades.docs.intersectmbo.org/overview/hardfork-initation-submission-policy)
@@ -52,7 +52,7 @@ Taken from [here](https://docs.google.com/spreadsheets/d/1ECoYFCtrRtFX3BvqfhaZi6
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
 | [Core Infrastructure Components](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#core-infrastructure-components)   | 🟢         | **7th May:** Node 11.0.1 full release and DBSync 13.7.1.0 full release                                                                   |
 | [Testnets and Governance Actions](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#testnets-and-governance-actions) | 🟢         | <p><strong>8th May:</strong> Enacted on Preview and submitted on PreProd<br>Will be enacted on PreProd on <strong>10th June</strong></p> |
-| [SPOs](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#spos)                                                       | 🟠         | Block produced with protocol v11 in epoch 638 is at 85%                                                                                  |
+| [SPOs](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#spos)                                                       | 🟠         | Block produced with protocol v11 in epoch 638 is at 86%                                                                                  |
 | [Exchanges](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#exchanges)                                             | 🟠         | Reached out to all listed exchanges                                                                                                      |
 | [Tooling](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#tooling)                                                 | 🟢         |                                                                                                                                          |
 | [Wallets](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#wallets)                                                 | 🟢         |                                                                                                                                          |
@@ -97,7 +97,7 @@ Spokesperson: Ryan
 
 Spokesperson: Matthew Capps / Mike Hornan / Ian Hartwell / Adam Dean
 
-<table><thead><tr><th width="251">Pool Management Suite</th><th width="254.93359375">Status</th><th>Notes</th></tr></thead><tbody><tr><td>JorManager</td><td><mark style="color:green;">Ready</mark></td><td></td></tr><tr><td>CFD</td><td><mark style="color:green;">Ready</mark></td><td></td></tr><tr><td>SPOs adoption</td><td><mark style="color:$warning;">In Progress</mark></td><td>Blocks produced by 11.0.1 in the current epoch 638 - 85%</td></tr></tbody></table>
+<table><thead><tr><th width="251">Pool Management Suite</th><th width="254.93359375">Status</th><th>Notes</th></tr></thead><tbody><tr><td>JorManager</td><td><mark style="color:green;">Ready</mark></td><td></td></tr><tr><td>CFD</td><td><mark style="color:green;">Ready</mark></td><td></td></tr><tr><td>SPOs adoption</td><td><mark style="color:$warning;">In Progress</mark></td><td>Blocks produced by 11.0.1 in the current epoch 638 - 86%</td></tr></tbody></table>
 
 * Nodes reporting version 11.0.1 (according to pooltool.io) - 65%
 
@@ -111,7 +111,7 @@ All exchanges notified and engaged (58 of them)
 
 [Cexplorer hard fork readiness](https://cexplorer.io/hardfork?block=5_days)
 
-### <mark style="color:$warning;">**36.85%**</mark>
+<mark style="color:$warning;">**36.85%**</mark>
 
 (based on liquidity stake)
 
@@ -125,7 +125,7 @@ Spokesperson: Leonard Hegarty
 
 Spokesperson: Bosko Majdanac
 
-<table><thead><tr><th width="274">Tools</th><th width="206">Status</th><th>Notes</th></tr></thead><tbody><tr><td>cardano-wallet</td><td><mark style="color:green;">Ready</mark></td><td>(<a href="https://github.com/cardano-foundation/cardano-wallet/releases">release repository</a>)</td></tr><tr><td>Rosetta</td><td><mark style="color:$info;">Deprecated</mark></td><td>(<a href="https://github.com/cardano-foundation/cardano-rosetta/releases">release repository</a>)</td></tr><tr><td>Rosetta-Java</td><td><mark style="color:green;">Ready</mark></td><td>(<a href="https://github.com/cardano-foundation/cardano-rosetta-java/releases/tag/1.1.5">release repository</a>)</td></tr><tr><td>GraphQL</td><td><mark style="color:green;">Ready</mark></td><td>(<a href="https://github.com/cardano-foundation/cardano-graphql/releases">release repository</a>)</td></tr><tr><td>cntools (guild-operators)</td><td><mark style="color:green;">Ready</mark></td><td>(<a href="https://github.com/cardano-community/guild-operators/blob/alpha/docs/Scripts/cntools-changelog.md">change log</a>)</td></tr><tr><td>SPO Scripts (@gitmachtl)</td><td><mark style="color:green;">Ready</mark></td><td>(<a href="https://github.com/gitmachtl/scripts/releases">release repository</a>)</td></tr><tr><td>Ogmios</td><td><mark style="color:green;">Ready</mark></td><td>(<a href="https://github.com/IntersectMBO/ogmios/">release repository</a>)</td></tr></tbody></table>
+<table><thead><tr><th width="274">Tools</th><th width="206">Status</th><th>Notes</th></tr></thead><tbody><tr><td>cardano-wallet</td><td><mark style="color:green;">Ready</mark></td><td>(<a href="https://github.com/cardano-foundation/cardano-wallet/releases">release repository</a>)</td></tr><tr><td>Rosetta</td><td><mark style="color:$info;">Deprecated</mark></td><td>(<a href="https://github.com/cardano-foundation/cardano-rosetta/releases">release repository</a>)</td></tr><tr><td>Rosetta-Java</td><td><mark style="color:green;">Ready</mark></td><td>(<a href="https://github.com/cardano-foundation/cardano-rosetta-java/releases/tag/1.1.5">release repository</a>)</td></tr><tr><td>GraphQL</td><td><mark style="color:green;">Ready</mark></td><td>(<a href="https://github.com/cardano-foundation/cardano-graphql/releases">release repository</a>)</td></tr><tr><td>cntools (guild-operators)</td><td><mark style="color:green;">Ready</mark></td><td>(<a href="https://github.com/cardano-community/guild-operators/blob/alpha/docs/Scripts/cntools-changelog.md">change log</a>)</td></tr><tr><td>SPO Scripts (@gitmachtl)</td><td><mark style="color:green;">Ready</mark></td><td>(<a href="https://github.com/gitmachtl/scripts/releases">release repository</a>)</td></tr><tr><td>Ogmios</td><td><mark style="color:green;">Ready</mark></td><td>(Intersect forked version <a href="https://github.com/IntersectMBO/ogmios/">release repository</a>. <br>Cardano Solutions original <br><a href="https://github.com/CardanoSolutions/ogmios/releases/tag/v7.0.0">Ogmios</a>)</td></tr></tbody></table>
 
 **Libraries**
 
