@@ -111,7 +111,7 @@ All exchanges notified and engaged (58 of them)
 
 [Cexplorer hard fork readiness](https://cexplorer.io/hardfork?block=5_days)
 
-<mark style="color:$warning;">**36.85%**</mark>
+<mark style="color:$warning;">**50.2%**</mark>
 
 (based on liquidity stake)
 
