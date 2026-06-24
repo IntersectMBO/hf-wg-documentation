@@ -35,11 +35,11 @@ Taken from [here](https://docs.google.com/spreadsheets/d/1ECoYFCtrRtFX3BvqfhaZi6
 | Tooling readiness - 80% of named tools                                          | ✅      | Currently at 94% of those marked to be on a critical path (Blockfrost and Lucid Evolution still in progress)                                          |
 | Wallet readiness - 80% of top 15                                                | ❌      | Currently at 79%, Vespr and Eternl still in progress                                                                                                  |
 
-### **Possible Enactment Dates**
+### **Possible Governance Action Ratification Dates**
 
 * ~~June 23rd~~, June 28th, July 3rd, July 8th, July 13th, July 18th
 
-### **Possible Ratification Dates**
+### **Possible Governance Action Enactment Dates**
 
 * ~~June 28th~~, July 3rd, July 8th, July 13th, July 18th, July 23rd
 
