@@ -1,6 +1,6 @@
 # van Rossem upgrade readiness
 
-#### <mark style="color:red;">Last updated on: \~23rd June 2:34pm UTC</mark>
+#### <mark style="color:red;">Last updated on: \~24th June 12:20pm UTC</mark>
 
 ## Readiness and Updating this Page
 
@@ -30,7 +30,7 @@ Taken from [here](https://docs.google.com/spreadsheets/d/1ECoYFCtrRtFX3BvqfhaZi6
 | Preview Testnet hard forked - 42 epochs                                         | ✅      | 18th June (42 epochs of 1 day after Preview has forked)                                                                                               |
 | PreProd Testnet hard forked - 3 epochs                                          | ❌      | 25th June (3 epochs of 5 days after PreProd has forked) - earliest possible ratification for mainnet hf ga is 23rd June if submitted before 18th June |
 | SPO readiness - 80% stake measure by pool tool                                  | ✅      | Currently at 86% according to pooltool; 90% according to cexplorer                                                                                    |
-| Exchange readiness - 80% by liquidity                                           | ❌      | Currently at 36.8% ready, \~47% in progress                                                                                                           |
+| Exchange readiness - 80% by liquidity                                           | ❌      | Currently at \~67.7% liquidity                                                                                                                        |
 | DApp/Defi readiness - 80% of top 20 projects                                    | ❌      | Currently at 69.6%                                                                                                                                    |
 | Tooling readiness - 80% of named tools                                          | ✅      | Currently at 94% of those marked to be on a critical path (Blockfrost and Lucid Evolution still in progress)                                          |
 | Wallet readiness - 80% of top 15                                                | ❌      | Currently at 79%, Vespr and Eternl still in progress                                                                                                  |
@@ -111,7 +111,7 @@ All exchanges notified and engaged (58 of them)
 
 [Cexplorer hard fork readiness](https://cexplorer.io/hardfork?block=5_days)
 
-<mark style="color:$warning;">**50.2%**</mark>
+<mark style="color:$warning;">**67.07%**</mark>
 
 (based on liquidity stake)
 
