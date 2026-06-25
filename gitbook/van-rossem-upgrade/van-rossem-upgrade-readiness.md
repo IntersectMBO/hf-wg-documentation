@@ -1,6 +1,6 @@
 # van Rossem upgrade readiness
 
-#### <mark style="color:red;">Last updated on: \~24th June 12:20pm UTC</mark>
+#### <mark style="color:red;">Last updated on: \~25th June 08:45am UTC</mark>
 
 ## Readiness and Updating this Page
 
@@ -24,16 +24,16 @@ Third, additional option, is to leave a comment in the respective tab of the [li
 
 Taken from [here](https://docs.google.com/spreadsheets/d/1ECoYFCtrRtFX3BvqfhaZi6FxlXQMoTGP/edit?gid=17673737#gid=17673737)
 
-| Item                                                                            | Status | Notes                                                                                                                                                 |
-| ------------------------------------------------------------------------------- | ------ | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
-| No major holidays or events - tech teams ready to respond and support to issues | ✅      |                                                                                                                                                       |
-| Preview Testnet hard forked - 42 epochs                                         | ✅      | 18th June (42 epochs of 1 day after Preview has forked)                                                                                               |
-| PreProd Testnet hard forked - 3 epochs                                          | ❌      | 25th June (3 epochs of 5 days after PreProd has forked) - earliest possible ratification for mainnet hf ga is 23rd June if submitted before 18th June |
-| SPO readiness - 80% stake measure by pool tool                                  | ✅      | Currently at 86% according to pooltool; 90% according to cexplorer                                                                                    |
-| Exchange readiness - 80% by liquidity                                           | ❌      | Currently at \~67.07% liquidity                                                                                                                       |
-| DApp/Defi readiness - 80% of top 20 projects                                    | ❌      | Currently at 69.6%                                                                                                                                    |
-| Tooling readiness - 80% of named tools                                          | ✅      | Currently at 94% of those marked to be on a critical path (Blockfrost and Lucid Evolution still in progress)                                          |
-| Wallet readiness - 80% of top 15                                                | ❌      | Currently at 79%, Vespr and Eternl still in progress                                                                                                  |
+| Item                                                                            | Status | Notes                                                                                                        |
+| ------------------------------------------------------------------------------- | ------ | ------------------------------------------------------------------------------------------------------------ |
+| No major holidays or events - tech teams ready to respond and support to issues | ✅      |                                                                                                              |
+| Preview Testnet hard forked - 42 epochs                                         | ✅      | Completed 18th June                                                                                          |
+| PreProd Testnet hard forked - 3 epochs                                          | ✅      | Completed 25th June                                                                                          |
+| SPO readiness - 80% stake measure by pool tool                                  | ✅      | Currently at 86% according to pooltool; 90% according to cexplorer                                           |
+| Exchange readiness - 80% by liquidity                                           | ❌      | Currently at \~67.07% liquidity                                                                              |
+| DApp/Defi readiness - 80% of top 20 projects                                    | ❌      | Currently at 69.6%                                                                                           |
+| Tooling readiness - 80% of named tools                                          | ✅      | Currently at 94% of those marked to be on a critical path (Blockfrost and Lucid Evolution still in progress) |
+| Wallet readiness - 80% of top 15                                                | ❌      | Currently at 79%, Vespr and Eternl still in progress                                                         |
 
 ### **Possible Governance Action Ratification Dates**
 
@@ -52,7 +52,7 @@ Taken from [here](https://docs.google.com/spreadsheets/d/1ECoYFCtrRtFX3BvqfhaZi6
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
 | [Core Infrastructure Components](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#core-infrastructure-components)   | 🟢         | **7th May:** Node 11.0.1 full release and DBSync 13.7.1.0 full release                                                                   |
 | [Testnets and Governance Actions](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#testnets-and-governance-actions) | 🟢         | <p><strong>8th May:</strong> Enacted on Preview and submitted on PreProd<br>Will be enacted on PreProd on <strong>10th June</strong></p> |
-| [SPOs](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#spos)                                                       | 🟠         | Block produced with protocol v11 in epoch 638 is at 86%                                                                                  |
+| [SPOs](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#spos)                                                       | 🟢         | Block produced with protocol v11 in epoch 638 is at 86%                                                                                  |
 | [Exchanges](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#exchanges)                                             | 🟠         | Reached out to all listed exchanges                                                                                                      |
 | [Tooling](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#tooling)                                                 | 🟢         |                                                                                                                                          |
 | [Wallets](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#wallets)                                                 | 🟢         |                                                                                                                                          |
