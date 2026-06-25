@@ -29,7 +29,7 @@ Taken from [here](https://docs.google.com/spreadsheets/d/1ECoYFCtrRtFX3BvqfhaZi6
 | No major holidays or events - tech teams ready to respond and support to issues | ✅      |                                                                                                              |
 | Preview Testnet hard forked - 42 epochs                                         | ✅      | Completed 18th June                                                                                          |
 | PreProd Testnet hard forked - 3 epochs                                          | ✅      | Completed 25th June                                                                                          |
-| SPO readiness - 80% stake measure by pool tool                                  | ✅      | Currently at 86% according to pooltool; 90% according to cexplorer                                           |
+| SPO readiness - 80% stake measure by pool tool                                  | ✅      | Currently at 87% according to pooltool; 91% according to cexplorer                                           |
 | Exchange readiness - 80% by liquidity                                           | ❌      | Currently at \~67.07% liquidity                                                                              |
 | DApp/Defi readiness - 80% of top 20 projects                                    | ❌      | Currently at 69.6%                                                                                           |
 | Tooling readiness - 80% of named tools                                          | ✅      | Currently at 94% of those marked to be on a critical path (Blockfrost and Lucid Evolution still in progress) |
