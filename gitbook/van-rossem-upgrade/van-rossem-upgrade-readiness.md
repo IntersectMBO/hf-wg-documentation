@@ -33,7 +33,7 @@ Taken from [here](https://docs.google.com/spreadsheets/d/1ECoYFCtrRtFX3BvqfhaZi6
 | Exchange readiness - 80% by liquidity                                           | ❌      | Currently at \~67.07% liquidity                                                                              |
 | DApp/Defi readiness - 80% of top 20 projects                                    | ❌      | Currently at 69.6%                                                                                           |
 | Tooling readiness - 80% of named tools                                          | ✅      | Currently at 94% of those marked to be on a critical path (Blockfrost and Lucid Evolution still in progress) |
-| Wallet readiness - 80% of top 15                                                | ❌      | Currently at 79%, Vespr and Eternl still in progress                                                         |
+| Wallet readiness - 80% of top 15                                                | ✅      | Currently at 85%, only Vespr still in progress                                                               |
 
 ### **Possible Governance Action Ratification Dates**
 
