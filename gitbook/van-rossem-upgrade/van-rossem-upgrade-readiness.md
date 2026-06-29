@@ -205,7 +205,7 @@ DApps listed on this page are self-attested by the community, to add your DApp p
 | Snekdotfun       |                                                  |       |
 | Splash           | <mark style="color:green;">Ready</mark>          |       |
 | SundaeSwap       | <mark style="color:green;">Ready</mark>          |       |
-| Tempo            |                                                  |       |
+| Tempo            | <mark style="color:green;">Ready</mark>                                                 |       |
 | UnFrack.it       |                                                  |       |
 | USDM             | Reached out to                                   |       |
 | Wanchain         | Reached out to                                   |       |
