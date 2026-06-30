@@ -30,7 +30,7 @@ Taken from [here](https://docs.google.com/spreadsheets/d/1ECoYFCtrRtFX3BvqfhaZi6
 | Preview Testnet hard forked - 42 epochs                                         | ✅      | Completed 18th June                                                                                          |
 | PreProd Testnet hard forked - 3 epochs                                          | ✅      | Completed 25th June                                                                                          |
 | SPO readiness - 80% stake measure by pool tool                                  | ✅      | Currently at 87% according to pooltool; 91% according to cexplorer                                           |
-| Exchange readiness - 80% by liquidity                                           | ❌      | Currently at 77.35% liquidity                                                                                |
+| Exchange readiness - 80% by liquidity                                           | ✅      | Currently at 80.13% liquidity                                                                                |
 | DApp/Defi readiness - 80% of top 20 projects                                    | ❌      | Currently at 69.6%                                                                                           |
 | Tooling readiness - 80% of named tools                                          | ✅      | Currently at 94% of those marked to be on a critical path (Blockfrost and Lucid Evolution still in progress) |
 | Wallet readiness - 80% of top 15                                                | ✅      | Currently at 85%, only Vespr still in progress                                                               |
@@ -53,7 +53,7 @@ Taken from [here](https://docs.google.com/spreadsheets/d/1ECoYFCtrRtFX3BvqfhaZi6
 | [Core Infrastructure Components](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#core-infrastructure-components)   | 🟢         | **7th May:** Node 11.0.1 full release and DBSync 13.7.1.0 full release                                                                   |
 | [Testnets and Governance Actions](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#testnets-and-governance-actions) | 🟢         | <p><strong>8th May:</strong> Enacted on Preview and submitted on PreProd<br>Will be enacted on PreProd on <strong>10th June</strong></p> |
 | [SPOs](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#spos)                                                       | 🟢         | Block produced with protocol v11 in epoch 638 is at 86%                                                                                  |
-| [Exchanges](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#exchanges)                                             | 🟠         |                                                                                                                                          |
+| [Exchanges](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#exchanges)                                             | 🟢         |                                                                                                                                          |
 | [Tooling](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#tooling)                                                 | 🟢         |                                                                                                                                          |
 | [Wallets](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#wallets)                                                 | 🟢         |                                                                                                                                          |
 | [Partner-chains + Scalability](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#partner-chains--scalability)        | 🟢         |                                                                                                                                          |
@@ -111,7 +111,7 @@ All exchanges notified and engaged (58 of them)
 
 [Cexplorer hard fork readiness](https://cexplorer.io/hardfork?block=5_days)
 
-<mark style="color:$warning;">**77.35%**</mark>
+<mark style="color:green;">**80.13%**</mark>
 
 (based on liquidity stake)
 
