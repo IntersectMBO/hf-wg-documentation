@@ -1,6 +1,6 @@
 # van Rossem upgrade readiness
 
-#### <mark style="color:red;">Last updated on: \~2nd July 10:38am UTC</mark>
+#### <mark style="color:red;">Last updated on: \~2nd July 1:12pm UTC</mark>
 
 ## Readiness and Updating this Page
 
@@ -30,7 +30,7 @@ Taken from [here](https://docs.google.com/spreadsheets/d/1ECoYFCtrRtFX3BvqfhaZi6
 | Preview Testnet hard forked - 42 epochs                                         | ✅      | Completed 18th June                                                                                          |
 | PreProd Testnet hard forked - 3 epochs                                          | ✅      | Completed 25th June                                                                                          |
 | SPO readiness - 80% stake measure by pool tool                                  | ✅      | Currently at 88% according to pooltool; 94% according to cexplorer                                           |
-| Exchange readiness - 80% by liquidity                                           | ✅      | Currently at 80.13% liquidity                                                                                |
+| Exchange readiness - 80% by liquidity                                           | ✅      | Currently at 80.19% liquidity                                                                                |
 | DApp/Defi readiness - 80% of top 20 projects                                    | ✅      | Currently at 86.7%                                                                                           |
 | Tooling readiness - 80% of named tools                                          | ✅      | Currently at 94% of those marked to be on a critical path (Blockfrost and Lucid Evolution still in progress) |
 | Wallet readiness - 80% of top 15                                                | ✅      | Currently at 85%, only Vespr still in progress                                                               |
