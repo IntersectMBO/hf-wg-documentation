@@ -10,7 +10,7 @@
    1. [PoolTool](https://pooltool.io/networkhealth) - Blocks Protocol Version current epoch - 88%
    2. [Cexplorer HF readiness](https://cexplorer.io/hardfork?block=5_days) - Block production v11 last 5 days \~94%
    3. [Cardanoscan Exchanges](https://cardanoscan.io/hfReadiness) - Liquidity Ready 80.13%
-   4. [Readiness tracker](https://docs.google.com/spreadsheets/d/1ECoYFCtrRtFX3BvqfhaZi6FxlXQMoTGP/edit?usp=sharing\&ouid=106134819668558877362\&rtpof=true\&sd=true)
+   4. [Hard Fork ratification readiness - tracker](https://docs.google.com/spreadsheets/d/1ECoYFCtrRtFX3BvqfhaZi6FxlXQMoTGP/edit?usp=sharing\&ouid=106134819668558877362\&rtpof=true\&sd=true)
 4. van Rossem hard fork progress - Bosko
    1. Mainnet governance action
       1. Possible Ratification Dates
