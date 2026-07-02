@@ -1,6 +1,6 @@
 # van Rossem upgrade readiness
 
-#### <mark style="color:red;">Last updated on: \~2nd July 9:06am UTC</mark>
+#### <mark style="color:red;">Last updated on: \~2nd July 10:37am UTC</mark>
 
 ## Readiness and Updating this Page
 
@@ -31,7 +31,7 @@ Taken from [here](https://docs.google.com/spreadsheets/d/1ECoYFCtrRtFX3BvqfhaZi6
 | PreProd Testnet hard forked - 3 epochs                                          | ✅      | Completed 25th June                                                                                          |
 | SPO readiness - 80% stake measure by pool tool                                  | ✅      | Currently at 88% according to pooltool; 94% according to cexplorer                                           |
 | Exchange readiness - 80% by liquidity                                           | ✅      | Currently at 80.13% liquidity                                                                                |
-| DApp/Defi readiness - 80% of top 20 projects                                    | ✅      | Currently at 83.3%                                                                                           |
+| DApp/Defi readiness - 80% of top 20 projects                                    | ✅      | Currently at 86.7%                                                                                           |
 | Tooling readiness - 80% of named tools                                          | ✅      | Currently at 94% of those marked to be on a critical path (Blockfrost and Lucid Evolution still in progress) |
 | Wallet readiness - 80% of top 15                                                | ✅      | Currently at 85%, only Vespr still in progress                                                               |
 
@@ -97,7 +97,7 @@ Spokesperson: Ryan
 
 Spokesperson: Matthew Capps / Mike Hornan / Ian Hartwell / Adam Dean
 
-<table><thead><tr><th width="251">Pool Management Suite</th><th width="254.93359375">Status</th><th>Notes</th></tr></thead><tbody><tr><td>JorManager</td><td><mark style="color:green;">Ready</mark></td><td></td></tr><tr><td>CFD</td><td><mark style="color:green;">Ready</mark></td><td></td></tr><tr><td>SPOs adoption</td><td><mark style="color:$warning;">In Progress</mark></td><td>Blocks produced by 11.0.1 in the current epoch 640 - 94%</td></tr></tbody></table>
+<table><thead><tr><th width="251">Pool Management Suite</th><th width="254.93359375">Status</th><th>Notes</th></tr></thead><tbody><tr><td>JorManager</td><td><mark style="color:green;">Ready</mark></td><td></td></tr><tr><td>CFD</td><td><mark style="color:green;">Ready</mark></td><td></td></tr><tr><td>SPOs adoption</td><td><mark style="color:green;">Ready</mark></td><td>Blocks produced by 11.0.1 in the current epoch 640 - 94%</td></tr></tbody></table>
 
 * Nodes reporting version 11.0.1 (according to pooltool.io) - 70%
 
@@ -214,7 +214,7 @@ DApps listed on this page are self-attested by the community, to add your DApp p
 | Liqwid           | <mark style="color:$warning;">In Progress</mark> |       |
 | Butan            | Reached out to                                   |       |
 | USDCx            | <mark style="color:green;">Ready</mark>          |       |
-| Dune             | <mark style="color:$warning;">In Progress</mark> |       |
+| Dune             | <mark style="color:green;">Ready</mark>          |       |
 | Pyth             | <mark style="color:green;">Ready</mark>          |       |
 | CSwap            | <mark style="color:$warning;">In Progress</mark> |       |
 | Indigo           | <mark style="color:$warning;">In Progress</mark> |       |
