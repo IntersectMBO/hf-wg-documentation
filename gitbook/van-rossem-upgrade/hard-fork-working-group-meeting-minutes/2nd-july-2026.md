@@ -28,7 +28,18 @@
 #### Key materials
 
 * Summary
-  *
+  * According to PoolTool, blocks Protocol Version current epoch at 89%
+  * According to CExplorer, block production v11 last 5 days is at \~94%
+  * Hard Fork initiation governance action current support
+    * DReps at 66.60%
+    * SPOs at 43.21%
+    * CC at 14% (1 vote out of 5 needed)
+  * Next epoch boundary is very unlikely to be the ratification date with higher probability to happen on Wednesday, 8th July
+  * All ratification metrics have been met
+  * Comms and messaging is and will be focused on SPOs and CC giving them all the relevant data, tracker points and readiness state to consider it for voting
+  * Risk log has been further adjusted with closing some risk items
+  * On call document for the period before and after enactment of the van Rossem governance action has further been populated
+  * Starting next week, Thursdays hard fork working group meeting will be more focused on next hard fork in Dijkstra era
 * Hard Fork Working Group communication channels
   * [Discord](https://discord.com/channels/1136727663583698984/1242097284619960411) — `#wg-hard-fork`
   * [Weekly bulletins](https://x.com/IntersectMBO)
@@ -39,5 +50,6 @@
 
 #### **Action items and next steps**
 
-*
+* **Ian/Larisa:** Comms and messaging should include and be focused on SPOs and CC giving them all the relevant data, tracker points and readiness state to consider it for voting
+* **Bosko:** Repurpose Thursdays hard fork working group meetings to have more focus on Dijkstra era hard fork
 
