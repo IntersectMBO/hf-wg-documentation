@@ -1,6 +1,6 @@
 # van Rossem upgrade readiness
 
-#### <mark style="color:red;">Last updated on: \~30th June 2:57pm UTC</mark>
+#### <mark style="color:red;">Last updated on: \~2nd July 9:06am UTC</mark>
 
 ## Readiness and Updating this Page
 
@@ -16,7 +16,7 @@ Alternatively, if you find any information on this page incorrect or misleading 
 
 Third, additional option, is to leave a comment in the respective tab of the [live readiness tracker](https://docs.google.com/spreadsheets/d/1ECoYFCtrRtFX3BvqfhaZi6FxlXQMoTGP/edit?gid=960883614#gid=960883614).
 
-**Overall readiness status** 🟠 <mark style="color:$warning;">80</mark><mark style="color:$warning;">**%**</mark>\
+**Overall readiness status** 🟢 <mark style="color:green;">**82%**</mark>\
 **Hard fork initiation governance action submitted on mainnet** <mark style="color:green;">**16th June**</mark>\
 **Estimated hard fork enactment on mainnet** <mark style="color:$warning;">**can take up to 5 weeks from the submission date to be enacted**</mark>
 
@@ -29,9 +29,9 @@ Taken from [here](https://docs.google.com/spreadsheets/d/1ECoYFCtrRtFX3BvqfhaZi6
 | No major holidays or events - tech teams ready to respond and support to issues | ✅      |                                                                                                              |
 | Preview Testnet hard forked - 42 epochs                                         | ✅      | Completed 18th June                                                                                          |
 | PreProd Testnet hard forked - 3 epochs                                          | ✅      | Completed 25th June                                                                                          |
-| SPO readiness - 80% stake measure by pool tool                                  | ✅      | Currently at 87% according to pooltool; 91% according to cexplorer                                           |
+| SPO readiness - 80% stake measure by pool tool                                  | ✅      | Currently at 88% according to pooltool; 94% according to cexplorer                                           |
 | Exchange readiness - 80% by liquidity                                           | ✅      | Currently at 80.13% liquidity                                                                                |
-| DApp/Defi readiness - 80% of top 20 projects                                    | ❌      | Currently at 69.6%                                                                                           |
+| DApp/Defi readiness - 80% of top 20 projects                                    | ✅      | Currently at 83.3%                                                                                           |
 | Tooling readiness - 80% of named tools                                          | ✅      | Currently at 94% of those marked to be on a critical path (Blockfrost and Lucid Evolution still in progress) |
 | Wallet readiness - 80% of top 15                                                | ✅      | Currently at 85%, only Vespr still in progress                                                               |
 
@@ -58,7 +58,7 @@ Taken from [here](https://docs.google.com/spreadsheets/d/1ECoYFCtrRtFX3BvqfhaZi6
 | [Wallets](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#wallets)                                                 | 🟢         |                                                                                                                                          |
 | [Partner-chains + Scalability](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#partner-chains--scalability)        | 🟢         |                                                                                                                                          |
 | [Node Implementations](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#node-implementations)                       | 🟢         |                                                                                                                                          |
-| [DApps & Projects](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#dapps-and-projects)                             | 🟠         |                                                                                                                                          |
+| [DApps & Projects](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#dapps-and-projects)                             | 🟢         |                                                                                                                                          |
 | [Block Explorers](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#block-explorers)                                 | 🟢         |                                                                                                                                          |
 | [Guidelines](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#guidelines)                                           | 🟢         |                                                                                                                                          |
 
@@ -97,9 +97,9 @@ Spokesperson: Ryan
 
 Spokesperson: Matthew Capps / Mike Hornan / Ian Hartwell / Adam Dean
 
-<table><thead><tr><th width="251">Pool Management Suite</th><th width="254.93359375">Status</th><th>Notes</th></tr></thead><tbody><tr><td>JorManager</td><td><mark style="color:green;">Ready</mark></td><td></td></tr><tr><td>CFD</td><td><mark style="color:green;">Ready</mark></td><td></td></tr><tr><td>SPOs adoption</td><td><mark style="color:$warning;">In Progress</mark></td><td>Blocks produced by 11.0.1 in the current epoch 640 - 89%</td></tr></tbody></table>
+<table><thead><tr><th width="251">Pool Management Suite</th><th width="254.93359375">Status</th><th>Notes</th></tr></thead><tbody><tr><td>JorManager</td><td><mark style="color:green;">Ready</mark></td><td></td></tr><tr><td>CFD</td><td><mark style="color:green;">Ready</mark></td><td></td></tr><tr><td>SPOs adoption</td><td><mark style="color:$warning;">In Progress</mark></td><td>Blocks produced by 11.0.1 in the current epoch 640 - 94%</td></tr></tbody></table>
 
-* Nodes reporting version 11.0.1 (according to pooltool.io) - 91%
+* Nodes reporting version 11.0.1 (according to pooltool.io) - 70%
 
 ***
 
