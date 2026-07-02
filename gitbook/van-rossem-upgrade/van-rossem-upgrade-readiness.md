@@ -1,6 +1,6 @@
 # van Rossem upgrade readiness
 
-#### <mark style="color:red;">Last updated on: \~2nd July 1:12pm UTC</mark>
+#### <mark style="color:red;">Last updated on: \~2nd July 1:46pm UTC</mark>
 
 ## Readiness and Updating this Page
 
@@ -111,7 +111,7 @@ All exchanges notified and engaged (58 of them)
 
 [Cexplorer hard fork readiness](https://cexplorer.io/hardfork?block=5_days)
 
-<mark style="color:green;">**80.13%**</mark>
+<mark style="color:green;">**80.19%**</mark>
 
 (based on liquidity stake)
 
