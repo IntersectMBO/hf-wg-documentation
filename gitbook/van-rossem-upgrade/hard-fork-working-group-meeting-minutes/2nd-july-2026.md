@@ -2,7 +2,7 @@
 
 #### Agenda
 
-1. Action items from the last call - Bosko
+1. [Action items from the last call](30th-june-2026.md#action-items-and-next-steps) - Bosko
 2. [Node 11.0.1](https://github.com/IntersectMBO/cardano-node/releases/tag/11.0.1) & [DBSync 13.7.1.0](https://github.com/IntersectMBO/cardano-db-sync/releases/tag/13.7.1.0) - Sam
    1. [Cardano Solutions/Ogmios](https://github.com/CardanoSolutions/ogmios/releases/tag/v7.0.0) - <mark style="color:green;">**Ready**</mark>
    2. [Kupo](https://github.com/IntersectMBO/kupo/) (Intersect forked version)&#x20;
