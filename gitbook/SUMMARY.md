@@ -51,6 +51,10 @@
   * [16th December 2025](proposed-intra-era-scope/hard-fork-working-group-meeting-minutes/16th-december-2025.md)
   * [2nd December 2025](proposed-intra-era-scope/hard-fork-working-group-meeting-minutes/2nd-december-2025.md)
 
+## Dijkstra Era
+
+* [Dijkstra Overview](dijkstra-era/dijkstra-overview.md)
+
 ## Plomin Upgrade
 
 * [Plomin upgrade overview](plomin-upgrade/chang-upgrade-2-overview.md)
