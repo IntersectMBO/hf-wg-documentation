@@ -1,6 +1,6 @@
 # van Rossem upgrade readiness
 
-#### <mark style="color:red;">Last updated on: \~2nd July 1:46pm UTC</mark>
+#### <mark style="color:red;">Last updated on: \~2nd July 2:32pm UTC</mark>
 
 ## Readiness and Updating this Page
 
@@ -31,7 +31,7 @@ Taken from [here](https://docs.google.com/spreadsheets/d/1ECoYFCtrRtFX3BvqfhaZi6
 | PreProd Testnet hard forked - 3 epochs                                          | ✅      | Completed 25th June                                                                                          |
 | SPO readiness - 80% stake measure by pool tool                                  | ✅      | Currently at 88% according to pooltool; 94% according to cexplorer                                           |
 | Exchange readiness - 80% by liquidity                                           | ✅      | Currently at 80.19% liquidity                                                                                |
-| DApp/Defi readiness - 80% of top 20 projects                                    | ✅      | Currently at 86.7%                                                                                           |
+| DApp/Defi readiness - 80% of top 20 projects                                    | ✅      | Currently at 88.3%                                                                                           |
 | Tooling readiness - 80% of named tools                                          | ✅      | Currently at 94% of those marked to be on a critical path (Blockfrost and Lucid Evolution still in progress) |
 | Wallet readiness - 80% of top 15                                                | ✅      | Currently at 85%, only Vespr still in progress                                                               |
 
@@ -218,8 +218,8 @@ DApps listed on this page are self-attested by the community, to add your DApp p
 | Pyth             | <mark style="color:green;">Ready</mark>          |       |
 | CSwap            | <mark style="color:$warning;">In Progress</mark> |       |
 | Indigo           | <mark style="color:$warning;">In Progress</mark> |       |
-| Vyfinance        | Reached out to                                   |       |
-| Wayup            | Reached out to                                   |       |
+| Vyfinance        | <mark style="color:$warning;">In Progress</mark> |       |
+| Wayup            | <mark style="color:green;">Ready</mark>          |       |
 | DexHunter        | Reached out to                                   |       |
 | MuesliSwap       | <mark style="color:green;">Ready</mark>          |       |
 | Ada anvil        | <mark style="color:green;">Ready</mark>          |       |
