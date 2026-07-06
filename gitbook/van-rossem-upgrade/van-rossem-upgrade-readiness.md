@@ -1,6 +1,6 @@
 # van Rossem upgrade readiness
 
-#### <mark style="color:red;">Last updated on: \~2nd July 2:32pm UTC</mark>
+#### <mark style="color:red;">Last updated on: \~6th July 10:24pm UTC</mark>
 
 ## Readiness and Updating this Page
 
@@ -10,7 +10,7 @@ Signalling readiness is important, this allows the on-chain governance, SPOs and
 
 The community is encouraged to participate in updating and maintaining the status’ and details contained within this ecosystem readiness page.
 
-You can do so by suggesting updates via this Intersect [GitHub documentation repository](https://github.com/IntersectMBO/hf-wg-documentation) see [how-to guide](../../#updating-hard-fork-readiness-tracker).\
+You can do so by suggesting updates via this Intersect [GitHub documentation repository](https://github.com/IntersectMBO/hf-wg-documentation) see [how-to guide](https://github.com/IntersectMBO/hf-wg-documentation/blob/main/README.md#updating-hard-fork-readiness-tracker).\
 \
 Alternatively, if you find any information on this page incorrect or misleading please email: hard-fork@intersectmbo.org and request an update or correction.
 
@@ -19,6 +19,14 @@ Third, additional option, is to leave a comment in the respective tab of the [li
 **Overall readiness status** 🟢 <mark style="color:green;">**83%**</mark>\
 **Hard fork initiation governance action submitted on mainnet** <mark style="color:green;">**16th June**</mark>\
 **Estimated hard fork enactment on mainnet** <mark style="color:$warning;">**can take up to 5 weeks from the submission date to be enacted**</mark>
+
+**Possible Ratification Dates**
+
+* July 8th, July 13th, July 18th
+
+**Possible Enactment Dates**
+
+* July 13th, July 18th, July 23rd
 
 ### **Ratification Readiness**
 
@@ -97,9 +105,9 @@ Spokesperson: Ryan
 
 Spokesperson: Matthew Capps / Mike Hornan / Ian Hartwell / Adam Dean
 
-<table><thead><tr><th width="251">Pool Management Suite</th><th width="254.93359375">Status</th><th>Notes</th></tr></thead><tbody><tr><td>JorManager</td><td><mark style="color:green;">Ready</mark></td><td></td></tr><tr><td>CFD</td><td><mark style="color:green;">Ready</mark></td><td></td></tr><tr><td>SPOs adoption</td><td><mark style="color:green;">Ready</mark></td><td>Blocks produced by 11.0.1 in the current epoch 640 - 94%</td></tr></tbody></table>
+<table><thead><tr><th width="251">Pool Management Suite</th><th width="254.93359375">Status</th><th>Notes</th></tr></thead><tbody><tr><td>JorManager</td><td><mark style="color:green;">Ready</mark></td><td></td></tr><tr><td>CFD</td><td><mark style="color:green;">Ready</mark></td><td></td></tr><tr><td>SPOs adoption</td><td><mark style="color:green;">Ready</mark></td><td>Blocks produced by 11.0.1 in the current epoch 641 ~95%</td></tr></tbody></table>
 
-* Nodes reporting version 11.0.1 (according to pooltool.io) - 70%
+* Nodes reporting version 11.0.1 (according to pooltool.io) - 72%
 
 ***
 
