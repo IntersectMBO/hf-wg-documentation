@@ -27,7 +27,15 @@
 #### Key materials
 
 * Summary
-  *
+  * There is a steady progress of votes towards the thresholds needed for the hard fork initiation governance action to be ratified
+    * DReps support currently sits at \~75% (threshold at 60%)
+    * SPOs at almost 51% (which is the threshold)
+    * CC votes at 3 out of 5 needed for a threshold
+  * It was pointed out that, due to the governance-action priority rules, hard fork governance action can delay treasury withdrawals, protocol parameter changes and info actions
+    * Delaying info actions has no real significant impact
+    * Delaying treasury actions or protocol parameter changes can be affected significantly
+      * If the delayed action is about to reach expiration and get ratified/delayed this way on its last epoch before expiration, it will expire and be removed from the ledger governance state as if it was expired when reaching 'govActionLifetime'
+  * The issue described above require community coordination and will be included in the adjusted comms
 * Hard Fork Working Group communication channels
   * [Discord](https://discord.com/channels/1136727663583698984/1242097284619960411) — `#wg-hard-fork`
   * [Weekly bulletins](https://x.com/IntersectMBO)
@@ -38,5 +46,6 @@
 
 #### **Action items and next steps**
 
-*
+* **Mike:** Confirm governance action ratification logic and precedence hard fork has over other types of governance actions and the impact it is going to make
+* **Ian/Larisa:** Adjust the comms so it reflects challenges and impact on other governance actions around hard fork ratification
 
