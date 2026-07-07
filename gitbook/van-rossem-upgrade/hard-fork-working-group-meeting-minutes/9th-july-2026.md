@@ -16,7 +16,7 @@
    8. Hard Fork ratification and enactment effects on other live governance actions
    9. van Rossem comms - Ian / Larisa
    10. Technical support before and after hard fork enactment - Bosko, Can
-3. Dijkstra era hard fork
+3. [Dijkstra era hard fork](https://cardanoupgrades.docs.intersectmbo.org/dijkstra-era/dijkstra-overview)
 4. AOB
 
 #### Key materials
