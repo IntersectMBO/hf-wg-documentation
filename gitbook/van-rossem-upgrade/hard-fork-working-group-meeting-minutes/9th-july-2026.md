@@ -11,7 +11,7 @@
    5. Ratification&#x20;
       1.
    6. Enactment
-      1. a
+      1.
    7. [Risk log](https://docs.google.com/spreadsheets/d/1DSAiayrPOhhzSKKKljbd2WxHQPFmzKsvoyyA-BJUDg8/edit?gid=1105903724#gid=1105903724)
    8. Hard Fork ratification and enactment effects on other live governance actions
    9. van Rossem comms - Ian / Larisa
