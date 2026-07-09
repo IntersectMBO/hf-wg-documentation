@@ -60,7 +60,7 @@
     * Process
       * Landscape will likely be the one to include diverse nodes (Haskell, Amaru - Rust, Dingo - Go)
       * Scope, timing, prioritization are rooted in the process that is yet to be defined but shouldnt be a blocking challenge for the things that are known
-    * Hard Fork Working Group meetings will continue to happen twice a week, until at least the scope is set after which the future meeting cadence will be decided
+    * Hard Fork Working Group meetings will continue to happen twice a week, until at least the Dijkstra hard fork scope is set, after which the future meeting cadence will be decided
 * Hard Fork Working Group communication channels
   * [Discord](https://discord.com/channels/1136727663583698984/1242097284619960411) — `#wg-hard-fork`
   * [Weekly bulletins](https://x.com/IntersectMBO)
