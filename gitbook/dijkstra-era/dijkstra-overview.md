@@ -28,5 +28,5 @@ Dijkstra: Scope, Timing, Priorities, Process
 * Some items might be added to intra era hf in Dijkstra
 * Nested txs, Leios, Peras are the largest pieces of work
 * CIP-0171 polling for decision making?
-  * Agreed by Haskell, Amaru, Dingo
+  * Needs to be agreed by Haskell, Amaru, Dingo
 * Scope freeze needed as soon as possible
