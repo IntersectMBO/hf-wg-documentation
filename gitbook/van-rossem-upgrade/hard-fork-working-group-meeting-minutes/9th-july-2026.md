@@ -31,6 +31,10 @@
     * Possible enactment dates are 18th and 23rd July
     * If the hard fork governance action is ratified on the next epoch boundary on 13th, Reimburse Ikigai treasury withdrawal action will be delayed for an epoch, thus effectively expiring
       * The ledger prioritizes hard fork ratification above all other actions and will delay anything that ratifies at the same time
+    * On the last epoch boundary:
+      * Reduce mincommitteesize governance action was ratified
+      * Hydra Treasury Withdrawal governance action was ratified
+      * Reimbursing Ikigai Treasury Withdrawal governance action unfortunately didnt reach the ratification threshold
   * **Dijkstra Era hard fork**
     * Hard Fork Working Group discussed several aspects of the next era hard fork having the foundation in scope, timing, prioritization and process
     * Scope
