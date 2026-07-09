@@ -1,6 +1,6 @@
 # van Rossem upgrade readiness
 
-#### <mark style="color:red;">Last updated on: \~6th July 10:24pm UTC</mark>
+#### <mark style="color:red;">Last updated on: \~9th July 10:40pm UTC</mark>
 
 ## Readiness and Updating this Page
 
@@ -22,11 +22,11 @@ Third, additional option, is to leave a comment in the respective tab of the [li
 
 **Possible Ratification Dates**
 
-* July 8th, July 13th, July 18th
+* July 13th, July 18th
 
 **Possible Enactment Dates**
 
-* July 13th, July 18th, July 23rd
+* July 18th, July 23rd
 
 ### **Ratification Readiness**
 
@@ -45,11 +45,11 @@ Taken from [here](https://docs.google.com/spreadsheets/d/1ECoYFCtrRtFX3BvqfhaZi6
 
 ### **Possible Governance Action Ratification Dates**
 
-* ~~June 23rd~~, June 28th, July 3rd, July 8th, July 13th, July 18th
+* ~~June 23rd, June 28th, July 3rd, July 8th~~, July 13th, July 18th
 
 ### **Possible Governance Action Enactment Dates**
 
-* ~~June 28th~~, July 3rd, July 8th, July 13th, July 18th, July 23rd
+* ~~June 28th, July 3rd, July 8th, July 13th~~, July 18th, July 23rd
 
 \
 [Hard Fork Initiation Submission policy](https://cardanoupgrades.docs.intersectmbo.org/overview/hardfork-initation-submission-policy)
@@ -105,9 +105,9 @@ Spokesperson: Ryan
 
 Spokesperson: Matthew Capps / Mike Hornan / Ian Hartwell / Adam Dean
 
-<table><thead><tr><th width="251">Pool Management Suite</th><th width="254.93359375">Status</th><th>Notes</th></tr></thead><tbody><tr><td>JorManager</td><td><mark style="color:green;">Ready</mark></td><td></td></tr><tr><td>CFD</td><td><mark style="color:green;">Ready</mark></td><td></td></tr><tr><td>SPOs adoption</td><td><mark style="color:green;">Ready</mark></td><td>Blocks produced by 11.0.1 in the current epoch 641 ~95%</td></tr></tbody></table>
+<table><thead><tr><th width="251">Pool Management Suite</th><th width="254.93359375">Status</th><th>Notes</th></tr></thead><tbody><tr><td>JorManager</td><td><mark style="color:green;">Ready</mark></td><td></td></tr><tr><td>CFD</td><td><mark style="color:green;">Ready</mark></td><td></td></tr><tr><td>SPOs adoption</td><td><mark style="color:green;">Ready</mark></td><td>Blocks produced by 11.0.1 in the current epoch 642 ~95%</td></tr></tbody></table>
 
-* Nodes reporting version 11.0.1 (according to pooltool.io) - 72%
+* Nodes reporting version 11.0.1 (according to pooltool.io) - 73%
 
 ***
 
@@ -119,7 +119,7 @@ All exchanges notified and engaged (58 of them)
 
 [Cexplorer hard fork readiness](https://cexplorer.io/hardfork?block=5_days)
 
-<mark style="color:green;">**80.19%**</mark>
+<mark style="color:green;">**83.27%**</mark>
 
 (based on liquidity stake)
 
