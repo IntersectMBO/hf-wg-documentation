@@ -4,14 +4,14 @@
 
 1. [Action items from the last call](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/hard-fork-working-group-meeting-minutes/2nd-july-2026#action-items-and-next-steps) - Bosko
 2. Van Rossem Upgrade Update - Bosko, all
-   1. [PoolTool](https://pooltool.io/networkhealth) - Blocks Protocol Version current epoch - X%
-   2. [Cexplorer HF readiness](https://cexplorer.io/hardfork?block=5_days) - Block production v11 last 5 days X%
-   3. [Cardanoscan Exchanges](https://cardanoscan.io/hfReadiness) - Liquidity Ready X%
+   1. [PoolTool](https://pooltool.io/networkhealth) - Blocks Protocol Version 11 current epoch - 92%
+   2. [Cexplorer HF readiness](https://cexplorer.io/hardfork?block=5_days) - Block production v11 last 5 days 94.80%
+   3. [Cardanoscan Exchanges](https://cardanoscan.io/hfReadiness) - Liquidity Ready 83.27%
    4. [Hard Fork ratification readiness - tracker](https://docs.google.com/spreadsheets/d/1ECoYFCtrRtFX3BvqfhaZi6FxlXQMoTGP/edit?usp=sharing\&ouid=106134819668558877362\&rtpof=true\&sd=true)
    5. Ratification&#x20;
-      1.
+      1. 13th July, 18th July
    6. Enactment
-      1.
+      1. 18th July, 23rd July
    7. [Risk log](https://docs.google.com/spreadsheets/d/1DSAiayrPOhhzSKKKljbd2WxHQPFmzKsvoyyA-BJUDg8/edit?gid=1105903724#gid=1105903724)
    8. Hard Fork ratification and enactment effects on other live governance actions
    9. van Rossem comms - Ian / Larisa
