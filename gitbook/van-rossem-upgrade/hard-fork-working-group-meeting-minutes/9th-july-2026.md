@@ -22,7 +22,25 @@
 #### Key materials
 
 * Summary
-  *
+  * van Rossem hard fork
+    * All readiness ratification metrics are met
+    * Support is steadily increasing
+    * Voting thresholds for DReps and SPOs have been surpassed
+    * There are 4 out 5 positive CC votes
+    * Possible ratification dates are 13th and 18th July
+    * Possible enactment dates are 18th and 23rd July
+    * If the hard fork governance action is ratified on the next epoch boundary on 13th, Reimburse Ikigai treasury withdrawal action will be delayed for an epoch, thus effectively expiring
+      * The ledger prioritizes hard fork ratification above all other actions and will delay anything that ratifies at the same time
+  * Dijkstra Era hard fork
+    * Hard Fork Working Group discussed several aspects of the next era hard fork having the foundation in scope, timing, prioritization and process
+    * Scope
+      * There are multiple sources of information circulating that show the list of potential scope candidates
+    * Timing
+      *
+    * Prioritization
+      *
+    * Process
+      *
 * Hard Fork Working Group communication channels
   * [Discord](https://discord.com/channels/1136727663583698984/1242097284619960411) — `#wg-hard-fork`
   * [Weekly bulletins](https://x.com/IntersectMBO)
