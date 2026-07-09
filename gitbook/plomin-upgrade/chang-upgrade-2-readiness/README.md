@@ -38,7 +38,7 @@ Signalling readiness is important, this allows the on-chain governance, SPOs and
 
 The community is encouraged to participate in updating and maintaining the status’ and details contained within this ecosystem readiness page.
 
-You can do so by suggesting updates via this Intersect [GitHub documentation repository](https://github.com/IntersectMBO/hf-wg-documentation), a simple how to guide provided [here](../../../).\
+You can do so by suggesting updates via this Intersect [GitHub documentation repository](https://github.com/IntersectMBO/hf-wg-documentation), a simple how to guide provided [here](https://github.com/IntersectMBO/hf-wg-documentation/blob/main/README.md).\
 \
 Alternatively, if you find any information on this page incorrect or misleading please email: hard-fork@intersectmbo.org and request an update or correction.
 
@@ -82,8 +82,8 @@ The stake pool vote threshold to reach is 51% of total stake to vote yes.
 
 |                | Percentage of stake |
 | -------------- | ------------------- |
-| Yes            | 67.88%               |
-| No + Not Voted | 32.12%               |
+| Yes            | 67.88%              |
+| No + Not Voted | 32.12%              |
 
 SPO vote summary last updated: 2025-02-19 00:08:47
 
@@ -94,7 +94,7 @@ SPO vote summary last updated: 2025-02-19 00:08:47
 |    Yes    |      396     |          7.06b          |
 |     No    |       4      |          60.79m         |
 |  Abstain  |       2      |          38.98m         |
-| Not Voted | 2082       | 7.32b  |
+| Not Voted |     2082     |          7.32b          |
 
 SPO vote total last updated: 2025-02-19 00:08:47
 
@@ -107,7 +107,7 @@ The constitutional committee vote threshold to reach is 5 out of 7 constitutiona
 |       Vote       | Total | Percentage |
 | :--------------: | :---: | :--------: |
 |  Constitutional  |   0   |     0%     |
-| Unconstitutional | 0     | 0%     |
+| Unconstitutional |   0   |     0%     |
 |      Abstain     |   0   |     0%     |
 |     Not voted    |   7   |    100%    |
 

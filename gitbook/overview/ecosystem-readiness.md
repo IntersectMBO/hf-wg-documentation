@@ -11,7 +11,7 @@ Signalling readiness is important, this allows the on-chain governance, SPOs and
 The community is encouraged to participate in updating and maintaining this key list of tooling, libraries, wallets and other key components. Understandably, over time between major events, popularity and practices change. It is important the HFWG understands what dependencies and key tools are used by the community in order to ensure their participation in any readiness activities.&#x20;
 
 {% hint style="warning" %}
-You can suggesting updates to any of the lists below via this Intersect [GitHub documentation repository](https://github.com/IntersectMBO/hf-wg-documentation), a simple how to guide provided [here](../../).&#x20;
+You can suggesting updates to any of the lists below via this Intersect [GitHub documentation repository](https://github.com/IntersectMBO/hf-wg-documentation), a simple how to guide provided [here](https://github.com/IntersectMBO/hf-wg-documentation/blob/main/README.md).&#x20;
 {% endhint %}
 
 ***
@@ -67,5 +67,5 @@ This demonstrates 'the art of the possible’, which contributes to understandin
 For most upgrades the DApp and Defi owners and builders will be asked to self-attest to readiness depending on the change being undertaken. &#x20;
 
 {% hint style="warning" %}
-Suggesting updates to any of the lists above via this Intersect [GitHub documentation repository](https://github.com/IntersectMBO/hf-wg-documentation), a simple how to guide provided [here](../../).
+Suggesting updates to any of the lists above via this Intersect [GitHub documentation repository](https://github.com/IntersectMBO/hf-wg-documentation), a simple how to guide provided [here](https://github.com/IntersectMBO/hf-wg-documentation/blob/main/README.md).
 {% endhint %}
