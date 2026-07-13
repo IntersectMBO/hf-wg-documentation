@@ -2,7 +2,7 @@
 
 #### Agenda
 
-1. [Action items from the last call](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/hard-fork-working-group-meeting-minutes/2nd-july-2026#action-items-and-next-steps) - Bosko
+1. [Action items from the last call](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/hard-fork-working-group-meeting-minutes/7th-july-2026#action-items-and-next-steps) - Bosko
 2. Van Rossem Upgrade Update - Bosko, all
    1. [PoolTool](https://pooltool.io/networkhealth) - Blocks Protocol Version 11 current epoch - 92%
    2. [Cexplorer HF readiness](https://cexplorer.io/hardfork?block=5_days) - Block production v11 last 5 days 94.80%
