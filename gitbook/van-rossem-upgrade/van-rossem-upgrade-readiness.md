@@ -1,6 +1,6 @@
 # van Rossem upgrade readiness
 
-#### <mark style="color:red;">Last updated on: \~13th July 11:41am UTC</mark>
+#### <mark style="color:red;">Last updated on: \~13th July 11:48am UTC</mark>
 
 ## Readiness and Updating this Page
 
@@ -16,7 +16,7 @@ Alternatively, if you find any information on this page incorrect or misleading 
 
 Third, additional option, is to leave a comment in the respective tab of the [live readiness tracker](https://docs.google.com/spreadsheets/d/1ECoYFCtrRtFX3BvqfhaZi6FxlXQMoTGP/edit?gid=960883614#gid=960883614).
 
-**Overall readiness status** 🟢 <mark style="color:green;">**83%**</mark>\
+**Overall readiness status** 🟢 <mark style="color:green;">**84%**</mark>\
 **Hard fork initiation governance action submitted on mainnet** <mark style="color:green;">**16th June**</mark>\
 **Estimated hard fork enactment on mainnet** <mark style="color:$warning;">**can take up to 5 weeks from the submission date to be enacted**</mark>
 
