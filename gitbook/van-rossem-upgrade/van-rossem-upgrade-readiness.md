@@ -1,6 +1,6 @@
 # van Rossem upgrade readiness
 
-#### <mark style="color:red;">Last updated on: \~13th July 11:48am UTC</mark>
+#### <mark style="color:red;">Last updated on: \~13th July 2:37pm UTC</mark>
 
 ## Readiness and Updating this Page
 
@@ -20,13 +20,13 @@ Third, additional option, is to leave a comment in the respective tab of the [li
 **Hard fork initiation governance action submitted on mainnet** <mark style="color:green;">**16th June**</mark>\
 **Estimated hard fork enactment on mainnet** <mark style="color:$warning;">**can take up to 5 weeks from the submission date to be enacted**</mark>
 
-**Possible Ratification Dates**
+**Possible Ratification Date**
 
-* July 13th, July 18th
+* July 13th~~, July 18th~~
 
-**Possible Enactment Dates**
+**Possible Enactment Date**
 
-* July 18th, July 23rd
+* July 18th~~, July 23rd~~
 
 ### **Ratification Readiness**
 
