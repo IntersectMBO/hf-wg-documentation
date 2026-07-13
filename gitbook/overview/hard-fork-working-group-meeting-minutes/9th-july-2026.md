@@ -55,7 +55,7 @@
       * There is going to be socialization period of 90 days accounted for in the overall timeline due to the guardrails changes
     * Prioritization
       * There were different ideas discussed on the prioritization approach with some of them being:
-        * CIP-0171 polling for decision making
+        * CIP-0179 polling for decision making
         * Ekklessia Hydra based voting
     * Process
       * Landscape will likely be the one to include diverse nodes (Haskell, Amaru - Rust, Dingo - Go)
