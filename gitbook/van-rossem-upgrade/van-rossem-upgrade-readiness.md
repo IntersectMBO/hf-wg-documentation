@@ -1,6 +1,6 @@
 # van Rossem upgrade readiness
 
-#### <mark style="color:red;">Last updated on: \~9th July 10:40pm UTC</mark>
+#### <mark style="color:red;">Last updated on: \~13th July 11:41am UTC</mark>
 
 ## Readiness and Updating this Page
 
@@ -60,7 +60,7 @@ Taken from [here](https://docs.google.com/spreadsheets/d/1ECoYFCtrRtFX3BvqfhaZi6
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
 | [Core Infrastructure Components](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#core-infrastructure-components)   | 🟢         | **7th May:** Node 11.0.1 full release and DBSync 13.7.1.0 full release                                                                   |
 | [Testnets and Governance Actions](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#testnets-and-governance-actions) | 🟢         | <p><strong>8th May:</strong> Enacted on Preview and submitted on PreProd<br>Will be enacted on PreProd on <strong>10th June</strong></p> |
-| [SPOs](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#spos)                                                       | 🟢         | Block produced with protocol v11 in epoch 638 is at 86%                                                                                  |
+| [SPOs](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#spos)                                                       | 🟢         | Block produced with protocol v11 in epoch 642 is at \~93-95%                                                                             |
 | [Exchanges](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#exchanges)                                             | 🟢         |                                                                                                                                          |
 | [Tooling](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#tooling)                                                 | 🟢         |                                                                                                                                          |
 | [Wallets](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#wallets)                                                 | 🟢         |                                                                                                                                          |
@@ -105,9 +105,9 @@ Spokesperson: Ryan
 
 Spokesperson: Matthew Capps / Mike Hornan / Ian Hartwell / Adam Dean
 
-<table><thead><tr><th width="251">Pool Management Suite</th><th width="254.93359375">Status</th><th>Notes</th></tr></thead><tbody><tr><td>JorManager</td><td><mark style="color:green;">Ready</mark></td><td></td></tr><tr><td>CFD</td><td><mark style="color:green;">Ready</mark></td><td></td></tr><tr><td>SPOs adoption</td><td><mark style="color:green;">Ready</mark></td><td>Blocks produced by 11.0.1 in the current epoch 642 ~95%</td></tr></tbody></table>
+<table><thead><tr><th width="251">Pool Management Suite</th><th width="254.93359375">Status</th><th>Notes</th></tr></thead><tbody><tr><td>JorManager</td><td><mark style="color:green;">Ready</mark></td><td></td></tr><tr><td>CFD</td><td><mark style="color:green;">Ready</mark></td><td></td></tr><tr><td>SPOs adoption</td><td><mark style="color:green;">Ready</mark></td><td>Blocks produced by 11.0.1 in the current epoch 642 ~93-95%</td></tr></tbody></table>
 
-* Nodes reporting version 11.0.1 (according to pooltool.io) - 73%
+* Nodes reporting version 11.0.1 (according to pooltool.io) - 74%
 
 ***
 
@@ -119,7 +119,7 @@ All exchanges notified and engaged (58 of them)
 
 [Cexplorer hard fork readiness](https://cexplorer.io/hardfork?block=5_days)
 
-<mark style="color:green;">**83.27%**</mark>
+<mark style="color:green;">**84.13%**</mark>
 
 (based on liquidity stake)
 
