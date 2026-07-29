@@ -61,6 +61,7 @@
 ## Dijkstra Era
 
 * [Dijkstra Overview](dijkstra-era/dijkstra-overview.md)
+* [Dijkstra upgrade bulletins](dijkstra-era/dijkstra-upgrade-bulletins.md)
 
 ## Plomin Upgrade
 
