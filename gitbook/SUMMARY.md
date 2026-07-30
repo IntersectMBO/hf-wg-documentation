@@ -50,6 +50,11 @@
   * [2nd December 2025](overview/hard-fork-working-group-meeting-minutes/2nd-december-2025.md)
 * [Ecosystem Readiness](overview/ecosystem-readiness.md)
 
+## Dijkstra Era
+
+* [Dijkstra Overview](dijkstra-era/dijkstra-overview.md)
+* [Dijkstra upgrade bulletins](dijkstra-era/dijkstra-upgrade-bulletins.md)
+
 ## van Rossem Upgrade
 
 * [van Rossem upgrade overview](proposed-intra-era-scope/van-rossem-hard-fork-overview.md)
@@ -58,11 +63,6 @@
 * [van Rossem upgrade bulletins](van-rossem-upgrade/van-rossem-upgrade-communications/README.md)
   * [Comms weeklies](van-rossem-upgrade/van-rossem-upgrade-communications/comms-weeklies.md)
 * [van Rossem upgrade reference materials](proposed-intra-era-scope/van-rossem-hard-fork-reference-materials.md)
-
-## Dijkstra Era
-
-* [Dijkstra Overview](dijkstra-era/dijkstra-overview.md)
-* [Dijkstra upgrade bulletins](dijkstra-era/dijkstra-upgrade-bulletins.md)
 
 ## Plomin Upgrade
 
