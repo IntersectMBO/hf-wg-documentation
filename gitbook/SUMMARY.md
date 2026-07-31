@@ -50,10 +50,10 @@
   * [2nd December 2025](overview/hard-fork-working-group-meeting-minutes/2nd-december-2025.md)
 * [Ecosystem Readiness](overview/ecosystem-readiness.md)
 
-## Dijkstra Era
+## Dijkstra Era Upgrade
 
-* [Dijkstra Overview](dijkstra-era/dijkstra-overview.md)
-* [Dijkstra upgrade bulletins](dijkstra-era/dijkstra-upgrade-bulletins.md)
+* [Dijkstra Overview](dijkstra-era-upgrade/dijkstra-overview.md)
+* [Dijkstra upgrade bulletins](dijkstra-era-upgrade/dijkstra-upgrade-bulletins.md)
 
 ## van Rossem Upgrade
 
