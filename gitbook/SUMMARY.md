@@ -54,6 +54,9 @@
 ## Dijkstra Era Upgrade
 
 * [Dijkstra Overview](dijkstra-era-upgrade/dijkstra-overview.md)
+* [Dijkstra upgrade readiness](dijkstra-era-upgrade/dijkstra-upgrade-readiness.md)
+* [Dijkstra upgrade FAQ](dijkstra-era-upgrade/dijkstra-upgrade-faq.md)
+* [Dijkstra upgrade reference materials](dijkstra-era-upgrade/dijkstra-upgrade-reference-materials.md)
 * [Dijkstra upgrade bulletins](dijkstra-era-upgrade/dijkstra-upgrade-bulletins.md)
 
 ## van Rossem Upgrade
