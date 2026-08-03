@@ -2,7 +2,5 @@
 
 ## Scope & Timeline
 
-[https://product.cardano.intersectmbo.org/hardfork-planning/dijkstra/](https://product.cardano.intersectmbo.org/hardfork-planning/dijkstra/)
-
-
+{% embed url="https://product.cardano.intersectmbo.org/hardfork-planning/dijkstra/" %}
 
