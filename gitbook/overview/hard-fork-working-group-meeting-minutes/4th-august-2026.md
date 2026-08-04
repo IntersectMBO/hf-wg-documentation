@@ -5,7 +5,9 @@
 1. [Action items from the last call](https://cardanoupgrades.docs.intersectmbo.org/overview/hard-fork-working-group-meeting-minutes/30th-july-2026#action-items-and-next-steps) - Bosko
 2. [Dijkstra era hard fork](https://cardanoupgrades.docs.intersectmbo.org/dijkstra-era/dijkstra-overview) - Bosko, all
    1. Scope
-      1. [Product committee - Dijkstra Era: Phased Rollout Plan](https://product.cardano.intersectmbo.org/hardfork-planning/dijkstra/)
+      1. IO Team presented their plan
+      2. [Product committee - Dijkstra Era: Phased Rollout Plan](https://product.cardano.intersectmbo.org/hardfork-planning/dijkstra/)
+      3.
    2. Node diversity
       1. Haskell, Amaru (Rust), Dingo (Go), Dugite (Rust), TSUNAGI (Zig), Gerolamo (TypeScript), Dolos (Rust), Turbocardano (C++), Razor (.NET), Scalus (Scala)
 3. AOB
