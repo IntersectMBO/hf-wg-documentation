@@ -1,64 +1,100 @@
 # Dijkstra upgrade overview
 
+### Overview <a href="#overview" id="overview"></a>
+
+The Dijkstra era delivers Cardano's next major protocol upgrade in two phases. Phase 1 introduces the Dijkstra ledger era and ships Ouroboros Linear Leios as a complete, activated feature, targeting Q4 2026. Phase 2 activates Ouroboros Peras via an intra-era hard fork, a protocol version bump within the Dijkstra era that does not require a new era package in the ledger code.
+
+The distinction matters for what each phase can change. A new era ships a complete new ledger code package and can introduce new block structures, new serialization formats, new cryptography, new protocol parameters, and new Plutus versions. An intra-era hard fork bumps the protocol version within the existing era and can change anything gate-able on a protocol version check: activating consensus rules, enabling new Plutus primitives within an existing Plutus version, turning on features whose block-body structures and protocol parameters were already defined by the era. Because Phase 1 ships the codec extensions and the protocol parameters Peras requires, Phase 2 can activate that protocol without a new era.
+
+| Phase                                                                                                                                  | Mechanism           | Era      | Code Complete Target | Primary Activation                                                                        |
+| -------------------------------------------------------------------------------------------------------------------------------------- | ------------------- | -------- | -------------------- | ----------------------------------------------------------------------------------------- |
+| [Phase 1](https://product.cardano.intersectmbo.org/hardfork-planning/dijkstra/#phase-1-dijkstra-hard-fork-protocol-version-12-q4-2026) | New era (v12)       | Dijkstra | Q4 2026              | Ouroboros Linear Leios, Nested Transactions, Peras codec extensions & protocol parameters |
+| [Phase 2](https://product.cardano.intersectmbo.org/hardfork-planning/dijkstra/#phase-2-peras-activation-intra-era-hard-fork-q2-2027)   | Intra-era hard fork | Dijkstra | Q2 2027              | Ouroboros Peras                                                                           |
+
+Each phase rolls out in sequence: Preview testnet, then Pre-production testnet, then Mainnet. A governance action is submitted and ratified on each network before the hard fork is enacted. DReps, SPOs, and the Constitutional Committee vote on the mainnet governance action, as established by CIP-1694.
+
+{% hint style="warning" icon="triangle-exclamation" %}
+**CAUTION**
+
+All dates and quarters are estimated targets for code completion and mainnet-ready benchmarked releases. They do not include governance processes or community testing. The time required for Preview and Pre-production rollout, SPO testing windows, and on-chain governance ratification will extend beyond these targets before any mainnet hard fork is enacted. All targets are estimates only and not guarantees.
+{% endhint %}
+
+***
+
+### Phase 1: Dijkstra Hard Fork (Protocol Version 12, Q4 2026) <a href="#phase-1-dijkstra-hard-fork-protocol-version-12-q4-2026" id="phase-1-dijkstra-hard-fork-protocol-version-12-q4-2026"></a>
+
+#### Design Rationale <a href="#design-rationale" id="design-rationale"></a>
+
+This phase activates Ouroboros Linear Leios via a hard fork, a protocol version bump to Protocol Version 12. the Dijkstra era.
+
+Linear Leios is a partial realisation of the Leios throughput vision. It delivers meaningful gains but does not achieve everything a fuller Leios deployment could. Substantial research was done on the broader Leios design, but the additional complexities it would require were not sufficiently pinned down for a first mainnet deployment, and the closest approaches raised concerns around changes to the user experience the dapp ecosystem was not prepared to accept. A future path toward a more complete Leios would require changes to block and transaction structure and a new ledger era, Euler or later.
+
+Linear Leios increases Cardano's throughput without changing the security guarantees of the base protocol. The original Leios research design used three block types including Input Blocks; Linear Leios eliminates those and works with two:
+
+* **Ranking Blocks (RBs)** are the existing Praos blocks, extended with optional fields to announce and certify Endorser Blocks.
+* **Endorser Blocks (EBs)** are larger supplementary blocks that contain references to additional transactions, not the transactions themselves.
+
+Transactions continue to propagate through the standard mempool. When a block producer wins slot leadership, it produces an RB that optionally announces an Endorser Block. The announcement is part of the RB header itself and contains the hash of the EB, which in turn holds the hashes of the transactions being endorsed. Nodes that do not already have those transactions request them from peers via new node-to-node protocols. A stake-based committee then certifies the EB; the certificate contains the hash of the EB and the aggregated signatures proving a 75% quorum of active stake. A subsequent RB includes that certificate, applying the endorsed transactions to the ledger. If no certified EB is available, a Ranking Block includes transactions directly as in standard Praos. The result is that the network can absorb significantly more transactions per unit of time without requiring larger blocks or faster slots.
+
+In addition it ships the block body extensions and protocol parameters required by Ouroboros Peras (to be activated in phase 2). Block structure changes require a new era, so they must land here.
+
+#### Rollout Milestones <a href="#rollout-milestones" id="rollout-milestones"></a>
+
+| Milestone                            | Notes                                                                                                     |
+| ------------------------------------ | --------------------------------------------------------------------------------------------------------- |
+| Node release                         | Dijkstra-compatible node released for testnet operators                                                   |
+| **Preview hard fork**                | Governance action submitted and enacted on Preview; SPO testing window opens                              |
+| Preview SPO testing window           | \~2 weeks; integration testing, tooling validation, EB propagation testing, throughput benchmarking       |
+| **Pre-production hard fork**         | Governance action submitted and enacted on Pre-production; SPO testing window opens                       |
+| Pre-production SPO testing window    | \~1-2 weeks; final readiness checks                                                                       |
+| Mainnet governance action submission | Hard Fork Initiation action submitted on Mainnet; DReps, SPOs, and Constitutional Committee voting period |
+| **Mainnet hard fork**                | Following governance ratification; date TBD                                                               |
+
 ## Scope
 
-#### [CIP-164 Leios](https://cips.cardano.org/cip/CIP-0164)
+**Ouroboros Linear Leios (**[**CIP-164**](https://cips.cardano.org/cip/CIP-0164)**)**
 
-Ouroboros Leios, an optimistic consensus protocol designed for high-throughput operation while preserving Ouroboros Praos security properties. Block producers simultaneously create both a standard Praos block and a larger secondary block referencing additional transactions. Secondary blocks undergo committee validation before ledger inclusion, enabling significantly higher throughput.
+The headline feature of the Dijkstra hard fork, Linear Leios lets a block producer publish a larger Endorser Block alongside its Praos block, referencing the transactions the base block has no room for; a committee of stake pools certifies that block before its transactions enter the ledger, so throughput rises sharply while Praos security guarantees hold. It puts the bandwidth and compute already sitting idle on today's nodes to work, and the higher volume matters economically as well, since transaction fees must take over from the diminishing Reserve to sustain rewards and pool profitability. Leios ships complete in Phase 1, with throughput raised gradually via protocol parameter updates after activation.
 
-#### [CIP-140 Peras](https://cips.cardano.org/cip/CIP-0140)
+**Nested Transactions (**[**CIP-118**](https://cips.cardano.org/cip/CIP-0118)**)**
 
-Ouroboros Peras, an enhancement to the Ouroboros Praos protocol that introduces a voting layer for fast settlement. It is adaptively secure, supports dynamic participation, and integrates self healing. Voting provides a “boost” to blocks that receive a quorum of votes, and this dramatically reduces the roll-back probability of the boosted block and its predecessors.
+A major feature of the Dijkstra hard fork. Nested transactions allow a transaction to contain child transactions with independent witnesses and execution contexts, for more expressive on-chain logic. Implementation is well advanced.
 
-#### [CIP-118: Nested transactions](https://cips.cardano.org/cip/CIP-0118)
+**Observe Script Type / Guard Scripts (**[**CIP-112**](https://cips.cardano.org/cip/CIP-0112)**)**
 
-A set of changes that revolve around nested transactions, a construct for composing certain kinds of _partially valid transactions_, such as unbalanced transactions, or transactions with missing fees. The missing value or data must be provided by a subsequent transaction. Such partially valid transactions, which are called sub-transactions, must be placed into batches by aggregators. The batch must also include a _top-level_ transaction. The completed batch must be fully balanced. Applying a complete batch results in a valid ledger update, however, applying each of the individual transactions would not be possible.
+Introduces a new script type that can observe transaction validity without being executed as part of spending or minting. Required for expressive transaction guards and a dependency for the PlutusV4 script context.
 
-#### [CIP-159 phase 1: Accounts Enhancements](https://cips.cardano.org/cip/CIP-0159)
+**Account Address Enhancement, Phase 1 (**[**CIP-159**](https://cips.cardano.org/cip/CIP-0159)**)**
 
-Currently, Cardano's account addresses (a.k.a. reward addresses) can only be used for receiving ADA from the Cardano protocol (e.g., staking rewards). Users are not allowed to deposit assets into these addresses. By removing this restriction, and enabling very specific plutus script support, Cardano can unlock new use cases **without sacrificing local determinism**. And by still requiring UTxO inputs in transactions, these accounts avoid many of the pitfalls from Ethereum-style accounts.
+Phase 1 of account address improvements. Delivers the ledger-level definitions for account-style addresses on Cardano.
 
-<mark style="color:$info;">Phase 1 scope to be explained</mark>
+**Remove isValid from Transactions (**[**CIP-167**](https://cips.cardano.org/cip/CIP-0167)**)**
 
-#### [CIP-112 Guard scripts](https://cips.cardano.org/cip/CIP-0112)
+Removes the `isValid` field from transactions, simplifying the transaction structure and script execution.
 
-Introduce a new Plutus scripts type `Observe` in addition to those currently available (spending, certifying, rewarding, minting, drep). The purpose of this script type is to allow arbitrary validation logic to be decoupled from any ledger action. Since observe validators are decoupled from actions, you can run them in a transaction without needing to perform any associated action (ie you don't need to consume a script input, or mint a token, or withdraw from a staking script just to execute this validator).
+**Non-segregated Block Body Serialization (**[**CIP-176**](https://cips.cardano.org/cip/CIP-0176)**)**
 
-#### [CIP-181 Remove DRep delegation Requirement for Reward Withdrawals](https://cips.cardano.org/cip/CIP-0181)
+Changes block body serialization to a non-segregated format, required for the block body extensions Leios and other future features need.
 
-Removes the requirement that a reward withdrawal be conditioned on governance voting delegation. Under the current Conway governance regime introduced by [CIP-1694](https://cips.cardano.org/cip/CIP-1694), rewards continue to accrue normally, but after the bootstrap phase a reward account may be prevented from withdrawing unless its stake credential is delegated for voting to a registered DRep or one of the predefined voting options.
+**PlutusV4 Script Context**
 
-#### Fee function update (No CIP) -> Reference inputs
+Introduces the updated script context for PlutusV4, enabling scripts to observe the new transaction and ledger structures introduced in Dijkstra.
 
-<mark style="color:$info;">To be added</mark>
+**Fee Function Update (Reference Inputs)**
 
-#### PlutusV4 context
+Updates the fee function to account for reference inputs. No CIP; parameters will be hardcoded initially with a path to make them updatable later.
 
-<mark style="color:$info;">To be added</mark>
+**Reference Script Pricing and Limits**
 
-#### Reference script pricing and limits
+The pricing and size limits for reference scripts have been in effect since Conway as hardcoded values. Dijkstra introduces them as proper protocol parameters. For the community to update them via governance actions, both the Constitution and the guardrails script must be updated to include bounds and rules for these new parameters.
 
-<mark style="color:$info;">To be added</mark>
+**Remove DRep Requirement for Reward Withdrawals (**[**CIP-181**](https://cips.cardano.org/cip/CIP-0181)**)**
 
-#### [CIP-167 Remove isValid from transactions](https://cips.cardano.org/cip/CIP-0167)
+Removes the requirement for a DRep delegation to be present when withdrawing staking rewards, reducing friction for ada holders who want to withdraw without participating in governance.
 
-Removing the `isValid` boolean from the CBOR encoding of standalone transactions (e.g. for mempool). This would not affect the serialization of the transactions within blocks, since isValid flag is already stored separately from the transaction.
+**Pledge Leverage-Based Staking Rewards (**[**CIP-50**](https://cips.cardano.org/cip/CIP-0050)**)**
 
-#### [CIP-176 Non-segregated Block Body Serialization](https://cips.cardano.org/cip/CIP-0176)
-
-Changing the CBOR encoding of a block body from a segregated layout to a plain sequence of transactions. Current layout: all transaction bodies are concatenated and encoded first, followed by their witness sets, then followed by auxiliary-data hashes, and finally followed by validity flags. Proposed layout: each transaction is serialized in full before the next transaction is written to the stream.
-
-#### [CIP-23 (Part-1) Fair Min Fees (minPoolMargin)](https://cips.cardano.org/cip/CIP-0023)
-
-Introduces a new protocol parameter, `minPoolMargin`, which specifies a lower bound on the variable fee (margin) a stake pool may set. The parameter is introduced initially set to `0` to avoid disrupting existing pool certificates. This proposal does not change or reduce the existing minimum fixed pool fee (`minPoolCost`).
-
-<mark style="color:$info;">Part 1 scope to be explained</mark>
-
-#### [CIP-050 Pledge Leverage-Based Staking Rewards (maxPledgeLeverage, L)](https://cips.cardano.org/cip/CIP-0050)
-
-Introduces a new pledge leverage parameter, _L_, into the RSS to more directly and fairly constrain such under-pledged pools. By capping rewards for pools with excessive stake relative to pledge, _L_ penalizes severely under-pledged pools while having minimal effect on well-pledged or small pools. The adjusted scheme aligns economic incentives with decentralization: it redistributes stake toward well-pledged pools (increasing their rewards) and makes it more difficult for single entities to dominate via multiple pools.
-
-## Timeline
+Introduces a leverage parameter L that ties pool rewards to the ratio of delegated stake to pledge. The parameter is introduced with a default value of `Nothing`, which preserves current reward behaviour exactly — no change takes effect at the hard fork. DReps can subsequently vote to set L to a concrete value, at which point pools with zero pledge would earn zero rewards.
 
 ***
 
