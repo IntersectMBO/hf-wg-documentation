@@ -8,8 +8,6 @@
       1. [Product committee - Dijkstra Era: Phased Rollout Plan](https://product.cardano.intersectmbo.org/hardfork-planning/dijkstra/)
    2. Node diversity
       1. Haskell, Amaru (Rust), Dingo (Go), Dugite (Rust), TSUNAGI (Zig), Gerolamo (TypeScript), Dolos (Rust), Turbocardano (C++), Razor (.NET), Scalus (Scala)
-      2. Diversity is inevitable, but also are risks that come with it
-         1. [Bounty Evaluation for Dugite alternate node](https://www.314pool.com/post/dugite-bounty) by Pi
 3. AOB
 
 #### Key materials
