@@ -24,9 +24,10 @@ It is suggested that you bookmark this space and regularly refer back as new upg
 
 **Completed upgrades**
 
-| Name           |
-| -------------- |
-| Plomin upgrade |
-| Chang upgrade  |
+| Name               |
+| ------------------ |
+| van Rossem upgrade |
+| Plomin upgrade     |
+| Chang upgrade      |
 
 Note that information on previous upgrades may be temporarily hidden during any active upgrade. This is to ensure that only relevant information is available and aims avoid the propagation of potentially misleading or historical information.&#x20;
