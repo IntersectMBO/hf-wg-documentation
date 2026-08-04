@@ -30,15 +30,15 @@ Removes the requirement that a reward withdrawal be conditioned on governance vo
 
 #### Fee function update (No CIP) -> Reference inputs
 
-To be added
+<mark style="color:$info;">To be added</mark>
 
 #### PlutusV4 context
 
-To be added
+<mark style="color:$info;">To be added</mark>
 
 #### Reference script pricing and limits
 
-To be added
+<mark style="color:$info;">To be added</mark>
 
 #### [CIP-167 Remove isValid from transactions](https://cips.cardano.org/cip/CIP-0167)
 
