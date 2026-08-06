@@ -151,7 +151,7 @@ Spokesperson: Bosko
 
 Spokesperson: Bosko
 
-<table><thead><tr><th width="251">Implementation</th><th width="248">Status</th><th>Notes</th></tr></thead><tbody><tr><td>Acropolis</td><td><mark style="color:$info;">Deprecated</mark></td><td></td></tr><tr><td>Amaru</td><td><mark style="color:$info;">Not started</mark></td><td></td></tr><tr><td>Dingo</td><td><mark style="color:$info;">Not started</mark></td><td></td></tr><tr><td>Gerolamo</td><td><mark style="color:$info;">Not started</mark></td><td></td></tr><tr><td>Dolos</td><td><mark style="color:$info;">Not started</mark></td><td></td></tr></tbody></table>
+<table><thead><tr><th width="251">Implementation</th><th width="248">Status</th><th>Notes</th></tr></thead><tbody><tr><td>Acropolis</td><td><mark style="color:$info;">Deprecated</mark></td><td></td></tr><tr><td>Amaru</td><td><mark style="color:$info;">Not started</mark></td><td><mark style="color:$warning;">6th August</mark><br>Relay capable of doing validation and syncing to the tip, but block production will come in 6 to 7 weeks</td></tr><tr><td>Dingo</td><td><mark style="color:$info;">Not started</mark></td><td></td></tr><tr><td>Gerolamo</td><td><mark style="color:$info;">Not started</mark></td><td></td></tr><tr><td>Dolos</td><td><mark style="color:$info;">Not started</mark></td><td></td></tr></tbody></table>
 
 ***
 
