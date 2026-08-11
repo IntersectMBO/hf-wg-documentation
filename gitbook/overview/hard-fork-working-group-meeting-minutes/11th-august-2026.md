@@ -8,6 +8,11 @@
       1. IO Team presented their plan - [Dijkstra Era Hard Fork: Delivery Plan](https://docs.google.com/document/d/1nVCzB8-l0fKpZLrQVrq9uLIkT69twuEaYHdf2fSEgOE/edit?usp=sharing)
       2. [Product committee - Dijkstra Era: Phased Rollout Plan](https://product.cardano.intersectmbo.org/hardfork-planning/dijkstra/)
    2. Constitutional amendments and the CAP process
+      1. [CAP (Constitutional Ammendment Portal)](https://cap.intersectmbo.org/)
+         * [Guides](https://cap.intersectmbo.org/#/guides)
+         * [Introduction to CAPs and CISs](https://cap.intersectmbo.org/#/guides/intro-to-caps-and-cis)
+           * Constitutional Amendment Proposals (**CAPs**)
+           * Constitutional Issue Statements (**CISs**)
    3. Node diversity
       1. Haskell, Amaru (Rust), Dingo (Go), Dugite (Rust), TSUNAGI (Zig), Gerolamo (TypeScript), Dolos (Rust), Turbocardano (C++), Razor (.NET), Scalus (Scala)
 3. AOB
@@ -29,6 +34,9 @@
   * [Luma calendar](https://luma.com/calendar/cal-TMjYNpSY4huYYif)
   * [Email](mailto:hard-fork@intersectmbo.org)
 * [Product committee - Dijkstra Era: Phased Rollout Plan](https://product.cardano.intersectmbo.org/hardfork-planning/dijkstra/)
+* [CAP (Constitutional Ammendment Portal)](https://cap.intersectmbo.org/)
+  * [Guides](https://cap.intersectmbo.org/#/guides)
+  * [Introduction to CAPs and CISs](https://cap.intersectmbo.org/#/guides/intro-to-caps-and-cis)
 * Recording
 * Transcript
 * Chat
