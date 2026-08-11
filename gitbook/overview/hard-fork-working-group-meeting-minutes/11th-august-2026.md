@@ -2,7 +2,7 @@
 
 #### Agenda
 
-1. [Action items from the last call](https://cardanoupgrades.docs.intersectmbo.org/overview/hard-fork-working-group-meeting-minutes/30th-july-2026#action-items-and-next-steps) - Bosko
+1. [Action items from the last call](https://cardanoupgrades.docs.intersectmbo.org/overview/hard-fork-working-group-meeting-minutes/4th-august-2026#action-items-and-next-steps) - Bosko
 2. [Dijkstra era hard fork](https://cardanoupgrades.docs.intersectmbo.org/dijkstra-era/dijkstra-overview) - Bosko, all
    1. Scope
       1. IO Team presented their plan - [Dijkstra Era Hard Fork: Delivery Plan](https://docs.google.com/document/d/1nVCzB8-l0fKpZLrQVrq9uLIkT69twuEaYHdf2fSEgOE/edit?usp=sharing)
@@ -14,7 +14,10 @@
            * Constitutional Amendment Proposals (**CAPs**)
            * Constitutional Issue Statements (**CISs**)
    3. Node diversity
-      1. Haskell, Amaru (Rust), Dingo (Go), Dugite (Rust), TSUNAGI (Zig), Gerolamo (TypeScript), Dolos (Rust), Turbocardano (C++), Razor (.NET), Scalus (Scala)
+      1. Amaru
+         * Relay capable of doing validation and syncing to the tip
+         * Block production is expected come in 6 to 7 weeks
+      2. Haskell, Amaru (Rust), Dingo (Go), Dugite (Rust), TSUNAGI (Zig), Gerolamo (TypeScript), Dolos (Rust), Turbocardano (C++), Razor (.NET), Scalus (Scala)
 3. AOB
 
 #### Key materials
