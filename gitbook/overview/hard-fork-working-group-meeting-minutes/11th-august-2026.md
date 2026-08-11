@@ -67,6 +67,7 @@
   * [Email](mailto:hard-fork@intersectmbo.org)
 * [Product committee - Dijkstra Era: Phased Rollout Plan](https://product.cardano.intersectmbo.org/hardfork-planning/dijkstra/)
 * [Leios impact analysis](https://github.com/input-output-hk/ouroboros-leios/blob/main/docs/ImpactAnalysis.md)
+* [BLS Key rotation](https://github.com/input-output-hk/ouroboros-leios/issues/1024)
 * [CAP (Constitutional Ammendment Portal)](https://cap.intersectmbo.org/)
   * [Guides](https://cap.intersectmbo.org/#/guides)
   * [Introduction to CAPs and CISs](https://cap.intersectmbo.org/#/guides/intro-to-caps-and-cis)
