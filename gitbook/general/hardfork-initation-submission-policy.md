@@ -20,7 +20,7 @@ To provide feedback on the policy you can
 
 ## Mainnet Hard Fork Initiation Governance Action Submission Criteria
 
-Version: `0.2` -- Prepared for 2026 van Rossem Hard Fork
+Version: `0.2` -- Prepared originally for 2026 van Rossem Hard Fork
 
 This policy describes specific metrics which the hard fork working group (HFWG) considers before recommending submission of a Hard Fork Initiation governance action to Cardano mainnet.
 
