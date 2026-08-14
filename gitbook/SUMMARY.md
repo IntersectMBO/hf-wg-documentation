@@ -2,7 +2,7 @@
 
 ## Overview
 
-* [Overview](README.md)
+* [What you will find here](README.md)
 * [Hard Fork Initiation Submission Policy](overview/hardfork-initation-submission-policy.md)
 * [Hard fork working group meeting minutes](overview/hard-fork-working-group-meeting-minutes/README.md)
   * [11th August 2026](overview/hard-fork-working-group-meeting-minutes/11th-august-2026.md)
