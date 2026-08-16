@@ -50,6 +50,8 @@ In addition it ships the block body extensions and protocol parameters required 
 
 #### In Scope <a href="#in-scope" id="in-scope"></a>
 
+[GitHub reference](https://github.com/IntersectMBO/cardano-node/issues/6634)
+
 **Ouroboros Linear Leios (**[**CIP-164**](https://cips.cardano.org/cip/CIP-0164)**)**
 
 The headline feature of the Dijkstra hard fork, Linear Leios lets a block producer publish a larger Endorser Block alongside its Praos block, referencing the transactions the base block has no room for; a committee of stake pools certifies that block before its transactions enter the ledger, so throughput rises sharply while Praos security guarantees hold. It puts the bandwidth and compute already sitting idle on today's nodes to work, and the higher volume matters economically as well, since transaction fees must take over from the diminishing Reserve to sustain rewards and pool profitability. Leios ships complete in Phase 1, with throughput raised gradually via protocol parameter updates after activation.
