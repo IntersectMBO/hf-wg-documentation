@@ -5,6 +5,7 @@
 * [Introduction to hard forks](README.md)
 * [Hard Fork Initiation Submission Policy](general/hardfork-initation-submission-policy.md)
 * [Hard fork working group meeting minutes](general/hard-fork-working-group-meeting-minutes/README.md)
+  * [18th August 2026](general/hard-fork-working-group-meeting-minutes/18th-august-2026.md)
   * [11th August 2026](general/hard-fork-working-group-meeting-minutes/11th-august-2026.md)
   * [4th August 2026](general/hard-fork-working-group-meeting-minutes/4th-august-2026.md)
   * [30th July 2026](general/hard-fork-working-group-meeting-minutes/30th-july-2026.md)
