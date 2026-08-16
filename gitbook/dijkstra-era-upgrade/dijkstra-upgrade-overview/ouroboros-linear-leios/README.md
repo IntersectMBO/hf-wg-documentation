@@ -12,3 +12,6 @@ Track the development journey of Leios behind the scenes, with activity updates 
 
 {% embed url="https://engineering.iog.io/leios" %}
 
+### Musashi Network
+
+{% embed url="https://www.musashi.network/" %}

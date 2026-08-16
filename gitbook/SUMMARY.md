@@ -56,7 +56,8 @@
 ## Dijkstra Era Upgrade
 
 * [Dijkstra upgrade overview](dijkstra-era-upgrade/dijkstra-upgrade-overview/README.md)
-  * [Ouroboros Linear Leios](dijkstra-era-upgrade/dijkstra-upgrade-overview/ouroboros-linear-leios.md)
+  * [Ouroboros Linear Leios](dijkstra-era-upgrade/dijkstra-upgrade-overview/ouroboros-linear-leios/README.md)
+    * [Musashi Network](https://www.musashi.network/)
   * [Nested Transactions](dijkstra-era-upgrade/dijkstra-upgrade-overview/nested-transactions.md)
   * [Observe Script Type / Guard Scripts](dijkstra-era-upgrade/dijkstra-upgrade-overview/observe-script-type-guard-scripts.md)
   * [Account Address Enhancement, Phase 1](dijkstra-era-upgrade/dijkstra-upgrade-overview/account-address-enhancement-phase-1.md)
