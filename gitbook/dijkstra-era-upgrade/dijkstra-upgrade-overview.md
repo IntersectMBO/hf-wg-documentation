@@ -1,3 +1,24 @@
+---
+layout:
+  width: wide
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
+---
+
 # Dijkstra upgrade overview
 
 ### Overview <a href="#overview" id="overview"></a>
@@ -13,11 +34,9 @@ The distinction matters for what each phase can change. A new era ships a comple
 
 Each phase rolls out in sequence: Preview testnet, then Pre-production testnet, then Mainnet. A governance action is submitted and ratified on each network before the hard fork is enacted. DReps, SPOs, and the Constitutional Committee vote on the mainnet governance action, as established by CIP-1694.
 
-{% hint style="warning" icon="triangle-exclamation" %}
-**CAUTION**
+caution
 
 All dates and quarters are estimated targets for code completion and mainnet-ready benchmarked releases. They do not include governance processes or community testing. The time required for Preview and Pre-production rollout, SPO testing windows, and on-chain governance ratification will extend beyond these targets before any mainnet hard fork is enacted. All targets are estimates only and not guarantees.
-{% endhint %}
 
 ***
 
@@ -50,7 +69,7 @@ In addition it ships the block body extensions and protocol parameters required 
 | Mainnet governance action submission | Hard Fork Initiation action submitted on Mainnet; DReps, SPOs, and Constitutional Committee voting period |
 | **Mainnet hard fork**                | Following governance ratification; date TBD                                                               |
 
-## Scope
+#### In Scope <a href="#in-scope" id="in-scope"></a>
 
 **Ouroboros Linear Leios (**[**CIP-164**](https://cips.cardano.org/cip/CIP-0164)**)**
 
@@ -95,6 +114,78 @@ Removes the requirement for a DRep delegation to be present when withdrawing sta
 **Pledge Leverage-Based Staking Rewards (**[**CIP-50**](https://cips.cardano.org/cip/CIP-0050)**)**
 
 Introduces a leverage parameter L that ties pool rewards to the ratio of delegated stake to pledge. The parameter is introduced with a default value of `Nothing`, which preserves current reward behaviour exactly — no change takes effect at the hard fork. DReps can subsequently vote to set L to a concrete value, at which point pools with zero pledge would earn zero rewards.
+
+#### Structural Groundwork for Phase 2 <a href="#structural-groundwork-for-phase-2" id="structural-groundwork-for-phase-2"></a>
+
+These are not feature activations. They are the block structure changes, header extensions, and protocol parameter introductions that Phase 2 depends on. Because all of these require a new era, they must ship in Phase 1. Any protocol parameters needed to govern Peras behaviour must also be defined here, even if their values are not yet active, since protocol parameters cannot be introduced in an intra-era hard fork.
+
+| Change                                                                  | Purpose                                                                                                                           |
+| ----------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
+| [CIP-140](https://cips.cardano.org/cip/CIP-0140) Peras codec extensions | Introduces the codec changes needed for block bodies to optionally carry a Peras certificate, without activating the voting layer |
+
+#### Conditional: Fair Min Fees ([CIP-23](https://cips.cardano.org/cip/CIP-0023)) <a href="#conditional-fair-min-fees-cip-23" id="conditional-fair-min-fees-cip-23"></a>
+
+The protocol parameter introduced by CIP-23 is defined at Phase 1, but the fee rule itself may or may not activate at the Phase 1 hard fork. If implementation and governance readiness align, CIP-23 activates with Phase 1. If not, the parameter definition ships dormantly and the fee rule activates in a subsequent intra-era hard fork within the Dijkstra era.
+
+***
+
+### Phase 2: Peras Activation (Intra-era Hard Fork, Q2 2027) <a href="#phase-2-peras-activation-intra-era-hard-fork-q2-2027" id="phase-2-peras-activation-intra-era-hard-fork-q2-2027"></a>
+
+#### What Changes <a href="#what-changes" id="what-changes"></a>
+
+This phase activates Ouroboros Peras via an intra-era hard fork, a protocol version bump within the Dijkstra era. The CIP-140 codec extensions shipped with Phase 1, so no new ledger era is needed. The structural groundwork is already in place; this hard fork activates the consensus rules that switch it on.
+
+Peras is a settlement-speed upgrade that adds a voting overlay to the existing Ouroboros Praos chain selection rule. Committees of stake pool operators vote on recent chain tips; once a tip accumulates sufficient votes it is treated as settled well before the standard Praos depth would allow. Peras does not change how blocks are produced. It changes how quickly the network can consider a block irreversible.
+
+#### Rollout Milestones <a href="#rollout-milestones-1" id="rollout-milestones-1"></a>
+
+| Milestone                            | Notes                                                                                           |
+| ------------------------------------ | ----------------------------------------------------------------------------------------------- |
+| Node release                         | Peras-compatible node released for testnet operators                                            |
+| **Preview hard fork**                | Governance action submitted and enacted on Preview; SPO testing window opens                    |
+| Preview SPO testing window           | \~2 weeks; voting overlay testing, settlement latency validation                                |
+| **Pre-production hard fork**         | Governance action submitted and enacted on Pre-production; SPO testing window opens             |
+| Pre-production SPO testing window    | \~1-2 weeks; final readiness checks                                                             |
+| Mainnet governance action submission | Governance action submitted on Mainnet; DReps, SPOs, and Constitutional Committee voting period |
+| **Mainnet activation**               | Following governance ratification; date TBD                                                     |
+
+#### Activates <a href="#activates" id="activates"></a>
+
+* [CIP-140](https://cips.cardano.org/cip/CIP-0140): Ouroboros Peras, full activation of the Peras voting layer and accelerated settlement guarantees
+* [CIP-23](https://cips.cardano.org/cip/CIP-0023): Fair Min Fees fee rule, if not activated in Phase 1
+
+#### Prerequisites <a href="#prerequisites" id="prerequisites"></a>
+
+* Phase 1 mainnet live (CIP-140 codec extensions and protocol parameters in place)
+* Peras node implementation merged to mainline
+* Governance action ratified on-chain by DReps, SPOs, and Constitutional Committee
+
+***
+
+### Considered but Not Included in This Era <a href="#considered-but-not-included-in-this-era" id="considered-but-not-included-in-this-era"></a>
+
+These CIPs were evaluated for Dijkstra but will not be included in this era:
+
+| CIP                                                              | Title                                          | Rationale                                                                                                                                                                                                                                                                            |
+| ---------------------------------------------------------------- | ---------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| [CIP-180](https://github.com/cardano-foundation/CIPs/pull/1157)  | Producer Identification                        | Ledger team does not have the capacity to implement within this era, and alternative node implementations have not reached agreement on the approach.                                                                                                                                |
+| [CPS-0023](https://github.com/cardano-foundation/CIPs/pull/1103) | Cardano Multi Asset Treasury                   | Requires the CIP-159 account address infrastructure included in Phase 1 to lay the groundwork. Better targeted at Euler once that foundation is in place.                                                                                                                            |
+| [CIP-156](https://cips.cardano.org/cip/CIP-0156)                 | Plutus Core Builtin Function - multiIndexArray | Not included in the PlutusV4 scope for Dijkstra due to limited Plutus team resources. As it requires no ledger changes, it could potentially be picked up in any upcoming intra-era hard fork if capacity allows.                                                                    |
+| [CIP-160](https://cips.cardano.org/cip/CIP-0160)                 | Receiving Script Purpose and Addresses         | Insufficient ledger resources to implement within this era given its complexity.                                                                                                                                                                                                     |
+| [CIP-163](https://cips.cardano.org/cip/CIP-0163)                 | Time-Bound Delegation with Dynamic Rewards     | Explicitly contentious: the same community poll saw 54.1% vote NO, making it the most rejected item on the shortlist. Including it would hand opponents a clear mandate to vote against the hard fork.                                                                               |
+| [CIP-173](https://github.com/cardano-foundation/CIPs/pull/1129)  | Net Change Limit Parameter                     | A major overhaul that is not implementable in the current ledger state: the ledger does not retain history of past epoch inflows and outflows, which the NCL calculation requires. Needs a detailed implementation plan before it can be scoped. Better targeted at Euler or beyond. |
+| [CIP-0175](https://github.com/cardano-foundation/CIPs/pull/1140) | Stake Pool Hot Credentials                     | Too complex to implement given existing ledger team commitments for this era. Better targeted at Euler.                                                                                                                                                                              |
+
+### Wishlist / Future Consideration <a href="#wishlist--future-consideration" id="wishlist--future-consideration"></a>
+
+Community proposals not yet targeted at any scheduled hard fork:
+
+| CIP                                                              | Title                            |
+| ---------------------------------------------------------------- | -------------------------------- |
+| [CIP-0182](https://github.com/cardano-foundation/CIPs/pull/1164) | Optimistic Constitutionality     |
+| [CIP-0168](https://github.com/cardano-foundation/CIPs/pull/1090) | More BuiltinValue Functions      |
+| [CIP-????](https://github.com/cardano-foundation/CIPs/pull/1072) | More Descriptive Script Purposes |
+| (no CIP yet)                                                     | Quantum-secure signature schemes |
 
 ***
 
