@@ -18,9 +18,9 @@ It is suggested that you bookmark this space and regularly refer back as new upg
 
 **Planned upgrades**
 
-| Name                                                                  |
-| --------------------------------------------------------------------- |
-| [Dijkstra upgrade](dijkstra-era-upgrade/dijkstra-upgrade-overview.md) |
+| Name                                                                |
+| ------------------------------------------------------------------- |
+| [Dijkstra upgrade](dijkstra-era-upgrade/dijkstra-upgrade-overview/) |
 
 **Completed upgrades**
 

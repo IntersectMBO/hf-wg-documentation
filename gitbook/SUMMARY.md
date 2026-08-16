@@ -55,7 +55,20 @@
 
 ## Dijkstra Era Upgrade
 
-* [Dijkstra upgrade overview](dijkstra-era-upgrade/dijkstra-upgrade-overview.md)
+* [Dijkstra upgrade overview](dijkstra-era-upgrade/dijkstra-upgrade-overview/README.md)
+  * [Ouroboros Linear Leios](dijkstra-era-upgrade/dijkstra-upgrade-overview/ouroboros-linear-leios.md)
+  * [Nested Transactions](dijkstra-era-upgrade/dijkstra-upgrade-overview/nested-transactions.md)
+  * [Observe Script Type / Guard Scripts](dijkstra-era-upgrade/dijkstra-upgrade-overview/observe-script-type-guard-scripts.md)
+  * [Account Address Enhancement, Phase 1](dijkstra-era-upgrade/dijkstra-upgrade-overview/account-address-enhancement-phase-1.md)
+  * [Remove isValid from TransactionsTo be added](dijkstra-era-upgrade/dijkstra-upgrade-overview/remove-isvalid-from-transactionsto-be-added.md)
+  * [Non-segregated Block Body Serialization](dijkstra-era-upgrade/dijkstra-upgrade-overview/non-segregated-block-body-serialization.md)
+  * [PlutusV4 Script Context](dijkstra-era-upgrade/dijkstra-upgrade-overview/plutusv4-script-context.md)
+  * [Fee Function Update (Reference Inputs)](dijkstra-era-upgrade/dijkstra-upgrade-overview/fee-function-update-reference-inputs.md)
+  * [Reference Script Pricing and Limits](dijkstra-era-upgrade/dijkstra-upgrade-overview/reference-script-pricing-and-limits.md)
+  * [Remove DRep Requirement for Reward Withdrawals](dijkstra-era-upgrade/dijkstra-upgrade-overview/remove-drep-requirement-for-reward-withdrawals.md)
+  * [Pledge Leverage-Based Staking Rewards](dijkstra-era-upgrade/dijkstra-upgrade-overview/pledge-leverage-based-staking-rewards.md)
+  * [Peras codec extensions](dijkstra-era-upgrade/dijkstra-upgrade-overview/peras-codec-extensions.md)
+  * [Fair Min Fees (conditional)](dijkstra-era-upgrade/dijkstra-upgrade-overview/fair-min-fees-conditional.md)
 * [Dijkstra upgrade readiness](dijkstra-era-upgrade/dijkstra-upgrade-readiness.md)
 * [Dijkstra upgrade FAQ](dijkstra-era-upgrade/dijkstra-upgrade-faq.md)
 * [Dijkstra upgrade bulletins](dijkstra-era-upgrade/dijkstra-upgrade-bulletins.md)
