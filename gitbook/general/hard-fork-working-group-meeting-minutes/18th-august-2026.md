@@ -9,7 +9,8 @@
    3. Constitutional amendments
    4. Community engagement
    5. Comms
-   6. Node diversity
+   6. Timing
+   7. Node diversity
       1. Haskell, Amaru (Rust), Dingo (Go), Dugite (Rust), TSUNAGI (Zig), Gerolamo (TypeScript), Dolos (Rust), Turbocardano (C++), Razor (.NET), Scalus (Scala)
 3. AOB
 
@@ -17,14 +18,6 @@
 
 * Summary
   * **Dijkstra Era hard fork**
-    * Scope & Timing
-      *
-    * Node Diversity
-      *
-    * Readiness
-      *
-  * Constitutional amendments and the CAP process
-    *
     *
   * Decision making and prioritization process for future hard forks
     *
