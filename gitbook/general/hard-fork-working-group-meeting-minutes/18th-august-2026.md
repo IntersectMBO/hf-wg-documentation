@@ -7,7 +7,7 @@
    1. Scope
    2. Protocol parameters introduction and changes
    3. Constitutional amendments
-   4. Community engagement
+   4. Readiness and Community engagement
    5. Comms
    6. Timing
    7. Node diversity
