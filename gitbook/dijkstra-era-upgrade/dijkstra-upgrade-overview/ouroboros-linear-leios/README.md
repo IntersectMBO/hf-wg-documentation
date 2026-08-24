@@ -8,15 +8,15 @@ The first iteration of a high-level design document for the Leios consensus upgr
 
 **Core semantics changes**
 
-To be added
+Implications, why it concerns you and what needs to be updated in response
 
 **Breaking API changes**
 
-To be added
+Why it was unavoidable and what needs to be updated in response
 
 **New features**
 
-To be added
+What new capabilities it unlocks that you might want to start thinking about
 
 ### Leios Dev Tracker
 

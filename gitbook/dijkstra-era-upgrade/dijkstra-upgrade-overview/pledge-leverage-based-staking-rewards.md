@@ -4,12 +4,14 @@
 
 **Core semantics changes**
 
-To be added
+Implications, why it concerns you and what needs to be updated in response
 
 **Breaking API changes**
 
-To be added
+Why it was unavoidable and what needs to be updated in response
 
 **New features**
+
+What new capabilities it unlocks that you might want to start thinking about
 
 To be added
