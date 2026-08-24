@@ -59,6 +59,7 @@
 * [Dijkstra upgrade overview](dijkstra-era-upgrade/dijkstra-upgrade-overview/README.md)
   * [Ouroboros Linear Leios](dijkstra-era-upgrade/dijkstra-upgrade-overview/ouroboros-linear-leios/README.md)
     * [Musashi Network](https://www.musashi.network/)
+    * [Musashi Block Explorer](https://kleioscan.com/#/musashi)
     * [Leios related protocol parameters - GitHub](https://github.com/IntersectMBO/cardano-ledger/issues/5965)
   * [Nested Transactions](dijkstra-era-upgrade/dijkstra-upgrade-overview/nested-transactions.md)
   * [Observe Script Type / Guard Scripts](dijkstra-era-upgrade/dijkstra-upgrade-overview/observe-script-type-guard-scripts.md)
