@@ -6,6 +6,18 @@ The first iteration of a high-level design document for the Leios consensus upgr
 
 [https://github.com/input-output-hk/ouroboros-leios/blob/main/docs/ImpactAnalysis.md](https://github.com/input-output-hk/ouroboros-leios/blob/main/docs/ImpactAnalysis.md)
 
+**Core semantics changes**
+
+To be added
+
+**Breaking API changes**
+
+To be added
+
+**New features**
+
+To be added
+
 ### Leios Dev Tracker
 
 Track the development journey of Leios behind the scenes, with activity updates and evolving roadmaps.
