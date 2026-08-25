@@ -10,7 +10,8 @@
    4. Readiness and Community engagement
    5. Comms
    6. Timing
-   7. Node diversity
+   7. Naming
+   8. Node diversity
       1. Haskell, Amaru (Rust), Dingo (Go), Dugite (Rust), TSUNAGI (Zig), Gerolamo (TypeScript), Dolos (Rust), Turbocardano (C++), Razor (.NET), Scalus (Scala)
 3. AOB
 
