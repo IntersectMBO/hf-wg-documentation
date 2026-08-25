@@ -62,9 +62,9 @@
   * [Guides](https://cap.intersectmbo.org/#/guides)
   * [Introduction to CAPs and CISs](https://cap.intersectmbo.org/#/guides/intro-to-caps-and-cis)
 * [Antithesis](https://cardanofoundation.org/blog/improving-cardano-antithesis)
-* [Recording](https://drive.google.com/file/d/19Eq0gQJLpwxFht2vvqnf5MftayUQEX-r/view?usp=drive_link)
-* [Transcript](https://docs.google.com/document/d/17DzfzecGMmeBk_l2QplmPaNwJDcvgT4X0FE06n_T_Ck/edit?usp=drive_link)
-* [Chat](https://drive.google.com/file/d/1QSKVy5dKA0YrDnreVyGTzfqpCelbogHq/view?usp=drive_link)
+* Recording
+* Transcript
+* Chat
 
 #### **Action items and next steps**
 
