@@ -31,7 +31,11 @@
            * **Sean Davies**
          * Any hfwg or other community member is invited to provide more details on the members who passed away in order to have the memory of their lives and impact eternal
    6. Node diversity
-      1. Amaru team is expecting to have Praos block producing ready node on mainnet by the end of 2026 and is unwrapping other items in the scope
+      1. Amaru
+         * Team is expecting to have Praos block producing ready node on mainnet by the end of 2026 and is unwrapping other items in the scope
+         * 2 upcoming node diversity events
+           * One around Token2049 on the 6th October (online event with a small cohort offline in Singapore)
+           * 12th + 13th November node diversity workshop in London
       2. Haskell, Amaru (Rust), Dingo (Go), Dugite (Rust), TSUNAGI (Zig), Gerolamo (TypeScript), Dolos (Rust), Turbocardano (C++), Razor (.NET), Scalus (Scala)
 3. AOB
 
@@ -65,6 +69,8 @@
 * Recording
 * Transcript
 * Chat
+
+{% file src="../../.gitbook/assets/2026_08_25_Amaru_Events.pdf" %}
 
 #### **Action items and next steps**
 
