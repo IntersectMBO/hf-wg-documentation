@@ -36,20 +36,51 @@
          * 2 upcoming node diversity events
            * One around Token2049 on the 6th October (online event with a small cohort offline in Singapore)
            * 12th + 13th November node diversity workshop in London
-      2. Haskell, Amaru (Rust), Dingo (Go), Dugite (Rust), TSUNAGI (Zig), Gerolamo (TypeScript), Dolos (Rust), Turbocardano (C++), Razor (.NET), Scalus (Scala)
+      2. Haskell, Amaru (Rust), Dingo (Go), Dugite (Rust), TSUNAGI (Zig), Gerolamo (TypeScript), Dolos (Rust), Turbocardano (C++), Razor (.NET), Scalus (Scala), Yano (Java)
 3. AOB
 
 #### Key materials
 
 * Summary
   * **Dijkstra Era hard fork**
-    * Scope
-    * Protocol parameters changes and Constitutional amendments
+    * Scope and timing
+      * Adding ledger interface for plutus v4 will be part of version 11.2
+        * It is expected to happen in the next 2 weeks
+      * 11.2 should not be considered as the hard fork ready version, rather one that gives insight into Dijkstra and some early testing of its capabilities
+      * 11.3 version which is considered to be feature complete was expected to be completed by the end of August
+      * Based on the above, the delivery timeline should be adjusted and is yet to be determined to which extent
+    * Protocol parameters and Constitutional amendments
+      * TSC perspective
+        * Protocol parameters need to be confirmed (expected in node 11.2)
+        * Discussion of guardrails can commence with the parameter committee once parameters are sufficiently fixed
+      * Dijkstra era hard fork bring new parameters not only for Leios, but for other scope items too and all need to be addressed as all should be included in the constitutional amendments
+      * There is an upcoming discussion this Friday on constitutional amendments related to Dijkstra governance and tech domain experts
+      * Parameters Committee needs one week for proper review of confirmed DIjkstra era hard fork parameters
     * Readiness and Community engagement
+      * CDDL is expected to be completed in the next 3 weeks
+      * DBSync changes are following Dijkstra scope already, work is happening in parallel and soon after the node is marked as hard fork ready, DBSync will be too
+      * The above will unlock progress on engagement
     * Comms
-    * Timing
-    * Current Cardano Governance
+      * The main focus of the comms teams remain Update Constitutional Committee governance action and low SPO engagement
+        * If the action doesnt pass, governance on Cardano stalls
+    * Naming
+      * Metadata is being prepared for the submission of naming info action
+        * It doesnt need to be overly descriptive, but it needs to cover the social aspect of it sufficiently
+        * More detailed bios of the people considered so far, for the name and in memoriam section, will be added to the hard fork initiation governance action in due time
+      * Aiming to be submitted in epoch 654 (starts 6th September)
+      * Based on [the hfwg call motion on 23rd July](https://cardanoupgrades.docs.intersectmbo.org/general/hard-fork-working-group-meeting-minutes/23rd-july-2026#key-materials), hfwg is proposing to name the hard fork after **Alexander Esgen**, with adding In Memoriam section to eternalize others who sadly passed away in recent months/years
+      * Hard Fork Working Group should take naming process into consideration for future hard forks with the aim to have it defined, transparent and widely communicated
+        * It could mean adjusting the hard fork submission policy as the current one has nothing specified on how hard forks should be named
     * Node diversity
+      * Amaru team expectation for Q4 2026 is to be able to produce a first block on mainnet, work on conformance (collaborating with Alex Sierkov from Turbocardano), performances and robustness
+        * Block production node release (Target): September 29th start with a pre-release, have a beta \~4 weeks after
+        * Q3 2026 goal is achieved - Release a robust relay node binary ([version 10.11.20260820^beta](https://github.com/pragma-org/amaru/releases/tag/v10.11.20260820))
+        * Diversity “celebration day” in Singapore: 6th October
+          * Attendees: Every node implementation leader
+          * Purpose: Get a look at all the implementation timelines
+        * Node diversity workshop in London: 12th & 13th November
+          * Attendees: Node implementation teams; SPOs; Hard fork decision makers
+          * Purpose: Decide on the cost-efficient approach for Cardano network upgrades
   * Hard Fork Working Group will continue to meet once a week until the Dijkstra era hard fork work solidifies enough to mandate more alignments and sync
 
 #### **Reference links and engagement points**
@@ -74,4 +105,12 @@
 
 #### **Action items and next steps**
 
-*
+* **Bosko:** Confirm the timeline(s), different confidence levels plans with Jeff from IO
+* **Bosko:** Create overall Dijkstra delivery timeline in Miro so each HFWG participant/attendee and more broadly ecosystem, have clear view of the activities and milestones towards the DIjkstra era hard fork enactment
+* **Carlos/Sebastian/Jeff:** Confirm the list of Dijkstra era hard fork protocol parameters to the Parameter Committee as discussion of guardrails can commence with the parameter committee once parameters are sufficiently fixed
+* **Bosko:** Finalize v1 of Dijkstra readiness tracker (includes readiness reported against different networks) to apply correct and precise readiness calculations in it
+* **Bosko/Sebastian/Carlos:** Document impact on all changes being introduced in the Dijkstra era hard fork and reference it in the Cradano Upgrades GitBook space
+* **Elena/Bosko:** Check and cross-reference readiness approach being taken in previous hard forks with Chang, Plomin and beyond
+* **Elena:** Prepare hard fork naming info action metadata in order to be reviewed by the hard fork working group, technical steering committee and civics committee
+* **Elena/Bosko:** Collect the relevant bios of the people considered so far, for the name and in memoriam section, so those can be added to the hard fork initiation governance action in due time
+* **Kevin/Sam L/Ryan C W/Damien:** Draft the decision making and prioritization process for future hard forks
