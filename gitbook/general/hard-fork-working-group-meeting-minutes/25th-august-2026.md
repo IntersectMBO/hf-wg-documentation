@@ -74,7 +74,7 @@
       * Hard Fork Working Group should take naming process into consideration for future hard forks with the aim to have it defined, transparent and widely communicated
         * It could mean adjusting the hard fork submission policy as the current one has nothing specified on how hard forks should be named
     * Node diversity
-      * Amaru team expectation for Q4 2026 is to be able to produce a first block on mainnet, work on conformance (collaborating with Alex Sierkov from Turbocardano), performances and robustness
+      * Amaru team expectation for Q4 2026 is to be able to produce a first block on mainnet, work on conformance (collaborating with all node implementers, especially Alex Sierkov from Turbocardano), performances and robustness
         * Block production node release (Target): September 29th start with a pre-release, have a beta \~4 weeks after
         * Q3 2026 goal is achieved - Release a robust relay node binary ([version 10.11.20260820^beta](https://github.com/pragma-org/amaru/releases/tag/v10.11.20260820))
         * Diversity “celebration day” in Singapore: 6th October
