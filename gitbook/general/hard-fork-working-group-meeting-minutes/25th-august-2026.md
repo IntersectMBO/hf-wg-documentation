@@ -42,6 +42,8 @@
 #### Key materials
 
 * Summary
+  * First part of the meeting wasnt properly recorded, but the structured meeting notes below cover the meeting in its entirety
+    * Partial recording, transcript and chat are available [below](https://cardanoupgrades.docs.intersectmbo.org/general/hard-fork-working-group-meeting-minutes/25th-august-2026#reference-links-and-engagement-points)
   * **Dijkstra Era hard fork**
     * Scope and timing
       * Adding ledger interface for plutus v4 will be part of version 11.2
@@ -97,9 +99,9 @@
   * [Guides](https://cap.intersectmbo.org/#/guides)
   * [Introduction to CAPs and CISs](https://cap.intersectmbo.org/#/guides/intro-to-caps-and-cis)
 * [Antithesis](https://cardanofoundation.org/blog/improving-cardano-antithesis)
-* Recording
-* Transcript
-* Chat
+* [Recording](https://drive.google.com/file/d/1Z0IwnHBS-7o-n2o6ShcVb58rzF-nOmIo/view?usp=drive_link)
+* [Transcript](https://docs.google.com/document/d/172-g-7sG3vC98jr82uMDnmHI9sjWA5qpC_-jBc1Q2wo/edit?usp=drive_link)
+* [Chat](https://drive.google.com/file/d/1MmxMx0V4D-Zb-B75x6_oDaJFRtwYAlLN/view?usp=drive_link)
 
 {% file src="../../.gitbook/assets/2026_08_25_Amaru_Events.pdf" %}
 
