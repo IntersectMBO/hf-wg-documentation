@@ -18,6 +18,12 @@ Why it was unavoidable and what needs to be updated in response
 
 What new capabilities it unlocks that you might want to start thinking about
 
+### Leios Portal
+
+
+
+{% embed url="https://leios.cardano-scaling.org/" %}
+
 ### Leios Dev Tracker
 
 Track the development journey of Leios behind the scenes, with activity updates and evolving roadmaps.

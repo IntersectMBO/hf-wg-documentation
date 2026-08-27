@@ -12,17 +12,17 @@ You can do so by suggesting updates via this Intersect [GitHub documentation rep
 \
 Alternatively, if you find any information on this page incorrect or misleading please email: hard-fork@intersectmbo.org and request an update or correction.
 
-Third, additional option, is to leave a comment in the respective tab of the live readiness tracker (<mark style="color:$danger;">**to be linked**</mark>).
+Third, additional option, is to leave a comment in the respective tab of the [live readiness tracker](https://docs.google.com/spreadsheets/d/1C1Ai_YTqwKLHtICunzbh_o0FD9XB54Kh/edit?usp=sharing\&ouid=106134819668558877362\&rtpof=true\&sd=true).
 
 **Overall readiness status** 🔴
 
 [Hard Fork Initiation Submission policy](https://cardanoupgrades.docs.intersectmbo.org/overview/hardfork-initation-submission-policy)
 
-Live readiness tracker (<mark style="color:$danger;">**to be linked**</mark>)
+[Live readiness tracker](https://docs.google.com/spreadsheets/d/1C1Ai_YTqwKLHtICunzbh_o0FD9XB54Kh/edit?usp=sharing\&ouid=106134819668558877362\&rtpof=true\&sd=true)
 
 | Workstream                                                                                                                                                       | RAG status | Last update |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | ----------- |
-| [Core Infrastructure Components](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#core-infrastructure-components)   | 🔴         |             |
+| [Core Infrastructure Components](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#core-infrastructure-components)   | 🟠         |             |
 | [Testnets and Governance Actions](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#testnets-and-governance-actions) | 🔴         |             |
 | [SPOs](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#spos)                                                       | 🔴         |             |
 | [Exchanges](https://cardanoupgrades.docs.intersectmbo.org/van-rossem-upgrade/van-rossem-upgrade-readiness#exchanges)                                             | 🔴         |             |
@@ -69,7 +69,7 @@ Spokesperson: Elena
 
 Spokesperson: Markus Gufler / Matthew Capps
 
-<table><thead><tr><th width="251">Pool Management Suite</th><th width="254.93359375">Status</th><th>Notes</th></tr></thead><tbody><tr><td>JorManager</td><td><mark style="color:$info;">Not started</mark></td><td></td></tr><tr><td>CFD</td><td><mark style="color:$info;">Not started</mark></td><td></td></tr><tr><td>SPOs adoption</td><td><mark style="color:$info;">Not started</mark></td><td></td></tr></tbody></table>
+<table><thead><tr><th width="251">Pool Management Suite</th><th width="254.93359375">Status</th><th>Notes</th></tr></thead><tbody><tr><td>JorManager</td><td><mark style="color:$info;">Not started</mark></td><td></td></tr><tr><td>CFD</td><td><mark style="color:$info;">Not started</mark></td><td></td></tr><tr><td>SPOs adoption</td><td><mark style="color:$info;">Not started</mark></td><td></td></tr><tr><td>CIP-155 SRV Registry</td><td><mark style="color:$info;">Not started</mark></td><td></td></tr></tbody></table>
 
 * Nodes reporting version 12 (according to pooltool.io) - X% (<mark style="color:$info;">**Not started**</mark>)
 
