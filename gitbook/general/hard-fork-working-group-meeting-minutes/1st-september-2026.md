@@ -20,15 +20,13 @@
    4. Comms
       1.
    5. Naming
-      1. Metadata is being prepared for the submission of naming info action
+      1. [Metadata](https://docs.google.com/document/d/1tIkFkxycv4ndmOar99-iiUdr8prZYdYx__Eu3UzRE2I/edit?tab=t.0) is being prepared for the submission of naming info action
          * Aiming to be submitted in epoch 654 (starts 6th September)
          * Based on [the hfwg call motion on 23rd July](https://cardanoupgrades.docs.intersectmbo.org/general/hard-fork-working-group-meeting-minutes/23rd-july-2026#key-materials), hfwg is proposing to name the hard fork after **Alexander Esgen**, with adding In Memoriam section to eternalize others who sadly passed away in recent months/years
-           * **Fabian von Bergen** - there is the [info action](https://cardanoscan.io/govAction/gov_action1fzatpjn3e3r09mjzzfptznef9wxg8q4a5uraq04xvfjyhmfzhzfsqqgfc9h) that expired
-             * 61.28% DReps, 4.31% SPOs, 3 No and 1 Abstain CC)
+           * HFWG acknowledges that there is the expired [info action](https://cardanoscan.io/govAction/gov_action1fzatpjn3e3r09mjzzfptznef9wxg8q4a5uraq04xvfjyhmfzhzfsqqgfc9h) to name it after **Fabian von Bergen**, although deemed unconstitutional, gained sizable DReps and SPOs support
            * **Steven Lupien**
            * **Gregg Morgan** aka [@bone\_pool](https://x.com/bone_pool)
            * **Sean Davies**
-         * Any hfwg or other community member is invited to provide more details on the members who passed away in order to have the memory of their lives and impact eternal
    6. Node diversity
       1. Amaru
          * Block production node release (Target): September 29th start with a pre-release, have a beta \~4 weeks after
