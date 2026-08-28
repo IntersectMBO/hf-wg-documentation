@@ -111,7 +111,7 @@
 * **Bosko:** Create overall Dijkstra delivery timeline in Miro so each HFWG participant/attendee and more broadly ecosystem, have clear view of the activities and milestones towards the DIjkstra era hard fork enactment
 * **Carlos/Sebastian/Jeff:** Confirm the list of Dijkstra era hard fork protocol parameters to the Parameter Committee as discussion of guardrails can commence with the parameter committee once parameters are sufficiently fixed
 * **Bosko:** Finalize v1 of Dijkstra readiness tracker (includes readiness reported against different networks) to apply correct and precise readiness calculations in it
-* **Bosko/Sebastian/Carlos:** Document impact on all changes being introduced in the Dijkstra era hard fork and reference it in the Cradano Upgrades GitBook space
+* **Bosko/Sebastian/Carlos:** Document impact on all changes being introduced in the Dijkstra era hard fork and reference it in the Cardano Upgrades GitBook space
 * **Elena/Bosko:** Check and cross-reference readiness approach being taken in previous hard forks with Chang, Plomin and beyond
 * **Elena:** Prepare hard fork naming info action metadata in order to be reviewed by the hard fork working group, technical steering committee and civics committee
 * **Elena/Bosko:** Collect the relevant bios of the people considered so far, for the name and in memoriam section, so those can be added to the hard fork initiation governance action in due time
