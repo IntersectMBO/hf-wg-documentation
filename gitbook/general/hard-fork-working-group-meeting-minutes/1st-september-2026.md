@@ -23,7 +23,7 @@
       1. [Metadata](https://docs.google.com/document/d/1tIkFkxycv4ndmOar99-iiUdr8prZYdYx__Eu3UzRE2I/edit?usp=sharing) is being prepared for the submission of naming info action
          * Aiming to be submitted in epoch 654 (starts 6th September) or 655 (starts 11th September), pending Alexander Esgen family approval
          * Based on [the hfwg call motion on 23rd July](https://cardanoupgrades.docs.intersectmbo.org/general/hard-fork-working-group-meeting-minutes/23rd-july-2026#key-materials), hfwg is proposing to name the hard fork after **Alexander Esgen**, with adding In Memoriam section to eternalize others who sadly passed away in recent months/years
-           * HFWG acknowledges that there is the expired [info action](https://cardanoscan.io/govAction/gov_action1fzatpjn3e3r09mjzzfptznef9wxg8q4a5uraq04xvfjyhmfzhzfsqqgfc9h) to name it after **Fabian von Bergen**, although deemed unconstitutional, gained sizable DReps and SPOs support
+           * HFWG acknowledges that there is the expired [info action](https://cardanoscan.io/govAction/gov_action1fzatpjn3e3r09mjzzfptznef9wxg8q4a5uraq04xvfjyhmfzhzfsqqgfc9h) to name it after **Fabian von Bergen**, although deemed unconstitutional from the perspective of not having the document at the designated URL immutable, gained sizable DReps and SPOs support
            * **Steven Lupien**
            * **Gregg Morgan** aka [@bone\_pool](https://x.com/bone_pool)
            * **Sean Davies**
@@ -67,9 +67,9 @@
   * [Guides](https://cap.intersectmbo.org/#/guides)
   * [Introduction to CAPs and CISs](https://cap.intersectmbo.org/#/guides/intro-to-caps-and-cis)
 * [Antithesis](https://cardanofoundation.org/blog/improving-cardano-antithesis)
-* [Recording](https://drive.google.com/file/d/1Z0IwnHBS-7o-n2o6ShcVb58rzF-nOmIo/view?usp=drive_link)
-* [Transcript](https://docs.google.com/document/d/172-g-7sG3vC98jr82uMDnmHI9sjWA5qpC_-jBc1Q2wo/edit?usp=drive_link)
-* [Chat](https://drive.google.com/file/d/1MmxMx0V4D-Zb-B75x6_oDaJFRtwYAlLN/view?usp=drive_link)
+* Recording
+* Transcript
+* Chat
 
 {% file src="../../.gitbook/assets/2026_08_25_Amaru_Events.pdf" %}
 
