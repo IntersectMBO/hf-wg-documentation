@@ -10,8 +10,9 @@
       3. 11.3
    2. Scope and timing - Jeff, Bosko
       1. [IOLabs - Dijkstra Era Hard Fork](https://docs.google.com/document/d/1nVCzB8-l0fKpZLrQVrq9uLIkT69twuEaYHdf2fSEgOE/edit?tab=t.0#heading=h.blm90nnxn47g)
-      2. The aim is to have each scope item having its impact documented in the [Cardano Upgrades space](https://cardanoupgrades.docs.intersectmbo.org/dijkstra-era-upgrade/dijkstra-upgrade-overview) (Core semantics changes, Breaking API changes, New features)
+      2. Technical risk log - Kevin, IO
       3. [Dijkstra Dependencies](https://drive.google.com/file/d/1VF9YavmkDiDkUCwzVzgv8_PwiZnt3-6F/view?usp=sharing)
+      4. The aim is to have each scope item having its impact documented in the [Cardano Upgrades space](https://cardanoupgrades.docs.intersectmbo.org/dijkstra-era-upgrade/dijkstra-upgrade-overview) (Core semantics changes, Breaking API changes, New features)
    3. Protocol parameters and constitutional amendments
       1. [Dijkstra protocol parameters for the constitution update](https://docs.google.com/document/d/1M649pDQtquYr4n5QBx_Q7vfzyFINQssN8Cpp553BGvA/edit?usp=sharing) - shared with Parameter Committee on 27th August
       2. [Dijkstra Constitution Parameters - Summary & Tracking Issues](https://docs.google.com/document/d/1M649pDQtquYr4n5QBx_Q7vfzyFINQssN8Cpp553BGvA/edit?usp=sharing) - shared with Parameter Committee on 27th August
