@@ -2,7 +2,7 @@
 
 #### Agenda
 
-1. [Action items from the last call](https://cardanoupgrades.docs.intersectmbo.org/general/hard-fork-working-group-meeting-minutes/25th-august-2026#action-items-and-next-steps) - Bosko
+1. [Action items from the last call](https://cardanoupgrades.docs.intersectmbo.org/general/hard-fork-working-group-meeting-minutes/1st-september-2026#action-items-and-next-steps) - Bosko
 2. [Dijkstra era hard fork](https://cardanoupgrades.docs.intersectmbo.org/dijkstra-era/dijkstra-overview) - Bosko, all
    1. Releases, readiness and community engagement - Sam, Bosko
       1. 11.1.1
@@ -21,8 +21,9 @@
    5. Naming
       1.
    6. Node diversity
-      1. Amaru
-         *
+      1. Node diversity celebration day in Singapore & Online - organized by Amaru team
+         1. [Announcement](https://x.com/Amaru_Cardano/status/2095090242357240201)
+         2. [Content and agenda](https://hackmd.io/@Amaru/DiversityCelebrationDraft) (can be modified)
       2. Haskell, Amaru (Rust), Dingo (Go), Dugite (Rust), TSUNAGI (Zig), Gerolamo (TypeScript), Dolos (Rust), Turbocardano (C++), Razor (.NET), Scalus (Scala), Yano (Java)
 3. AOB
 
