@@ -21,7 +21,8 @@
    4. Comms
       1.
    5. Naming
-      1.
+      1. Naming info action - [metadata draft](https://docs.google.com/document/d/1tIkFkxycv4ndmOar99-iiUdr8prZYdYx__Eu3UzRE2I/edit?tab=t.0)
+      2. HF naming process
    6. Node diversity
       1. Node diversity celebration day in Singapore & Online - organized by Amaru team
          1. [Announcement](https://x.com/Amaru_Cardano/status/2095090242357240201)
