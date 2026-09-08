@@ -119,7 +119,7 @@ ICC vote total last updated: 2025-02-19 00:08:47
 
 Stake pool operators should upgrade to a supported mainnet node 10.1.4 version in readiness for the hard fork. Below we compare the prevalence of Cardano blocks created by Node versions.
 
-<figure><img src="../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
 
 As of January 22nd, 2025: 89% of blocks created on mainnet, within the current epoch, where created using the hotfixed 10.1.4 version (which reports as 10.2)\
 Live data can be seen via [Cardano explorers](https://explorer.cardano.org/) such as [Pooltool.io](https://pooltool.io/networkhealth)
@@ -136,7 +136,7 @@ Exchange readiness is tracked against the top exchanges by ADA liquidity (as rep
 
 For the latest info on _Exchanges by Liquidity_ please visit: [Cardanoscan](https://cardanoscan.io/changreadiness) (source) and [Cexplorer](https://cexplorer.io/hfs).
 
-<figure><img src="../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
 
 As of January 22nd, 2025, 84.5 % of exchange liquidity has been reported as Ready for Plomin hard fork.
 

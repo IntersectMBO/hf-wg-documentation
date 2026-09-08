@@ -84,12 +84,12 @@
 
 ## van Rossem Upgrade
 
-* [van Rossem upgrade overview](proposed-intra-era-scope/van-rossem-hard-fork-overview.md)
+* [van Rossem upgrade overview](van-rossem-upgrade/van-rossem-hard-fork-overview.md)
 * [van Rossem upgrade readiness](van-rossem-upgrade/van-rossem-upgrade-readiness.md)
-* [van Rossem upgrade FAQ](proposed-intra-era-scope/van-rossem-hard-fork-faq.md)
+* [van Rossem upgrade FAQ](van-rossem-upgrade/van-rossem-hard-fork-faq.md)
 * [van Rossem upgrade bulletins](van-rossem-upgrade/van-rossem-upgrade-communications/README.md)
   * [Comms weeklies](van-rossem-upgrade/van-rossem-upgrade-communications/comms-weeklies.md)
-* [van Rossem upgrade reference materials](proposed-intra-era-scope/van-rossem-hard-fork-reference-materials.md)
+* [van Rossem upgrade reference materials](van-rossem-upgrade/van-rossem-hard-fork-reference-materials.md)
 
 ## Plomin Upgrade
 
