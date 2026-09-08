@@ -8,6 +8,8 @@
       1. 11.1.1
       2. 11.2
       3. 11.3
+      4. Critical path tooling - Jordan, IO
+         1. Ogmios and Kupo alternatives - `cardano-rpc` and `cardano-sieve` ready for testing
    2. Scope and timing - Jeff, Bosko
       1. [IOLabs - Dijkstra Era Hard Fork](https://docs.google.com/document/d/1nVCzB8-l0fKpZLrQVrq9uLIkT69twuEaYHdf2fSEgOE/edit?tab=t.0#heading=h.blm90nnxn47g)
       2. Technical risk log - Kevin, IO
