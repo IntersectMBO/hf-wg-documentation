@@ -1,0 +1,11 @@
+$schema: https://api.gitbook.com/gitbook-docs.yaml
+site:
+  title: Cardano - Upgrades
+  structure:
+    - type: space
+      key: space-1
+      title: Cardano - Upgrades
+      path: cardano-chang-upgrades
+      default: true
+      content:
+        directory: ./gitbook
