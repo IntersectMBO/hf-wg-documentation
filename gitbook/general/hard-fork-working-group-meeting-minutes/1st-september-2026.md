@@ -17,8 +17,7 @@
    3. Protocol parameters and constitutional amendments
       1. [Dijkstra protocol parameters for the constitution update](https://docs.google.com/document/d/1M649pDQtquYr4n5QBx_Q7vfzyFINQssN8Cpp553BGvA/edit?usp=sharing) - shared with Parameter Committee on 27th August
       2. [Dijkstra Constitution Parameters - Summary & Tracking Issues](https://docs.google.com/document/d/1M649pDQtquYr4n5QBx_Q7vfzyFINQssN8Cpp553BGvA/edit?usp=sharing) - shared with Parameter Committee on 27th August
-   4. Comms
-      1.
+   4. Comms 1.
    5. Naming
       1. [Metadata](https://docs.google.com/document/d/1tIkFkxycv4ndmOar99-iiUdr8prZYdYx__Eu3UzRE2I/edit?usp=sharing) is being prepared for the submission of naming info action
          * Aiming to be submitted in epoch 654 (starts 6th September) or 655 (starts 11th September), pending Alexander Esgen family approval
@@ -73,7 +72,7 @@
       * Comms will continue this week with the upgrade bulletin on X published and shared this week
     * Naming
       * Hard Fork Working Group members are invited to provide feedback on the drafted naming info action [metadata](https://docs.google.com/document/d/1tIkFkxycv4ndmOar99-iiUdr8prZYdYx__Eu3UzRE2I/edit?usp=sharing) at the earliest possible convenience
-      * On the next HFWG meeting next week, metadata could potentially be considered finalized&#x20;
+      * On the next HFWG meeting next week, metadata could potentially be considered finalized
       * Technical Steering Committee would ackonwledge it and endorse it based on HFWG recommendation
       * Naming info action will not be submitted to chain prior to the approval of the Alexander Esgen family
         * Furthermore, families of all other community members considered for In Memoriam section, will be contacted to get the approval too (Gregg Morgan, Fabian Von Bergen, Steven Lupien and Sean Davies)
@@ -82,7 +81,7 @@
       * Amaru
         * For the node diversity celebration event in Singapore, on 7th and 8th October in Singapore
           * Attendees: Every node implementation leader
-            * &#x20;Jeff and Carlos will likely represent Haskell node team
+            * Jeff and Carlos will likely represent Haskell node team
           * Purpose: Get a look at all the implementation timelines
         * Node diversity workshop in London, on 12th and 13th November
           * Attendees: Node implementation teams; SPOs; Hard fork decision makers
@@ -117,7 +116,7 @@
 
 #### **Action items and next steps**
 
-* Carlos: Attend the Parameter Committee meeting on Thursday, 3rd September and give a walkthrough of Dijkstra related protocol parameters and the constitution draft that would reflect those changes&#x20;
+* **Carlos:** Attend the Parameter Committee meeting on Thursday, 3rd September and give a walkthrough of Dijkstra related protocol parameters and the constitution draft that would reflect those changes
 * **Jeff:** Provide major release notes on node starting with version 11.2 which would help with early readiness assessment and integration planning by downstream tooling
 * **Bosko/Sebastian/Carlos:** Document impact on all changes being introduced in the Dijkstra era hard fork and reference it in the Cardano Upgrades GitBook space
 * **Bosko:** Finalize v1 of Dijkstra readiness tracker (includes readiness reported against different networks) to apply correct and precise readiness calculations in it
