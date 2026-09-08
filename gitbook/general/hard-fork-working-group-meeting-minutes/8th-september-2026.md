@@ -19,7 +19,7 @@
       1. [Dijkstra protocol parameters for the constitution update](https://docs.google.com/document/d/1M649pDQtquYr4n5QBx_Q7vfzyFINQssN8Cpp553BGvA/edit?usp=sharing) - shared with Parameter Committee on 27th August
       2. [Dijkstra Constitution Parameters - Summary & Tracking Issues](https://docs.google.com/document/d/1M649pDQtquYr4n5QBx_Q7vfzyFINQssN8Cpp553BGvA/edit?usp=sharing) - shared with Parameter Committee on 27th August
    4. Comms
-      1.
+      1. Critical path tooling, Ogmios and Kupo alternatives?
    5. Naming
       1. Naming info action - [metadata draft](https://docs.google.com/document/d/1tIkFkxycv4ndmOar99-iiUdr8prZYdYx__Eu3UzRE2I/edit?tab=t.0)
       2. HF naming process
