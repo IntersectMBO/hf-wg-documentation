@@ -6,20 +6,16 @@ The Dijkstra era delivers Cardano's next major protocol upgrade in two phases. P
 
 The distinction matters for what each phase can change. A new era ships a complete new ledger code package and can introduce new block structures, new serialization formats, new cryptography, new protocol parameters, and new Plutus versions. An intra-era hard fork bumps the protocol version within the existing era and can change anything gate-able on a protocol version check: activating consensus rules, enabling new Plutus primitives within an existing Plutus version, turning on features whose block-body structures and protocol parameters were already defined by the era. Because Phase 1 ships the codec extensions and the protocol parameters Peras requires, Phase 2 can activate that protocol without a new era.
 
-| Phase                                                                                                                                  | Mechanism           | Era      | Code Complete Target | Primary Activation                                                                        |
-| -------------------------------------------------------------------------------------------------------------------------------------- | ------------------- | -------- | -------------------- | ----------------------------------------------------------------------------------------- |
-| [Phase 1](https://product.cardano.intersectmbo.org/hardfork-planning/dijkstra/#phase-1-dijkstra-hard-fork-protocol-version-12-q4-2026) | New era (v12)       | Dijkstra | Q4 2026              | Ouroboros Linear Leios, Nested Transactions, Peras codec extensions & protocol parameters |
-| [Phase 2](https://product.cardano.intersectmbo.org/hardfork-planning/dijkstra/#phase-2-peras-activation-intra-era-hard-fork-q2-2027)   | Intra-era hard fork | Dijkstra | Q2 2027              | Ouroboros Peras                                                                           |
+| Phase                                                                                                                                  | Mechanism           | Era      | Primary Activation                                                                        |
+| -------------------------------------------------------------------------------------------------------------------------------------- | ------------------- | -------- | ----------------------------------------------------------------------------------------- |
+| [Phase 1](https://product.cardano.intersectmbo.org/hardfork-planning/dijkstra/#phase-1-dijkstra-hard-fork-protocol-version-12-q4-2026) | New era (v12)       | Dijkstra | Ouroboros Linear Leios, Nested Transactions, Peras codec extensions & protocol parameters |
+| [Phase 2](https://product.cardano.intersectmbo.org/hardfork-planning/dijkstra/#phase-2-peras-activation-intra-era-hard-fork-q2-2027)   | Intra-era hard fork | Dijkstra | Ouroboros Peras                                                                           |
 
 Each phase rolls out in sequence: Preview testnet, then Pre-production testnet, then Mainnet. A governance action is submitted and ratified on each network before the hard fork is enacted. DReps, SPOs, and the Constitutional Committee vote on the mainnet governance action, as established by CIP-1694.
 
-caution
-
-All dates and quarters are estimated targets for code completion and mainnet-ready benchmarked releases. They do not include governance processes or community testing. The time required for Preview and Pre-production rollout, SPO testing windows, and on-chain governance ratification will extend beyond these targets before any mainnet hard fork is enacted. All targets are estimates only and not guarantees.
-
 ***
 
-### Phase 1: Dijkstra Hard Fork (Protocol Version 12, Q4 2026) <a href="#phase-1-dijkstra-hard-fork-protocol-version-12-q4-2026" id="phase-1-dijkstra-hard-fork-protocol-version-12-q4-2026"></a>
+### Phase 1: Dijkstra Hard Fork (Protocol Version 12) <a href="#phase-1-dijkstra-hard-fork-protocol-version-12-q4-2026" id="phase-1-dijkstra-hard-fork-protocol-version-12-q4-2026"></a>
 
 #### Design Rationale <a href="#design-rationale" id="design-rationale"></a>
 
@@ -110,7 +106,7 @@ The protocol parameter introduced by CIP-23 is defined at Phase 1, but the fee r
 
 ***
 
-### Phase 2: Peras Activation (Intra-era Hard Fork, Q2 2027) <a href="#phase-2-peras-activation-intra-era-hard-fork-q2-2027" id="phase-2-peras-activation-intra-era-hard-fork-q2-2027"></a>
+### Phase 2: Peras Activation (Intra-era Hard Fork) <a href="#phase-2-peras-activation-intra-era-hard-fork-q2-2027" id="phase-2-peras-activation-intra-era-hard-fork-q2-2027"></a>
 
 #### What Changes <a href="#what-changes" id="what-changes"></a>
 
