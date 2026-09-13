@@ -68,7 +68,7 @@
   * [Nested Transactions](dijkstra-era-upgrade/dijkstra-upgrade-overview/nested-transactions.md)
   * [Observe Script Type / Guard Scripts](dijkstra-era-upgrade/dijkstra-upgrade-overview/observe-script-type-guard-scripts.md)
   * [Account Address Enhancement, Phase 1](dijkstra-era-upgrade/dijkstra-upgrade-overview/account-address-enhancement-phase-1.md)
-  * [Remove isValid from TransactionsTo be added](dijkstra-era-upgrade/dijkstra-upgrade-overview/remove-isvalid-from-transactionsto-be-added.md)
+  * [Remove isValid from Transactions](dijkstra-era-upgrade/dijkstra-upgrade-overview/remove-isvalid-from-transactions.md)
   * [Non-segregated Block Body Serialization](dijkstra-era-upgrade/dijkstra-upgrade-overview/non-segregated-block-body-serialization.md)
   * [PlutusV4 Script Context](dijkstra-era-upgrade/dijkstra-upgrade-overview/plutusv4-script-context.md)
   * [Fee Function Update (Reference Inputs)](dijkstra-era-upgrade/dijkstra-upgrade-overview/fee-function-update-reference-inputs.md)
