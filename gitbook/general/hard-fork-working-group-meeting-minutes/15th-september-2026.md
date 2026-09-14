@@ -25,7 +25,7 @@
          * [Content and agenda](https://hackmd.io/@Amaru/DiversityCelebrationDraft) (can be modified)
       2. Dingo node team is [making significant progress](https://x.com/InASingleWord/status/2097012520787771427?s=20) and continues to build momentum
          * Last week, Dingo by Blink labs is the [#1 most active Cardano repo with the highest number of commits](https://cardanoupdates.koios.rest/)
-      3. Haskell Cardano node in a web browser
+      3. Haskell Cardano node in a web browser ([X post from Seungheon Oh](https://x.com/SeungheonO/status/2099326668284285421))
          * You can run full Haskell Cardano node in a web browser (running the ouroboros protocol and following the tip)
          * Balance and submit transaction fully on a browser
       4. Haskell, Amaru (Rust), Dingo (Go), Dugite (Rust), TSUNAGI (Zig), Gerolamo (TypeScript), Dolos (Rust), Turbocardano (C++), Razor (.NET), Scalus (Scala), Yano (Java)
