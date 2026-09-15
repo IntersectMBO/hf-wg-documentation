@@ -7,18 +7,20 @@
    1. Releases, readiness and community engagement - Sam, Jeff, Bosko
       1. 11.1.1
       2. 11.2
-   2. Scope and timing - Jeff, Bosko
+   2. Leios - Jeff, Kevin
+      1. New committee approach and preserving security requirements? LL security guarantee
+      2. Security audit and formal conformance against the specification (not the CIP)
+      3. Hardware wallet upgrades
+         1. Responsibility for any upgrade costs
+   3. Scope and timing - Jeff, Bosko
       1. [IOLabs - Dijkstra Era Hard Fork](https://docs.google.com/document/d/1nVCzB8-l0fKpZLrQVrq9uLIkT69twuEaYHdf2fSEgOE/edit?tab=t.0#heading=h.blm90nnxn47g)
       2. Technical risk log - Kevin, IO
       3. [Dijkstra Dependencies](https://drive.google.com/file/d/1VF9YavmkDiDkUCwzVzgv8_PwiZnt3-6F/view?usp=sharing) and gating
       4. Each remaining scope item (besides CIP-23 and CIP-50 which are already documented) have its impact documented ([PR](https://github.com/IntersectMBO/hf-wg-documentation/pull/43) opened) in the [Cardano Upgrades space](https://cardanoupgrades.docs.intersectmbo.org/dijkstra-era-upgrade/dijkstra-upgrade-overview) (Core semantics changes, Breaking API changes, New features)
-   3. Protocol parameters and constitutional amendments
+   4. Protocol parameters and constitutional amendments
       1. [Updated list of Dijkstra parameters](https://hackmd.io/@eJKr9l7wQ6aU2PgNdrfgZg/Dijktstra-parameters) was shared with the Parameter Committee on Thursday, 10th September
-   4. Comms
+   5. Comms
       1.
-   5. Naming
-      1. Naming info action - [metadata draft](https://docs.google.com/document/d/1tIkFkxycv4ndmOar99-iiUdr8prZYdYx__Eu3UzRE2I/edit?tab=t.0)
-      2. HF naming process?
    6. Node diversity
       1. Node diversity celebration day in Singapore & Online - organized by Amaru team
          * [Announcement](https://x.com/Amaru_Cardano/status/2095090242357240201)
