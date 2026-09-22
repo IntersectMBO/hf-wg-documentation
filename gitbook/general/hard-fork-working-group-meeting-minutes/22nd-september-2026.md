@@ -8,13 +8,13 @@
       1. 11.1.2
       2. 11.2
    2. Leios - Jeff, Kevin
-      1. New committee approach and preserving security requirements? LL security guarantee
-      2. Security audit and formal conformance against the specification (not the CIP)
-      3. Hardware wallet upgrades
-         1. Responsibility for any upgrade costs
+      1. Security audit - Daniel
+      2. Hardware wallet upgrades
+         * Responsibility for any upgrade costs
    3. Scope and timing - Jeff, Bosko
       1. [IOLabs - Dijkstra Era Hard Fork](https://docs.google.com/document/d/1nVCzB8-l0fKpZLrQVrq9uLIkT69twuEaYHdf2fSEgOE/edit?tab=t.0#heading=h.blm90nnxn47g)
-      2. Technical risk log - Kevin, IO
+      2. [Technical risk log](https://drive.google.com/file/d/1MyBwgE-fI8lKMUYP_ctkHkchCPtXhB2X/view?usp=sharing) - IO shared with TSC
+         * Anybody with the link has commenting access
       3. [Dijkstra Dependencies](https://drive.google.com/file/d/1VF9YavmkDiDkUCwzVzgv8_PwiZnt3-6F/view?usp=sharing) and gating
       4. Each remaining scope item (besides CIP-23 and CIP-50 which are already documented) have its impact documented ([PR](https://github.com/IntersectMBO/hf-wg-documentation/pull/43) opened) in the [Cardano Upgrades space](https://cardanoupgrades.docs.intersectmbo.org/dijkstra-era-upgrade/dijkstra-upgrade-overview) (Core semantics changes, Breaking API changes, New features)
    4. Protocol parameters and constitutional amendments
