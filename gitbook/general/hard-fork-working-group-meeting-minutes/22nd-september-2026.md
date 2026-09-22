@@ -6,7 +6,8 @@
 2. [Dijkstra era hard fork](https://cardanoupgrades.docs.intersectmbo.org/dijkstra-era/dijkstra-overview) - Bosko, all
    1. Releases, readiness and community engagement - Sam, Jeff, Bosko
       1. [11.1.2](https://github.com/IntersectMBO/cardano-node/releases/tag/11.1.2)
-      2. [11.2](https://github.com/IntersectMBO/cardano-node/issues/6672)
+      2. 11.1.3
+      3. [11.2](https://github.com/IntersectMBO/cardano-node/issues/6672)
    2. Leios - Jeff, Kevin
       1. Security audit, hardware wallet upgrades and responsibility for any upgrade costs - Daniel
          * HFWG needs wallet teams liaison to address risk of delayed upgrade
@@ -44,7 +45,9 @@
          * You can run full Haskell Cardano node in a web browser (running the ouroboros protocol and following the tip)
          * Balance and submit transaction fully on a browser
       7. Haskell, Amaru (Rust), Dingo (Go), Dugite (Rust), TSUNAGI (Zig), Gerolamo (TypeScript), Dolos (Rust), Turbocardano (C++), Razor (.NET), Scalus (Scala), Yano (Java)
-3. AOB
+3. Neutral naming process - Bosko
+   1. [Draft open for feedback](https://docs.google.com/document/d/1RK2PEKAbvLtM4p7KWHNsdCEqN4OhZQEy/edit?usp=sharing\&ouid=106134819668558877362\&rtpof=true\&sd=true)
+4. AOB
 
 #### Key materials
 
@@ -52,6 +55,8 @@
   * **Dijkstra Era hard fork**
     * Releases, readiness and community engagement
       * [11.1.2](https://github.com/IntersectMBO/cardano-node/releases/tag/11.1.2)
+        *
+      * 11.1.3
         *
       * [11.2](https://github.com/IntersectMBO/cardano-node/issues/6672)
         *
