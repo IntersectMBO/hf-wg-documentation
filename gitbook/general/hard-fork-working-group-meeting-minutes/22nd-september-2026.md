@@ -2,15 +2,14 @@
 
 #### Agenda
 
-1. [Action items from the last call](https://cardanoupgrades.docs.intersectmbo.org/general/hard-fork-working-group-meeting-minutes/8th-september-2026#action-items-and-next-steps) - Bosko
+1. [Action items from the last call](https://cardanoupgrades.docs.intersectmbo.org/general/hard-fork-working-group-meeting-minutes/15th-september-2026#action-items-and-next-steps) - Bosko
 2. [Dijkstra era hard fork](https://cardanoupgrades.docs.intersectmbo.org/dijkstra-era/dijkstra-overview) - Bosko, all
    1. Releases, readiness and community engagement - Sam, Jeff, Bosko
-      1. 11.1.2
-      2. 11.2
+      1. [11.1.2](https://github.com/IntersectMBO/cardano-node/releases/tag/11.1.2)
+      2. [11.2](https://github.com/IntersectMBO/cardano-node/issues/6672)
    2. Leios - Jeff, Kevin
-      1. Security audit - Daniel
-      2. Hardware wallet upgrades
-         * Responsibility for any upgrade costs
+      1. Security audit, hardware wallet upgrades and responsibility for any upgrade costs - Daniel
+         * HFWG needs wallet teams liaison to address risk of delayed upgrade
    3. Scope and timing - Jeff, Bosko
       1. [IOLabs - Dijkstra Era Hard Fork](https://docs.google.com/document/d/1nVCzB8-l0fKpZLrQVrq9uLIkT69twuEaYHdf2fSEgOE/edit?tab=t.0#heading=h.blm90nnxn47g)
       2. [Technical risk log](https://drive.google.com/file/d/1MyBwgE-fI8lKMUYP_ctkHkchCPtXhB2X/view?usp=sharing) - IO shared with TSC
@@ -54,7 +53,7 @@
     * Releases, readiness and community engagement
       * [11.1.2](https://github.com/IntersectMBO/cardano-node/releases/tag/11.1.2)
         *
-      * 11.2
+      * [11.2](https://github.com/IntersectMBO/cardano-node/issues/6672)
         *
     * Leios
       *
