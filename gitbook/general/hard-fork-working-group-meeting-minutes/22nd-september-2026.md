@@ -55,21 +55,42 @@
   * **Dijkstra Era hard fork**
     * Releases, readiness and community engagement
       * [11.1.2](https://github.com/IntersectMBO/cardano-node/releases/tag/11.1.2)
-        *
+        * Released last week on 17th September
+        * Optimizes memory usage in time lock scripts
+        * Memory increase is under investigation
       * 11.1.3
-        *
+        * Will act as a patch to address a storage issue related to IP addresses in the ledger state
+        * It is expected later this week
       * [11.2](https://github.com/IntersectMBO/cardano-node/issues/6672)
-        *
+        * It essentially brings everything (which includes new block format) but Leios from [the Dijkstra scope perspective](https://cardanoupgrades.docs.intersectmbo.org/dijkstra-era-upgrade/dijkstra-upgrade-overview#phase-1-dijkstra-hard-fork-protocol-version-12-q4-2026)
+          * Includes Plutus v4 context
+        * Last week security fixes on 11.1 delayed work on version 11.2 for 1-2 weeks
+        * This version **shouldnt** be considered of being capable to survive the hard fork event
     * Leios
-      *
+      * Kevin H., chair of Technical Steering Committee, is still to respond to Daniel from IO in regars to questions over security audits
+        * So far, there are no major concerns as long as the feedback from BeCryptic (which is doing the security audits) is shared with the Hard Fork Working Group
+      * HFWG needs wallet teams liaison to address risk of delayed upgrade
     * Scope and timing
-      *
+      * [Technical risk log](https://drive.google.com/file/d/1MyBwgE-fI8lKMUYP_ctkHkchCPtXhB2X/view?usp=sharing) that IO shared with TSC will be converted to spreadsheet file for easier maintenance and collaboration
+        * technical risk log items are expected to contain github references
+      * [Dijkstra Dependencies](https://drive.google.com/file/d/1VF9YavmkDiDkUCwzVzgv8_PwiZnt3-6F/view?usp=sharing) log should be used for collaboration
+      * Each remaining scope item (besides CIP-23 and CIP-50 which are already documented) have its impact documented ([PR](https://github.com/IntersectMBO/hf-wg-documentation/pull/43) opened) in the [Cardano Upgrades space](https://cardanoupgrades.docs.intersectmbo.org/dijkstra-era-upgrade/dijkstra-upgrade-overview) (Core semantics changes, Breaking API changes, New features)
     * Protocol parameters and Constitutional amendments
-      *
-    * Comms
-      *
+      * Parameter Committee did an initial review of the updated Dijkstra parameters document shared by Carlos
+        * Committee is writing notes that will be later discussed with IO teams
+        * It appears that there will be \~100 new guardrails paramaters for Dijkstra and additional \~50 for Peras - changes are considered substantial
+          * 1st level audit - security research input is needed
+          * 2nd level audit - check the text of guardrails and open it for review
+            * constitutional amendment process can be leveraged for it
+        * Amaru team offered collaboration on guardrails testing
     * Node diversity
-      *
+      * Several node teams are either:
+        * producing blocks on mainnet (Haskell, Dingo) or
+        * on the path to be producing blocks on mainnet (Amaru, Gerolamo)
+      * One of the key topics for node diversity workshop in London on 12th & 13th November (venue is yet to be confirmed) will be conformance of any node
+      * Node diversity will additionaly be discussed in the upcoming Security Council meeting
+    * Neutral naming process
+      * There is a [draft open for feedback](https://docs.google.com/document/d/1RK2PEKAbvLtM4p7KWHNsdCEqN4OhZQEy/edit?usp=sharing\&ouid=106134819668558877362\&rtpof=true\&sd=true) that suggests each era could have few hf names candidates well in advance and that they could be named after significant discoveries, theorems or even problems that era named mathematicians and scientists became known for
   * Hard Fork Working Group will continue to meet once a week until the Dijkstra era hard fork work solidifies enough to mandate more alignments and sync
 
 #### **Reference links and engagement points**
@@ -87,10 +108,22 @@
   * [Guides](https://cap.intersectmbo.org/#/guides)
   * [Introduction to CAPs and CISs](https://cap.intersectmbo.org/#/guides/intro-to-caps-and-cis)
 * [Antithesis](https://cardanofoundation.org/blog/improving-cardano-antithesis)
-* Recording
-* Transcript
-* Chat
+* [Recording](https://drive.google.com/file/d/1mt7zmajl49QCU7eA8f8dEp0DFzaCn7PD/view?usp=drive_link)
+* [Transcript](https://docs.google.com/document/d/1QmheXQiXszXbjC_HwKNVyZI0ROSBohvcqtX_dALUjOU/edit?usp=drive_link)
+* [Chat](https://drive.google.com/file/d/1Dw-7aS8WOQzoiF3yAdzkbiWjmXqjSf8X/view?usp=drive_link)
 
 #### **Action items and next steps**
 
-*
+* **Bosko:** Create overall Dijkstra delivery timeline in Miro with the focus on dependencies so each HFWG participant/attendee and more broadly ecosystem, have clear view of the activities and milestones towards the DIjkstra era hard fork enactment
+* **Michiel/Elena/Bosko:** Determine HFWG wallet teams liaison
+  *   **HFWG wallet teams liaison:** Reach out to Keystone, Ledger, Trezor, Bitbox (..?)
+
+      and point them to the CDDL change of adding [`bls_key`](https://github.com/IntersectMBO/cardano-ledger/blob/2c33b4f858c0e62b300d121996a479f505d8c0e5/eras/dijkstra/impl/cddl/data/dijkstra.cddl#L469)
+* **Daniel/Amani/Bosko:** Convert Leios technical risk log to more easily maintainable spreadsheet file where anyone with the link has commenting permissions
+* **Parameter Committee:** Provide feedback on the [updated list of Dijkstra parameters](https://hackmd.io/@eJKr9l7wQ6aU2PgNdrfgZg/Dijktstra-parameters) to IO
+  * Consider including Amaru team in the guardrails testing
+* **All:** Review and comment on this [PR](https://github.com/IntersectMBO/hf-wg-documentation/pull/43) that is raised to document impact on all changes being introduced in the Dijkstra era hard fork
+* **Damien/Bosko:** Confirm the venue for the Node diversity workshop in London on 12th & 13th November
+* **Jeff:** Provide major release notes on node starting with version 11.2 which would help with early readiness assessment and integration planning by downstream tooling
+* **Elena/Bosko:** Check and cross-reference readiness approach being taken in previous hard forks with Chang, Plomin and beyond
+
