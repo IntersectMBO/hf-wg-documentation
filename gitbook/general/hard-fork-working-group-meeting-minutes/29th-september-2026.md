@@ -4,7 +4,7 @@
 
 1. [Action items from the last call](https://cardanoupgrades.docs.intersectmbo.org/general/hard-fork-working-group-meeting-minutes/22nd-september-2026#action-items-and-next-steps) - Bosko
 2. [Dijkstra era hard fork](https://cardanoupgrades.docs.intersectmbo.org/dijkstra-era/dijkstra-overview) - Bosko, all
-   1. Releases, readiness and community engagement - Sam, Jeff, Bosko
+   1. Releases, readiness and community engagement - Sam, Amani, Bosko
       1. [11.1.2](https://github.com/IntersectMBO/cardano-node/releases/tag/11.1.2)
       2. [11.1.3](https://github.com/IntersectMBO/cardano-node/releases/tag/11.1.3)
       3. [11.2](https://github.com/IntersectMBO/cardano-node/issues/6672)
