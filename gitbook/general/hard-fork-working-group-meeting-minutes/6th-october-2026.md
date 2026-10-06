@@ -6,7 +6,11 @@
 2. [Dijkstra era hard fork](https://cardanoupgrades.docs.intersectmbo.org/dijkstra-era/dijkstra-overview) - Bosko, all
    1. Releases, readiness and community engagement - Sam, Amani, Bosko
       1. [11.2](https://github.com/IntersectMBO/cardano-node/issues/6672)
-      2. 11.3
+      2. [11.3](https://github.com/input-output-hk/ouroboros-leios/issues/840)
+         * New version of Plutus 1.72+, no integration neeeded
+         * Enables new primitives
+         * Optional fiels in guardrails script
+      3. [Project view of versions](https://github.com/orgs/input-output-hk/projects/167/views/15)
    2. Leios - Jeff, Amani, Sam, Kevin
    3. Scope and timing - Bosko, Jeff
       1. [IOLabs - Dijkstra Era Hard Fork](https://docs.google.com/document/d/1nVCzB8-l0fKpZLrQVrq9uLIkT69twuEaYHdf2fSEgOE/edit?tab=t.0#heading=h.blm90nnxn47g)
