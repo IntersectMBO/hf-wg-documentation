@@ -102,6 +102,7 @@
 * **Amani/Leonard:** Specify decisions and Leios feature list within 11.3 by the end of this week and share it with the Hard Fork Working Group in the respective slack channel
 * **Comms team:** Emphasize that the time for Leios testing is now, on Musashi Dojo
 * **HFWG members:** Assess [Dijkstra risk log](https://docs.google.com/spreadsheets/d/1NXMFkCpqNlq8SPSgzPNi_ZYLUg25tVWU-i4yz7fQhcI/edit?gid=66373110#gid=66373110), identify potential gaps and provide updates where necessary and/or applicable
+* **Bosko:** Pass the [PR](https://github.com/IntersectMBO/hf-wg-documentation/pull/43) documenting the rest of the CIPs (from the Dijkstra era scope) impact with Kevin for analysis and assessment
 * **Bosko:** Share [the review of the Leios Risk register](https://docs.google.com/document/d/1kvf8twFWhwsYtnLfjjgu7D3isJBTKdm3zXgre1PRfFo/edit?usp=sharing) with the HFWG, prepared by Technical Steering Committee member Leandros
 * **Carlos/Kevin/TSC/PC:** Prepare new constitution governance action for submission in the next 2 weeks (\~21st October)
 * **Matthew Capps/Larisa/Ian:** Prepare targeted comms plan for each milstone of the sequence until the end of 2026 (first of them being the new constitution)
