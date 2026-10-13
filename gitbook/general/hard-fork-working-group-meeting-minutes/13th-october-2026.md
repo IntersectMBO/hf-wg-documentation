@@ -10,7 +10,7 @@
          * Benchmark and performance - Can
       3. [Project view of versions](https://github.com/orgs/input-output-hk/projects/167/views/15)
    2. Scope, timing and risk - Bosko, Jeff, Amani
-      1. [Timeline](https://excalidraw.com/#room=5d91a22d81205c532f37,5koQGFsAKIH7RSs7Kyeb-g) - Bosko, Ian
+      1. Timeline - Bosko, Ian
       2. CIP-23 - Martin (ATADA)
       3. [IOLabs - Dijkstra Era Hard Fork](https://docs.google.com/document/d/1nVCzB8-l0fKpZLrQVrq9uLIkT69twuEaYHdf2fSEgOE/edit?tab=t.0#heading=h.blm90nnxn47g)
       4. [Dijkstra risk log](https://docs.google.com/spreadsheets/d/1NXMFkCpqNlq8SPSgzPNi_ZYLUg25tVWU-i4yz7fQhcI/edit?gid=66373110#gid=66373110)
