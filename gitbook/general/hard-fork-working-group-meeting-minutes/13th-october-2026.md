@@ -24,7 +24,6 @@
       1. Node diversity workshop in London, **12th&13th November** organized by Amaru team
          * London Marriott Hotel Canary Wharf\
            Address: 22 Hertsmere Rd, London E14 4ED, United Kingdom
-         *
       2. Dingo
       3. Amaru
       4. Gerolamo
