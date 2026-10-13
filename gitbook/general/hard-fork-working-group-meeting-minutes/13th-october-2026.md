@@ -7,9 +7,7 @@
    1. Releases, readiness and community engagement - Sam, Amani, Bosko
       1. [11.2](https://github.com/IntersectMBO/cardano-node/issues/6672)
       2. [11.3](https://github.com/input-output-hk/ouroboros-leios/issues/840)
-         * New version of Plutus 1.72+, no integration neeeded
-         * Enables new primitives
-         * Optional fiels in guardrails script
+         * Benchmark and performance - Can
       3. [Project view of versions](https://github.com/orgs/input-output-hk/projects/167/views/15)
    2. Scope, timing and risk - Bosko, Jeff, Amani
       1. [Timeline](https://excalidraw.com/#room=5d91a22d81205c532f37,5koQGFsAKIH7RSs7Kyeb-g) - Bosko, Ian
