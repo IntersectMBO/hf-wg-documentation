@@ -45,10 +45,33 @@
       * DijkstraNet will be respun with pv11 and will fork to pv12
       * Community is invited to test and validate Dijkstra feature set except linear Leios once DijkstraNet forks to pv12
     * 11.3
+      * This is the version that includes linear leios and is the first candidate to be promoted to 12.0 capable of crossing hard fork should the results of testing allow so and there are no blocking issues
+        * Quality of the release remains one of the key aspects of the road to Dijkstra era hard fork
+      * Its few weeks away from being released, more clarity is expected to be provided by the development teams on the next Hard Fork working group meeting
+      * Performance and benchmarks plan is being carefully prepared to be executed once 11.3 becomes available
+      * Remaining gh issues for 11.3 are listed [here](https://github.com/orgs/input-output-hk/projects/167/views/15)
+      * [Leios roadmap & activity](https://github.com/orgs/input-output-hk/projects/167/views/9)
     * Constitutional amendments
+      * There are \~100 guardrails estimated for protocol version 12
+      * First version of the guardrail script is expected next week
+      * Results from benchmarks will shape the final parameters which would lead to the new, final version of the guardrails script
+      * [Discussion on Dijkstra era parameters](https://cap.intersectmbo.org/#/detail/12) is available in the Constitutional Amendment Portal
+      * Carlos from IO announced the series of recordings to better inform community stakeholders about the intended guardrails
+      * Ken-Erik proposed the idea of having a call with Constitutional Committee members to run through guardrails and parameters
     * Timeline
+      * Availability of the node 11.3 will inform further progress towards Dijkstra era hard fork
+      * Preparing the constitutional update and plutus v4 related parameters update are the next stepping stones
     * Scope
+      * Besides already agreed, frozen scope for Dijkstra, documented [here](https://cardanoupgrades.docs.intersectmbo.org/dijkstra-era-upgrade/dijkstra-upgrade-overview), a sizable group of SPOs attending the call and represented by Martin (ATADA) have expressed their support and the ask to have CIP-23 fully implemented in protocol version 12 (without waiting to be activated in protocal version 13)
+      * Development teams are willing to include it if the right circumstances are met
+        * Introducing full support for CIP-23 this late might delay the originally planned dates for protocol version 12
+        * Should there be any additional delays unrelated to CIP-23, development team intend to include it as a complete feature in the pv12 release candidate
+        * [CIP-23 Fair min fees GitHub issue](https://github.com/IntersectMBO/cardano-ledger/issues/5954)
     * Risks
+      * [Dijkstra risk log](https://docs.google.com/spreadsheets/d/1NXMFkCpqNlq8SPSgzPNi_ZYLUg25tVWU-i4yz7fQhcI/edit?gid=66373110#gid=66373110) contains few high scoring risks
+        * Technical Steering Committee reviewed the risks and the findings were shared with IO team
+        * Managing the risk log and addressing the risks accordingly will become one of the main drivers of the hard fork working group efforts going forward
+        * All Hard Fork Working group members are encouraged to review it, assess it, provide feedback where necessary and/or applicable, act where possible and having an ownership and make familiar before the next HFWG meeting
     * Node diversity
       * Node diversity workshop in London, **12th&13th November** organized by Amaru team
         * London Marriott Hotel Canary Wharf\
@@ -78,8 +101,11 @@
 
 #### **Action items and next steps**
 
+* **Leonard/IO dev teams:** Size the effort of CIP-23 implementation and assess its impact on the DIjkstra era hard fork timeline
 * **Bosko:** Share [the review of the Leios Risk register](https://docs.google.com/document/d/1kvf8twFWhwsYtnLfjjgu7D3isJBTKdm3zXgre1PRfFo/edit?usp=sharing) with the HFWG, prepared by Technical Steering Committee member Leandros
 * **HFWG members:** Assess [Dijkstra risk log](https://docs.google.com/spreadsheets/d/1NXMFkCpqNlq8SPSgzPNi_ZYLUg25tVWU-i4yz7fQhcI/edit?gid=66373110#gid=66373110), identify potential gaps and provide updates where necessary and/or applicable
+* **Carlos:** Prepare the series of recordings to better inform community stakeholders about the intended guardrails
+* **HFWG/Civics Committee:** Organize the call with Constitutional Committee membersto run through guardrails and parameters
 * **Michiel/Elena/Bosko:** Determine HFWG wallet teams liaison(s) and finalize wallet teams outreach list
   *   **HFWG wallet teams liaison:** Reach out to Keystone, Ledger, Trezor, Bitbox (..?)
 
