@@ -1,7 +1,5 @@
 # 13th October 2026
 
-### <mark style="color:$danger;">**WORK IN PROGRESS**</mark>
-
 #### Agenda
 
 1. [Action items from the last call](https://cardanoupgrades.docs.intersectmbo.org/general/hard-fork-working-group-meeting-minutes/6th-october-2026#action-items-and-next-steps) - Bosko
