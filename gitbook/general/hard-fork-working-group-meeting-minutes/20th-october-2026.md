@@ -6,12 +6,13 @@
 2. [Dijkstra era hard fork](https://cardanoupgrades.docs.intersectmbo.org/dijkstra-era/dijkstra-overview) - Bosko, all
    1. Releases
       1. [11.2](https://github.com/IntersectMBO/cardano-node/issues/6672) - Jeff, Amani, Sam
-      2. [11.3](https://github.com/input-output-hk/ouroboros-leios/issues/840) - Sebastian
+      2. 11.3 - Sebastian
+         * [Rc 2026w42 pre-release](https://github.com/input-output-hk/ouroboros-leios/releases/tag/rc-2026w42)
       3. [Project view of versions](https://github.com/orgs/input-output-hk/projects/167/views/15)
    2. Scope
       1. [CIP-23](https://cips.cardano.org/cip/CIP-23) - Jeff, Leonard, Amani
       2. Each remaining scope item (besides CIP-23 and CIP-50 which are already documented) have its impact documented ([PR](https://github.com/IntersectMBO/hf-wg-documentation/pull/43) opened) in the [Cardano Upgrades space](https://cardanoupgrades.docs.intersectmbo.org/dijkstra-era-upgrade/dijkstra-upgrade-overview) (Core semantics changes, Breaking API changes, New features)
-         * Updated Leios impact assessment (passed from TSC to Michael Karg)
+         * [Updated Leios impact assessment available for feedback](https://drive.google.com/file/d/1GJNMixEGb6-jEOh8Yy_p2N--cPPz1Jh6/view?usp=sharing) (passed from TSC to original authors)
    3. [Dijkstra risk log](https://docs.google.com/spreadsheets/d/1NXMFkCpqNlq8SPSgzPNi_ZYLUg25tVWU-i4yz7fQhcI/edit?gid=66373110#gid=66373110) review
    4. Constitutional amendments - [Dijkstra era parameters in CAP](https://cap.intersectmbo.org/#/detail/12)
    5. Comms - Ian, Matthew
