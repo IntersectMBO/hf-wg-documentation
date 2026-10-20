@@ -15,6 +15,10 @@
          * [Updated Leios impact assessment available for feedback](https://drive.google.com/file/d/1GJNMixEGb6-jEOh8Yy_p2N--cPPz1Jh6/view?usp=sharing) (passed from TSC to original authors)
    3. [Dijkstra risk log](https://docs.google.com/spreadsheets/d/1NXMFkCpqNlq8SPSgzPNi_ZYLUg25tVWU-i4yz7fQhcI/edit?gid=66373110#gid=66373110) review
    4. Constitutional amendments - [Dijkstra era parameters in CAP](https://cap.intersectmbo.org/#/detail/12)
+      1. Dijkstra Rollout - Constitutional update and guardrails - Friday 23rd October, 2pm UTC
+         * [meeting link](https://meet.google.com/bqd-dpyz-nrt)
+         * Will be recorded and shared afterwards
+         * Open for CC members, SPOs and DReps too
    5. Comms - Ian, Matthew
       1. [Leios Rollout Journey](https://docs.google.com/document/d/1J-ceP1gaKBd4drRTPI6C4r_3acaevg6XcZFfOTKBkqE/edit?tab=t.0#heading=h.r2inwd4eretc) (prepared by Matthew Capps)
    6. Node diversity
