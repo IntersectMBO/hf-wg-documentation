@@ -4,22 +4,18 @@
 
 1. [Action items from the last call](https://cardanoupgrades.docs.intersectmbo.org/general/hard-fork-working-group-meeting-minutes/13th-october-2026#action-items-and-next-steps) - Bosko
 2. [Dijkstra era hard fork](https://cardanoupgrades.docs.intersectmbo.org/dijkstra-era/dijkstra-overview) - Bosko, all
-   1. Releases, readiness and community engagement - Sam, Amani, Bosko
-      1. [11.2](https://github.com/IntersectMBO/cardano-node/issues/6672)
-      2. [11.3](https://github.com/input-output-hk/ouroboros-leios/issues/840)
+   1. Releases
+      1. [11.2](https://github.com/IntersectMBO/cardano-node/issues/6672) - Jeff, Amani, Sam
+      2. [11.3](https://github.com/input-output-hk/ouroboros-leios/issues/840) - Sebastian
       3. [Project view of versions](https://github.com/orgs/input-output-hk/projects/167/views/15)
-   2. Scope, timing and risk - Bosko, Jeff, Amani
-      1. Timeline - Bosko, Ian
-      2. CIP-23 - Martin (ATADA)
-      3. [IOLabs - Dijkstra Era Hard Fork](https://docs.google.com/document/d/1nVCzB8-l0fKpZLrQVrq9uLIkT69twuEaYHdf2fSEgOE/edit?tab=t.0#heading=h.blm90nnxn47g)
-      4. [Dijkstra risk log](https://docs.google.com/spreadsheets/d/1NXMFkCpqNlq8SPSgzPNi_ZYLUg25tVWU-i4yz7fQhcI/edit?gid=66373110#gid=66373110)
-         * Now contains all identified items from IO [Technical risk log](https://drive.google.com/file/d/1MyBwgE-fI8lKMUYP_ctkHkchCPtXhB2X/view?usp=sharing)
-      5. [Dijkstra Dependencies](https://drive.google.com/file/d/1VF9YavmkDiDkUCwzVzgv8_PwiZnt3-6F/view?usp=sharing) and gating
-      6. Each remaining scope item (besides CIP-23 and CIP-50 which are already documented) have its impact documented ([PR](https://github.com/IntersectMBO/hf-wg-documentation/pull/43) opened) in the [Cardano Upgrades space](https://cardanoupgrades.docs.intersectmbo.org/dijkstra-era-upgrade/dijkstra-upgrade-overview) (Core semantics changes, Breaking API changes, New features)
-         1. Updated Leios impact assessment (passed from TSC to Michael Karg)
-   3. Protocol parameters and constitutional amendments
-      1. [Dijkstra era parameters in CAP](https://cap.intersectmbo.org/#/detail/12)
-   4. Node diversity
+   2. Scope
+      1. [CIP-23](https://cips.cardano.org/cip/CIP-23) - Jeff, Leonard, Amani
+      2. Each remaining scope item (besides CIP-23 and CIP-50 which are already documented) have its impact documented ([PR](https://github.com/IntersectMBO/hf-wg-documentation/pull/43) opened) in the [Cardano Upgrades space](https://cardanoupgrades.docs.intersectmbo.org/dijkstra-era-upgrade/dijkstra-upgrade-overview) (Core semantics changes, Breaking API changes, New features)
+         * Updated Leios impact assessment (passed from TSC to Michael Karg)
+   3. [Dijkstra risk log](https://docs.google.com/spreadsheets/d/1NXMFkCpqNlq8SPSgzPNi_ZYLUg25tVWU-i4yz7fQhcI/edit?gid=66373110#gid=66373110) review
+   4. Constitutional amendments - [Dijkstra era parameters in CAP](https://cap.intersectmbo.org/#/detail/12)
+   5. Comms - Ian
+   6. Node diversity
       1. Node diversity workshop in London, **12th&13th November** organized by Amaru team
          * London Marriott Hotel Canary Wharf\
            Address: 22 Hertsmere Rd, London E14 4ED, United Kingdom
@@ -28,7 +24,7 @@
       4. Gerolamo
       5. Scalus
       6. Haskell, Amaru (Rust), Dingo (Go), Dugite (Rust), TSUNAGI (Zig), Gerolamo (TypeScript), Dolos (Rust), Turbocardano (C++), Razor (.NET), Scalus (Scala), Yano (Java)
-   5. Comms
+   7. Comms
 3. Time of the HFWG call starting next week - 2:30pm UTC
 4. Hard Fork Working Group funding (Technical Steering Committee budget)
 5. AOB
@@ -37,17 +33,16 @@
 
 * Summary
   * **Dijkstra Era hard fork**
-    * 11.2
-      *
-    * 11.3
-      *
-    * Constitutional amendments
-      *
-    * Timeline
-      *
+    * Releases
+      * 11.2
+        *
+      * 11.3
+        *
     * Scope
-      *
-    * Risks
+      * a
+    * Risk
+      * a
+    * Constitutional amendments
       *
     * Node diversity
       *
