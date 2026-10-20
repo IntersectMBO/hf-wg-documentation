@@ -15,6 +15,7 @@
    3. [Dijkstra risk log](https://docs.google.com/spreadsheets/d/1NXMFkCpqNlq8SPSgzPNi_ZYLUg25tVWU-i4yz7fQhcI/edit?gid=66373110#gid=66373110) review
    4. Constitutional amendments - [Dijkstra era parameters in CAP](https://cap.intersectmbo.org/#/detail/12)
    5. Comms - Ian
+      1. [Leios Rollout Journey](https://docs.google.com/document/d/1J-ceP1gaKBd4drRTPI6C4r_3acaevg6XcZFfOTKBkqE/edit?tab=t.0#heading=h.r2inwd4eretc) (prepared by Matthew Capps)
    6. Node diversity
       1. Node diversity workshop in London, **12th&13th November** organized by Amaru team
          * London Marriott Hotel Canary Wharf\
@@ -39,9 +40,9 @@
       * 11.3
         *
     * Scope
-      * a
+      *
     * Risk
-      * a
+      *
     * Constitutional amendments
       *
     * Node diversity
