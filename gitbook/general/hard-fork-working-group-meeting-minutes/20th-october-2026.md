@@ -14,18 +14,17 @@
          * Updated Leios impact assessment (passed from TSC to Michael Karg)
    3. [Dijkstra risk log](https://docs.google.com/spreadsheets/d/1NXMFkCpqNlq8SPSgzPNi_ZYLUg25tVWU-i4yz7fQhcI/edit?gid=66373110#gid=66373110) review
    4. Constitutional amendments - [Dijkstra era parameters in CAP](https://cap.intersectmbo.org/#/detail/12)
-   5. Comms - Ian
+   5. Comms - Ian, Matthew
       1. [Leios Rollout Journey](https://docs.google.com/document/d/1J-ceP1gaKBd4drRTPI6C4r_3acaevg6XcZFfOTKBkqE/edit?tab=t.0#heading=h.r2inwd4eretc) (prepared by Matthew Capps)
    6. Node diversity
       1. Node diversity workshop in London, **12th&13th November** organized by Amaru team
          * London Marriott Hotel Canary Wharf\
            Address: 22 Hertsmere Rd, London E14 4ED, United Kingdom
-      2. Dingo
-      3. Amaru
-      4. Gerolamo
-      5. Scalus
-      6. Haskell, Amaru (Rust), Dingo (Go), Dugite (Rust), TSUNAGI (Zig), Gerolamo (TypeScript), Dolos (Rust), Turbocardano (C++), Razor (.NET), Scalus (Scala), Yano (Java)
-   7. Comms
+         * [Working agenda](https://hackmd.io/0b_HvF4AS-q4wayJP6M25A)
+      2. [Dingo](https://x.com/blinklabs_io/status/2110670354100187359?s=20)
+         * Capable of forging blocks across all Cardano networks (Preview, Preprod, Mainnet, Musashi)
+         * Is not only a block producer and with API mode enabled it gets you Blockfrost, Kupo, Mesh/Rosetta, and UTxO RPC APIs
+      3. Haskell, Amaru (Rust), Dingo (Go), Dugite (Rust), TSUNAGI (Zig), Gerolamo (TypeScript), Dolos (Rust), Turbocardano (C++), Razor (.NET), Scalus (Scala), Yano (Java)
 3. Time of the HFWG call starting next week - 2:30pm UTC
 4. Hard Fork Working Group funding (Technical Steering Committee budget)
 5. AOB
@@ -44,6 +43,8 @@
     * Risk
       *
     * Constitutional amendments
+      *
+    * Comms
       *
     * Node diversity
       *
