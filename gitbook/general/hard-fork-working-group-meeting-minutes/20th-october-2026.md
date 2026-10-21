@@ -49,7 +49,7 @@
       * 11.3
         * In progress, with a lot of work that remains to be done
         * It is at least 2 weeks away of being tagged as a version
-        * Current weekly version, [Rc 2026w42 pre-release](https://github.com/input-output-hk/ouroboros-leios/releases/tag/rc-2026w42), is considered to be Leios based protype which now contains the full feature set of DIjkstra era hard fork scope including Leios
+        * Current weekly version, [Rc 2026w42 pre-release](https://github.com/input-output-hk/ouroboros-leios/releases/tag/rc-2026w42), is considered to be Leios based prototype which now contains the full feature set of DIjkstra era hard fork scope including Leios
           * This version can serve as an early downstream tooling integration point that gives insight into the Dijkstra era on Musashi testnet
         * [BLS key rotation](https://github.com/input-output-hk/ouroboros-leios/issues/1024)
           * using the `pool_registration_cert` in a transaction requires not only a signature matching the pool id (cold key), **but also witnesses for all `pool_owners`**&#x20;
