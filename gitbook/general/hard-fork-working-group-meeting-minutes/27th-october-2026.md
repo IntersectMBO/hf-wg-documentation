@@ -22,6 +22,7 @@
          * [Working agenda](https://hackmd.io/0b_HvF4AS-q4wayJP6M25A)
       2. Haskell, Amaru (Rust), Dingo (Go), Dugite (Rust), TSUNAGI (Zig), Gerolamo (TypeScript), Dolos (Rust), Turbocardano (C++), Razor (.NET), Scalus (Scala), Yano (Java)
 3. Hard Fork Working Group funding (Technical Steering Committee budget)
+   1. Application form - [https://forms.clickup.com/9015279944/f/8cnmga8-55475/D8A3VU9CZOQQU56CYX](https://forms.clickup.com/9015279944/f/8cnmga8-55475/D8A3VU9CZOQQU56CYX)
 4. AOB
 
 #### Key materials
