@@ -67,6 +67,9 @@
       * Node diversity workshop in London, **12th&13th November** organized by Amaru team
         * London Marriott Hotel Canary Wharf Address: 22 Hertsmere Rd, London E14 4ED, United Kingdom
         * [Working agenda](https://hackmd.io/0b_HvF4AS-q4wayJP6M25A)
+      * Amaru (provided by the team representative Damien ahead of the meeting)
+        * Amaru has been used to produce empty blocks since 5 days ago (version [10.11.20261022^beta](https://github.com/pragma-org/amaru/releases/tag/v10.11.20261022))
+        * Block producer on mainnet is planned to be released on 5th November
     * Hard Fork Working Group funding (Technical Steering Committee budget)
       * [Application form](https://forms.clickup.com/9015279944/f/8cnmga8-55475/D8A3VU9CZOQQU56CYX)
   * Hard Fork Working Group will continue to meet once a week until the Dijkstra era hard fork work solidifies enough to mandate more alignments and sync
