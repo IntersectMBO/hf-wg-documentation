@@ -7,14 +7,14 @@
    1. Releases
       1. [11.2](https://github.com/IntersectMBO/cardano-node/issues/6672) - Jeff, Amani, Sam
       2. 11.3 - Sebastian
-         1. Includes [CIP-23](https://cips.cardano.org/cip/CIP-23)
+         * Includes [CIP-23](https://cips.cardano.org/cip/CIP-23)
       3. [Project view of versions](https://github.com/orgs/input-output-hk/projects/167/views/15)
    2. [Dijkstra risk log](https://docs.google.com/spreadsheets/d/1NXMFkCpqNlq8SPSgzPNi_ZYLUg25tVWU-i4yz7fQhcI/edit?gid=66373110#gid=66373110) review
    3. Scope
       1. Each remaining scope item (besides CIP-23 and CIP-50 which are already documented) have its impact documented ([PR](https://github.com/IntersectMBO/hf-wg-documentation/pull/43) opened) in the [Cardano Upgrades space](https://cardanoupgrades.docs.intersectmbo.org/dijkstra-era-upgrade/dijkstra-upgrade-overview) (Core semantics changes, Breaking API changes, New features)
          * [Updated Leios impact assessment available for feedback](https://drive.google.com/file/d/1GJNMixEGb6-jEOh8Yy_p2N--cPPz1Jh6/view?usp=sharing) (passed from TSC to original authors)
    4. Constitutional amendments - [Dijkstra era parameters in CAP](https://cap.intersectmbo.org/#/detail/12)
-   5. Comms - Ian, Matthew
+   5. Comms - Larisa, Ian, Matthew
    6. Node diversity
       1. Node diversity workshop in London next week, **12th&13th November** organized by Amaru team
          * London Marriott Hotel Canary Wharf\
