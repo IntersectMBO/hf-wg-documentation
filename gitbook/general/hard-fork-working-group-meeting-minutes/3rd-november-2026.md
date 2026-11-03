@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # 3rd November 2026
 
 #### Agenda
