@@ -5,10 +5,10 @@
 1. [Action items from the last call](https://cardanoupgrades.docs.intersectmbo.org/general/hard-fork-working-group-meeting-minutes/3rd-november-2026#action-items-and-next-steps) - Bosko
 2. [Dijkstra era hard fork](https://cardanoupgrades.docs.intersectmbo.org/dijkstra-era/dijkstra-overview) - Bosko, all
    1. Releases
-      1. [11.2](https://github.com/IntersectMBO/cardano-node/issues/6672) - Jeff, Amani, Sam
-      2. 11.3 - Sebastian
-         * Includes [CIP-23](https://cips.cardano.org/cip/CIP-23)
-      3. [Project view of versions](https://github.com/orgs/input-output-hk/projects/167/views/15)
+      1. [11.2](https://github.com/IntersectMBO/cardano-node/releases/tag/11.2.0) - Jeff, Amani, Sam
+      2. [11.2.1](https://github.com/IntersectMBO/cardano-node/releases/tag/11.2.1) - Jeff, Amani, Sam
+      3. 11.3 - Sebastian
+      4. [Project view of versions](https://github.com/orgs/input-output-hk/projects/167/views/15)
    2. [Dijkstra risk log](https://docs.google.com/spreadsheets/d/1NXMFkCpqNlq8SPSgzPNi_ZYLUg25tVWU-i4yz7fQhcI/edit?gid=66373110#gid=66373110) review
    3. Scope
       1. Each remaining scope item (besides CIP-23 and CIP-50 which are already documented) have its impact documented ([PR](https://github.com/IntersectMBO/hf-wg-documentation/pull/43) opened) in the [Cardano Upgrades space](https://cardanoupgrades.docs.intersectmbo.org/dijkstra-era-upgrade/dijkstra-upgrade-overview) (Core semantics changes, Breaking API changes, New features)
@@ -32,6 +32,8 @@
     * Releases
       * [11.2](https://github.com/IntersectMBO/cardano-node/releases/tag/11.2.0)
         *
+      * [11.2.1](https://github.com/IntersectMBO/cardano-node/releases/tag/11.2.1)
+        *
       * [11.3](https://github.com/orgs/input-output-hk/projects/167/views/15)
         *
     * Plutus primitives
@@ -54,7 +56,7 @@
         *
       * Wallets
         *
-        * VL team currently dont have capacity to own Keystone HW wallet efforts
+        *
     * Node diversity
       *
     * Hard Fork Working Group funding (Technical Steering Committee budget)
