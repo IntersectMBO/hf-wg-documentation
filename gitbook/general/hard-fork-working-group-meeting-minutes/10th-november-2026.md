@@ -21,11 +21,13 @@
       1. Amaru
          * 57 blocks created on mainnet so far
          * 20 per days projected for the coming weeks
-      2. Node diversity workshop in London next week, **12th&13th November** organized by Amaru team
+      2. [Block produced on mainnet](https://kleioscan.com/#/mainnet/nodes)
+         * cardano-node, Amaru, Dingo, cardano-bean
+      3. Node diversity workshop in London next week, **12th&13th November** organized by Amaru team
          * London Marriott Hotel Canary Wharf\
            Address: 22 Hertsmere Rd, London E14 4ED, United Kingdom
          * [Working agenda](https://hackmd.io/0b_HvF4AS-q4wayJP6M25A)
-      3. Haskell, Amaru (Rust), Dingo (Go), Dugite (Rust), TSUNAGI (Zig), Gerolamo (TypeScript), Dolos (Rust), Turbocardano (C++), Razor (.NET), Scalus (Scala), Yano (Java)
+      4. Haskell, Amaru (Rust), Dingo (Go), Dugite (Rust), TSUNAGI (Zig), Gerolamo (TypeScript), Dolos (Rust), Turbocardano (C++), Razor (.NET), Scalus (Scala), Yano (Java)
 3. Hard Fork Working Group funding (Technical Steering Committee budget)
    1. Application form - [https://forms.clickup.com/9015279944/f/8cnmga8-55475/D8A3VU9CZOQQU56CYX](https://forms.clickup.com/9015279944/f/8cnmga8-55475/D8A3VU9CZOQQU56CYX)
 4. AOB
