@@ -92,6 +92,10 @@ Removes the requirement for a DRep delegation to be present when withdrawing sta
 
 Introduces a leverage parameter L that ties pool rewards to the ratio of delegated stake to pledge. The parameter is introduced with a default value of `Nothing`, which preserves current reward behaviour exactly — no change takes effect at the hard fork. DReps can subsequently vote to set L to a concrete value, at which point pools with zero pledge would earn zero rewards.
 
+**Fair Min Fees (**[**CIP-23**](https://cips.cardano.org/cip/CIP-0023)**)**
+
+The protocol parameter is introduced by **CIP-23** and the fee rule activates with Phase 1.
+
 #### Structural Groundwork for Phase 2 <a href="#structural-groundwork-for-phase-2" id="structural-groundwork-for-phase-2"></a>
 
 These are not feature activations. They are the block structure changes, header extensions, and protocol parameter introductions that Phase 2 depends on. Because all of these require a new era, they must ship in Phase 1. Any protocol parameters needed to govern Peras behaviour must also be defined here, even if their values are not yet active, since protocol parameters cannot be introduced in an intra-era hard fork.
@@ -99,10 +103,6 @@ These are not feature activations. They are the block structure changes, header 
 | Change                                                                  | Purpose                                                                                                                           |
 | ----------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
 | [CIP-140](https://cips.cardano.org/cip/CIP-0140) Peras codec extensions | Introduces the codec changes needed for block bodies to optionally carry a Peras certificate, without activating the voting layer |
-
-#### Conditional: Fair Min Fees ([CIP-23](https://cips.cardano.org/cip/CIP-0023)) <a href="#conditional-fair-min-fees-cip-23" id="conditional-fair-min-fees-cip-23"></a>
-
-The protocol parameter introduced by CIP-23 is defined at Phase 1, but the fee rule itself may or may not activate at the Phase 1 hard fork. If implementation and governance readiness align, CIP-23 activates with Phase 1. If not, the parameter definition ships dormantly and the fee rule activates in a subsequent intra-era hard fork within the Dijkstra era.
 
 ***
 
