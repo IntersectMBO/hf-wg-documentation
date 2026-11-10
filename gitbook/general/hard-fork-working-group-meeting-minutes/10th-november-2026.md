@@ -5,10 +5,12 @@
 1. [Action items from the last call](https://cardanoupgrades.docs.intersectmbo.org/general/hard-fork-working-group-meeting-minutes/3rd-november-2026#action-items-and-next-steps) - Bosko
 2. [Dijkstra era hard fork](https://cardanoupgrades.docs.intersectmbo.org/dijkstra-era/dijkstra-overview) - Bosko, all
    1. Releases
-      1. [11.2](https://github.com/IntersectMBO/cardano-node/releases/tag/11.2.0) - Jeff, Amani, Sam
-      2. [11.2.1](https://github.com/IntersectMBO/cardano-node/releases/tag/11.2.1) - Jeff, Amani, Sam
-      3. 11.3 - Sebastian
-      4. [Project view of versions](https://github.com/orgs/input-output-hk/projects/167/views/15)
+      1. [11.2.1](https://github.com/IntersectMBO/cardano-node/releases/tag/11.2.1) - Jeff, Amani, Sam
+         * Lower memory use
+         * Faster snapshots while syncing
+         * LSM is supported for block production
+      2. 11.3 - Sebastian
+      3. [Project view of versions](https://github.com/orgs/input-output-hk/projects/167/views/15)
    2. [Dijkstra risk log](https://docs.google.com/spreadsheets/d/1NXMFkCpqNlq8SPSgzPNi_ZYLUg25tVWU-i4yz7fQhcI/edit?gid=66373110#gid=66373110) review
    3. Scope
       1. Each remaining scope item (besides CIP-23 and CIP-50 which are already documented) have its impact documented ([PR](https://github.com/IntersectMBO/hf-wg-documentation/pull/43) opened) in the [Cardano Upgrades space](https://cardanoupgrades.docs.intersectmbo.org/dijkstra-era-upgrade/dijkstra-upgrade-overview) (Core semantics changes, Breaking API changes, New features)
@@ -16,11 +18,14 @@
    4. Constitutional amendments - [Dijkstra era parameters in CAP](https://cap.intersectmbo.org/#/detail/12)
    5. Comms - Larisa, Ian, Matthew
    6. Node diversity
-      1. Node diversity workshop in London next week, **12th&13th November** organized by Amaru team
+      1. Amaru
+         * 57 blocks created on mainnet so far
+         * 20 per days projected for the coming weeks
+      2. Node diversity workshop in London next week, **12th&13th November** organized by Amaru team
          * London Marriott Hotel Canary Wharf\
            Address: 22 Hertsmere Rd, London E14 4ED, United Kingdom
          * [Working agenda](https://hackmd.io/0b_HvF4AS-q4wayJP6M25A)
-      2. Haskell, Amaru (Rust), Dingo (Go), Dugite (Rust), TSUNAGI (Zig), Gerolamo (TypeScript), Dolos (Rust), Turbocardano (C++), Razor (.NET), Scalus (Scala), Yano (Java)
+      3. Haskell, Amaru (Rust), Dingo (Go), Dugite (Rust), TSUNAGI (Zig), Gerolamo (TypeScript), Dolos (Rust), Turbocardano (C++), Razor (.NET), Scalus (Scala), Yano (Java)
 3. Hard Fork Working Group funding (Technical Steering Committee budget)
    1. Application form - [https://forms.clickup.com/9015279944/f/8cnmga8-55475/D8A3VU9CZOQQU56CYX](https://forms.clickup.com/9015279944/f/8cnmga8-55475/D8A3VU9CZOQQU56CYX)
 4. AOB
@@ -30,8 +35,6 @@
 * Summary
   * **Dijkstra Era hard fork**
     * Releases
-      * [11.2](https://github.com/IntersectMBO/cardano-node/releases/tag/11.2.0)
-        *
       * [11.2.1](https://github.com/IntersectMBO/cardano-node/releases/tag/11.2.1)
         *
       * [11.3](https://github.com/orgs/input-output-hk/projects/167/views/15)
