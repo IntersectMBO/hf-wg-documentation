@@ -85,7 +85,7 @@
   * [Remove DRep Requirement for Reward Withdrawals](dijkstra-era-upgrade/dijkstra-upgrade-overview/remove-drep-requirement-for-reward-withdrawals.md)
   * [Pledge Leverage-Based Staking Rewards](dijkstra-era-upgrade/dijkstra-upgrade-overview/pledge-leverage-based-staking-rewards.md)
   * [Peras codec extensions](dijkstra-era-upgrade/dijkstra-upgrade-overview/peras-codec-extensions.md)
-  * [Fair Min Fees (conditional)](dijkstra-era-upgrade/dijkstra-upgrade-overview/fair-min-fees-conditional.md)
+  * [Fair Min Fees (CIP-23)](dijkstra-era-upgrade/dijkstra-upgrade-overview/fair-min-fees-conditional.md)
 * [Dijkstra upgrade readiness](dijkstra-era-upgrade/dijkstra-upgrade-readiness.md)
 * [Dijkstra upgrade FAQ](dijkstra-era-upgrade/dijkstra-upgrade-faq.md)
 * [Dijkstra upgrade bulletins](dijkstra-era-upgrade/dijkstra-upgrade-bulletins.md)

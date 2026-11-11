@@ -94,7 +94,7 @@ Introduces a leverage parameter L that ties pool rewards to the ratio of delegat
 
 **Fair Min Fees (**[**CIP-23**](https://cips.cardano.org/cip/CIP-0023)**)**
 
-The protocol parameter is introduced by **CIP-23** and the fee rule activates with Phase 1.
+**CIP-23 is fully implemented at Phase 1 (PV12)**: it introduces `minPoolMargin` and applies the greater of each pool's declared margin and the protocol minimum during reward calculation. The [merged ledger implementation](https://github.com/IntersectMBO/cardano-ledger/pull/6197) also applies the same rule to fixed costs against `minPoolCost`, accepting below-floor pool registrations and updates. The planned initial margin floor is 0; a subsequent Parameter Update can set a nonzero floor once the Constitution and guardrails permit it, without waiting for PV13. See the [impact analysis](fair-min-fees-conditional.md) for reward timing, governance dependencies and tooling changes.
 
 #### Structural Groundwork for Phase 2 <a href="#structural-groundwork-for-phase-2" id="structural-groundwork-for-phase-2"></a>
 
@@ -129,7 +129,6 @@ Peras is a settlement-speed upgrade that adds a voting overlay to the existing O
 #### Activates <a href="#activates" id="activates"></a>
 
 * [CIP-140](https://cips.cardano.org/cip/CIP-0140): Ouroboros Peras, full activation of the Peras voting layer and accelerated settlement guarantees
-* [CIP-23](https://cips.cardano.org/cip/CIP-0023): Fair Min Fees fee rule, if not activated in Phase 1
 
 #### Prerequisites <a href="#prerequisites" id="prerequisites"></a>
 
