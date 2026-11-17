@@ -1,5 +1,7 @@
 # 17th November 2026
 
+### <mark style="color:$danger;">**WORK IN PROGRESS**</mark>
+
 #### Agenda
 
 1. [Action items from the last call](https://cardanoupgrades.docs.intersectmbo.org/general/hard-fork-working-group-meeting-minutes/10th-november-2026#action-items-and-next-steps) - Bosko
@@ -82,9 +84,9 @@
 * [Dijkstra Risk log](https://docs.google.com/spreadsheets/d/1NXMFkCpqNlq8SPSgzPNi_ZYLUg25tVWU-i4yz7fQhcI/edit?usp=sharing)
 * [Dijkstra era parameters in CAP](https://cap.intersectmbo.org/#/detail/12)
 * [Antithesis](https://cardanofoundation.org/blog/improving-cardano-antithesis)
-* Recording
-* Transcript
-* Chat
+* [Recording](https://drive.google.com/file/d/1N6rQ3Aw0r2AdeH2_VwNi0K2_TnsMJncO/view?usp=drive_link)
+* [Transcript](https://docs.google.com/document/d/17rrXkxL2tWY1p2e8CPy7xpN9EgCXe6XILT-aPaxHfAE/edit?usp=drive_link)
+* [Chat](https://drive.google.com/file/d/17-z5h7R0MJphPP34a6bkk8lhiKn8kzMy/view?usp=drive_link)
 
 #### **Action items and next steps**
 
