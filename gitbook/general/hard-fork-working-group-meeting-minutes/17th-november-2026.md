@@ -37,25 +37,31 @@
         * 11.2.2 was delayed a bit due to the conformance issue discovered at the Node diversity workshop, fix is expected soon (tag is available [here](https://github.com/IntersectMBO/cardano-node/releases/tag/11.2.2))
           * Regression testing was done and proved version reached good quality
         * 11.2.3, that will address conformance issue fix, is expected to be pre-released soon and made mainnet ready by the end of this week
+        * These versions are not capable of surviving the hard fork
       * [11.3](https://github.com/orgs/input-output-hk/projects/167/views/15)
         * All work necessary for minimum viable Linear Leios is already in PR
         * Main stream work at the moment relates to review of \~10000 lines of code
         * Smaller "plumbing" things expected to be finalized
         * It is expected to be pre-released in 2-3 weeks after which DijkstraNet will be re-forked
+        * This is the first candidate that has a chance to be promoted to 12.0 provided successful testing without any showstopper issues
     * Cardano Testnets
       * DijkstraNet
-        *
+        * Currently running with the pre-released 11.2.1 version of the node
+          * It includes all of the Dijkstra scope but Linear Leios (CIP-164) and Fair Min Fees (CIP-23)
+          * It also allows registration of BLS keys
+        * Downstream tooling teams are encouraged to start the integration against the available Dijkstra era feature set
         * Advanced configuration of DijkstraNet Testnet available [here](https://book.play.dev.cardano.org/adv-dijkstra.html)
         * Discord channel: [dijkstra-net](https://discord.com/channels/826816523368005654/1565517149047361586)
       * Musashi Testnet
-        *
-        * Week 46 node release available here
+        * Downstream tooling teams are encouraged to do the early integration against 11.3 prototype on Musashi Testnet
+        * Week 46 node release available [here](https://github.com/input-output-hk/ouroboros-leios/releases/tag/rc-2026w46)
         * Discord channel: [musashi-testnet](https://discord.com/channels/826816523368005654/1517210858365911242)
       * SanchoNet
-        *
+        * Expected to soon fork into the Dijkstra era
         * Discord channel: [sanchonet](https://discord.com/channels/826816523368005654/1141734250438197370)
     * Scope
-      *
+      * Adjusted CIP-23 impact assessment page the [Dijkstra upgrade overview](https://cardanoupgrades.docs.intersectmbo.org/dijkstra-era-upgrade/dijkstra-upgrade-overview) GitBook space based on the plan for the full CIP-23 implementation in Dijkstra era
+      * Merge the remaining impact assessments to the Dijkstra era GitBook space after addressing their pending reviews
     * Risk management
       *
     * Constitutional amendments
