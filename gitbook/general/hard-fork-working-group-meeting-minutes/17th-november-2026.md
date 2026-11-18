@@ -44,6 +44,7 @@
         * Smaller "plumbing" things expected to be finalized
         * It is expected to be pre-released in 2-3 weeks after which DijkstraNet will be re-forked
         * This is the first candidate that has a chance to be promoted to 12.0 provided successful testing without any showstopper issues
+        * DBSync version is being developed in parallel with the Leios progress and it will become available shortly after 11.3 has been released
     * Cardano Testnets
       * DijkstraNet
         * Currently running with the pre-released 11.2.1 version of the node
@@ -59,26 +60,34 @@
       * SanchoNet
         * Expected to soon fork into the Dijkstra era
         * Discord channel: [sanchonet](https://discord.com/channels/826816523368005654/1141734250438197370)
+      * Preview
+        * The goal is to fork Preview testnet to Dijkstra era before the holidays given the right conditions are met
+          * It should be preceeded with the new constitution and guardrails governance action
+        * Need to be well coordinated to respect Midnight needs
     * Scope
       * Adjusted CIP-23 impact assessment page the [Dijkstra upgrade overview](https://cardanoupgrades.docs.intersectmbo.org/dijkstra-era-upgrade/dijkstra-upgrade-overview) GitBook space based on the plan for the full CIP-23 implementation in Dijkstra era
       * Merge the remaining impact assessments to the Dijkstra era GitBook space after addressing their pending reviews
-    * Risk management
-      *
     * Constitutional amendments
-      *
-    * Ecosystem readiness
-      * Tooling - High level
-        *
-      * SPOs
-        * Compatibility matrix was shared in the last weeks upgrade bulletin and will be added to the [Dijkstra upgrade readiness](https://cardanoupgrades.docs.intersectmbo.org/dijkstra-era-upgrade/dijkstra-upgrade-readiness) page
+      * New constitution and guardrails v6 is expected [to be provided in CAP portal soon](https://cap.intersectmbo.org/#/detail/12)
+        * Carlos committed to provide adjusted cost estimator
+        * Security Council will look at some of the concerns with Carlos on tomorrows session
+        * Background analysis should be completed before the next Parameter Committee meeting on 26th November
+        * After the numbers are finalized, new guardrail script will be built and tested
+        * 12.0 version of the node is ideal to finalize those, however, it could also be done with 11.3 with the slight risk
+      * New constitution and guardrails governance action can either be submitted before or after the hard fork with the preference to submit it before the hard fork
+        * Earliest possible date of submission would be on 25th November, beginning of epoch 67
     * Node diversity
-      * Amaru
-        *
       * [Block produced on mainnet](https://kleioscan.com/#/mainnet/nodes)
         * cardano-node, Amaru, Dingo, cardano-bean, tsunagi
       * Node diversity workshop in London last week, **12th&13th November** organized by Amaru team
+        * [Node diversity - Building cost efficient software the "Cardano Way"](https://x.com/Amaru_Cardano/status/2122473330758586462?a=aftT0hlT6IQUlSGlVYQ\&s=20)
+        * [X post](https://x.com/Amaru_Cardano/status/2122473569191948308?a=hz1EpdGAiEVnZXmJvWQ\&s=20)
     * Hard Fork Working Group funding (Technical Steering Committee budget)
       * [Application form](https://forms.clickup.com/9015279944/f/8cnmga8-55475/D8A3VU9CZOQQU56CYX)
+    * Euler Scoping Working Group
+      * Euler era which is trailing Dijkstra era has the working group formed with the early discussions on the scope
+      * There is a public call scheduled for 2nd December
+      * [Charter](https://docs.google.com/document/d/14YtDSJco0hqp-vWbWiNzHYkm4bOe6d9zBEPLW1k1hH0/edit?tab=t.0)
   * Hard Fork Working Group will continue to meet once a week until the Dijkstra era hard fork work solidifies enough to mandate more alignments and sync
 
 #### **Reference links and engagement points**
@@ -107,3 +116,8 @@
 * **Bosko:** Merge the remaining impact assessments to the Dijkstra era GitBook space after addressing Kevins review of them
 * **Bosko:** Adjust Dijkstra risk log for better visibility and risk management
 * **Sebastian:** Adjust [project view](https://github.com/orgs/input-output-hk/projects/167/views/15) of node versions in GitHub to better reflect the remaining work
+* **Bosko:** Add compatibility matrix to the [Dijkstra upgrade readiness](https://cardanoupgrades.docs.intersectmbo.org/dijkstra-era-upgrade/dijkstra-upgrade-readiness) page
+* **Bosko/Carlos:** Provide unified delivery timelines (high level one and more detailed one)
+* **Bosko:** Inform Midnight teams of the potential to fork Cardano Preview testnet before the holiday season
+* **Kevin:** Provide the link for the public call of the Euler Scoping Working Group
+  * **Bosko:** Add the above link to the Hard Fork Working Group Luma calendar
