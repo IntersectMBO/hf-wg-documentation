@@ -100,4 +100,10 @@
 
 #### **Action items and next steps**
 
-*
+* **Leonard H/Bosko/Jeff:** Confirm the chosen path for Ogmios/Kupo from the readiness aspect
+* **Carlos:** Draft the sixth version of the Cardano constitution in relation to Dijkstra era parameters
+* **Carlos:** Provide updated cost estimator
+* **Kevin/TSC:** Provide baseline to the Leios team for the hardware requirements
+* **Bosko:** Merge the remaining impact assessments to the Dijkstra era GitBook space after addressing Kevins review of them
+* **Bosko:** Adjust Dijkstra risk log for better visibility and risk management
+* **Sebastian:** Adjust [project view](https://github.com/orgs/input-output-hk/projects/167/views/15) of node versions in GitHub to better reflect the remaining work
