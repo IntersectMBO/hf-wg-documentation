@@ -37,8 +37,7 @@
         * 11.2.3, that will address conformance issue fix, is expected to be pre-released soon and made mainnet ready by the end of this week
         * These versions are not capable of surviving the hard fork
       * [11.3](https://github.com/orgs/input-output-hk/projects/167/views/15)
-        * All work necessary for minimum viable Linear Leios is already in PR
-        * Main stream work at the moment relates to review of \~10000 lines of code
+        * Main stream of work at the moment relates to review of \~10000 lines of code
         * Smaller "plumbing" things expected to be finalized
         * It is expected to be pre-released in 2-3 weeks after which DijkstraNet will be re-forked
         * This is the first candidate that has a chance to be promoted to 12.0 provided successful testing without any showstopper issues
