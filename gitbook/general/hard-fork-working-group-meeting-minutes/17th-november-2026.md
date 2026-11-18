@@ -73,7 +73,7 @@
         * After the numbers are finalized, new guardrail script will be built and tested
         * 12.0 version of the node is ideal to finalize those, however, it could also be done with 11.3 with the slight risk
       * New constitution and guardrails governance action can either be submitted before or after the hard fork with the preference to submit it before the hard fork
-        * Earliest possible date of submission would be on 25th November, beginning of epoch 67
+        * Earliest possible date of submission would be on 25th November, beginning of epoch 670
     * Node diversity
       * [Block produced on mainnet](https://kleioscan.com/#/mainnet/nodes)
         * cardano-node, Amaru, Dingo, cardano-bean, tsunagi
