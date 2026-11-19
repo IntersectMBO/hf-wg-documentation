@@ -9,6 +9,7 @@
    1. Releases
       1. 11.2.1, 11.2.2, 11.2.3 - Jeff, Amani, Sam
       2. 11.3 - Sebastian
+         * [Leios Cost Estimator](https://leios.cardano-scaling.org/cost-estimator/)
       3. [Project view of versions](https://github.com/orgs/input-output-hk/projects/167/views/15)
    2. [Dijkstra risk log](https://docs.google.com/spreadsheets/d/1NXMFkCpqNlq8SPSgzPNi_ZYLUg25tVWU-i4yz7fQhcI/edit?gid=66373110#gid=66373110) review
    3. Scope
@@ -63,6 +64,7 @@
   * [Email](mailto:hard-fork@intersectmbo.org)
 * [Dijkstra era | Cardano's next protocol upgrade](https://www.youtube.com/watch?v=k4x0eP_h1Qo)
 * [BLS Key rotation](https://github.com/input-output-hk/ouroboros-leios/issues/1024)
+* [Leios Cost Estimator](https://leios.cardano-scaling.org/cost-estimator/)
 * [Dijkstra readiness tracker](https://docs.google.com/spreadsheets/d/1C1Ai_YTqwKLHtICunzbh_o0FD9XB54Kh/edit?usp=sharing\&ouid=106134819668558877362\&rtpof=true\&sd=true)
 * [Dijkstra Risk log](https://docs.google.com/spreadsheets/d/1NXMFkCpqNlq8SPSgzPNi_ZYLUg25tVWU-i4yz7fQhcI/edit?usp=sharing)
 * [Dijkstra era parameters in CAP](https://cap.intersectmbo.org/#/detail/12)
