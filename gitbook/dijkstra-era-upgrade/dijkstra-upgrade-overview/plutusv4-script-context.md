@@ -1,19 +1,15 @@
----
-hidden: true
----
-
 # PlutusV4 Script Context
 
 Dijkstra introduces PlutusV4 so scripts can see the new transaction and ledger structures: guards, nested transactions, account deposits and intervals, and the Dijkstra-era certificate and purpose set.
 
-This page is the context schema, not the whole PlutusV4 language. New builtins, for example CIP-168 `Value` helpers, `dropList`, and `case` on `Data`, are gated on the same protocol version but tracked by the Plutus team separately. CIP-156 `multiIndexArray` is not in Dijkstra.
+This page is the context schema, not the whole PlutusV4 language. New builtins, for example CIP-168 `Value` helpers, are gated on the same protocol version but tracked by the Plutus team separately. CIP-156 `multiIndexArray` is not in Dijkstra.
 
 There is no standalone CIP titled "PlutusV4 Script Context". The schema is specified in pieces in CIP-112, CIP-118, CIP-159, and the ledger `EraPlutusTxInfo 'PlutusV4 DijkstraEra` instance.
 
-**CIP:** none. See [CIP-112](https://cips.cardano.org/cip/CIP-0112), [CIP-118](https://cips.cardano.org/cip/CIP-118), [CIP-159](https://cips.cardano.org/cip/CIP-0159).
-**Overview:** [Dijkstra upgrade overview](https://cardanoupgrades.docs.intersectmbo.org/dijkstra-era-upgrade/dijkstra-upgrade-overview), PlutusV4 Script Context
-**Ledger:** `Cardano.Ledger.Dijkstra.TxInfo`, `EraPlutusTxInfo 'PlutusV4 DijkstraEra`
-**Plutus team notes:** [2026-09-09 update](https://updates.cardano.intersectmbo.org/2026-09-09-plutus-core/). V4 context encoding work uses `List` for product types rather than `Constr`.
+* **CIP:** none. See [CIP-112](https://cips.cardano.org/cip/CIP-0112), [CIP-118](https://cips.cardano.org/cip/CIP-118), [CIP-159](https://cips.cardano.org/cip/CIP-0159)
+* **Overview:** [Dijkstra upgrade overview](https://cardanoupgrades.docs.intersectmbo.org/dijkstra-era-upgrade/dijkstra-upgrade-overview), PlutusV4 Script Context
+* **Ledger:** `Cardano.Ledger.Dijkstra.TxInfo`, `EraPlutusTxInfo 'PlutusV4 DijkstraEra`
+* **Plutus team notes:** [2026-09-09 update](https://updates.cardano.intersectmbo.org/2026-09-09-plutus-core/). V4 context encoding work uses `List` for product types rather than `Constr`
 
 ***
 
@@ -25,10 +21,10 @@ Implications, why it concerns you, and what needs to be updated in response.
 
 A script declared as PlutusV4 is given a V4 `ScriptContext` / `TxInfo`. Relative to V3, scripts can observe at least:
 
-- Guarding purpose and the set of guards that ran (CIP-112).
-- `txInfoSubTxs` on a top-level Guard in a nested batch (CIP-118). Spend, mint, and withdraw scripts inside a child do not see siblings.
-- `txInfoDirectDeposits` and `txInfoAccountBalanceIntervals` (CIP-159 Phase 1, ADA-only).
-- Dijkstra-era certificates and purposes as translated by `toPlutusTxCert` / `toPlutusScriptPurpose` for V4.
+* Guarding purpose and the set of guards that ran (CIP-112).
+* `txInfoSubTxs` on a top-level Guard in a nested batch (CIP-118). Spend, mint, and withdraw scripts inside a child do not see siblings.
+* `txInfoDirectDeposits` and `txInfoAccountBalanceIntervals` (CIP-159 Phase 1, ADA-only).
+* Dijkstra-era certificates and purposes as translated by `toPlutusTxCert` / `toPlutusScriptPurpose` for V4.
 
 PlutusV1 to V3 still exist. They cannot be mixed onto a transaction that uses sub-transactions or top-level guards except via CIP-118 isolation mode, where the top-level must stand alone.
 
@@ -62,22 +58,22 @@ Script context is an on-chain ABI. Adding fields or purposes without a new langu
 
 ### Wire and query contract
 
-| Channel | Shape |
-| --- | --- |
-| Script envelope | New language constructor PlutusV4 |
-| Redeemer purpose | Adds `Guarding`. Nested batches index purposes per level. |
-| V4 `TxInfo` | V3 fields plus guards, optional `txInfoSubTxs`, and CIP-159 account fields |
-| Encoding note | Plutus team is moving V4 product types to `List` encoding to cheapen decode. Consume the frozen V4 spec, not a V3-shaped `Constr` mental model. |
-| PParams | `costModels.PlutusV4`, or the name the node JSON actually exposes |
-| Ledger errors | `DijkstraContextError` wrapping Conway errors plus sub-transaction context failures |
+| Channel          | Shape                                                                                                                                           |
+| ---------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
+| Script envelope  | New language constructor PlutusV4                                                                                                               |
+| Redeemer purpose | Adds `Guarding`. Nested batches index purposes per level.                                                                                       |
+| V4 `TxInfo`      | V3 fields plus guards, optional `txInfoSubTxs`, and CIP-159 account fields                                                                      |
+| Encoding note    | Plutus team is moving V4 product types to `List` encoding to cheapen decode. Consume the frozen V4 spec, not a V3-shaped `Constr` mental model. |
+| PParams          | `costModels.PlutusV4`, or the name the node JSON actually exposes                                                                               |
+| Ledger errors    | `DijkstraContextError` wrapping Conway errors plus sub-transaction context failures                                                             |
 
 Do not assume field order from a blog post. The ledger `toPlutusTxInfo` instance is the source of truth until a CIP freezes the V4 ABI.
 
 ### What to update
 
-- Closed-world purpose enums in every SDK.
-- Any hand-rolled `ScriptContext` decoder in production scripts. Those should use compiler-generated types anyway.
-- Node query JSON that lists cost models.
+* Closed-world purpose enums in every SDK.
+* Any hand-rolled `ScriptContext` decoder in production scripts. Those should use compiler-generated types anyway.
+* Node query JSON that lists cost models.
 
 ***
 
@@ -85,9 +81,9 @@ Do not assume field order from a blog post. The ledger `toPlutusTxInfo` instance
 
 What new capabilities it unlocks that you might want to start thinking about.
 
-- **Scripts that understand Dijkstra.** Without V4, guards, children, and account deposits are invisible, which is why CIP-118 forbids old languages on those transactions.
-- **Cheaper shared policy.** One V4 guard sees the batch. Child spend scripts stay small.
-- **Account-aware validators.** A V4 script can require "this transaction deposited at least N to account A" or "account A's balance is in [L, U)" without a UTxO state machine.
-- **Language-side V4 builtins, separate track.** `case` on `Data`, `dropList`, selected `Value` builtins. Useful, but they are not the script-context item. Do not document CIP-168 as this page.
+* **Scripts that understand Dijkstra.** Without V4, guards, children, and account deposits are invisible, which is why CIP-118 forbids old languages on those transactions.
+* **Cheaper shared policy.** One V4 guard sees the batch. Child spend scripts stay small.
+* **Account-aware validators.** A V4 script can require "this transaction deposited at least N to account A" or "account A's balance is in \[L, U)" without a UTxO state machine.
+* **Language-side V4 builtins, separate track.** Selected `Value` builtins. Useful, but they are not the script-context item. Do not document CIP-168 as this page.
 
 Upgrade scripts only when they need the new fields. Leaving V3 on a simple spend remains valid.
