@@ -196,6 +196,7 @@ DApps listed on this page are self-attested by the community, to add your DApp p
 | Orcfax           | <mark style="color:$info;">Not started</mark> |       |
 | Reed Finance     | <mark style="color:$info;">Not started</mark> |       |
 | NOWNodes         | <mark style="color:$info;">Not started</mark> |       |
+| RealFi           | <mark style="color:$info;">Not started</mark> |       |
 
 ***
 
