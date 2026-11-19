@@ -69,6 +69,7 @@
 * [BLS Key rotation](https://github.com/input-output-hk/ouroboros-leios/issues/1024)
 * [Leios Cost Estimator](https://leios.cardano-scaling.org/cost-estimator/)
 * [Dijkstra readiness tracker](https://docs.google.com/spreadsheets/d/1C1Ai_YTqwKLHtICunzbh_o0FD9XB54Kh/edit?usp=sharing\&ouid=106134819668558877362\&rtpof=true\&sd=true)
+* [Readiness DevX initiative by IO](https://input-output-hk.github.io/devx-updates/map/dijkstra/)
 * [Dijkstra Risk log](https://docs.google.com/spreadsheets/d/1NXMFkCpqNlq8SPSgzPNi_ZYLUg25tVWU-i4yz7fQhcI/edit?usp=sharing)
 * [Dijkstra era parameters in CAP](https://cap.intersectmbo.org/#/detail/12)
 * [Antithesis](https://cardanofoundation.org/blog/improving-cardano-antithesis)
