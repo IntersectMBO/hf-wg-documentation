@@ -1,7 +1,3 @@
----
-hidden: true
----
-
 # Remove DRep Requirement for Reward Withdrawals
 
 Conway, after the bootstrap / Plomin era, rejects a reward withdrawal if the stake credential is not delegated to a registered DRep, to Abstain, or to No Confidence. Tooling surfaces this as `ConwayWdrlNotDelegatedToDRep` or Ogmios `ForbiddenWithdrawal`.
