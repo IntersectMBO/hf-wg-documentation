@@ -12,9 +12,10 @@ Standalone mempool, submit, and N2C transaction CBOR in Conway is a four-tuple:
 
 CIP-167 deletes the flag from the standalone encoding. Block encoding is a separate story. Conway already stores validity outside the transaction object, and CIP-176 rewrites the block body anyway.
 
-**CIP:** [CIP-167 Remove isValid from transactions](https://cips.cardano.org/cip/CIP-0167) (also [CIP-0167 on GitHub](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0167), PR [cardano-foundation/CIPs#1089](https://github.com/cardano-foundation/CIPs/pull/1089)) **Overview:** [Dijkstra upgrade overview](https://cardanoupgrades.docs.intersectmbo.org/dijkstra-era-upgrade/dijkstra-upgrade-overview), Remove isValid from Transactions (CIP-167) **Ledger PR (merged):** [cardano-ledger#5480](https://github.com/IntersectMBO/cardano-ledger/pull/5480) (2025-12-22) **Follow-up:** [cardano-ledger#5605](https://github.com/IntersectMBO/cardano-ledger/issues/5605) drops the transitional decoder that still accepts `isValid = true`.
-
-GitBook `SUMMARY.md` currently lists this stub as `remove-isvalid-from-transactionsto-be-added.md`. Rename that file when you land this page. See the install notes.
+* **CIP:** [CIP-167 Remove isValid from transactions](https://cips.cardano.org/cip/CIP-0167) (also [CIP-0167 on GitHub](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0167), PR [cardano-foundation/CIPs#1089](https://github.com/cardano-foundation/CIPs/pull/1089))
+* **Overview:** [Dijkstra upgrade overview](https://cardanoupgrades.docs.intersectmbo.org/dijkstra-era-upgrade/dijkstra-upgrade-overview), Remove isValid from Transactions (CIP-167)&#x20;
+* **Ledger PR (merged):** [cardano-ledger#5480](https://github.com/IntersectMBO/cardano-ledger/pull/5480) (2025-12-22)&#x20;
+* **Follow-up:** [cardano-ledger#5605](https://github.com/IntersectMBO/cardano-ledger/issues/5605) drops the transitional decoder that still accepts `isValid = true`.
 
 ***
 
