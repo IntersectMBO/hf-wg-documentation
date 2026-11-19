@@ -76,6 +76,7 @@
     * [Leios related protocol parameters - GitHub](https://github.com/IntersectMBO/cardano-ledger/issues/5965)
     * [BLS Key rotation](https://github.com/input-output-hk/ouroboros-leios/issues/1024)
     * [Leios GitHub Repo](https://github.com/input-output-hk/ouroboros-leios/)
+    * [Leios Monthly Reviews](https://leios.cardano-scaling.org/docs/monthly-reviews/)
   * [Nested Transactions](dijkstra-era-upgrade/dijkstra-upgrade-overview/nested-transactions.md)
   * [Observe Script Type / Guard Scripts](dijkstra-era-upgrade/dijkstra-upgrade-overview/observe-script-type-guard-scripts.md)
   * [Account Address Enhancement, Phase 1](dijkstra-era-upgrade/dijkstra-upgrade-overview/account-address-enhancement-phase-1.md)
