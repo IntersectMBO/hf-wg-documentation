@@ -1,16 +1,10 @@
----
-hidden: true
----
-
 # Remove isValid from Transactions
 
-Standalone mempool, submit, and N2C transaction CBOR in Conway is a four-tuple:
-
-`[transaction_body, transaction_witness_set, isValid, auxiliary_data / nil]`
-
-`isValid` is not signed, not part of the transaction ID, and not what consensus uses when the transaction sits in a block. Anyone can flip it on the wire. For remote submissions from untrusted nodes, the node ignores the submitted value. It evaluates the transaction as valid, and if phase-2 fails for that reason alone it admits the transaction to the mempool with `isValid = false` so collateral can be collected. For trusted local submissions, the node reads the flag to help prevent unintended collateral collection.
-
 CIP-167 deletes the flag from the standalone encoding. Block encoding is a separate story. Conway already stores validity outside the transaction object, and CIP-176 rewrites the block body anyway.
+
+```
+mempool_transaction = [transaction_body, transaction_witness_set, auxiliary_data/ nil] / [transaction_body, transaction_witness_set, true, auxiliary_data/ nil]
+```
 
 * **CIP:** [CIP-167 Remove isValid from transactions](https://cips.cardano.org/cip/CIP-0167) (also [CIP-0167 on GitHub](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0167), PR [cardano-foundation/CIPs#1089](https://github.com/cardano-foundation/CIPs/pull/1089))
 * **Overview:** [Dijkstra upgrade overview](https://cardanoupgrades.docs.intersectmbo.org/dijkstra-era-upgrade/dijkstra-upgrade-overview), Remove isValid from Transactions (CIP-167)&#x20;
