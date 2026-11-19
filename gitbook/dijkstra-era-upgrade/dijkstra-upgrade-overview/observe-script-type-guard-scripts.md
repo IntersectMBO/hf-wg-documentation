@@ -10,10 +10,10 @@ The published CIP title is Observe Script Type. The ledger team renamed the conc
 
 Guards are required by CIP-118 nested transactions, where children demand top-level guards, and by the PlutusV4 context, which adds the new purpose and `TxInfo` fields.
 
-**CIP:** [CIP-112 Observe Script Type](https://cips.cardano.org/cip/CIP-0112) (also [CIP-0112 on GitHub](https://github.com/cardano-foundation/CIPs/blob/master/CIP-0112/README.md), original PR [#749](https://github.com/cardano-foundation/CIPs/pull/749))
-**Overview:** [Dijkstra upgrade overview](https://cardanoupgrades.docs.intersectmbo.org/dijkstra-era-upgrade/dijkstra-upgrade-overview), Observe Script Type / Guard Scripts (CIP-112)
-**Ledger umbrella:** [cardano-ledger#5603](https://github.com/IntersectMBO/cardano-ledger/issues/5603)
-**Used by:** [Nested Transactions (CIP-118)](https://cardanoupgrades.docs.intersectmbo.org/dijkstra-era-upgrade/dijkstra-upgrade-overview/nested-transactions)
+* **CIP:** [CIP-112 Observe Script Type](https://cips.cardano.org/cip/CIP-0112) (also [CIP-0112 on GitHub](https://github.com/cardano-foundation/CIPs/blob/master/CIP-0112/README.md), original PR [#749](https://github.com/cardano-foundation/CIPs/pull/749))
+* **Overview:** [Dijkstra upgrade overview](https://cardanoupgrades.docs.intersectmbo.org/dijkstra-era-upgrade/dijkstra-upgrade-overview), Observe Script Type / Guard Scripts (CIP-112)
+* **Ledger umbrella:** [cardano-ledger#5603](https://github.com/IntersectMBO/cardano-ledger/issues/5603)
+* **Used by:** [Nested Transactions (CIP-118)](https://cardanoupgrades.docs.intersectmbo.org/dijkstra-era-upgrade/dijkstra-upgrade-overview/nested-transactions)
 
 ***
 
@@ -25,8 +25,8 @@ Implications, why it concerns you, and what needs to be updated in response.
 
 A Dijkstra `TxBody` carries a `guards` set of credentials. For each guard:
 
-- a key credential must be witnessed by a signature. This is the old `required_signers` job, moved here.
-- a script credential requires the corresponding script to be present and evaluate successfully. Plutus guards need a redeemer under the Guarding purpose; native-script guards do not.
+* a key credential must be witnessed by a signature. This is the old `required_signers` job, moved here.
+* a script credential requires the corresponding script to be present and evaluate successfully. Plutus guards need a redeemer under the Guarding purpose; native-script guards do not.
 
 Listing a guard does not imply a UTxO spend, a mint, or a withdrawal. Shared policy no longer needs a dummy script input or a withdraw-zero staking trick. A zero mint does not trigger a minting script because zero mint entries are filtered out.
 
@@ -64,22 +64,22 @@ New script purposes and native-script constructors cannot be added to PlutusV3. 
 
 ### Wire and query contract
 
-| Channel | Shape |
-| --- | --- |
-| TxBody | `guards`: set of `Credential 'Guard` (key hash or script hash) |
-| Redeemers | New tag / purpose `Guarding`, indexed into the guards set |
-| Native script | New constructor `RequireGuard`. CIP JSON uses `"type": "observer"`. |
-| PlutusV4 purpose | `GuardingPurpose` carrying index and script hash |
+| Channel           | Shape                                                                                                                      |
+| ----------------- | -------------------------------------------------------------------------------------------------------------------------- |
+| TxBody            | `guards`: set of `Credential 'Guard` (key hash or script hash)                                                             |
+| Redeemers         | New tag / purpose `Guarding`, indexed into the guards set                                                                  |
+| Native script     | New constructor `RequireGuard`. CIP JSON uses `"type": "observer"`.                                                        |
+| PlutusV4 purpose  | `GuardingPurpose` carrying index and script hash                                                                           |
 | PlutusV4 `TxInfo` | List of executed guard credentials. For top-level guards in a nested batch, `txInfoSubTxs` is also populated. See CIP-118. |
-| Ledger Haskell | `guardsTxBodyL`, `mkGuardingPurpose`, `mkRequireGuard` on `Cardano.Ledger.Dijkstra` |
+| Ledger Haskell    | `guardsTxBodyL`, `mkGuardingPurpose`, `mkRequireGuard` on `Cardano.Ledger.Dijkstra`                                        |
 
 Closed enums for redeemer tags (spend, mint, cert, reward, vote, propose) fail closed-world decoders. Add the new tag. Do not reuse vote or propose.
 
 ### What to update
 
-- Every language binding that pattern-matches script purposes.
-- Hardware wallet attestation formats.
-- Guardrails-script and constitution tooling are not directly affected unless a new protocol parameter is introduced for guard limits. CIP-112 itself is a structure change, not a protocol parameter.
+* Every language binding that pattern-matches script purposes.
+* Hardware wallet attestation formats.
+* Guardrails-script and constitution tooling are not directly affected unless a new protocol parameter is introduced for guard limits. CIP-112 itself is a structure change, not a protocol parameter.
 
 ***
 
@@ -87,10 +87,10 @@ Closed enums for redeemer tags (spend, mint, cert, reward, vote, propose) fail c
 
 What new capabilities it unlocks that you might want to start thinking about.
 
-- **Replace withdraw-zero.** Any protocol whose only reason to touch a stake address was "run this script" should migrate to a guard. Cheaper, clearer, no accidental reward-account coupling.
-- **Replace dummy mint and dummy spend.** Same migration for minting-policy-as-global-validator and extra script inputs used only to force a script to run.
-- **Native scripts that can demand Plutus.** Treasury-style native scripts can require a Plutus guard without becoming Plutus themselves.
-- **Batch policy for CIP-118.** The parent guard is the only script that sees every child. Product designs for atomic swaps and sponsored transactions should put cross-leg invariants there.
-- **Required-signer continuity.** Ordinary "Alice must sign" still works. It is a key-credential guard. Update docs so users do not think required signers vanished.
+* **Replace withdraw-zero.** Any protocol whose only reason to touch a stake address was "run this script" should migrate to a guard. Cheaper, clearer, no accidental reward-account coupling.
+* **Replace dummy mint and dummy spend.** Same migration for minting-policy-as-global-validator and extra script inputs used only to force a script to run.
+* **Native scripts that can demand Plutus.** Treasury-style native scripts can require a Plutus guard without becoming Plutus themselves.
+* **Batch policy for CIP-118.** The parent guard is the only script that sees every child. Product designs for atomic swaps and sponsored transactions should put cross-leg invariants there.
+* **Required-signer continuity.** Ordinary "Alice must sign" still works. It is a key-credential guard. Update docs so users do not think required signers vanished.
 
 Guards do not create a new address type and do not move value. For micropayments and account balances see CIP-159. For the context schema see PlutusV4.
