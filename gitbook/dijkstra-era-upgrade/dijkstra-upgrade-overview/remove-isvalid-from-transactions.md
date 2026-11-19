@@ -1,7 +1,3 @@
----
-hidden: true
----
-
 # Remove isValid from Transactions
 
 ### Impact Analysis
