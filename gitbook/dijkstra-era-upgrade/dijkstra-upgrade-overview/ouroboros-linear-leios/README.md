@@ -201,6 +201,10 @@ Track the development journey of Leios behind the scenes, with activity updates 
 
 {% embed url="https://engineering.iog.io/leios" %}
 
+#### Leios Cost Estimator <a href="#musashi-network" id="musashi-network"></a>
+
+{% embed url="https://leios.cardano-scaling.org/cost-estimator/" %}
+
 #### Musashi Network <a href="#musashi-network" id="musashi-network"></a>
 
 {% embed url="https://www.musashi.network/" %}
