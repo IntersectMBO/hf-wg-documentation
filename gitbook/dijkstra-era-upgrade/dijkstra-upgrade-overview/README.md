@@ -48,55 +48,55 @@ In addition it ships the block body extensions and protocol parameters required 
 
 [GitHub reference](https://github.com/IntersectMBO/cardano-node/issues/6634)
 
-**Ouroboros Linear Leios (**[**CIP-164**](https://cips.cardano.org/cip/CIP-0164)**)**
+**Ouroboros Linear Leios (**[**CIP-164**](https://cips.cardano.org/cip/CIP-0164)**) -** [**Impact Analysis**](https://cardanoupgrades.docs.intersectmbo.org/dijkstra-era-upgrade/dijkstra-upgrade-overview/ouroboros-linear-leios)
 
 The headline feature of the Dijkstra hard fork, Linear Leios lets a block producer publish a larger Endorser Block alongside its Praos block, referencing the transactions the base block has no room for; a committee of stake pools certifies that block before its transactions enter the ledger, so throughput rises sharply while Praos security guarantees hold. It puts the bandwidth and compute already sitting idle on today's nodes to work, and the higher volume matters economically as well, since transaction fees must take over from the diminishing Reserve to sustain rewards and pool profitability. Leios ships complete in Phase 1, with throughput raised gradually via protocol parameter updates after activation.
 
-**Nested Transactions (**[**CIP-118**](https://cips.cardano.org/cip/CIP-0118)**)**
+**Nested Transactions (**[**CIP-118**](https://cips.cardano.org/cip/CIP-0118)**) -** [**Impact Analysis**](https://cardanoupgrades.docs.intersectmbo.org/dijkstra-era-upgrade/dijkstra-upgrade-overview/nested-transactions)
 
 A major feature of the Dijkstra hard fork. Nested transactions allow a transaction to contain child transactions with independent witnesses and execution contexts, for more expressive on-chain logic. Implementation is well advanced.
 
-**Observe Script Type / Guard Scripts (**[**CIP-112**](https://cips.cardano.org/cip/CIP-0112)**)**
+**Observe Script Type / Guard Scripts (**[**CIP-112**](https://cips.cardano.org/cip/CIP-0112)**) - Impact Analysis**
 
 Introduces a new script type that can observe transaction validity without being executed as part of spending or minting. Required for expressive transaction guards and a dependency for the PlutusV4 script context.
 
-**Account Address Enhancement, Phase 1 (**[**CIP-159**](https://cips.cardano.org/cip/CIP-0159)**)**
+**Account Address Enhancement, Phase 1 (**[**CIP-159**](https://cips.cardano.org/cip/CIP-0159)**) -** [**Impact Analysis**](https://cardanoupgrades.docs.intersectmbo.org/dijkstra-era-upgrade/dijkstra-upgrade-overview/account-address-enhancement-phase-1)
 
 Phase 1 of account address improvements. Delivers the ledger-level definitions for account-style addresses on Cardano.
 
-**Remove isValid from Transactions (**[**CIP-167**](https://cips.cardano.org/cip/CIP-0167)**)**
+**Remove isValid from Transactions (**[**CIP-167**](https://cips.cardano.org/cip/CIP-0167)**) -** [**Impact Analysis**](https://cardanoupgrades.docs.intersectmbo.org/dijkstra-era-upgrade/dijkstra-upgrade-overview/remove-isvalid-from-transactions)
 
 Removes the `isValid` field from transactions, simplifying the transaction structure and script execution.
 
-**Non-segregated Block Body Serialization (**[**CIP-176**](https://cips.cardano.org/cip/CIP-0176)**)**
+**Non-segregated Block Body Serialization (**[**CIP-176**](https://cips.cardano.org/cip/CIP-0176)**) -** [**Impact Analysis**](https://cardanoupgrades.docs.intersectmbo.org/dijkstra-era-upgrade/dijkstra-upgrade-overview/non-segregated-block-body-serialization)
 
 Changes block body serialization to a non-segregated format, required for the block body extensions Leios and other future features need.
 
-**PlutusV4 Script Context**
+**PlutusV4 Script Context -** [**Impact Analysis**](https://cardanoupgrades.docs.intersectmbo.org/dijkstra-era-upgrade/dijkstra-upgrade-overview/plutusv4-script-context)
 
 Introduces the updated script context for PlutusV4, enabling scripts to observe the new transaction and ledger structures introduced in Dijkstra.
 
-**Fee Function Update (Reference Inputs)**
+**Fee Function Update (Reference Inputs) -** [**Impact Analysis**](https://cardanoupgrades.docs.intersectmbo.org/dijkstra-era-upgrade/dijkstra-upgrade-overview/fee-function-update-reference-inputs)
 
 Updates the fee function to account for reference inputs. No CIP; parameters will be hardcoded initially with a path to make them updatable later.
 
-**Reference Script Pricing and Limits**
+**Reference Script Pricing and Limits -** [**Impact Analysis**](https://cardanoupgrades.docs.intersectmbo.org/dijkstra-era-upgrade/dijkstra-upgrade-overview/reference-script-pricing-and-limits)
 
 The pricing and size limits for reference scripts have been in effect since Conway as hardcoded values. Dijkstra introduces them as proper protocol parameters. For the community to update them via governance actions, both the Constitution and the guardrails script must be updated to include bounds and rules for these new parameters.
 
-**Remove DRep Requirement for Reward Withdrawals (**[**CIP-181**](https://cips.cardano.org/cip/CIP-0181)**)**
+**Remove DRep Requirement for Reward Withdrawals (**[**CIP-181**](https://cips.cardano.org/cip/CIP-0181)**) -** [**Impact Analysis**](https://cardanoupgrades.docs.intersectmbo.org/dijkstra-era-upgrade/dijkstra-upgrade-overview/remove-drep-requirement-for-reward-withdrawals)
 
 Removes the requirement for a DRep delegation to be present when withdrawing staking rewards, reducing friction for ada holders who want to withdraw without participating in governance.
 
-**Pledge Leverage-Based Staking Rewards (**[**CIP-50**](https://cips.cardano.org/cip/CIP-0050)**)**
+**Pledge Leverage-Based Staking Rewards (**[**CIP-50**](https://cips.cardano.org/cip/CIP-0050)**) -** [**Impact Analysis**](https://cardanoupgrades.docs.intersectmbo.org/dijkstra-era-upgrade/dijkstra-upgrade-overview/pledge-leverage-based-staking-rewards)
 
 Introduces a leverage parameter L that ties pool rewards to the ratio of delegated stake to pledge. The parameter is introduced with a default value of `Nothing`, which preserves current reward behaviour exactly — no change takes effect at the hard fork. DReps can subsequently vote to set L to a concrete value, at which point pools with zero pledge would earn zero rewards.
 
-**Fair Min Fees (**[**CIP-23**](https://cips.cardano.org/cip/CIP-0023)**)**
+**Fair Min Fees (**[**CIP-23**](https://cips.cardano.org/cip/CIP-0023)**) -** [**Impact Analysis**](https://cardanoupgrades.docs.intersectmbo.org/dijkstra-era-upgrade/dijkstra-upgrade-overview/fair-min-fees-conditional)
 
 **CIP-23 is fully implemented at Phase 1 (PV12)**: it introduces `minPoolMargin` and applies the greater of each pool's declared margin and the protocol minimum during reward calculation. The [merged ledger implementation](https://github.com/IntersectMBO/cardano-ledger/pull/6197) also applies the same rule to fixed costs against `minPoolCost`, accepting below-floor pool registrations and updates. The planned initial margin floor is 0; a subsequent Parameter Update can set a nonzero floor once the Constitution and guardrails permit it, without waiting for PV13. See the [impact analysis](fair-min-fees-conditional.md) for reward timing, governance dependencies and tooling changes.
 
-#### Structural Groundwork for Phase 2 <a href="#structural-groundwork-for-phase-2" id="structural-groundwork-for-phase-2"></a>
+#### Structural Groundwork for Phase 2 - [Impact Analysis](https://cardanoupgrades.docs.intersectmbo.org/dijkstra-era-upgrade/dijkstra-upgrade-overview/peras-codec-extensions) <a href="#structural-groundwork-for-phase-2" id="structural-groundwork-for-phase-2"></a>
 
 These are not feature activations. They are the block structure changes, header extensions, and protocol parameter introductions that Phase 2 depends on. Because all of these require a new era, they must ship in Phase 1. Any protocol parameters needed to govern Peras behaviour must also be defined here, even if their values are not yet active, since protocol parameters cannot be introduced in an intra-era hard fork.
 
