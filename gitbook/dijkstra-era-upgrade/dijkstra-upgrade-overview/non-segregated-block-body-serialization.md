@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Non-segregated Block Body Serialization
 
 ### Impact Analysis

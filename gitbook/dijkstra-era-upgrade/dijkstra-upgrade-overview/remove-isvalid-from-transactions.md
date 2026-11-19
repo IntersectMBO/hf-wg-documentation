@@ -1,4 +1,8 @@
-# Remove isValid from TransactionsTo be added
+---
+hidden: true
+---
+
+# Remove isValid from Transactions
 
 ### Impact Analysis
 

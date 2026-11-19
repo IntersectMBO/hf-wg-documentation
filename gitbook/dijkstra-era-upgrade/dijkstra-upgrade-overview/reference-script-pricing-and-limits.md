@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Reference Script Pricing and Limits
 
 ### Impact Analysis

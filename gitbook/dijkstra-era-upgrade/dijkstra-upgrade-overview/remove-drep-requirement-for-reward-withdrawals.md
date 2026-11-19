@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Remove DRep Requirement for Reward Withdrawals
 
 ### Impact Analysis

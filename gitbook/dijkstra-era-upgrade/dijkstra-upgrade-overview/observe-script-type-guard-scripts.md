@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Observe Script Type / Guard Scripts
 
 ### Impact Analysis

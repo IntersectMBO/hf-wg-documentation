@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # PlutusV4 Script Context
 
 ### Impact Analysis

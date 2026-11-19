@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Account Address Enhancement, Phase 1
 
 ### Impact Analysis

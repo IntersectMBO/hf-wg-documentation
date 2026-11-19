@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Fee Function Update (Reference Inputs)
 
 ### Impact Analysis

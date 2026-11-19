@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Peras codec extensions
 
 ### Impact Analysis
