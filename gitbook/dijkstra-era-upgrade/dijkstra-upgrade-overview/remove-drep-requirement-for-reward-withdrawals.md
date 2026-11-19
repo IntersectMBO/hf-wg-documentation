@@ -10,9 +10,9 @@ CIP-181 deletes that check. A withdrawal that is otherwise valid is accepted whe
 
 This is a relaxation. Every withdrawal that worked in Conway still works. Withdrawals that Conway rejected solely for missing DRep delegation start working at the Dijkstra hard fork. There is no new parameter and no dormant flag.
 
-**CIP:** [CIP-181 Remove DRep Requirement for Reward Withdrawals](https://cips.cardano.org/cip/CIP-0181) (also [CIP-0181 on GitHub](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0181))
-**Overview:** [Dijkstra upgrade overview](https://cardanoupgrades.docs.intersectmbo.org/dijkstra-era-upgrade/dijkstra-upgrade-overview), Remove DRep Requirement for Reward Withdrawals (CIP-181)
-**Related but different:** [Account Address Enhancement, Phase 1 (CIP-159)](https://cardanoupgrades.docs.intersectmbo.org/dijkstra-era-upgrade/dijkstra-upgrade-overview/account-address-enhancement-phase-1) changes how accounts receive and assert balances. CIP-181 only changes a Conway governance gate on withdrawals.
+* **CIP:** [CIP-181 Remove DRep Requirement for Reward Withdrawals](https://cips.cardano.org/cip/CIP-0181) (also [CIP-0181 on GitHub](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0181))
+* **Overview:** [Dijkstra upgrade overview](https://cardanoupgrades.docs.intersectmbo.org/dijkstra-era-upgrade/dijkstra-upgrade-overview), Remove DRep Requirement for Reward Withdrawals (CIP-181)
+* **Related but different:** [Account Address Enhancement, Phase 1 (CIP-159)](https://cardanoupgrades.docs.intersectmbo.org/dijkstra-era-upgrade/dijkstra-upgrade-overview/account-address-enhancement-phase-1) changes how accounts receive and assert balances. CIP-181 only changes a Conway governance gate on withdrawals.
 
 ***
 
@@ -54,19 +54,19 @@ The change is a deleted predicate, so encodings do not grow. The break is behavi
 
 ### Wire and query contract
 
-| Channel | Shape |
-| --- | --- |
-| Withdrawal field | Unchanged `{reward_account → coin}` in Phase 1 |
-| Certificates | Unchanged |
-| PParams | No new key |
-| Errors | `ConwayWdrlNotDelegatedToDRep` must not fire in Dijkstra |
-| Queries | `query stake-address-info` still reports delegation. It no longer predicts withdrawability. |
+| Channel          | Shape                                                                                       |
+| ---------------- | ------------------------------------------------------------------------------------------- |
+| Withdrawal field | Unchanged `{reward_account → coin}` in Phase 1                                              |
+| Certificates     | Unchanged                                                                                   |
+| PParams          | No new key                                                                                  |
+| Errors           | `ConwayWdrlNotDelegatedToDRep` must not fire in Dijkstra                                    |
+| Queries          | `query stake-address-info` still reports delegation. It no longer predicts withdrawability. |
 
 ### What to update
 
-- Integration tests that submit a withdrawal without a DRep and expect rejection.
-- Ogmios and submit-api error catalogues.
-- Analytics jobs that classify "undelegated-and-unwithdrawable" accounts.
+* Integration tests that submit a withdrawal without a DRep and expect rejection.
+* Ogmios and submit-api error catalogues.
+* Analytics jobs that classify "undelegated-and-unwithdrawable" accounts.
 
 ***
 
@@ -74,8 +74,8 @@ The change is a deleted predicate, so encodings do not grow. The break is behavi
 
 What new capabilities it unlocks that you might want to start thinking about.
 
-- **Decoupled staking and voting.** Delegate to an SPO, leave voting undecided, still take rewards home.
-- **Less coerced convenience delegation.** Wallets no longer have a protocol-level reason to pre-select a DRep so the user can click Claim.
-- **Cleaner CIP-159 story.** Micropayment accounts can withdraw without first becoming governance actors.
+* **Decoupled staking and voting.** Delegate to an SPO, leave voting undecided, still take rewards home.
+* **Less coerced convenience delegation.** Wallets no longer have a protocol-level reason to pre-select a DRep so the user can click Claim.
+* **Cleaner CIP-159 story.** Micropayment accounts can withdraw without first becoming governance actors.
 
 CIP-181 does not pay anyone extra and does not change RSS. It only unlocks funds the protocol had already credited.
