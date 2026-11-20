@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Observe Script Type / Guard Scripts
 
 CIP-112 adds a script purpose that is not tied to spending, minting, withdrawing, certifying, voting, or proposing. The script runs because the transaction lists it. If a native guard fails, the transaction is rejected. If a Plutus guard fails, that is a phase-2 failure: the transaction can still be included with `isValid = False` and its collateral is taken.
@@ -6,10 +10,10 @@ The published CIP title is Observe Script Type. The ledger team renamed the conc
 
 Guards are required by CIP-118 nested transactions, where children demand top-level guards, and by the PlutusV4 context, which adds the new purpose and `TxInfo` fields.
 
-**CIP:** [CIP-112 Observe Script Type](https://cips.cardano.org/cip/CIP-0112) (also [CIP-0112 on GitHub](https://github.com/cardano-foundation/CIPs/blob/master/CIP-0112/README.md), original PR [#749](https://github.com/cardano-foundation/CIPs/pull/749))
-**Overview:** [Dijkstra upgrade overview](https://cardanoupgrades.docs.intersectmbo.org/dijkstra-era-upgrade/dijkstra-upgrade-overview), Observe Script Type / Guard Scripts (CIP-112)
-**Ledger umbrella:** [cardano-ledger#5603](https://github.com/IntersectMBO/cardano-ledger/issues/5603)
-**Used by:** [Nested Transactions (CIP-118)](https://cardanoupgrades.docs.intersectmbo.org/dijkstra-era-upgrade/dijkstra-upgrade-overview/nested-transactions)
+* **CIP:** [CIP-112 Observe Script Type](https://cips.cardano.org/cip/CIP-0112) (also [CIP-0112 on GitHub](https://github.com/cardano-foundation/CIPs/blob/master/CIP-0112/README.md), original PR [#749](https://github.com/cardano-foundation/CIPs/pull/749))
+* **Overview:** [Dijkstra upgrade overview](https://cardanoupgrades.docs.intersectmbo.org/dijkstra-era-upgrade/dijkstra-upgrade-overview), Observe Script Type / Guard Scripts (CIP-112)
+* **Ledger umbrella:** [cardano-ledger#5603](https://github.com/IntersectMBO/cardano-ledger/issues/5603)
+* **Used by:** [Nested Transactions (CIP-118)](https://cardanoupgrades.docs.intersectmbo.org/dijkstra-era-upgrade/dijkstra-upgrade-overview/nested-transactions)
 
 ***
 
@@ -21,8 +25,8 @@ Implications, why it concerns you, and what needs to be updated in response.
 
 A Dijkstra `TxBody` carries `guards` (field 14), an ordered set of credentials. For each guard:
 
-- a key credential must be witnessed by a signature. This is the old `required_signers` job, moved here.
-- a script credential requires the corresponding script to be present and evaluate successfully. Plutus guards need a redeemer under the Guarding purpose (redeemer tag 6), indexed by the guard's position in the ordered set; native-script guards do not.
+* a key credential must be witnessed by a signature. This is the old `required_signers` job, moved here.
+* a script credential requires the corresponding script to be present and evaluate successfully. Plutus guards need a redeemer under the Guarding purpose (redeemer tag 6), indexed by the guard's position in the ordered set; native-script guards do not.
 
 Listing a guard does not imply a UTxO spend, a mint, or a withdrawal. Shared policy no longer needs a dummy script input, a dummy mint, or a withdraw-zero staking trick. (Zero-quantity mint entries are not an alternative: the Dijkstra CDDL types mint quantities as `nonzero_int64`, so they fail to decode.)
 
@@ -74,9 +78,9 @@ Closed enums for redeemer tags (0–5: spend, mint, cert, reward, voting, propos
 
 ### What to update
 
-- Every language binding that pattern-matches script purposes.
-- Hardware wallet signing flows: show guard credentials, and the redeemer for each Plutus guard, on the confirmation screen.
-- Do not confuse guards with the constitution's guardrails script. CIP-112 does not affect guardrails tooling and adds no protocol parameter.
+* Every language binding that pattern-matches script purposes.
+* Hardware wallet signing flows: show guard credentials, and the redeemer for each Plutus guard, on the confirmation screen.
+* Do not confuse guards with the constitution's guardrails script. CIP-112 does not affect guardrails tooling and adds no protocol parameter.
 
 ***
 
@@ -84,10 +88,10 @@ Closed enums for redeemer tags (0–5: spend, mint, cert, reward, voting, propos
 
 What new capabilities it unlocks that you might want to start thinking about.
 
-- **Replace withdraw-zero.** Any protocol whose only reason to touch a stake address was "run this script" should migrate to a guard. No stake-credential registration or deposit, clearer intent, no accidental reward-account coupling.
-- **Replace dummy mint and dummy spend.** Same migration for minting-policy-as-global-validator and extra script inputs used only to force a script to run.
-- **Native scripts that can demand Plutus.** Treasury-style native scripts can require a Plutus guard without becoming Plutus themselves.
-- **Batch policy for CIP-118.** The parent guard is the only script that sees every child. Product designs for atomic swaps and sponsored transactions should put cross-leg invariants there.
-- **Required-signer continuity.** Ordinary "Alice must sign" still works. It is a key-credential guard. Update docs so users do not think required signers vanished.
+* **Replace withdraw-zero.** Any protocol whose only reason to touch a stake address was "run this script" should migrate to a guard. No stake-credential registration or deposit, clearer intent, no accidental reward-account coupling.
+* **Replace dummy mint and dummy spend.** Same migration for minting-policy-as-global-validator and extra script inputs used only to force a script to run.
+* **Native scripts that can demand Plutus.** Treasury-style native scripts can require a Plutus guard without becoming Plutus themselves.
+* **Batch policy for CIP-118.** The parent guard is the only script that sees every child. Product designs for atomic swaps and sponsored transactions should put cross-leg invariants there.
+* **Required-signer continuity.** Ordinary "Alice must sign" still works. It is a key-credential guard. Update docs so users do not think required signers vanished.
 
 Guards do not create a new address type and do not move value. For micropayments and account balances see CIP-159. For the context schema see PlutusV4.

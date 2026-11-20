@@ -4,10 +4,10 @@ Conway already charges for reference scripts and already caps their total size. 
 
 Dijkstra lifts those hardcoded pieces into protocol parameters so governance can change them. The formula does not change on hard-fork day if genesis copies the Conway constants. What changes is that the constants become visible, serialised, and, after constitution and guardrails updates, updatable.
 
-**CIP:** none. Conway behaviour lives in [ledger ADR 009](https://github.com/IntersectMBO/cardano-ledger/blob/master/docs/adr/2024-08-14_009-refscripts-fee-change.md).
-**Overview:** [Dijkstra upgrade overview](https://cardanoupgrades.docs.intersectmbo.org/dijkstra-era-upgrade/dijkstra-upgrade-overview), Reference Script Pricing and Limits
-**Do not confuse with:** [Fee Function Update (Reference Inputs)](https://cardanoupgrades.docs.intersectmbo.org/dijkstra-era-upgrade/dijkstra-upgrade-overview/fee-function-update-reference-inputs), [Fair Min Fees (CIP-23)](https://cardanoupgrades.docs.intersectmbo.org/dijkstra-era-upgrade/dijkstra-upgrade-overview/fair-min-fees-conditional)
-**Ecosystem signal:** Ogmios Dijkstra encoders already expose `refScriptCostStride`, `refScriptCostMultiplier`, `maxRefScriptSizePerTx`, `maxRefScriptSizePerBlock`.
+* **CIP:** none. Conway behaviour lives in [ledger ADR 009](https://github.com/IntersectMBO/cardano-ledger/blob/master/docs/adr/2024-08-14_009-refscripts-fee-change.md).
+* **Overview:** [Dijkstra upgrade overview](https://cardanoupgrades.docs.intersectmbo.org/dijkstra-era-upgrade/dijkstra-upgrade-overview), Reference Script Pricing and Limits
+* **Do not confuse with:** [Fee Function Update (Reference Inputs)](https://cardanoupgrades.docs.intersectmbo.org/dijkstra-era-upgrade/dijkstra-upgrade-overview/fee-function-update-reference-inputs), [Fair Min Fees (CIP-23)](https://cardanoupgrades.docs.intersectmbo.org/dijkstra-era-upgrade/dijkstra-upgrade-overview/fair-min-fees-conditional)
+* **Ecosystem signal:** Ogmios Dijkstra encoders already expose `refScriptCostStride`, `refScriptCostMultiplier`, `maxRefScriptSizePerTx`, `maxRefScriptSizePerBlock`.
 
 ***
 
@@ -19,8 +19,8 @@ Implications, why it concerns you, and what needs to be updated in response.
 
 Collect every reference script on the transaction's spent and referenced inputs, used or not. Sum the raw script bytes, not the CBOR tag or language wrapper. Apply the tiered function:
 
-- first `refScriptCostStride` bytes at `minFeeRefScriptCostPerByte`,
-- each further stride multiplies the per-byte price by `refScriptCostMultiplier`.
+* first `refScriptCostStride` bytes at `minFeeRefScriptCostPerByte`,
+* each further stride multiplies the per-byte price by `refScriptCostMultiplier`.
 
 Reject the transaction if total reference-script bytes exceed `maxRefScriptSizePerTx`. Reject the block if the block-wide sum exceeds `maxRefScriptSizePerBlock`.
 
@@ -56,20 +56,20 @@ New updatable parameters can only be added in a new era. That is why they ship a
 
 ### Wire and query contract
 
-| Channel | Shape |
-| --- | --- |
-| JSON PParams | `minFeeRefScriptCostPerByte` already present, plus `refScriptCostStride`, `refScriptCostMultiplier`, `maxRefScriptSizePerTx`, `maxRefScriptSizePerBlock`. Names as in ledger / Ogmios Dijkstra encoder. Confirm against node golden JSON. |
-| Haskell | `dppMinFeeRefScriptCostPerByte`, `dppRefScriptCostStride`, `dppRefScriptCostMultiplier`, plus the two max-size fields on Dijkstra PParams |
-| Guardrails / Plutus Data | New parameter indices once the script is updated |
-| Genesis | Conway to Dijkstra upgrade PParams must supply the new fields |
+| Channel                  | Shape                                                                                                                                                                                                                                     |
+| ------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| JSON PParams             | `minFeeRefScriptCostPerByte` already present, plus `refScriptCostStride`, `refScriptCostMultiplier`, `maxRefScriptSizePerTx`, `maxRefScriptSizePerBlock`. Names as in ledger / Ogmios Dijkstra encoder. Confirm against node golden JSON. |
+| Haskell                  | `dppMinFeeRefScriptCostPerByte`, `dppRefScriptCostStride`, `dppRefScriptCostMultiplier`, plus the two max-size fields on Dijkstra PParams                                                                                                 |
+| Guardrails / Plutus Data | New parameter indices once the script is updated                                                                                                                                                                                          |
+| Genesis                  | Conway to Dijkstra upgrade PParams must supply the new fields                                                                                                                                                                             |
 
 Parsers that allow-list Conway keys will drop the new ones and then compute the wrong fee after the first Parameter Change.
 
 ### What to update
 
-- Closed Conway PParams structs in Rust, Go, and TypeScript.
-- Docs that say "stride and multiplier are hardcoded".
-- Constitution appendix drafts. Economic vs technical grouping is a Parameter Committee decision. Do not invent the group here.
+* Closed Conway PParams structs in Rust, Go, and TypeScript.
+* Docs that say "stride and multiplier are hardcoded".
+* Constitution appendix drafts (parameter groups: Network and Security)
 
 ***
 
@@ -77,8 +77,8 @@ Parsers that allow-list Conway keys will drop the new ones and then compute the 
 
 What new capabilities it unlocks that you might want to start thinking about.
 
-- **Governable anti-DoS knobs.** If reference-script traffic becomes cheap or expensive relative to hardware, DReps can move stride, multiplier, or caps without an era.
-- **Live dashboards.** Explorers can show the live curve instead of a wiki constant.
-- **Capacity planning for SPOs.** The block-level cap is a first-class number next to block size and block execution units.
+* **Governable anti-DoS knobs.** If reference-script traffic becomes cheap or expensive relative to hardware, DReps can move stride, multiplier, or caps without an era.
+* **Live dashboards.** Explorers can show the live curve instead of a wiki constant.
+* **Capacity planning for SPOs.** The block-level cap is a first-class number next to block size and block execution units.
 
 Still no change to how you attach a reference script. CIP-33 mechanics are untouched.

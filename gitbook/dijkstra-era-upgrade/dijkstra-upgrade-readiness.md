@@ -47,8 +47,6 @@ Spokesperson: Geoff Watson / Brandon Wolf / Samuel Leathers
 
 <table><thead><tr><th width="273">Name</th><th width="476">Status</th></tr></thead><tbody><tr><td>Ledger</td><td></td></tr><tr><td>Consensus</td><td></td></tr><tr><td>Network</td><td></td></tr><tr><td>Plutus Core</td><td></td></tr><tr><td>Performance and Tracing</td><td></td></tr><tr><td>Pre-Release Node</td><td></td></tr><tr><td>Cardano CLI, API &#x26; Node Integration</td><td></td></tr><tr><td>Full Mainnet Ready Release</td><td></td></tr><tr><td>DB-Sync</td><td></td></tr></tbody></table>
 
-
-
 ***
 
 ### Testnets and Governance Actions
@@ -57,11 +55,11 @@ Spokesperson: Elena
 
 #### Testnets
 
-<table><thead><tr><th width="355">Network</th><th width="583">Status</th></tr></thead><tbody><tr><td>SanchoNet</td><td></td></tr><tr><td>Preview</td><td></td></tr><tr><td>PreProd</td><td></td></tr></tbody></table>
+<table><thead><tr><th width="355">Network</th><th width="583">Status</th></tr></thead><tbody><tr><td>SanchoNet</td><td></td></tr><tr><td>DijkstraNet</td><td>Forked on 2nd November with 11.2 (everything but Linear Leios and Fair Min Fees)</td></tr><tr><td>Preview</td><td></td></tr><tr><td>PreProd</td><td></td></tr></tbody></table>
 
 #### Governance Actions
 
-<table><thead><tr><th width="167">Network</th><th width="161">Action</th><th width="215">Status</th><th>View via</th></tr></thead><tbody><tr><td>SanchoNet</td><td>Cost model update</td><td><mark style="color:$info;">Not started</mark></td><td></td></tr><tr><td>SanchoNet</td><td>Hard fork</td><td><mark style="color:$info;">Not started</mark></td><td></td></tr><tr><td>Preview</td><td>Cost model update</td><td><mark style="color:$info;">Not started</mark></td><td></td></tr><tr><td>Preview</td><td>Hard fork</td><td><mark style="color:$info;">Not started</mark></td><td></td></tr><tr><td>PreProd</td><td>Cost model update</td><td><mark style="color:$info;">Not started</mark></td><td></td></tr><tr><td>PreProd</td><td>Hard fork</td><td><mark style="color:$info;">Not started</mark></td><td></td></tr><tr><td>Mainnet</td><td>Cost model update</td><td><mark style="color:$info;">Not started</mark></td><td></td></tr><tr><td>Mainnet</td><td>Hard fork</td><td><mark style="color:$info;">Not started</mark></td><td></td></tr></tbody></table>
+<table><thead><tr><th width="167">Network</th><th width="161">Action</th><th width="215">Status</th><th>View via</th></tr></thead><tbody><tr><td>SanchoNet</td><td>Cost model update</td><td><mark style="color:$info;">Not started</mark></td><td></td></tr><tr><td>SanchoNet</td><td>Hard fork</td><td><mark style="color:$info;">Not started</mark></td><td></td></tr><tr><td>DijkstraNet</td><td>Cost model update</td><td><mark style="color:$info;">Not started</mark></td><td></td></tr><tr><td>DijkstraNet</td><td>Hard fork</td><td><mark style="color:$info;">Done on 2nd November with 11.2 (everything but Linear Leios and Fair Min Fees)</mark></td><td></td></tr><tr><td>Preview</td><td>Cost model update</td><td><mark style="color:$info;">Not started</mark></td><td></td></tr><tr><td>Preview</td><td>Hard fork</td><td><mark style="color:$info;">Not started</mark></td><td></td></tr><tr><td>PreProd</td><td>Cost model update</td><td><mark style="color:$info;">Not started</mark></td><td></td></tr><tr><td>PreProd</td><td>Hard fork</td><td><mark style="color:$info;">Not started</mark></td><td></td></tr><tr><td>Mainnet</td><td>Cost model update</td><td><mark style="color:$info;">Not started</mark></td><td></td></tr><tr><td>Mainnet</td><td>Hard fork</td><td><mark style="color:$info;">Not started</mark></td><td></td></tr></tbody></table>
 
 ***
 
@@ -97,7 +95,7 @@ Spokesperson: TBD
 
 Spokesperson: Bosko Majdanac
 
-<table><thead><tr><th width="274">Tools</th><th width="206">Status</th><th>Notes</th></tr></thead><tbody><tr><td>cardano-wallet</td><td><mark style="color:$info;">Not started</mark></td><td>(<a href="https://github.com/cardano-foundation/cardano-wallet/releases">release repository</a>)</td></tr><tr><td>Rosetta</td><td><mark style="color:$info;">Deprecated</mark></td><td>(<a href="https://github.com/cardano-foundation/cardano-rosetta/releases">release repository</a>)</td></tr><tr><td>Rosetta-Java</td><td><mark style="color:$info;">Not started</mark></td><td>(<a href="https://github.com/cardano-foundation/cardano-rosetta-java/releases/tag/1.1.5">release repository</a>)</td></tr><tr><td>GraphQL</td><td><mark style="color:$info;">Not started</mark></td><td>(<a href="https://github.com/cardano-foundation/cardano-graphql/releases">release repository</a>)</td></tr><tr><td>cntools (guild-operators)</td><td><mark style="color:$info;">Not started</mark></td><td>(<a href="https://github.com/cardano-community/guild-operators/blob/alpha/docs/Scripts/cntools-changelog.md">change log</a>)</td></tr><tr><td>SPO Scripts (@gitmachtl)</td><td><mark style="color:$info;">Not started</mark></td><td>(<a href="https://github.com/gitmachtl/scripts/releases">release repository</a>)</td></tr><tr><td>Ogmios</td><td><mark style="color:$info;">Not started</mark></td><td>(Intersect forked version <a href="https://github.com/IntersectMBO/ogmios/">release repository</a>. <br>Cardano Solutions original <br><a href="https://github.com/CardanoSolutions/ogmios/releases/tag/v7.0.0">Ogmios</a>)</td></tr></tbody></table>
+<table><thead><tr><th width="274">Tools</th><th width="206">Status</th><th>Notes</th></tr></thead><tbody><tr><td>cardano-wallet</td><td><mark style="color:$info;">Not started</mark></td><td>(<a href="https://github.com/cardano-foundation/cardano-wallet/releases">release repository</a>)</td></tr><tr><td>Rosetta</td><td><mark style="color:$info;">Deprecated</mark></td><td>(<a href="https://github.com/cardano-foundation/cardano-rosetta/releases">release repository</a>)</td></tr><tr><td>Rosetta-Java</td><td><mark style="color:$info;">Not started</mark></td><td>(<a href="https://github.com/cardano-foundation/cardano-rosetta-java/releases/tag/1.1.5">release repository</a>)</td></tr><tr><td>GraphQL</td><td><mark style="color:$info;">Not started</mark></td><td>(<a href="https://github.com/cardano-foundation/cardano-graphql/releases">release repository</a>)</td></tr><tr><td>cntools (guild-operators)</td><td><mark style="color:$info;">Not started</mark></td><td>(<a href="https://github.com/cardano-community/guild-operators/blob/alpha/docs/Scripts/cntools-changelog.md">change log</a>)</td></tr><tr><td>SPO Scripts (@gitmachtl)</td><td><mark style="color:$info;">Not started</mark></td><td>(<a href="https://github.com/gitmachtl/scripts/releases">release repository</a>)</td></tr><tr><td>Ogmios</td><td><mark style="color:$info;">Not started</mark></td><td>(Intersect forked version <a href="https://github.com/IntersectMBO/ogmios/">release repository</a>.<br>Cardano Solutions original<br><a href="https://github.com/CardanoSolutions/ogmios/releases/tag/v7.0.0">Ogmios</a>)</td></tr></tbody></table>
 
 **Libraries**
 
@@ -143,7 +141,7 @@ Spokesperson: TBD
 
 Spokesperson: Bosko
 
-<table><thead><tr><th width="251">Project</th><th>Status</th><th>Notes</th></tr></thead><tbody><tr><td>Partner-chains Toolkit</td><td><mark style="color:$info;">Not started</mark></td><td></td></tr><tr><td>Midnight</td><td><mark style="color:$info;">Not started</mark></td><td></td></tr><tr><td>Hydra</td><td><mark style="color:$info;">Not started</mark></td><td></td></tr><tr><td>Hydrozoa</td><td><mark style="color:$info;">Not started</mark></td><td></td></tr><tr><td>Sundial</td><td><mark style="color:$info;">Not started</mark></td><td></td></tr><tr><td>Midgard</td><td><mark style="color:$info;">N/A</mark></td><td><mark style="color:$info;">Not going to be ready for mainnet, but not a blocker for hard fork</mark></td></tr><tr><td>Gummiworm</td><td><mark style="color:$info;">Not started</mark></td><td></td></tr><tr><td>Mithril</td><td><mark style="color:$info;">Not started</mark></td><td></td></tr><tr><td>Apex Fusion</td><td><mark style="color:$info;">Not started</mark></td><td></td></tr></tbody></table>
+<table><thead><tr><th width="251">Project</th><th>Status</th><th>Notes</th></tr></thead><tbody><tr><td>Partner-chains Toolkit</td><td><mark style="color:$info;">Not started</mark></td><td></td></tr><tr><td>Midnight</td><td><mark style="color:$info;">Not started</mark></td><td></td></tr><tr><td>Hydra</td><td><mark style="color:$info;">Not started</mark></td><td></td></tr><tr><td>Hydrozoa</td><td><mark style="color:$info;">Not started</mark></td><td></td></tr><tr><td>Sundial</td><td><mark style="color:$info;">Not started</mark></td><td></td></tr><tr><td>Midgard</td><td><mark style="color:$info;">N/A</mark></td><td></td></tr><tr><td>Gummiworm</td><td><mark style="color:$info;">Not started</mark></td><td></td></tr><tr><td>Mithril</td><td><mark style="color:$info;">Not started</mark></td><td></td></tr><tr><td>Apex Fusion</td><td><mark style="color:$info;">Not started</mark></td><td></td></tr></tbody></table>
 
 ***
 
@@ -151,7 +149,7 @@ Spokesperson: Bosko
 
 Spokesperson: Bosko
 
-<table><thead><tr><th width="251">Implementation</th><th width="248">Status</th><th>Notes</th></tr></thead><tbody><tr><td>Acropolis</td><td><mark style="color:$info;">Deprecated</mark></td><td></td></tr><tr><td>Amaru</td><td><mark style="color:$info;">Not started</mark></td><td><mark style="color:$warning;">6th August</mark><br>Relay capable of doing validation and syncing to the tip, but block production will come in 6 to 7 weeks</td></tr><tr><td>Dingo</td><td><mark style="color:$info;">Not started</mark></td><td></td></tr><tr><td>Gerolamo</td><td><mark style="color:$info;">Not started</mark></td><td></td></tr><tr><td>Dolos</td><td><mark style="color:$info;">Not started</mark></td><td></td></tr></tbody></table>
+<table><thead><tr><th width="251">Implementation</th><th width="248">Status</th><th>Notes</th></tr></thead><tbody><tr><td>Amaru</td><td><mark style="color:$info;">Not started</mark></td><td></td></tr><tr><td>Dingo</td><td><mark style="color:$info;">Not started</mark></td><td></td></tr><tr><td>Gerolamo</td><td><mark style="color:$info;">Not started</mark></td><td></td></tr><tr><td>Dolos</td><td><mark style="color:$info;">Not started</mark></td><td></td></tr><tr><td>Haskell node</td><td><mark style="color:$info;">Not started</mark></td><td></td></tr><tr><td>Yano</td><td><mark style="color:$info;">Not started</mark></td><td></td></tr><tr><td>Scalus</td><td><mark style="color:$info;">Not started</mark></td><td></td></tr><tr><td>Dugite</td><td><mark style="color:$info;">Not started</mark></td><td></td></tr><tr><td>Tsunagi</td><td><mark style="color:$info;">Not started</mark></td><td></td></tr><tr><td>Cardano Bean</td><td><mark style="color:$info;">Not started</mark></td><td></td></tr><tr><td>Razor</td><td><mark style="color:$info;">Not started</mark></td><td></td></tr><tr><td>Cardamom</td><td><mark style="color:$info;">Not started</mark></td><td></td></tr><tr><td>Turbocardano</td><td><mark style="color:$info;">Not started</mark></td><td></td></tr></tbody></table>
 
 ***
 
@@ -198,6 +196,7 @@ DApps listed on this page are self-attested by the community, to add your DApp p
 | Orcfax           | <mark style="color:$info;">Not started</mark> |       |
 | Reed Finance     | <mark style="color:$info;">Not started</mark> |       |
 | NOWNodes         | <mark style="color:$info;">Not started</mark> |       |
+| RealFi           | <mark style="color:$info;">Not started</mark> |       |
 
 ***
 
@@ -218,4 +217,3 @@ DApps listed on this page are self-attested by the community, to add your DApp p
 Taken from here (<mark style="color:$danger;">**to be linked**</mark>)
 
 <table><thead><tr><th width="293.09375">Item</th><th>Status</th><th>Notes</th></tr></thead><tbody><tr><td>No major holidays or events - tech teams ready to respond and support to issues</td><td></td><td></td></tr><tr><td>Preview Testnet hard forked - 42 epochs</td><td></td><td></td></tr><tr><td>PreProd Testnet hard forked - 3 epochs</td><td></td><td></td></tr><tr><td>SPO readiness - 80% stake measure by pool tool</td><td></td><td></td></tr><tr><td>Exchange readiness - 80% by liquidity</td><td></td><td></td></tr><tr><td>DApp/Defi readiness - 80% of top 20 projects</td><td></td><td></td></tr><tr><td>Tooling readiness - 80% of named tools</td><td></td><td></td></tr><tr><td>Wallet readiness - 80% of top 15</td><td></td><td></td></tr></tbody></table>
-

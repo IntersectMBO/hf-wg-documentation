@@ -6,10 +6,10 @@ This is how Dijkstra supports atomic swaps, fee sponsorship, and Babel-fee style
 
 Nested transactions depend on CIP-112 Guard scripts and on the PlutusV4 script context. A transaction that contains sub-transactions or top-level guards cannot run PlutusV1 to V3 scripts except through the isolation mode described below.
 
-**CIP:** [CIP-118 Nested Transactions](https://cips.cardano.org/cip/CIP-118) (also [CIP-0118 on GitHub](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0118))
-**Overview:** [Dijkstra upgrade overview](https://cardanoupgrades.docs.intersectmbo.org/dijkstra-era-upgrade/dijkstra-upgrade-overview), Nested Transactions (CIP-118)
-**Ledger umbrella:** [cardano-ledger#5123](https://github.com/IntersectMBO/cardano-ledger/issues/5123)
-**Depends on:** [Observe Script Type / Guard Scripts (CIP-112)](https://cardanoupgrades.docs.intersectmbo.org/dijkstra-era-upgrade/dijkstra-upgrade-overview/observe-script-type-guard-scripts), [PlutusV4 Script Context](https://cardanoupgrades.docs.intersectmbo.org/dijkstra-era-upgrade/dijkstra-upgrade-overview/plutusv4-script-context)
+* **CIP:** [CIP-118 Nested Transactions](https://cips.cardano.org/cip/CIP-118) (also [CIP-0118 on GitHub](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0118))
+* **Overview:** [Dijkstra upgrade overview](https://cardanoupgrades.docs.intersectmbo.org/dijkstra-era-upgrade/dijkstra-upgrade-overview), Nested Transactions (CIP-118)
+* **Ledger umbrella:** [cardano-ledger#5123](https://github.com/IntersectMBO/cardano-ledger/issues/5123)
+* **Depends on:** [Observe Script Type / Guard Scripts (CIP-112)](https://cardanoupgrades.docs.intersectmbo.org/dijkstra-era-upgrade/dijkstra-upgrade-overview/observe-script-type-guard-scripts), [PlutusV4 Script Context](https://cardanoupgrades.docs.intersectmbo.org/dijkstra-era-upgrade/dijkstra-upgrade-overview/plutusv4-script-context)
 
 ***
 
@@ -60,24 +60,24 @@ A Conway `transaction_body` has no slot for children. Adding one is an era chang
 
 ### Wire and query contract
 
-| Channel | Shape |
-| --- | --- |
-| Top-level `transaction_body` | New field for one or more `sub_transaction` values. CIP drafts have used body index 23. CIP-159 also discussed 23 for `direct_deposits`. Bind the frozen Dijkstra CDDL, not a single CIP README number. |
-| `sub_transaction` | `[sub_transaction_body, transaction_witness_set, auxiliary_data / nil]`. No `isValid`, no fee, no collateral. |
-| `required_top_level_guard` | `[credential, plutus_data / nil]` on the child |
-| `guards` | CIP-112 field on parent and child |
-| Redeemers | Indexed per level. A child's spend redeemer 0 is not the parent's spend redeemer 0. |
-| PlutusV4 `TxInfo` | `txInfoSubTxs` populated only for top-level Guard purposes |
-| ApplyTx errors | Nested failure type wrapping the child transaction ID. See ledger `SubTxContextError` and nested predicate failures. |
+| Channel                      | Shape                                                                                                                |
+| ---------------------------- | -------------------------------------------------------------------------------------------------------------------- |
+| Top-level `transaction_body` | New field for one or more `sub_transaction` values.                                                                  |
+| `sub_transaction`            | `[sub_transaction_body, transaction_witness_set, auxiliary_data / nil]`. No `isValid`, no fee, no collateral.        |
+| `required_top_level_guard`   | `[credential, plutus_data / nil]` on the child                                                                       |
+| `guards`                     | CIP-112 field on parent and child                                                                                    |
+| Redeemers                    | Indexed per level. A child's spend redeemer 0 is not the parent's spend redeemer 0.                                  |
+| PlutusV4 `TxInfo`            | `txInfoSubTxs` populated only for top-level Guard purposes                                                           |
+| ApplyTx errors               | Nested failure type wrapping the child transaction ID. See ledger `SubTxContextError` and nested predicate failures. |
 
 Any decoder that walks "the" witness set of "the" transaction will miss child witnesses. Any fee estimator that looks only at the parent body will under-price the batch.
 
 ### What to update
 
-- CBOR and CDDL bindings in every language.
-- Submit paths: reject children submitted as top-level. Accept parents that contain them.
-- Ogmios, Koios, and GraphQL transaction JSON: add `subTransactions`, `requiredTopLevelGuards`, and per-level redeemers.
-- Formal spec and conformance tests follow ledger issue #5123 milestones.
+* CBOR and CDDL bindings in every language.
+* Submit paths: reject children submitted as top-level. Accept parents that contain them.
+* Ogmios, Koios, and GraphQL transaction JSON: add `subTransactions`, `requiredTopLevelGuards`, and per-level redeemers.
+* Formal spec and conformance tests follow ledger issue #5123 milestones.
 
 ***
 
@@ -85,10 +85,10 @@ Any decoder that walks "the" witness set of "the" transaction will miss child wi
 
 What new capabilities it unlocks that you might want to start thinking about.
 
-- **Atomic unbalanced swaps.** Alice signs a child that is short asset A and long ADA. Bob's parent supplies A and takes the ADA. One ledger step. No escrow script is required for the matching itself. Guards can still enforce policy.
-- **Fee and minUTxO sponsorship.** A dApp parent pays fee, collateral, and the min-ADA a user's child cannot cover. This replaces "please send me 2 ADA first".
-- **Babel fees at the ledger edge.** A matcher accepts a child that does not pay ADA fees and attaches an ADA-paying parent. CIP-118 does not itself price the native-asset leg. That stays off-chain.
-- **Batch-wide policy via guards.** A protocol can require "this parent ran guard G with redeemer R" before any child is meaningful. Children request that with `requiredTopLevelGuards`.
-- **Script sharing across the batch.** Witnessed and reference scripts are shared. Datums are not. Place datums per level.
+* **Atomic unbalanced swaps.** Alice signs a child that is short asset A and long ADA. Bob's parent supplies A and takes the ADA. One ledger step. No escrow script is required for the matching itself. Guards can still enforce policy.
+* **Fee and minUTxO sponsorship.** A dApp parent pays fee, collateral, and the min-ADA a user's child cannot cover. This replaces "please send me 2 ADA first".
+* **Babel fees at the ledger edge.** A matcher accepts a child that does not pay ADA fees and attaches an ADA-paying parent. CIP-118 does not itself price the native-asset leg. That stays off-chain.
+* **Batch-wide policy via guards.** A protocol can require "this parent ran guard G with redeemer R" before any child is meaningful. Children request that with `requiredTopLevelGuards`.
+* **Script sharing across the batch.** Witnessed and reference scripts are shared. Datums are not. Place datums per level.
 
 Do not wait for Peras. Nested transactions activate with Dijkstra Phase 1. Do not implement this without CIP-112 and PlutusV4. The three are one product.
