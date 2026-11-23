@@ -1,7 +1,3 @@
----
-hidden: true
----
-
 # Observe Script Type / Guard Scripts
 
 CIP-112 adds a script purpose that is not tied to spending, minting, withdrawing, certifying, voting, or proposing. The script runs because the transaction lists it. If a native guard fails, the transaction is rejected. If a Plutus guard fails, that is a phase-2 failure: the transaction can still be included with `isValid = False` and its collateral is taken.
@@ -64,15 +60,15 @@ New script purposes and native-script constructors cannot be added to PlutusV3. 
 
 ### Wire and query contract
 
-| Channel | Shape |
-| --- | --- |
-| TxBody | `guards` (field 14): ordered set of `Credential Guard` (key hash or script hash); a plain key-hash set also decodes. `required_top_level_guards` (field 24): map from credential to optional datum. |
-| Redeemers | New tag 6 / purpose `Guarding`, indexed into the ordered `guards` set |
-| Native script | New constructor `RequireGuard`, CBOR `[6, credential]`. Ledger JSON uses `"kind": "Guard"`; CIP JSON uses `"type": "observer"`. |
-| PlutusV4 purpose | `Guarding scriptHash index`; `ScriptInfo` is `GuardingScript index (Maybe topTxInfo)` |
-| PlutusV4 `TxInfo` | `txInfoGuards`: all guard credentials (key and script). For top-level guards in a nested batch, `txInfoSubTxs` is also populated. See CIP-118. |
-| Ledger Haskell | `guardsTxBodyL`, `requiredTopLevelGuardsTxBodyL`, `GuardingPurpose`, `RequireGuard`, `mkGuardingPurpose`, `mkRequireGuard` on `Cardano.Ledger.Dijkstra` |
-| Ledger errors | `MissingRequiredGuards`, `MalformedGuardDatums` (UTXOW); `GuardScriptHashesNotSupported`, `RequiredTopLevelGuardsNotSupported` (PlutusV1–V3 context) |
+| Channel           | Shape                                                                                                                                                                                               |
+| ----------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| TxBody            | `guards` (field 14): ordered set of `Credential Guard` (key hash or script hash); a plain key-hash set also decodes. `required_top_level_guards` (field 24): map from credential to optional datum. |
+| Redeemers         | New tag 6 / purpose `Guarding`, indexed into the ordered `guards` set                                                                                                                               |
+| Native script     | New constructor `RequireGuard`, CBOR `[6, credential]`. Ledger JSON uses `"kind": "Guard"`; CIP JSON uses `"type": "observer"`.                                                                     |
+| PlutusV4 purpose  | `Guarding scriptHash index`; `ScriptInfo` is `GuardingScript index (Maybe topTxInfo)`                                                                                                               |
+| PlutusV4 `TxInfo` | `txInfoGuards`: all guard credentials (key and script). For top-level guards in a nested batch, `txInfoSubTxs` is also populated. See CIP-118.                                                      |
+| Ledger Haskell    | `guardsTxBodyL`, `requiredTopLevelGuardsTxBodyL`, `GuardingPurpose`, `RequireGuard`, `mkGuardingPurpose`, `mkRequireGuard` on `Cardano.Ledger.Dijkstra`                                             |
+| Ledger errors     | `MissingRequiredGuards`, `MalformedGuardDatums` (UTXOW); `GuardScriptHashesNotSupported`, `RequiredTopLevelGuardsNotSupported` (PlutusV1–V3 context)                                                |
 
 Closed enums for redeemer tags (0–5: spend, mint, cert, reward, voting, proposing) fail closed-world decoders. Add tag 6, `guarding`.
 
