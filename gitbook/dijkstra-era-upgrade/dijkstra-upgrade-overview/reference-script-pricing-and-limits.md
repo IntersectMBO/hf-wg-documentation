@@ -54,11 +54,31 @@ Why it was unavoidable, and what needs to be updated in response.
 
 New updatable parameters can only be added in a new era. That is why they ship at Phase 1 even if the first values equal Conway's constants.
 
+### Wire format
+
+Conway's `protocol_param_update` ends at key 33, the per-byte reference-script price. Dijkstra adds keys 34 to 37 for the four values that used to be hardcoded. A Conway decoder rejects any parameter-change proposal that touches them. A decoder that silently drops unknown keys loses them, and from then on computes the wrong fee and the wrong limits.
+
+| CDDL rule | Change from Conway | What your tooling must do |
+| --- | --- | --- |
+| [`protocol_param_update` key 33](https://github.com/IntersectMBO/cardano-ledger/blob/863183157cc39c48615078eab85389766bdc695b/eras/dijkstra/impl/cddl/data/dijkstra.cddl#L715) | Unchanged. `nonnegative_interval`, the price per byte (`minFeeRefScriptCostPerByte`). | No change. |
+| [key 34](https://github.com/IntersectMBO/cardano-ledger/blob/863183157cc39c48615078eab85389766bdc695b/eras/dijkstra/impl/cddl/data/dijkstra.cddl#L716) | New. `uint .size 4`, maximum reference-script bytes per block (`maxRefScriptSizePerBlock`). | Add to parameter codecs and block-building checks. |
+| [key 35](https://github.com/IntersectMBO/cardano-ledger/blob/863183157cc39c48615078eab85389766bdc695b/eras/dijkstra/impl/cddl/data/dijkstra.cddl#L717) | New. `uint .size 4`, maximum reference-script bytes per transaction (`maxRefScriptSizePerTx`). | Use the parameter, not the old 200 KiB constant. |
+| [key 36](https://github.com/IntersectMBO/cardano-ledger/blob/863183157cc39c48615078eab85389766bdc695b/eras/dijkstra/impl/cddl/data/dijkstra.cddl#L718) | New. `positive_word32`, the tier width (`refScriptCostStride`). Zero is not allowed. | Use the parameter, not the old 25,600-byte constant. |
+| [key 37](https://github.com/IntersectMBO/cardano-ledger/blob/863183157cc39c48615078eab85389766bdc695b/eras/dijkstra/impl/cddl/data/dijkstra.cddl#L719) | New. `positive_interval`, the tier multiplier (`refScriptCostMultiplier`). | Use the parameter, not the old 1.2 constant. Keep it as an exact rational. |
+
+**Not in the CDDL.**
+
+* The ledger's Conway-to-Dijkstra upgrade parameters require all four new values, so the genesis and hard-fork preparation tooling must supply them.
+* All four new keys are in the Network and Security groups, so changing them needs a stake pool vote as well as DReps and the Constitutional Committee.
+* The fee formula itself is in the ledger code.
+
+Links go to the Dijkstra CDDL at cardano-ledger commit [`8631831`](https://github.com/IntersectMBO/cardano-ledger/tree/863183157cc39c48615078eab85389766bdc695b) (23 November 2026). The CDDL is not frozen yet, so check the line before relying on it.
+
 ### Wire and query contract
 
 | Channel                  | Shape                                                                                                                                                                                                                                     |
 | ------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| JSON PParams             | `minFeeRefScriptCostPerByte` already present, plus `refScriptCostStride`, `refScriptCostMultiplier`, `maxRefScriptSizePerTx`, `maxRefScriptSizePerBlock`. Names as in ledger / Ogmios Dijkstra encoder. Confirm against node golden JSON. |
+| JSON PParams             | `minFeeRefScriptCostPerByte` already present, plus `refScriptCostStride`, `refScriptCostMultiplier`, `maxRefScriptSizePerTx`, `maxRefScriptSizePerBlock`. Names as in the ledger's Dijkstra `PParams` JSON. |
 | Haskell                  | `dppMinFeeRefScriptCostPerByte`, `dppRefScriptCostStride`, `dppRefScriptCostMultiplier`, plus the two max-size fields on Dijkstra PParams                                                                                                 |
 | Guardrails / Plutus Data | New parameter indices once the script is updated                                                                                                                                                                                          |
 | Genesis                  | Conway to Dijkstra upgrade PParams must supply the new fields                                                                                                                                                                             |

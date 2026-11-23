@@ -58,6 +58,26 @@ Why it was unavoidable, and what needs to be updated in response.
 
 New script purposes and native-script constructors cannot be added to PlutusV3. The era change is the compatibility break.
 
+### Wire format
+
+Key 14 keeps its position but changes meaning. In Conway it was `required_signers`, a set of key hashes. In Dijkstra it is `guards`, which may also hold script credentials. Old encoders keep working, because a plain key-hash set still decodes. Old decoders break as soon as a transaction lists a script guard. Two closed enumerations also gain a case: redeemer tags and native-script constructors.
+
+| CDDL rule | Change from Conway | What your tooling must do |
+| --- | --- | --- |
+| [`transaction_body` key 14, `guards`](https://github.com/IntersectMBO/cardano-ledger/blob/863183157cc39c48615078eab85389766bdc695b/eras/dijkstra/impl/cddl/data/dijkstra.cddl#L647) | Was `required_signers`. Now `nonempty_set<addr_keyhash> / nonempty_oset<credential>`. | Decode both forms. Encode the credential form whenever any guard is a script. Preserve order, because Guarding redeemers index into it. |
+| [`transaction_body` key 24, `required_top_level_guards`](https://github.com/IntersectMBO/cardano-ledger/blob/863183157cc39c48615078eab85389766bdc695b/eras/dijkstra/impl/cddl/data/dijkstra.cddl#L854) | New. A map from credential to `plutus_data / nil`, on the top-level body and on each child. | See [Nested Transactions](https://cardanoupgrades.docs.intersectmbo.org/dijkstra-era-upgrade/dijkstra-upgrade-overview/nested-transactions). |
+| [`redeemer_tag`](https://github.com/IntersectMBO/cardano-ledger/blob/863183157cc39c48615078eab85389766bdc695b/eras/dijkstra/impl/cddl/data/dijkstra.cddl#L894-L901) | Adds `6 ; guarding`. | Add the tag to every closed enumeration of redeemer tags. |
+| [`native_script`](https://github.com/IntersectMBO/cardano-ledger/blob/863183157cc39c48615078eab85389766bdc695b/eras/dijkstra/impl/cddl/data/dijkstra.cddl#L403-L411) and [`script_require_guard`](https://github.com/IntersectMBO/cardano-ledger/blob/863183157cc39c48615078eab85389766bdc695b/eras/dijkstra/impl/cddl/data/dijkstra.cddl#L439) | Adds a seventh constructor, `[6, credential]`. | Update native-script and multisig parsers (CIP-1854). |
+
+**Not in the CDDL.** The ledger, not the codec, enforces these:
+
+* A Plutus guard needs a `guarding` redeemer, and a native guard must not have one.
+* `RequireGuard` checks that the credential is in the transaction's `guards`.
+* PlutusV1–V3 scripts cannot run in a transaction whose `guards` contains a script hash, or whose `required_top_level_guards` is non-empty.
+* The ledger's JSON for `RequireGuard` is `{"kind": "Guard", "credential": ...}`. That is a separate interface from the CDDL.
+
+Links go to the Dijkstra CDDL at cardano-ledger commit [`8631831`](https://github.com/IntersectMBO/cardano-ledger/tree/863183157cc39c48615078eab85389766bdc695b) (23 November 2026). The CDDL is not frozen yet, so check the line before relying on it.
+
 ### Wire and query contract
 
 | Channel           | Shape                                                                                                                                                                                               |

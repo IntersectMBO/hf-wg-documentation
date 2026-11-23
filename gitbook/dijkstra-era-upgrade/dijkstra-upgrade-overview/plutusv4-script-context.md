@@ -56,6 +56,24 @@ Why it was unavoidable, and what needs to be updated in response.
 
 Script context is an on-chain ABI. Adding fields or purposes without a new language version would silently change what V3 scripts see. V4 is the compatibility boundary.
 
+### Wire format
+
+The script context itself is not in the CDDL. It is built by the ledger and passed to the script as Plutus data, so its shape is defined by `plutus-ledger-api` and the ledger's translation code. What the CDDL does carry is everywhere a script or language can appear. PlutusV4 adds one value to each of those. It also changes one thing every Plutus transaction uses: the old array form of redeemers is gone. A Conway encoder that still writes redeemers as an array produces transactions that Dijkstra rejects, even when no V4 script is involved.
+
+| CDDL rule | Change from Conway | What your tooling must do |
+| --- | --- | --- |
+| [`script`](https://github.com/IntersectMBO/cardano-ledger/blob/863183157cc39c48615078eab85389766bdc695b/eras/dijkstra/impl/cddl/data/dijkstra.cddl#L393-L399) | Adds `[4, plutus_v4_script]`. | Handle the new tag in reference scripts and script-hash calculation. |
+| [`language`](https://github.com/IntersectMBO/cardano-ledger/blob/863183157cc39c48615078eab85389766bdc695b/eras/dijkstra/impl/cddl/data/dijkstra.cddl#L32) | Range grows from `0 .. 2` to `0 .. 3`; `3` is PlutusV4. | Used in the script data hash. Extend any closed enumeration. |
+| [`cost_models`](https://github.com/IntersectMBO/cardano-ledger/blob/863183157cc39c48615078eab85389766bdc695b/eras/dijkstra/impl/cddl/data/dijkstra.cddl#L756-L762) | Key `3` is now the PlutusV4 cost model. | Map key 3 to V4 in protocol-parameter codecs. |
+| [`transaction_witness_set` key 8](https://github.com/IntersectMBO/cardano-ledger/blob/863183157cc39c48615078eab85389766bdc695b/eras/dijkstra/impl/cddl/data/dijkstra.cddl#L874) | New. `nonempty_set<plutus_v4_script>`. | Decode and encode witness key 8. |
+| [`auxiliary_data_map` key 5](https://github.com/IntersectMBO/cardano-ledger/blob/863183157cc39c48615078eab85389766bdc695b/eras/dijkstra/impl/cddl/data/dijkstra.cddl#L933) | New. `[* plutus_v4_script]`. | Accept V4 scripts in auxiliary data. |
+| [`redeemers`](https://github.com/IntersectMBO/cardano-ledger/blob/863183157cc39c48615078eab85389766bdc695b/eras/dijkstra/impl/cddl/data/dijkstra.cddl#L888-L892) | Map form only. Conway also allowed [an array of redeemers](https://github.com/IntersectMBO/cardano-ledger/blob/863183157cc39c48615078eab85389766bdc695b/eras/conway/impl/cddl/data/conway.cddl#L785-L791). | Always encode redeemers as a map keyed by `[tag, index]`. This applies to every Plutus transaction, not only V4. |
+| [`redeemer_tag`](https://github.com/IntersectMBO/cardano-ledger/blob/863183157cc39c48615078eab85389766bdc695b/eras/dijkstra/impl/cddl/data/dijkstra.cddl#L894-L901) | Adds `6 ; guarding`. | See [Guard Scripts](https://cardanoupgrades.docs.intersectmbo.org/dijkstra-era-upgrade/dijkstra-upgrade-overview/observe-script-type-guard-scripts). |
+
+**Not in the CDDL.** The `ScriptContext` / `TxInfo` layout (field order, the `List` versus `Constr` encoding, `txInfoGuards`, `txInfoSubTxs` and the CIP-159 fields) comes from `plutus-ledger-api` and the ledger's `toPlutusTxInfo`. The ledger's upgrade parameters also require a `plutusV4CostModel` value at the hard fork.
+
+Links go to the Dijkstra CDDL at cardano-ledger commit [`8631831`](https://github.com/IntersectMBO/cardano-ledger/tree/863183157cc39c48615078eab85389766bdc695b) (23 November 2026). The CDDL is not frozen yet, so check the line before relying on it.
+
 ### Wire and query contract
 
 | Channel          | Shape                                                                                                                                           |

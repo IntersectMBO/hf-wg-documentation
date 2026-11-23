@@ -61,6 +61,24 @@ Why it was unavoidable, and what needs to be updated in response.
 
 Dijkstra is a new ledger era, so PParams CBOR/JSON **must** grow a slot for every new parameter even if the feature is dormant. There is no way to add `maxPledgeLeverage` later in an intra-era hard fork. The era therefore serialises it from day one, with `null` meaning “feature off”.
 
+### Wire format
+
+One new protocol-parameter key, whose value can be `nil`. So a parameter update has three states, not two: key omitted (unchanged), `nil` (cap off) and a number (cap on). A codec that maps `nil` to "omitted", or a missing value to zero, changes what a governance action does.
+
+| CDDL rule | Change from Conway | What your tooling must do |
+| --- | --- | --- |
+| [`protocol_param_update` key 38](https://github.com/IntersectMBO/cardano-ledger/blob/863183157cc39c48615078eab85389766bdc695b/eras/dijkstra/impl/cddl/data/dijkstra.cddl#L720) | New. | Add to parameter codecs. Do not reuse key 38 or 39 for anything else. |
+| [`max_pledge_leverage`](https://github.com/IntersectMBO/cardano-ledger/blob/863183157cc39c48615078eab85389766bdc695b/eras/dijkstra/impl/cddl/data/dijkstra.cddl#L796) | New. `nonnegative_interval / nil`. | Keep omitted, `nil` and a value as three distinct states. Keep the value as an exact rational. |
+
+**Not in the CDDL.** These are covered under Wire / query contract below:
+
+* the reward formula
+* the `Nothing` default at the hard fork
+* the Plutus-data encoding used by the guardrails script
+* the range the Constitution will permit
+
+Links go to the Dijkstra CDDL at cardano-ledger commit [`8631831`](https://github.com/IntersectMBO/cardano-ledger/tree/863183157cc39c48615078eab85389766bdc695b) (23 November 2026). The CDDL is not frozen yet, so check the line before relying on it.
+
 ### Wire / query contract
 
 | Channel | Shape |

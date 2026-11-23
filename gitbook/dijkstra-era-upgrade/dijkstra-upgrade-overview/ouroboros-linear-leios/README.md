@@ -128,6 +128,27 @@ Why it was unavoidable, and what needs to be updated in response.
 
 The block format, the ledger state (voting committee and BLS keys), and the protocol parameters all change. Those changes need a new era. The transaction format does not change, so the break is confined to block-level and node-level interfaces.
 
+#### Wire format
+
+Linear Leios touches four places in the ledger CDDL: the block header, the block body, the pool registration certificate and protocol parameters. The header and body changes affect every block, so any Dijkstra block decoder has to know them even before Linear Leios is switched on. The certificate change is optional on the wire: a pool registration without `bls_key` keeps the old shape. Transactions do not change.
+
+| CDDL rule | Change from Conway | What your tooling must do |
+| --- | --- | --- |
+| [`header_body`](https://github.com/IntersectMBO/cardano-ledger/blob/863183157cc39c48615078eab85389766bdc695b/eras/dijkstra/impl/cddl/data/dijkstra.cddl#L61-L74) | Adds `block_body_contains_leios_cert : bool` and `eb_references_announcement : [eb_hash, eb_size] / nil`, and replaces `protocol_version` with `header_version_info`. | Header decoders must read 12 fields. Note that `eb_size` is the size of the EB's reference list, not of its transactions. |
+| [`block_body` slot 1 (counting from 0), `leios_certificate / nil`](https://github.com/IntersectMBO/cardano-ledger/blob/863183157cc39c48615078eab85389766bdc695b/eras/dijkstra/impl/cddl/data/dijkstra.cddl#L113-L117) | New. | Decode the slot on every block. |
+| [`leios_certificate`](https://github.com/IntersectMBO/cardano-ledger/blob/863183157cc39c48615078eab85389766bdc695b/eras/dijkstra/impl/cddl/data/dijkstra.cddl#L940-L943) | New. `[signers, signature]`: a bitfield of up to 8,192 bytes (65,536 committee members) and a 48-byte BLS aggregate signature. | Keep the bitfield as bytes. Committee membership comes from ledger state, not from the certificate. |
+| [`eb_references`](https://github.com/IntersectMBO/cardano-ledger/blob/863183157cc39c48615078eab85389766bdc695b/eras/dijkstra/impl/cddl/data/dijkstra.cddl#L57) | New. The endorser block itself: a non-empty, ordered map from transaction hash to transaction size. | Preserve order. Duplicate keys are invalid. EBs are fetched from peers, not stored in the block. |
+| [`pool_params`](https://github.com/IntersectMBO/cardano-ledger/blob/863183157cc39c48615078eab85389766bdc695b/eras/dijkstra/impl/cddl/data/dijkstra.cddl#L470-L481) and [`bls_key`](https://github.com/IntersectMBO/cardano-ledger/blob/863183157cc39c48615078eab85389766bdc695b/eras/dijkstra/impl/cddl/data/dijkstra.cddl#L486) | Optional `bls_key / nil` after `vrf_keyhash`: a 96-byte public key and a 48-byte proof of possession. | Decode registrations both with and without the field. Display it on hardware wallets. |
+| [`protocol_param_update` keys 40 to 48](https://github.com/IntersectMBO/cardano-ledger/blob/863183157cc39c48615078eab85389766bdc695b/eras/dijkstra/impl/cddl/data/dijkstra.cddl#L722) | New. See [New protocol parameters](#new-protocol-parameters) below. | Add all nine keys to parameter codecs. |
+
+**Not in the CDDL.** The CDDL describes the on-chain encoding only. These are defined by the consensus and network specifications:
+
+* how votes are encoded and diffused
+* the EB announcement and fetch protocols
+* any client-facing block view that inlines EB transactions
+
+Links go to the Dijkstra CDDL at cardano-ledger commit [`8631831`](https://github.com/IntersectMBO/cardano-ledger/tree/863183157cc39c48615078eab85389766bdc695b) (23 November 2026). The CDDL is not frozen yet, so check the line before relying on it.
+
 #### Wire and query contract <a href="#wire-and-query-contract" id="wire-and-query-contract"></a>
 
 | Channel                                   | Shape in Dijkstra                                                                                                                                                                                            |
