@@ -1,7 +1,5 @@
 # 24th November 2026
 
-### <mark style="color:$danger;">**WORK IN PROGRESS (UPCOMING MEETING)**</mark>
-
 #### Agenda
 
 1. [Action items from the last call](https://cardanoupgrades.docs.intersectmbo.org/general/hard-fork-working-group-meeting-minutes/10th-november-2026#action-items-and-next-steps) - Bosko
@@ -11,14 +9,13 @@
       2. 11.3 - Sebastian
          * [Leios Cost Estimator](https://leios.cardano-scaling.org/cost-estimator/)
       3. [Project view of versions](https://github.com/orgs/input-output-hk/projects/167/views/15)
-   2. [Dijkstra risk log](https://docs.google.com/spreadsheets/d/1NXMFkCpqNlq8SPSgzPNi_ZYLUg25tVWU-i4yz7fQhcI/edit?gid=66373110#gid=66373110) review
-   3. [Dijkstra readiness tracker](https://docs.google.com/spreadsheets/d/1C1Ai_YTqwKLHtICunzbh_o0FD9XB54Kh/edit?gid=960883614#gid=960883614) review
+   2. Constitutional amendments - [Dijkstra era parameters in CAP](https://cap.intersectmbo.org/#/detail/12)
+   3. Forking the testnets
+   4. [Dijkstra risk log](https://docs.google.com/spreadsheets/d/1NXMFkCpqNlq8SPSgzPNi_ZYLUg25tVWU-i4yz7fQhcI/edit?gid=66373110#gid=66373110) review
+   5. [Dijkstra readiness tracker](https://docs.google.com/spreadsheets/d/1C1Ai_YTqwKLHtICunzbh_o0FD9XB54Kh/edit?gid=960883614#gid=960883614) review
       1. Lace is planning to deprecate the [cardano-js-sdk](https://github.com/input-output-hk/cardano-js-sdk) repo at the Dijkstra Era Boundary
       2. [Readiness DevX initiative by IO](https://input-output-hk.github.io/devx-updates/map/dijkstra/) (interactive diagram)
-   4. Scope
-   5. Constitutional amendments - [Dijkstra era parameters in CAP](https://cap.intersectmbo.org/#/detail/12)
-   6. Comms - Larisa, Ian, Matthew
-   7. Node diversity
+   6. Node diversity
       1. [Blocks produced on mainnet](https://kleioscan.com/#/mainnet/nodes)
          * cardano-node, Amaru, Dingo, cardano-bean, tsunagi
       2. Haskell, Amaru (Rust), Dingo (Go), Dugite (Rust), TSUNAGI (Zig), Gerolamo (TypeScript), Dolos (Rust), Turbocardano (C++), Razor (.NET), Scalus (Scala), Yano (Java)
@@ -33,6 +30,8 @@
         *
       * [11.3](https://github.com/orgs/input-output-hk/projects/167/views/15)
         *
+    * Constitutional amendments
+      *
     * Cardano Testnets
       * DijkstraNet
         *
@@ -47,10 +46,6 @@
         * Discord channel: [sanchonet](https://discord.com/channels/826816523368005654/1141734250438197370)
       * Preview
         *
-    * Scope
-      *
-    * Constitutional amendments
-      *
     * Node diversity
       * [Block produced on mainnet](https://kleioscan.com/#/mainnet/nodes)
         * cardano-node, Amaru, Dingo, cardano-bean, tsunagi
