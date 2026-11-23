@@ -74,7 +74,11 @@ Any decoder that walks "the" witness set of "the" transaction will miss child wi
 
 ### What to update
 
-* CBOR and CDDL bindings in every language.
+* CBOR and CDDL bindings in every language, against the <a href="https://github.com/IntersectMBO/cardano-ledger/blob/863183157cc39c48615078eab85389766bdc695b/eras/dijkstra/impl/cddl/data/dijkstra.cddl" target="_blank">Dijkstra CDDL at </a>`8631831`:
+  * `transaction_body` key 23, `sub_transactions`. This is a `nonempty_oset<sub_transaction>`, so order is significant.
+  * `sub_transaction` is `[sub_transaction_body, transaction_witness_set, auxiliary_data / nil]`.
+  * `sub_transaction_body` has no key 2 (fee), 13 (collateral inputs), 16 (collateral return), 17 (total collateral) or 23 (so sub-transactions can’t nest). A decoder must reject these.
+  * `transaction_body` key 24 and `sub_transaction_body` key 24, `required_top_level_guards`, are a map from credential to `plutus_data / nil`. See Guard Scripts.
 * Submit paths: reject children submitted as top-level. Accept parents that contain them.
 * Ogmios, Koios, and GraphQL transaction JSON: add `subTransactions`, `requiredTopLevelGuards`, and per-level redeemers.
 * Formal spec and conformance tests follow ledger issue #5123 milestones.
