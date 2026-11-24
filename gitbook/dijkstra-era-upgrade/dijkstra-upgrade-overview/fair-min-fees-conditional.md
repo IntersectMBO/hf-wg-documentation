@@ -63,6 +63,23 @@ Why it was unavoidable and what needs to be updated in response
 
 Dijkstra adds the new PParams field and the code that consumes it at PV12. Reward and submission integrations must be ready for the same fork.
 
+### Wire format
+
+One new protocol-parameter key, with no `nil` option. Pool certificates do not change for CIP-23: the floor applies to the declared margin at reward time, so nothing new is written on the certificate. The codec work is small. Most of the risk is in tools that read the declared margin and cost as the effective ones.
+
+| CDDL rule | Change from Conway | What your tooling must do |
+| --- | --- | --- |
+| [`protocol_param_update` key 39](https://github.com/IntersectMBO/cardano-ledger/blob/863183157cc39c48615078eab85389766bdc695b/eras/dijkstra/impl/cddl/data/dijkstra.cddl#L721) | New. `unit_interval`, the minimum pool margin (`minPoolMargin`). `nil` is not allowed. | Add to parameter codecs. Key 38 is CIP-50, not this. |
+| [`pool_params`](https://github.com/IntersectMBO/cardano-ledger/blob/863183157cc39c48615078eab85389766bdc695b/eras/dijkstra/impl/cddl/data/dijkstra.cddl#L470-L481) | No change for CIP-23. The optional `bls_key` belongs to [Linear Leios](https://cardanoupgrades.docs.intersectmbo.org/dijkstra-era-upgrade/dijkstra-upgrade-overview/ouroboros-linear-leios). | Keep storing the declared `margin` and `cost`. |
+
+**Not in the CDDL.** These are covered below:
+
+* the floor's effect on rewards
+* the removal of `StakePoolCostTooLowPOOL`
+* the upgrade JSON requirement
+
+Links go to the Dijkstra CDDL at cardano-ledger commit [`8631831`](https://github.com/IntersectMBO/cardano-ledger/tree/863183157cc39c48615078eab85389766bdc695b) (23 November 2026). The CDDL is not frozen yet, so check the line before relying on it.
+
 **Protocol-parameter serialization**
 
 - The [Dijkstra CDDL](https://github.com/IntersectMBO/cardano-ledger/blob/b1e34c68aa58ea176d3f5e8f87866dcaa3bb0627/eras/dijkstra/impl/cddl/data/dijkstra.cddl#L719-L721) adds optional update key **`39 : unit_interval ; min pool margin`**. Omission means unchanged; `0` sets a zero floor; `0.015` means 1.5%; `1` means 100%. Explicit `null` / `nil` is invalid. `[0, 1]` is the ledger type bound, not an approved governance range; a 100% effective margin leaves non-owner delegators no rewards.

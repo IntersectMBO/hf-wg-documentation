@@ -58,18 +58,39 @@ Why it was unavoidable, and what needs to be updated in response.
 
 Conway transaction bodies and Conway `TxInfo` have no slots for user-initiated account credits or balance assertions. Those slots only exist in a new era.
 
+### Wire format
+
+Dijkstra adds three keys to the transaction body. They are all maps keyed by a full `reward_account`, which carries its network in the header byte, not by a bare credential. A Conway decoder rejects any transaction that uses them. Two details are easy to get wrong. First, balance intervals have three CBOR shapes, not one. Second, the third map exists only on the top-level transaction, and it is checked against balances before any child runs.
+
+| CDDL rule | Change from Conway | What your tooling must do |
+| --- | --- | --- |
+| [`transaction_body` key 25, `direct_deposits`](https://github.com/IntersectMBO/cardano-ledger/blob/863183157cc39c48615078eab85389766bdc695b/eras/dijkstra/impl/cddl/data/dijkstra.cddl#L856) | New. `{+ reward_account => coin}`, on the top level and in children. | Encode as a non-empty map. Count deposits as value leaving the UTxO side when balancing. |
+| [`transaction_body` key 26, `account_balance_intervals`](https://github.com/IntersectMBO/cardano-ledger/blob/863183157cc39c48615078eab85389766bdc695b/eras/dijkstra/impl/cddl/data/dijkstra.cddl#L858) | New. `{+ reward_account => account_balance_interval}`, on the top level and in children. | Checked against the account balance as that level sees it. |
+| [`account_balance_interval`](https://github.com/IntersectMBO/cardano-ledger/blob/863183157cc39c48615078eab85389766bdc695b/eras/dijkstra/impl/cddl/data/dijkstra.cddl#L860-L863) | New. Either `[lower, upper / nil]`, `[lower / nil, upper]` or a bare `coin` for an exact balance. The lower bound is inclusive and the upper bound exclusive. | Support all three shapes when decoding. Never encode `[nil, nil]`, which the rule does not allow. |
+| [`transaction_body` key 27, `starting_account_balance_intervals`](https://github.com/IntersectMBO/cardano-ledger/blob/863183157cc39c48615078eab85389766bdc695b/eras/dijkstra/impl/cddl/data/dijkstra.cddl#L937-L938) | New, top level only. Same value type. | Use it when the parent needs to assert balances from before the children ran. A child that carries key 27 is malformed. |
+| [`withdrawals`](https://github.com/IntersectMBO/cardano-ledger/blob/863183157cc39c48615078eab85389766bdc695b/eras/dijkstra/impl/cddl/data/dijkstra.cddl#L565) | Unchanged. | No codec change. |
+
+**Not in the CDDL.** The ledger, not the codec, enforces these:
+
+* Every account named in a deposit or interval must be registered, and must be on the right network. For deposits the errors are `DirectDepositAccountsMissing` and `DirectDepositAddressesWithWrongNetwork`. For intervals they are `MissingAccountsIn...` and `WrongNetworkIn...`.
+* A balance outside the interval is a phase-1 failure (`BalancesOutside...`).
+* The rule that a PlutusV1–V3 top level must withdraw the full balance.
+
+Links go to the Dijkstra CDDL at cardano-ledger commit [`8631831`](https://github.com/IntersectMBO/cardano-ledger/tree/863183157cc39c48615078eab85389766bdc695b) (23 November 2026). The CDDL is not frozen yet, so check the line before relying on it.
+
 ### Wire and query contract
 
 | Channel                     | Shape in Phase 1                                                                                       |
 | --------------------------- | ------------------------------------------------------------------------------------------------------ |
 | `direct_deposits`           | map `reward_account → coin`.                                                                           |
 | `account_balance_intervals` | map `reward_account →` ADA interval (exact, lower, upper, or both)                                     |
+| `starting_account_balance_intervals` | Top level only. Same shape, checked against balances before any child runs. |
 | Withdrawals                 | still `reward_account → coin`                                                                          |
 | Ledger account state        | ADA balance that user transactions may credit                                                          |
 | PlutusV4 `TxInfo`           | `txInfoDirectDeposits`, `txInfoAccountBalanceIntervals`, ADA-only types                                |
 | Query APIs                  | Reward-account queries must return the live spendable account balance, not only "rewards due from RSS" |
 
-CDDL field numbers collided across CIP drafts. Bindings should follow the ledger CDDL package, not the CIP README number.
+CDDL field numbers collided across CIP drafts. Bindings should follow the ledger CDDL (keys 25, 26 and 27; see [Wire format](#wire-format)), not the CIP README numbers.
 
 ### What to update
 

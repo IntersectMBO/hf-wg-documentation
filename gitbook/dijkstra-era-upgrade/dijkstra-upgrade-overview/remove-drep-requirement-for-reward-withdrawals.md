@@ -48,6 +48,18 @@ Why it was unavoidable, and what needs to be updated in response.
 
 The change is a deleted predicate, so encodings do not grow. The break is behavioural. Submit paths and tests that expected a failure now get a success.
 
+### Wire format
+
+Nothing changes on the wire. The withdrawal encoding is the same as in Conway. What changes is a ledger check that sits outside the CDDL, so no codec work is needed. Error catalogues and tests still need updating.
+
+| CDDL rule | Change from Conway | What your tooling must do |
+| --- | --- | --- |
+| [`transaction_body` key 5, `withdrawals`](https://github.com/IntersectMBO/cardano-ledger/blob/863183157cc39c48615078eab85389766bdc695b/eras/dijkstra/impl/cddl/data/dijkstra.cddl#L565) | Unchanged. `{+ reward_account => coin}`. | No codec change. |
+
+**Not in the CDDL.** The DRep-delegation check that Dijkstra removes was a ledger rule, never part of the encoding.
+
+Links go to the Dijkstra CDDL at cardano-ledger commit [`8631831`](https://github.com/IntersectMBO/cardano-ledger/tree/863183157cc39c48615078eab85389766bdc695b) (23 November 2026). The CDDL is not frozen yet, so check the line before relying on it.
+
 ### Wire and query contract
 
 | Channel          | Shape                                                                                       |

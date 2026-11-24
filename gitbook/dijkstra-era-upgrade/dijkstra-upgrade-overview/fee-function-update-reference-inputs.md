@@ -19,7 +19,7 @@ Implications, why it concerns you, and what needs to be updated in response.
 
 ### What the ledger actually does
 
-Minimum fee for a Dijkstra transaction is still deterministic and still checked in phase-1. The function gains a term that depends on the reference inputs the transaction lists, by count or by serialised size of the referenced outputs. Follow the ledger implementation when coding. Do not treat this sentence as the formula.
+Minimum fee for a Dijkstra transaction is still deterministic and still checked in phase-1. The function gains a term that depends on the reference inputs the transaction lists. The ledger has two new coefficients for it, both in lovelace per byte. One prices the multi-asset part of each referenced output, and the other prices its datum. Follow the ledger implementation when coding. Do not treat this sentence as the formula.
 
 The Dijkstra min-fee function doesn’t use those coefficients yet; it still calls the Conway fee function.
 
@@ -33,7 +33,7 @@ Spending inputs, minting, withdrawals, CIP-159 deposits, and CIP-118 children al
 
 **Explorers.** "Minimum fee" and "fee breakdown" panels need a new line item. Do not dump it into "reference script fee".
 
-**This is live on hard-fork day** if the hardcoded term is non-zero. Unlike CIP-23 and CIP-50, the overview does not describe a `Nothing` or dormant switch.
+**This may be live on hard-fork day.** The coefficients are protocol parameters with no `Nothing` or dormant switch, unlike CIP-50. At commit `8631831` the min-fee function does not read them yet. Once it does, the genesis values decide whether the new term is non-zero on day one.
 
 ### What to update
 
@@ -51,20 +51,38 @@ Why it was unavoidable, and what needs to be updated in response.
 
 Fee is a ledger function of era, protocol parameters, and transaction. A new era is allowed to change the function.&#x20;
 
+### Wire format
+
+There is no new transaction field. The change is in how a fee is computed from fields that already exist. What does change on the wire is protocol parameters: two new keys hold the coefficients. A parameter decoder that stops at key 54, or drops unknown keys, will not see them. A fee estimator built on such a decoder will underprice transactions once the ledger uses the coefficients.
+
+| CDDL rule | Change from Conway | What your tooling must do |
+| --- | --- | --- |
+| [`protocol_param_update` key 55](https://github.com/IntersectMBO/cardano-ledger/blob/863183157cc39c48615078eab85389766bdc695b/eras/dijkstra/impl/cddl/data/dijkstra.cddl#L737) | New. `coin`, the min-fee per multi-asset byte in reference inputs (`refInputsCostPerMultiAssetByte`). | Add to parameter codecs and to any local fee calculation. |
+| [`protocol_param_update` key 56](https://github.com/IntersectMBO/cardano-ledger/blob/863183157cc39c48615078eab85389766bdc695b/eras/dijkstra/impl/cddl/data/dijkstra.cddl#L738) | New. `coin`, the min-fee per datum byte in reference inputs (`refInputsCostPerDatumByte`). | As above. |
+| [`transaction_body` key 18, reference inputs](https://github.com/IntersectMBO/cardano-ledger/blob/863183157cc39c48615078eab85389766bdc695b/eras/dijkstra/impl/cddl/data/dijkstra.cddl#L135) | Unchanged. | No codec change. The fee depends on what these inputs point to, so a fee estimator needs the referenced UTxOs, not just the transaction. |
+
+**Not in the CDDL.**
+
+* The fee formula, and when the ledger starts using these coefficients. At commit `8631831`, Dijkstra's `getMinFeeTx` still calls the Conway function.
+* Both keys are in the Economic and Security groups, so changing them needs a stake pool vote as well as DReps and the Constitutional Committee.
+* The ledger's upgrade parameters require both values at the hard fork.
+
+Links go to the Dijkstra CDDL at cardano-ledger commit [`8631831`](https://github.com/IntersectMBO/cardano-ledger/tree/863183157cc39c48615078eab85389766bdc695b) (23 November 2026). The CDDL is not frozen yet, so check the line before relying on it.
+
 ### Wire and query contract
 
 | Channel                                | Shape                                                                                                                                                                                  |
 | -------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `query protocol-parameters`            | May not expose the new coefficients yet. Do not assume a JSON key exists on hard-fork day. The Dijkstra min-fee function doesn’t use them yet; it still calls the Conway fee function. |
+| `query protocol-parameters`            | Exposes `refInputsCostPerMultiAssetByte` and `refInputsCostPerDatumByte` (keys 55 and 56). The Dijkstra min-fee function doesn’t use them yet; it still calls the Conway fee function. |
 | Transaction JSON                       | No new user-set field. Reference inputs already exist.                                                                                                                                 |
 | Phase-1 failure                        | Same `FeeTooSmallUTxO` family. The computed minimum is just higher.                                                                                                                    |
-| Later promotion to protocol parameters | New keys plus constitution and guardrails rows. Treat as a follow-up bulletin.                                                                                                         |
+| Governance                             | Keys 55 and 56 are already protocol parameters. Changing them needs constitution and guardrails rows first. |
 
 ### What to update
 
 * Closed-form fee code.
 * Any "fee = this Python one-liner" in runbooks.
-* Parameter-committee docs: this is not yet a governable knob.
+* Parameter-committee docs: keys 55 and 56 are protocol parameters, but they cannot be changed until the constitution and guardrails script cover them.
 
 ***
 

@@ -58,13 +58,32 @@ Why it was unavoidable, and what needs to be updated in response.
 
 A Conway `transaction_body` has no slot for children. Adding one is an era change. Combined with CIP-176, the block no longer stores bodies and witnesses in segregated arrays, which is what makes nested encoding tractable.
 
+### Wire format
+
+Dijkstra adds two keys to `transaction_body` and a new body type for children. A Conway decoder rejects any transaction that carries children, because key 23 is unknown to it. A Dijkstra decoder also has to enforce what a child body leaves out. If it treats a child as an ordinary transaction body, it will build or accept batches that the node rejects, for example a child that pays its own fee.
+
+| CDDL rule | Change from Conway | What your tooling must do |
+| --- | --- | --- |
+| [`transaction_body` key 23, `sub_transactions`](https://github.com/IntersectMBO/cardano-ledger/blob/863183157cc39c48615078eab85389766bdc695b/eras/dijkstra/impl/cddl/data/dijkstra.cddl#L140) | New. A [`nonempty_oset<sub_transaction>`](https://github.com/IntersectMBO/cardano-ledger/blob/863183157cc39c48615078eab85389766bdc695b/eras/dijkstra/impl/cddl/data/dijkstra.cddl#L827): at least one child, in a significant order, no duplicates. The set may be written with or without CBOR tag 258. | Preserve child order on encode and decode. Do not sort or de-duplicate silently. Accept both the tagged and untagged forms. |
+| [`sub_transaction`](https://github.com/IntersectMBO/cardano-ledger/blob/863183157cc39c48615078eab85389766bdc695b/eras/dijkstra/impl/cddl/data/dijkstra.cddl#L829-L830) | New. `[sub_transaction_body, transaction_witness_set, auxiliary_data / nil]`: three elements, no `is_valid` flag. | Keep a separate witness set and auxiliary data per child. Verify each child's witnesses against that child's body hash. |
+| [`sub_transaction_body`](https://github.com/IntersectMBO/cardano-ledger/blob/863183157cc39c48615078eab85389766bdc695b/eras/dijkstra/impl/cddl/data/dijkstra.cddl#L832-L852) | New. The top-level keys minus 2 (fee), 13 (collateral), 16 (collateral return), 17 (total collateral), 23 (sub-transactions) and 27 (starting account balance intervals). | Use a distinct type for child bodies. Reject a child that carries any of those keys; this is also what stops children from nesting. |
+| [`transaction_body` key 24 and `sub_transaction_body` key 24, `required_top_level_guards`](https://github.com/IntersectMBO/cardano-ledger/blob/863183157cc39c48615078eab85389766bdc695b/eras/dijkstra/impl/cddl/data/dijkstra.cddl#L854) | New. A map from credential to `plutus_data / nil`, allowed at both levels. | Encode it as a map, not a list of pairs. See [Guard Scripts](https://cardanoupgrades.docs.intersectmbo.org/dijkstra-era-upgrade/dijkstra-upgrade-overview/observe-script-type-guard-scripts) for which credentials take a datum. |
+
+**Not in the CDDL.** These rules are enforced by the ledger, not by the codec, so a CDDL-valid batch can still fail:
+
+* Every credential in any level's `required_top_level_guards` must appear in the top-level `guards` (`MissingRequiredGuards`). Plutus-script credentials must carry a datum, and key-hash and native-script credentials must not (`MalformedGuardDatums`).
+* Redeemer indices count within each level. A child's spend redeemer 0 refers to that child's first sorted input.
+* `maxTxSize` applies to the serialized batch as a whole, children included.
+
+Links go to the Dijkstra CDDL at cardano-ledger commit [`8631831`](https://github.com/IntersectMBO/cardano-ledger/tree/863183157cc39c48615078eab85389766bdc695b) (23 November 2026). The CDDL is not frozen yet, so check the line before relying on it.
+
 ### Wire and query contract
 
 | Channel                      | Shape                                                                                                                |
 | ---------------------------- | -------------------------------------------------------------------------------------------------------------------- |
 | Top-level `transaction_body` | New field for one or more `sub_transaction` values.                                                                  |
 | `sub_transaction`            | `[sub_transaction_body, transaction_witness_set, auxiliary_data / nil]`. No `isValid`, no fee, no collateral.        |
-| `required_top_level_guard`   | `[credential, plutus_data / nil]` on the child                                                                       |
+| `required_top_level_guards`  | Map from credential to `plutus_data / nil`, on the parent and on each child                                          |
 | `guards`                     | CIP-112 field on parent and child                                                                                    |
 | Redeemers                    | Indexed per level. A child's spend redeemer 0 is not the parent's spend redeemer 0.                                  |
 | PlutusV4 `TxInfo`            | `txInfoSubTxs` populated only for top-level Guard purposes                                                           |
@@ -74,11 +93,7 @@ Any decoder that walks "the" witness set of "the" transaction will miss child wi
 
 ### What to update
 
-* CBOR and CDDL bindings in every language, against the <a href="https://github.com/IntersectMBO/cardano-ledger/blob/863183157cc39c48615078eab85389766bdc695b/eras/dijkstra/impl/cddl/data/dijkstra.cddl" target="_blank">Dijkstra CDDL at </a>`8631831`:
-  * `transaction_body` key 23, `sub_transactions`. This is a `nonempty_oset<sub_transaction>`, so order is significant.
-  * `sub_transaction` is `[sub_transaction_body, transaction_witness_set, auxiliary_data / nil]`.
-  * `sub_transaction_body` has no key 2 (fee), 13 (collateral inputs), 16 (collateral return), 17 (total collateral) or 23 (so sub-transactions can’t nest). A decoder must reject these.
-  * `transaction_body` key 24 and `sub_transaction_body` key 24, `required_top_level_guards`, are a map from credential to `plutus_data / nil`. See Guard Scripts.
+* CBOR and CDDL bindings in every language: see [Wire format](#wire-format) above.
 * Submit paths: reject children submitted as top-level. Accept parents that contain them.
 * Ogmios, Koios, and GraphQL transaction JSON: add `subTransactions`, `requiredTopLevelGuards`, and per-level redeemers.
 * Formal spec and conformance tests follow ledger issue #5123 milestones.
